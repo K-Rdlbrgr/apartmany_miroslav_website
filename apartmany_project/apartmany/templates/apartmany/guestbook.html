@@ -1,0 +1,577 @@
+{% load static %}
+{% load mathfilters %}
+{% load crispy_forms_tags %}
+{% load widget_tweaks %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- BOOTSTRAP -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <!-- FONTAWESOME -->
+    <script src="https://kit.fontawesome.com/2b498beeb7.js"></script>
+    <!-- JQUERY -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- DATEPICKER -->
+    <script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" type="text/javascript"></script>
+    <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+    <!-- OWN CSS -->
+    <link rel="stylesheet" href="{% static 'apartmany/guestbook_style.css'%}" />
+    <title>Miroslav Apartmany & Studia</title>
+    <!-- CONTACT/RESERVATION FUNCTION -->
+    <script>
+        $("#id_picture > option").each(function() {
+            console.log(this.text + ' ' + this.value);
+        });
+    </script>
+  </head>
+  <body>
+    <!-- NAVBAR 1 -->
+    <div class="nav-language">
+      <div class="container nav-contain">
+        <div class="row align-items-center justify-content-between nav-row">
+          <div class="col-5 contact text-start">
+            <i class="fas fa-phone"></i>
+            <a href="#"><span> +421 903 263 457</span></a>
+            <span class="bar">|</span>
+            <i class="fas fa-envelope"></i>
+            <a href="#"><span> vysny.m@stonline.sk</span></a>
+          </div>
+          <div class="col-3 col-md-2 col-sm-3 social text-center">
+            <a
+              href="https://www.tripadvisor.com/Hotel_Review-g1009332-d6969584-Reviews-Apartmany_a_Studia_Miroslav-Demanovska_Dolina_Zilina_Region.html"
+              ><i class="fab fa-tripadvisor fa-2x"></i
+            ></a>
+            <a href="https://www.facebook.com/ApartmanyAStudiaMiroslav/"><i class="fab fa-facebook fa-2x"></i></a>
+          </div>
+          <div class="col-9 col-md-5 col-sm-8 languages text-right">
+            <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
+              <button type="button" class="btn btn-secondary"><img src="{% static 'apartmany/img/sk.png'%}" /> SK</button>
+              <button type="button" class="btn btn-secondary active"><img src="{% static 'apartmany/img/uk.png'%}" /> ENG</button>
+              <button type="button" class="btn btn-secondary"><img src="{% static 'apartmany/img/ger.png'%}" /> GER</button>
+              <button type="button" class="btn btn-secondary"><img src="{% static 'apartmany/img/pl.png'%}" /> PL</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- NAVBAR 2 -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"><img src="{% static 'apartmany/img/logo1.png'%}" alt="Apartmany & Studia Miroslav"/></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="{% url 'home' %}">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link secondary-nav" href="{% url 'studios' %}">Studios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link secondary-nav" href="{% url 'apartments' %}">Apartments</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link secondary-nav" href="{% url 'prices_and_faqs' %}">Pricelist</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link secondary-nav" href="{% url 'gallery' %}">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link secondary-nav" href="{% url 'guestbook' %}">Guestbook</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link secondary-nav" href="#">Surroundings</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link secondary-nav" href="{% url 'contact' %}">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <!-- CARD WRAPER -->
+
+    <div class="pimg">
+      <div class="pimg-overlay">
+        <div class="row h-100 align-content-center">
+          <div class="col-12">
+            <div class="header-text text-center justify-content-center">
+              <h1>GUESTBOOK</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <div class="container">
+        <div class="inner-container pt-5 pb-5">
+          <div class="contact-text text-justify mb-5">
+            <p>Here you can find all the reviews of our previous guests which they left on our website. If you are a previous guest yourself and have not yet left a comment, please feel free to do so. We really appreciate your opinions and suggestions and would like to thank all of our guests for taking the time to write all those reviews. We hope to see you soon again!</p>
+          </div>
+
+          <!-- CARDS -->
+
+              <div class="row">
+
+                <!-- FORM ON THE LEFT -->
+      
+                  <div class="col-12 col-lg-8">
+
+                    <div class="row justify-content-between form-selection mb-4">
+                      <div class="col-12">
+                        <div class="row" style="margin: 0 -5px 0 -5px;">
+                          <div class="col-12 text-center" style="padding: 0 5px 0 5px;">
+                            <div class="p-2 w-100 header">Review</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- START CONTACT & QUESTIONS -->
+
+                    <div class="row">
+                      <div class="col-12">
+                        <form id="contactForm" style="display: block;" method="POST">
+                          {% csrf_token %}
+                          <div class="form-row">
+                            <div class="form-group col-12">
+                              <!-- <label for="inputName">Name</label> -->
+                              {{ form.name|as_crispy_field }}
+                              <!-- <input type="text" class="form-control" id="inputName" placeholder="Name" required> -->
+                            </div>
+                            <div class="form-group col-6">
+                              <!-- <label for="inputRating">Rating</label> -->
+                                <div class="star-rating">
+                                  <div class="form-group" id="div_id_rating">
+                                    <label for="id_rating" class="requiredField">Rating</label>
+                                  </div>
+                                  <div class="star-box">
+                                    <span class="fas fa-star" data-rating="1" style="margin-left: 5px;"></span>
+                                    <span class="fas fa-star" data-rating="2"></span>
+                                    <span class="fas fa-star" data-rating="3"></span>
+                                    <span class="fas fa-star" data-rating="4"></span>
+                                    <span class="fas fa-star" data-rating="5"></span>
+                                  <!-- <input type="hidden" name="whatever1" class="form-control rating-value" id="inputRating" value="5" required> -->
+                                  {{ form.rating|add_class:"rating-value"|add_class:"form-control"|as_crispy_field }}
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="form-group col-6">
+                              <div class="form-group" id="div_{{ form.picture.id_for_label }}">
+                                <label for="{{ form.picture.id_for_label }}"> {{ form.picture.label }}</label>
+                                <div class="">
+                                  <select name="{{ form.picture.name }}" class="select form-control vodiapicker" id="{{ form.picture.id_for_label }}">
+                                    {% for x, y in form.fields.picture.choices %}
+                                      <option class="test" value="{{ x }}"{% if form.fields.picture.value == x %} selected{% endif %} data-thumbnail="{% static x %}">
+                                        {{ y }}
+                                      </option>
+                                    {% endfor %}
+                                  </select>
+                                  <div class="lang-select">
+                                    <button type="button" class="btn-select" value="" id="picture-button"></button>
+                                    <div class="b">
+                                      <ul id="a"  onclick="reply_selection()"></ul>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <!-- <input type="hidden" name="picture" value="apartmany/img/1 de 3 Avatars FLAT/Avatars Set Flat Style-1.png" class="form-control picture-value" id="{{ form.picture.id_for_label }}"> -->
+                              <!--  form.picture|as_crispy_field  -->
+                            </div>
+                            
+                            <div class="form-group col-12">
+                              <!-- <label for="inputTitle">Title</label> -->
+                              {{ form.title|as_crispy_field }}
+                              <!-- <input type="text" class="form-control" id="inputTitle" placeholder="Title" required> -->
+                            </div>
+                            <div class="form-group col-12">
+                              <!-- <label for="inputMessage">Message</label> -->
+                              {{ form.content|as_crispy_field }}
+                              <!-- <textarea class="form-control" id="inputMessage" rows="10" required></textarea> -->
+                            </div>
+                          </div>
+                          <div class="text-center">
+                            <button type="submit" class="btn btn-contact">Poste Review</button>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+
+                    <!-- END CONTACT & QUESTIONS -->
+                    
+                  </div>
+      
+                <!-- END FORM -->
+      
+                <!-- CONTACT CARD ON THE RIGHT -->
+      
+                  <div class="col-12 col-lg-4 mt-5 mt-lg-0">
+                    <div class="card card-image p-0 h-100">
+                      <div class="contact-overlay"></div>
+      
+                      <!-- Content -->
+                      <div class="text-white text-center d-flex align-items-center justify-content-center rgba-black-strong px-3 h-100" style="z-index: 2;">
+                        <div>
+                          <h3 class="card-title pt-2 pb-2 mb-4 mt-5"><strong>Miroslav Apartmány & Štúdiá</strong></h3>
+                          <div class="rating-box mb-4 mt-4">
+                            <h1 class="pt-4"> {{ ratings.average }}</h1>
+                            <p class="">out of 5</p>
+                          </div>
+                          <div class="rating-bar0 justify-content-center pt-2 mb-5">
+                            <table class="text-left mx-auto">
+                                <tr>
+                                  <td class="rating-label">{{ ratings.summary.five.tag }}</td>
+                                  <td class="rating-bar">
+                                      <div class="bar-container">
+                                          <div class="bar-5" style="width: {{ ratings.summary.five.percentage }};"></div>
+                                      </div>
+                                  </td>
+                                  <td class="text-right">{{ ratings.summary.five.amount }}</td>
+                                </tr>
+                                <tr>
+                                  <td class="rating-label">{{ ratings.summary.four.tag }}</td>
+                                  <td class="rating-bar">
+                                      <div class="bar-container">
+                                          <div class="bar-5" style="width: {{ ratings.summary.four.percentage }};"></div>
+                                      </div>
+                                  </td>
+                                  <td class="text-right">{{ ratings.summary.four.amount }}</td>
+                                </tr>
+                                <tr>
+                                  <td class="rating-label">{{ ratings.summary.three.tag }}</td>
+                                  <td class="rating-bar">
+                                      <div class="bar-container">
+                                          <div class="bar-5" style="width: {{ ratings.summary.three.percentage }};"></div>
+                                      </div>
+                                  </td>
+                                  <td class="text-right">{{ ratings.summary.three.amount }}</td>
+                                </tr>
+                                <tr>
+                                  <td class="rating-label">{{ ratings.summary.two.tag }}</td>
+                                  <td class="rating-bar">
+                                      <div class="bar-container">
+                                          <div class="bar-5" style="width: {{ ratings.summary.two.percentage }};"></div>
+                                      </div>
+                                  </td>
+                                  <td class="text-right">{{ ratings.summary.two.amount }}</td>
+                                </tr>
+                                <tr>
+                                  <td class="rating-label">{{ ratings.summary.one.tag }}</td>
+                                  <td class="rating-bar">
+                                      <div class="bar-container">
+                                          <div class="bar-5" style="width: {{ ratings.summary.one.percentage }};"></div>
+                                      </div>
+                                  </td>
+                                  <td class="text-right">{{ ratings.summary.one.amount }}</td>
+                                </tr>
+                            </table>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+      
+                  <!-- END CONTACT CARD -->
+      
+                </div>
+
+            </div>
+
+            <!-- START REVIEW SECTION -->
+            <div class="row">
+              <div class="col-12 scrollbar">
+
+                <!-- FIRST COMMENT -->
+                {% for comment in comments %}
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="media">
+                        <img class="align-self-start mr-3" src="{% static comment.picture %}" alt="Generic placeholder image">
+                        <div class="media-body">
+                          <div class="row">
+                            <div class="col-12 col-sm-6 text-start">
+                              <h5 class="mt-0 mb-0">{{ comment.title }}</h5>
+                            </div>
+                            <div class="col-12 col-sm-6 text-left text-sm-right">
+                              {% with ''|center:comment.rating as range %}
+                                {% for _ in range %}
+                                  <i class="fas fa-star"></i>
+                                {% endfor %}
+                              {% endwith %}
+                              {% with 5|sub:comment.rating as number %}
+                                {% with ''|center:number as range %}
+                                  {% for _ in range %}
+                                    <i class="far fa-star"></i>
+                                  {% endfor %}
+                                {% endwith %}
+                              {% endwith %}
+                            </div>
+                            <div class="col-12 mb-2">
+                              <span>{{ comment.name }} - {{ comment.date_posted}}</span>
+                            </div>
+                            <div class="col-12">
+                              <p class="text-left mb-0 d-block d-sm-none">{{ comment.content }}</p>
+                              <p class="text-justify mb-0 d-none d-sm-block">{{ comment.content }}</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <hr>
+                    </div>
+                  </div>
+                {% endfor %}
+
+                <!-- SECOND COMMENT -->
+                <div class="row">
+                  <div class="col-12">
+                    <div class="media">
+                      <img class="align-self-start mr-3" src="{% static 'apartmany/img/1 de 3 Avatars FLAT/Avatars Set Flat Style-15.png'%}" alt="Generic placeholder image">
+                      <div class="media-body">
+                        <div class="row">
+                          <div class="col-6 text-start">
+                            <h5 class="mt-0 mb-0">Best Holiday in my entire life!</h5>
+                          </div>
+                          <div class="col-6 text-right">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <i class="far fa-star"></i>
+                          </div>
+                          <div class="col-12 mb-2">
+                            <span>Kevin Riedlberger - 22/4/2020</span>
+                          </div>
+                          <div class="col-12">
+                            <p class="text-justify">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                            <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, architecto. Qui in eius, fugiat esse tempora excepturi, obcaecati, nesciunt error enim officiis labore quidem illum impedit! Harum rem provident quia reprehenderit. Ea culpa odio cupiditate illo eaque et officia voluptatem aspernatur! Doloremque reiciendis natus ullam sit, velit vitae nostrum? Voluptatibus voluptas vero, qui nam vitae corporis molestiae laboriosam quibusdam sapiente nobis accusantium commodi, veniam, praesentium esse asperiores neque ipsum odit. Perspiciatis laboriosam facere, praesentium ut earum, cumque fuga qui corporis veniam esse, ea numquam ipsam nisi minus neque quasi commodi ducimus nihil perferendis saepe accusamus temporibus iure quas eaque? Officia repellendus harum necessitatibus expedita provident veritatis cum eius iure, tempore, velit earum facilis quis architecto reiciendis vel eum ea amet tenetur? Dolorum vero nihil, non quod illo expedita reiciendis iste praesentium quidem omnis labore suscipit optio esse porro necessitatibus excepturi magni aspernatur, laudantium ipsam provident deserunt, obcaecati enim. Sint autem culpa nemo soluta omnis amet modi quaerat possimus? Dicta sit iure tempora quod, fugit maiores reprehenderit voluptatum sed nisi illum necessitatibus mollitia esse doloribus a deserunt voluptatibus eaque hic ad molestiae accusantium illo maxime. Id, placeat veniam minus eum eos consectetur ipsam sint, repellat explicabo iusto tenetur maiores itaque quisquam?</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <hr>
+                  </div>
+                </div>
+
+                <!-- THIRD COMMENT -->
+                <div class="row">
+                  <div class="col-12">
+                    <div class="media">
+                      <img class="align-self-start mr-3" src="{% static 'apartmany/img/1 de 3 Avatars FLAT/Avatars Set Flat Style-10.png'%}" alt="Generic placeholder image">
+                      <div class="media-body">
+                        <div class="row">
+                          <div class="col-6 text-start">
+                            <h5 class="mt-0 mb-0">Best Holiday in my entire life!</h5>
+                          </div>
+                          <div class="col-6 text-right">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <i class="far fa-star"></i>
+                          </div>
+                          <div class="col-12 mb-2">
+                            <span>Kevin Riedlberger - 22/4/2020</span>
+                          </div>
+                          <div class="col-12">
+                            <p class="text-justify">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                            <p class="text-justify mb-0">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <hr>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+          <!-- END REVIEW SECTION -->
+
+          <!-- END CARDS -->
+
+        </div>
+      </div>
+
+      <!-- END CARD WRAPPER -->
+
+
+    <!-- MAIN FOOTER -->
+    <section id="footer">
+      <div class="container">
+        <div class="row text-center text-xs-center text-sm-left text-md-left pb-2">
+          <div class="col-sm-6 col-md-6 pt-3 pb-1">
+            <div class="row text-center justify-content-start text-xs-center text-sm-left text-md-left footer-change">
+              <div class="col-xs-12 footer-change">
+                <h5>Quick Links</h5>
+              </div>
+            </div>
+            <div class="row text-center text-xs-center text-sm-left text-md-left">
+              <div class="col-sm-12 col-md-6">
+                <ul class="list-unstyled quick-links">
+                  <li><a href="index.html"><i class="fa fa-angle-double-right"></i>Home</a></li>
+                  <li><a href="/apartment.html"><i class="fa fa-angle-double-right"></i>Apartments</a></li>
+                  <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Studios</a></li>
+                  <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Pricelist</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-12 col-md-6">
+                <ul class="list-unstyled quick-links">
+                  <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Gallery</a></li>
+                  <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Guestbook</a></li>
+                  <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Surroundings</a></li>
+                  <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Order</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-6 pt-3 pb-1">
+            <div class="row text-center justify-content-end text-xs-center text-sm-left text-md-left footer-change">
+              <div class="col-xs-12 footer-change">
+                <h5>Contact</h5>
+              </div>
+            </div>
+            <div class="row text-center text-xs-center text-sm-right text-md-right">
+              <div class="col-sm-12 col-md-12">
+                <p>Miroslav Vysny <br>
+                Demanovskaà Dolina 11 <br>
+                031 01 Liptovsky Mikulas <br>
+                SLOVENSKO</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 mt-0 mt-sm-2">
+            <ul class="list-unstyled list-inline social text-center">
+              <li class="list-inline-item"><a href="https://www.facebook.com/ApartmanyAStudiaMiroslav/"><i class="fab fa-facebook"></i></a></li>
+              <li class="list-inline-item"><a href="https://www.tripadvisor.com/Hotel_Review-g1009332-d6969584-Reviews-Apartmany_a_Studia_Miroslav-Demanovska_Dolina_Zilina_Region.html"><i class="fab fa-tripadvisor"></i></a></li>
+              <li class="list-inline-item"><a href="javascript:void();"><i class="fab fa-instagram"></i></a></li>
+              <li class="list-inline-item"><a href="javascript:void();" ><i class="fas fa-phone"></i></a></li>
+              <li class="list-inline-item"><a href="javascript:void();" ><i class="fa fa-envelope"></i></a></li>
+            </ul>
+          </div>
+          </hr>
+        </div>	
+      </div>
+    </section>
+
+    <!-- END FOOTER -->
+    <footer class="end">
+      <div class="row text-center pt-2 pb-2">
+        <div class="col-12">
+          <p class="mb-0">Copyright &copy; 2019 by Miroslav Vysny</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- BOOTSTRAP SCRIPTS -->
+
+    <script>
+      var $star_rating = $('.star-box .fa-star');
+      var SetRatingStar = function() {
+        return $star_rating.each(function() {
+          if (parseInt($star_rating.siblings('input.rating-value').val()) >= parseInt($(this).data('rating'))) {
+            return $(this).removeClass('far').addClass('fas');
+          } else {
+            return $(this).removeClass('fas').addClass('far');
+          }
+        });
+      };
+      $star_rating.on('click', function() {
+        $star_rating.siblings('input.rating-value').val($(this).data('rating'));
+        console.log(document.getElementById('id_rating').value);
+        return SetRatingStar();
+      });
+      SetRatingStar();
+      $(document).ready(function() {
+      });
+    </script>
+    <script>
+      //test for iterating over child elements
+      var langArray = [];
+      $('.vodiapicker option').each(function(){
+        var img = $(this).attr("data-thumbnail");
+        var text = this.innerText;
+        var value = $(this).val();
+        var item = '<li><img src="'+ img +'" alt="" value="'+value+'"/><span>'+ text +'</span></li>';
+        langArray.push(item);
+      })
+
+      $('#a').html(langArray);
+
+      //Set the button value to the first el of the array
+      $('.btn-select').html(langArray[0]);
+      $('.btn-select').attr('value', 'en');
+
+      //change button stuff on click
+      $('#a li').click(function(){
+        var img = $(this).find('img').attr("src");
+        var value = $(this).find('img').attr('value');
+        var text = this.innerText;
+        var item = '<li><img src="'+ img +'" alt="" /><span>'+ text +'</span></li>';
+        $('.btn-select').html(item);
+        $('.btn-select').attr('value', value);
+        $(".b").toggle();
+      });
+
+      $(".btn-select").click(function(){
+              $(".b").toggle();
+          });
+
+      //check local storage for the lang
+      var sessionLang = localStorage.getItem('lang');
+      if (sessionLang){
+        //find an item with value of sessionLang
+        var langIndex = langArray.indexOf(sessionLang);
+        $('.btn-select').html(langArray[langIndex]);
+        $('.btn-select').attr('value', sessionLang);
+      } else {
+        var langIndex = langArray.indexOf('ch');
+        console.log(langIndex);
+        $('.btn-select').html(langArray[langIndex]);
+      }
+    </script>
+    <script>
+      function reply_selection() {
+        var pictureButton = document.getElementById('picture-button').value;
+        var allOptions = document.getElementsByTagName("option");
+        for(var x=0;x<allOptions.length;x++)
+          if(allOptions[x].value == pictureButton)
+            allOptions[x].setAttribute('selected', '');
+      }
+    </script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <!-- <script src="/js/main.js"></script> -->
+  </body>
+</html>
