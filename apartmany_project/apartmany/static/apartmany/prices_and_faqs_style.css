@@ -128,6 +128,31 @@
   color: var(--primary-color-light);
 }
 
+/* DISCOUNTS */
+.discount-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  min-height: 450px;
+  background-size: auto 100%;
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+.color-circle {
+  border: 2px solid var(--primary-text-color);
+}
+
+.white-circle {
+  border: 2px solid var(--primary-color-light);
+}
+
+.header {
+  border: none;
+  background-color: var(--primary-color-dark);
+  transition: 0.3s ease-in-out;
+  color: var(--primary-color-light);
+  border-radius: 0.25rem;
+}
+
 /* MAIN SECTION */
 
 .bar {

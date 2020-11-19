@@ -384,6 +384,10 @@
   background-position-x: right;
 }
 
+.discount-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 /* SECTION SURROUNDINGS */
 .card-surroundings1,
 .card-surroundings2,

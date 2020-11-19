@@ -79,7 +79,7 @@
               <a class="nav-link secondary-nav" href="{% url 'apartments' %}">Apartments</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link secondary-nav" href="{% url 'prices_and_faqs' %}">Pricelist</a>
+              <a class="nav-link secondary-nav" href="{% url 'prices_and_faqs' %}">Prices & FAQs</a>
             </li>
             <li class="nav-item">
               <a class="nav-link secondary-nav" href="{% url 'gallery' %}">Gallery</a>
@@ -129,12 +129,122 @@
               
               <div class="row mb-1">
                 <div class="col-12">
-                <p>
-                  Our prices per person per night are in the range of 18 to 25 Euros. The price depends on the period (season/off season) and the number of people in a studio or an apartment. We will be happy to send you the complete pricelist via email.
+                <p style="text-align: justify">
+                  Our prices per person per night are in the range of 18 to 25 Euros. The price depends on the period (season/off season) and the number of people in a studio or an apartment. We will be happy to send you the complete pricelist via email. A single adult in a studio or an apartment has to pay the equivalent to two adults. Additionally to accomodation costs, a local tax fee for adults and children older than 12 years of 1 Euro per person and night has to be charged.
                 </p>
+
+                <!-- <h4 class="mb-3 text-center">Discounts</h4>
+                <ul class="list-group mb-3">
+                  <div class="row">
+                    <div class="col-12">
+                      <ul class="list-group list-group-horizontal">
+                        <li class="list-group-item col-6"><strong>Children up to 12 years</strong></li>
+                        <li class="list-group-item col-6">50 % off full price (in studios only)*</li>
+                      </ul>
+                    </div>
+                    <div class="col-12">
+                      <ul class="list-group list-group-horizontal">
+                        <li class="list-group-item col-6"><strong>Children up to 12 years on a sofa-bed</strong></li>
+                        <li class="list-group-item col-6">60 % off full price (in studios only)*</li>
+                      </ul>
+                    </div>
+                    <div class="col-12">
+                      <ul class="list-group list-group-horizontal">
+                        <li class="list-group-item col-6"><strong>Adult on a sofa-bed</strong></li>
+                        <li class="list-group-item col-6">20% off full price (in studios only)</li>
+                      </ul>
+                    </div>
+                  </div>
+                </ul> -->
+
                 </div>
               </div>
-              <ul class="list-group">
+
+              <div class="row mb-1">
+                <div class="col-12">
+                  <div class="my-4 w-100 p-2 header">
+                    <h4 class="m-0 text-center">Discounts</h4>
+                  </div>
+                  <ul class="list-group mb-3">
+                    <li class="list-group-item"><strong>Children up to 12 years: </strong><br class="d-lg-none">50 % off full price (in studios only)* </li>
+                    <li class="list-group-item"><strong>Children up to 12 years on a sofa-bed: </strong><br class="d-lg-none">60% off full price (in studios only)* </li>
+                    <li class="list-group-item"><strong>Adult on a sofa-bed: </strong><br class="d-lg-none">20% off full price (in studios only) </li>
+                  </ul>
+
+                  <p style="text-align: justify">
+                    *  Discounts for children are only valid if there are 2 adults paying the full price in the same studio. Two children accommodated by themselves in 1 studio are paying full/adult prices. 
+                  </p>
+                </div>
+              </div>
+              
+              
+              <section class="my-4 text-center dark-grey-text">
+                <div class="row">
+
+                  <!-- Grid column -->
+                  <div class="col-lg-4 col-md-12 mb-4">
+                    <div class="card discount-card">
+                      <div class="card-body">
+                        <h4 class="mb-4 font-weight-bold">Restaurants</h4>
+                        <div class="d-flex justify-content-center">
+                          <div class="rounded-circle color-circle d-flex justify-content-center align-items-center">
+                            <i class="m-4 px-2 fas fa-4x fa-utensils indigo-text"></i>
+                          </div>
+                        </div>
+
+                        <h2 class="font-weight-bold my-4">10% - 15%</h2>
+                        <hr>
+                        <p class="grey-text">Enjoy discounts at classic slovakian and international restaurants and cafés in Liptovský Mikuláš, Ružomberok, Demänovská Dolina and the whole area.</p>
+
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Grid column -->
+
+                  <!-- Grid column -->
+                  <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card discount-card">
+                      <div class="card-body text-white" style="background: var(--primary-text-color)">
+                        <h4 class="mb-4 font-weight-bold">Ski Passes</h4>
+                        <div class="d-flex justify-content-center">
+                          <div class="rounded-circle white-circle d-flex justify-content-center align-items-center">
+                            <i class="m-4 fas fa-4x fa-skiing"></i>
+                          </div>
+                        </div>
+
+                        <h2 class="font-weight-bold text-white my-4">~ 20%</h2>
+                        <hr>
+                        <p>Take advantage of our ski pass discounts and save 31€ (children), 39€ (juniors, seniors) or 48€ (adults) on a 6 day pass for the Jasná ski center, respectively.</p>
+
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Grid column -->
+
+                  <!-- Grid column -->
+                  <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card discount-card">
+                      <div class="card-body">
+                        <h4 class="mb-4 font-weight-bold">Activities & Services</h4>
+                        <div class="d-flex justify-content-center">
+                          <div class="rounded-circle color-circle d-flex justify-content-center align-items-center">
+                            <i class="m-4 px-2 fas fa-4x fa-running indigo-text"></i>
+                          </div>
+                        </div>
+
+                        <h2 class="font-weight-bold my-4">10% - 20%</h2>
+                        <hr>
+                        <p class="grey-text">Go on adventures and save money by benefitting from our discounts for skiing schools, rafting, bowling, laser tag, tennis, climbing and many more.</p>
+
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Grid column -->
+
+                </div>
+              </section>
+
+              <!-- <ul class="list-group">
                 <li class="list-group-item" style="background-color: rgba(0,0,0,.03)">
                   <h5 class="mb-3">Discounts:</h5>
                   <ul type="disc" id="bullet-list" class="mb-3">
@@ -160,7 +270,7 @@
                   </ul>
                 </li>
               </ul>
-            </div>
+            </div> -->
 
             <div class="faq mt-5 mb-5">
               <div class="row mb-3 align-items-center">
@@ -176,7 +286,7 @@
               </div>
                 <div class="row mb-1">
                   <div class="col-12">
-                  <p>
+                  <p style="text-align:justify">
                     Below, you can find important information regarding check-in and check-out, reservations, facilities, etc. Click on the headers to collapse the topics and then click on the questions to see the answers. If your question however remains unanswered, please do not hesitate to contact us via e-mail or call.
                   </p>
                   </div>
