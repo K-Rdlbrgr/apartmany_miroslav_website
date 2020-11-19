@@ -24,27 +24,27 @@
     <!-- NAVBAR 1 -->
     <div class="nav-language">
       <div class="container nav-contain">
-        <div class="row align-items-center justify-content-between nav-row">
-          <div class="col-5 contact text-start">
+        <div class="row align-items-center pl-0 pr-0 pl-lg-3 pr-lg-3 justify-content-between nav-row">
+          <div class="col-lg-5 contact text-start pl-0 pr-0 d-none d-lg-block">
             <i class="fas fa-phone"></i>
             <a href="#"><span> +421 903 263 457</span></a>
             <span class="bar">|</span>
             <i class="fas fa-envelope"></i>
             <a href="#"><span> vysny.m@stonline.sk</span></a>
           </div>
-          <div class="col-3 col-md-2 col-sm-3 social text-center">
+          <div class="col-sm-3 col-lg-2 social text-start text-lg-center pl-0 pr-0 d-none d-sm-block">
             <a
-              href="https://www.tripadvisor.com/Hotel_Review-g1009332-d6969584-Reviews-Apartmany_a_Studia_Miroslav-Demanovska_Dolina_Zilina_Region.html"
+              href="https:/www.tripadvisor.com/Hotel_Review-g1009332-d6969584-Reviews-Apartmany_a_Studia_Miroslav-Demanovska_Dolina_Zilina_Region.html"
               ><i class="fab fa-tripadvisor fa-2x"></i
             ></a>
-            <a href="https://www.facebook.com/ApartmanyAStudiaMiroslav/"><i class="fab fa-facebook fa-2x"></i></a>
+            <a href="https:/www.facebook.com/ApartmanyAStudiaMiroslav/"><i class="fab fa-facebook fa-2x"></i></a>
           </div>
-          <div class="col-9 col-md-5 col-sm-8 languages text-right">
+          <div class="col-12 col-sm-9 col-lg-5 pl-sm-0 pr-sm-0 languages text-right align-content-center">
             <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
               <button type="button" class="btn btn-secondary"><img src="{% static 'apartmany/img/sk.png'%}" /> SK</button>
               <button type="button" class="btn btn-secondary active"><img src="{% static 'apartmany/img/uk.png'%}" /> ENG</button>
               <button type="button" class="btn btn-secondary"><img src="{% static 'apartmany/img/ger.png'%}" /> GER</button>
-              <button type="button" class="btn btn-secondary"><img src="{% static 'apartmany/img/pl.png'%}" /> PL</button>
+              <button type="button" class="btn btn-secondary pr-0"><img src="{% static 'apartmany/img/pl.png'%}" /> PL</button>
             </div>
           </div>
         </div>
@@ -54,7 +54,7 @@
     <!-- NAVBAR 2 -->
     <nav class="navbar sticky-top navbar-expand-lg navbar-light">
       <div class="container">
-        <a class="navbar-brand" href="index.html"><img src="{% static 'apartmany/img/logo1.png'%}" alt="Apartmany & Studia Miroslav"/></a>
+        <a class="navbar-brand" href="{% url 'home' %}"><img src="{% static 'apartmany/img/logo1.png'%}" alt="Apartmany & Studia Miroslav"/></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -68,13 +68,13 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
+            <li class="nav-item">
               <a class="nav-link" href="{% url 'home' %}">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link secondary-nav" href="{% url 'studios' %}">Studios</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item active">
               <a class="nav-link secondary-nav" href="{% url 'apartments' %}">Apartments</a>
             </li>
             <li class="nav-item">
@@ -87,7 +87,7 @@
               <a class="nav-link secondary-nav" href="{% url 'guestbook' %}">Guestbook</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link secondary-nav" href="#">Surroundings</a>
+              <a class="nav-link secondary-nav" href="{% url 'surroundings' %}">Surroundings</a>
             </li>
             <li class="nav-item">
               <a class="nav-link secondary-nav" href="{% url 'contact' %}">Contact</a>
@@ -147,37 +147,36 @@
               <div class="row">
                 <div class="col-lg-6 col-12">
                  <!--Carousel Wrapper-->
-                  <div id="carousel-thumb" class="carousel slide carousel-fade carousel-thumbnails" data-ride="carousel">
+                  <div id="carousel-thumb-7" class="carousel slide carousel-fade carousel-thumbnails" data-ride="carousel">
                       <!--Slides-->
                       <div class="carousel-inner" role="listbox">
                         <div class="carousel-item active">
-                          <img class="d-block w-100" src="{% static 'apartmany/img/bg1.jpg'%}" alt="First slide">
+                          <img class="d-block w-100" src="{% static 'apartmany/img/apartments/apartment_7/a7_1.jpg'%}", alt="First slide">
                         </div>
-                        <div class="carousel-item">
-                          <img class="d-block w-100" src="{% static 'apartmany/img/bg2.jpg'%}" alt="Second slide">
-                        </div>
-                        <div class="carousel-item">
-                          <img class="d-block w-100" src="{% static 'apartmany/img/bg3.jpg'%}" alt="Third slide">
-                        </div>
+                        {% for n in range_a7 %}
+                          <div class="carousel-item">
+                            <img class="d-block w-100" src="{% static 'apartmany/img/apartments/apartment_7/a7_'%}{{n}}.jpg", alt="First slide">
+                          </div>
+                        {% endfor %}
                       </div>
                       <!--/.Slides-->
                       <!--Controls-->
-                      <a class="carousel-control-prev" href="#carousel-thumb" role="button" data-slide="prev">
+                      <a class="carousel-control-prev" href="#carousel-thumb-7" role="button" data-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="sr-only">Previous</span>
                       </a>
-                      <a class="carousel-control-next" href="#carousel-thumb" role="button" data-slide="next">
+                      <a class="carousel-control-next" href="#carousel-thumb-7" role="button" data-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="sr-only">Next</span>
                       </a>
                       <!--/.Controls-->
                       <ol class="carousel-indicators">
-                        <li data-target="#carousel-thumb" data-slide-to="0" class="active"> <img class="d-block w-100" src="{% static 'apartmany/img/bg1.jpg'%}"
+                        <li data-target="#carousel-thumb-7" data-slide-to="0" class="active"> <img class="d-block w-100" src="{% static 'apartmany/img/apartments/apartment_7/a7_1.jpg'%}"
                             class="img-fluid"></li>
-                        <li data-target="#carousel-thumb" data-slide-to="1"><img class="d-block w-100" src="{% static 'apartmany/img/bg2.jpg'%}"
-                            class="img-fluid"></li>
-                        <li data-target="#carousel-thumb" data-slide-to="2"><img class="d-block w-100" src="{% static 'apartmany/img/bg3.jpg'%}"
-                            class="img-fluid"></li>
+                        {% for n in range_a7 %}
+                          <li data-target="#carousel-thumb-7" data-slide-to="1"><img class="d-block w-100" src="{% static 'apartmany/img/apartments/apartment_7/a7_'%}{{n}}.jpg"
+                          class="img-fluid"></li>
+                        {% endfor %}
                       </ol>
                     </div>
                     <!--/.Carousel Wrapper-->
@@ -261,37 +260,36 @@
               <div class="row">
                 <div class="col-lg-6 col-12">
                  <!--Carousel Wrapper-->
-                  <div id="carousel-thumb" class="carousel slide carousel-fade carousel-thumbnails" data-ride="carousel">
+                  <div id="carousel-thumb-11" class="carousel slide carousel-fade carousel-thumbnails" data-ride="carousel">
                       <!--Slides-->
                       <div class="carousel-inner" role="listbox">
                         <div class="carousel-item active">
-                          <img class="d-block w-100" src="{% static 'apartmany/img/bg1.jpg'%}" alt="First slide">
+                          <img class="d-block w-100" src="{% static 'apartmany/img/apartments/apartment_11/a11_1.jpg'%}", alt="First slide">
                         </div>
-                        <div class="carousel-item">
-                          <img class="d-block w-100" src="{% static 'apartmany/img/bg2.jpg'%}" alt="Second slide">
-                        </div>
-                        <div class="carousel-item">
-                          <img class="d-block w-100" src="{% static 'apartmany/img/bg3.jpg'%}" alt="Third slide">
-                        </div>
+                        {% for n in range_a11 %}
+                          <div class="carousel-item">
+                            <img class="d-block w-100" src="{% static 'apartmany/img/apartments/apartment_11/a11_'%}{{n}}.jpg", alt="First slide">
+                          </div>
+                        {% endfor %}
                       </div>
                       <!--/.Slides-->
                       <!--Controls-->
-                      <a class="carousel-control-prev" href="#carousel-thumb" role="button" data-slide="prev">
+                      <a class="carousel-control-prev" href="#carousel-thumb-11" role="button" data-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="sr-only">Previous</span>
                       </a>
-                      <a class="carousel-control-next" href="#carousel-thumb" role="button" data-slide="next">
+                      <a class="carousel-control-next" href="#carousel-thumb-11" role="button" data-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="sr-only">Next</span>
                       </a>
                       <!--/.Controls-->
                       <ol class="carousel-indicators">
-                        <li data-target="#carousel-thumb" data-slide-to="0" class="active"> <img class="d-block w-100" src="{% static 'apartmany/img/bg1.jpg'%}"
+                        <li data-target="#carousel-thumb-11" data-slide-to="0" class="active"> <img class="d-block w-100" src="{% static 'apartmany/img/apartments/apartment_11/a11_1.jpg'%}"
                             class="img-fluid"></li>
-                        <li data-target="#carousel-thumb" data-slide-to="1"><img class="d-block w-100" src="{% static 'apartmany/img/bg2.jpg'%}"
-                            class="img-fluid"></li>
-                        <li data-target="#carousel-thumb" data-slide-to="2"><img class="d-block w-100" src="{% static 'apartmany/img/bg3.jpg'%}"
-                            class="img-fluid"></li>
+                        {% for n in range_a11 %}
+                          <li data-target="#carousel-thumb-11" data-slide-to="1"><img class="d-block w-100" src="{% static 'apartmany/img/apartments/apartment_11/a11_'%}{{n}}.jpg"
+                          class="img-fluid"></li>
+                        {% endfor %}
                       </ol>
                     </div>
                     <!--/.Carousel Wrapper-->
@@ -375,37 +373,36 @@
               <div class="row">
                 <div class="col-lg-6 col-12">
                  <!--Carousel Wrapper-->
-                  <div id="carousel-thumb" class="carousel slide carousel-fade carousel-thumbnails" data-ride="carousel">
+                  <div id="carousel-thumb-12" class="carousel slide carousel-fade carousel-thumbnails" data-ride="carousel">
                       <!--Slides-->
                       <div class="carousel-inner" role="listbox">
                         <div class="carousel-item active">
-                          <img class="d-block w-100" src="{% static 'apartmany/img/bg1.jpg'%}" alt="First slide">
+                          <img class="d-block w-100" src="{% static 'apartmany/img/apartments/apartment_12/a12_1.jpg'%}", alt="First slide">
                         </div>
-                        <div class="carousel-item">
-                          <img class="d-block w-100" src="{% static 'apartmany/img/bg2.jpg'%}" alt="Second slide">
-                        </div>
-                        <div class="carousel-item">
-                          <img class="d-block w-100" src="{% static 'apartmany/img/bg3.jpg'%}" alt="Third slide">
-                        </div>
+                        {% for n in range_a12 %}
+                          <div class="carousel-item">
+                            <img class="d-block w-100" src="{% static 'apartmany/img/apartments/apartment_12/a12_'%}{{n}}.jpg", alt="First slide">
+                          </div>
+                        {% endfor %}
                       </div>
                       <!--/.Slides-->
                       <!--Controls-->
-                      <a class="carousel-control-prev" href="#carousel-thumb" role="button" data-slide="prev">
+                      <a class="carousel-control-prev" href="#carousel-thumb-12" role="button" data-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="sr-only">Previous</span>
                       </a>
-                      <a class="carousel-control-next" href="#carousel-thumb" role="button" data-slide="next">
+                      <a class="carousel-control-next" href="#carousel-thumb-12" role="button" data-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="sr-only">Next</span>
                       </a>
                       <!--/.Controls-->
                       <ol class="carousel-indicators">
-                        <li data-target="#carousel-thumb" data-slide-to="0" class="active"> <img class="d-block w-100" src="{% static 'apartmany/img/bg1.jpg'%}"
+                        <li data-target="#carousel-thumb-12" data-slide-to="0" class="active"> <img class="d-block w-100" src="{% static 'apartmany/img/apartments/apartment_12/a12_1.jpg'%}"
                             class="img-fluid"></li>
-                        <li data-target="#carousel-thumb" data-slide-to="1"><img class="d-block w-100" src="{% static 'apartmany/img/bg2.jpg'%}"
-                            class="img-fluid"></li>
-                        <li data-target="#carousel-thumb" data-slide-to="2"><img class="d-block w-100" src="{% static 'apartmany/img/bg3.jpg'%}"
-                            class="img-fluid"></li>
+                        {% for n in range_a12 %}
+                          <li data-target="#carousel-thumb-12" data-slide-to="1"><img class="d-block w-100" src="{% static 'apartmany/img/apartments/apartment_12/a12_'%}{{n}}.jpg"
+                          class="img-fluid"></li>
+                        {% endfor %}
                       </ol>
                     </div>
                     <!--/.Carousel Wrapper-->
@@ -489,37 +486,36 @@
               <div class="row">
                 <div class="col-lg-6 col-12">
                  <!--Carousel Wrapper-->
-                  <div id="carousel-thumb" class="carousel slide carousel-fade carousel-thumbnails" data-ride="carousel">
+                  <div id="carousel-thumb-13" class="carousel slide carousel-fade carousel-thumbnails" data-ride="carousel">
                       <!--Slides-->
                       <div class="carousel-inner" role="listbox">
                         <div class="carousel-item active">
-                          <img class="d-block w-100" src="{% static 'apartmany/img/bg1.jpg'%}" alt="First slide">
+                          <img class="d-block w-100" src="{% static 'apartmany/img/apartments/apartment_13/a13_1.jpg'%}", alt="First slide">
                         </div>
-                        <div class="carousel-item">
-                          <img class="d-block w-100" src="{% static 'apartmany/img/bg2.jpg'%}" alt="Second slide">
-                        </div>
-                        <div class="carousel-item">
-                          <img class="d-block w-100" src="{% static 'apartmany/img/bg3.jpg'%}" alt="Third slide">
-                        </div>
+                        {% for n in range_a13 %}
+                          <div class="carousel-item">
+                            <img class="d-block w-100" src="{% static 'apartmany/img/apartments/apartment_13/a13_'%}{{n}}.jpg", alt="First slide">
+                          </div>
+                        {% endfor %}
                       </div>
                       <!--/.Slides-->
                       <!--Controls-->
-                      <a class="carousel-control-prev" href="#carousel-thumb" role="button" data-slide="prev">
+                      <a class="carousel-control-prev" href="#carousel-thumb-13" role="button" data-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="sr-only">Previous</span>
                       </a>
-                      <a class="carousel-control-next" href="#carousel-thumb" role="button" data-slide="next">
+                      <a class="carousel-control-next" href="#carousel-thumb-13" role="button" data-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="sr-only">Next</span>
                       </a>
                       <!--/.Controls-->
                       <ol class="carousel-indicators">
-                        <li data-target="#carousel-thumb" data-slide-to="0" class="active"> <img class="d-block w-100" src="{% static 'apartmany/img/bg1.jpg'%}"
+                        <li data-target="#carousel-thumb-13" data-slide-to="0" class="active"> <img class="d-block w-100" src="{% static 'apartmany/img/apartments/apartment_13/a13_1.jpg'%}"
                             class="img-fluid"></li>
-                        <li data-target="#carousel-thumb" data-slide-to="1"><img class="d-block w-100" src="{% static 'apartmany/img/bg2.jpg'%}"
-                            class="img-fluid"></li>
-                        <li data-target="#carousel-thumb" data-slide-to="2"><img class="d-block w-100" src="{% static 'apartmany/img/bg3.jpg'%}"
-                            class="img-fluid"></li>
+                        {% for n in range_a13 %}
+                          <li data-target="#carousel-thumb-13" data-slide-to="1"><img class="d-block w-100" src="{% static 'apartmany/img/apartments/apartment_13/a13_'%}{{n}}.jpg"
+                          class="img-fluid"></li>
+                        {% endfor %}
                       </ol>
                     </div>
                     <!--/.Carousel Wrapper-->
@@ -603,37 +599,36 @@
               <div class="row">
                 <div class="col-lg-6 col-12">
                  <!--Carousel Wrapper-->
-                  <div id="carousel-thumb" class="carousel slide carousel-fade carousel-thumbnails" data-ride="carousel">
+                  <div id="carousel-thumb-14" class="carousel slide carousel-fade carousel-thumbnails" data-ride="carousel">
                       <!--Slides-->
                       <div class="carousel-inner" role="listbox">
                         <div class="carousel-item active">
-                          <img class="d-block w-100" src="{% static 'apartmany/img/bg1.jpg'%}" alt="First slide">
+                          <img class="d-block w-100" src="{% static 'apartmany/img/apartments/apartment_14/a14_1.jpg'%}", alt="First slide">
                         </div>
-                        <div class="carousel-item">
-                          <img class="d-block w-100" src="{% static 'apartmany/img/bg2.jpg'%}" alt="Second slide">
-                        </div>
-                        <div class="carousel-item">
-                          <img class="d-block w-100" src="{% static 'apartmany/img/bg3.jpg'%}" alt="Third slide">
-                        </div>
+                        {% for n in range_a14 %}
+                          <div class="carousel-item">
+                            <img class="d-block w-100" src="{% static 'apartmany/img/apartments/apartment_14/a14_'%}{{n}}.jpg", alt="First slide">
+                          </div>
+                        {% endfor %}
                       </div>
                       <!--/.Slides-->
                       <!--Controls-->
-                      <a class="carousel-control-prev" href="#carousel-thumb" role="button" data-slide="prev">
+                      <a class="carousel-control-prev" href="#carousel-thumb-14" role="button" data-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="sr-only">Previous</span>
                       </a>
-                      <a class="carousel-control-next" href="#carousel-thumb" role="button" data-slide="next">
+                      <a class="carousel-control-next" href="#carousel-thumb-14" role="button" data-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="sr-only">Next</span>
                       </a>
                       <!--/.Controls-->
                       <ol class="carousel-indicators">
-                        <li data-target="#carousel-thumb" data-slide-to="0" class="active"> <img class="d-block w-100" src="{% static 'apartmany/img/bg1.jpg'%}"
+                        <li data-target="#carousel-thumb-14" data-slide-to="0" class="active"> <img class="d-block w-100" src="{% static 'apartmany/img/apartments/apartment_14/a14_1.jpg'%}"
                             class="img-fluid"></li>
-                        <li data-target="#carousel-thumb" data-slide-to="1"><img class="d-block w-100" src="{% static 'apartmany/img/bg2.jpg'%}"
-                            class="img-fluid"></li>
-                        <li data-target="#carousel-thumb" data-slide-to="2"><img class="d-block w-100" src="{% static 'apartmany/img/bg3.jpg'%}"
-                            class="img-fluid"></li>
+                        {% for n in range_a14 %}
+                          <li data-target="#carousel-thumb-14" data-slide-to="1"><img class="d-block w-100" src="{% static 'apartmany/img/apartments/apartment_14/a14_'%}{{n}}.jpg"
+                          class="img-fluid"></li>
+                        {% endfor %}
                       </ol>
                     </div>
                     <!--/.Carousel Wrapper-->

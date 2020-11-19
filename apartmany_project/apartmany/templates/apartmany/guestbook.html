@@ -36,27 +36,27 @@
     <!-- NAVBAR 1 -->
     <div class="nav-language">
       <div class="container nav-contain">
-        <div class="row align-items-center justify-content-between nav-row">
-          <div class="col-5 contact text-start">
+        <div class="row align-items-center pl-0 pr-0 pl-lg-3 pr-lg-3 justify-content-between nav-row">
+          <div class="col-lg-5 contact text-start pl-0 pr-0 d-none d-lg-block">
             <i class="fas fa-phone"></i>
             <a href="#"><span> +421 903 263 457</span></a>
             <span class="bar">|</span>
             <i class="fas fa-envelope"></i>
             <a href="#"><span> vysny.m@stonline.sk</span></a>
           </div>
-          <div class="col-3 col-md-2 col-sm-3 social text-center">
+          <div class="col-sm-3 col-lg-2 social text-start text-lg-center pl-0 pr-0 d-none d-sm-block">
             <a
-              href="https://www.tripadvisor.com/Hotel_Review-g1009332-d6969584-Reviews-Apartmany_a_Studia_Miroslav-Demanovska_Dolina_Zilina_Region.html"
+              href="https:/www.tripadvisor.com/Hotel_Review-g1009332-d6969584-Reviews-Apartmany_a_Studia_Miroslav-Demanovska_Dolina_Zilina_Region.html"
               ><i class="fab fa-tripadvisor fa-2x"></i
             ></a>
-            <a href="https://www.facebook.com/ApartmanyAStudiaMiroslav/"><i class="fab fa-facebook fa-2x"></i></a>
+            <a href="https:/www.facebook.com/ApartmanyAStudiaMiroslav/"><i class="fab fa-facebook fa-2x"></i></a>
           </div>
-          <div class="col-9 col-md-5 col-sm-8 languages text-right">
+          <div class="col-12 col-sm-9 col-lg-5 pl-sm-0 pr-sm-0 languages text-right align-content-center">
             <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
               <button type="button" class="btn btn-secondary"><img src="{% static 'apartmany/img/sk.png'%}" /> SK</button>
               <button type="button" class="btn btn-secondary active"><img src="{% static 'apartmany/img/uk.png'%}" /> ENG</button>
               <button type="button" class="btn btn-secondary"><img src="{% static 'apartmany/img/ger.png'%}" /> GER</button>
-              <button type="button" class="btn btn-secondary"><img src="{% static 'apartmany/img/pl.png'%}" /> PL</button>
+              <button type="button" class="btn btn-secondary pr-0"><img src="{% static 'apartmany/img/pl.png'%}" /> PL</button>
             </div>
           </div>
         </div>
@@ -66,7 +66,7 @@
     <!-- NAVBAR 2 -->
     <nav class="navbar sticky-top navbar-expand-lg navbar-light">
       <div class="container">
-        <a class="navbar-brand" href="index.html"><img src="{% static 'apartmany/img/logo1.png'%}" alt="Apartmany & Studia Miroslav"/></a>
+        <a class="navbar-brand" href="{% url 'home' %}"><img src="{% static 'apartmany/img/logo1.png'%}" alt="Apartmany & Studia Miroslav"/></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -80,7 +80,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
+            <li class="nav-item">
               <a class="nav-link" href="{% url 'home' %}">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
@@ -95,11 +95,11 @@
             <li class="nav-item">
               <a class="nav-link secondary-nav" href="{% url 'gallery' %}">Gallery</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item active">
               <a class="nav-link secondary-nav" href="{% url 'guestbook' %}">Guestbook</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link secondary-nav" href="#">Surroundings</a>
+              <a class="nav-link secondary-nav" href="{% url 'surroundings' %}">Surroundings</a>
             </li>
             <li class="nav-item">
               <a class="nav-link secondary-nav" href="{% url 'contact' %}">Contact</a>

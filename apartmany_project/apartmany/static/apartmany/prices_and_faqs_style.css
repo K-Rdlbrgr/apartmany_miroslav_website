@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
-@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 
 :root {
   --primary-color-light: rgb(241, 241, 241);
@@ -9,7 +9,7 @@
 }
 
 * {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -94,7 +94,7 @@
 .navbar {
   background: var(--primary-color-light);
   min-height: 12vh;
-  z-index: 5;
+  z-index: 16;
 }
 
 .navbar-brand img {
@@ -106,166 +106,13 @@
   color: #fff;
 }
 
-/* Main Sections */
-.wallpaper {
-  background-image: url(../img/wallpaper.jpg);
-  min-height: 700px;
-  opacity: 0.8;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-
-.container-fix {
-  position: fixed;
-  top: 17vh;
-}
-
-.apartment-fix {
-  border-top: 5px;
-  border-left: 5px;
-  border-bottom: 5px;
-  border-right: 0;
-  border-color: #fff;
-  border-style: solid;
-  min-height: 200px;
-  top: 5%;
-  position: fixed;
-}
-
-.apartment-fix h1 {
-  font-size: 40px;
-  padding-top: 2px;
-  padding-bottom: 2px;
-  color: #fff;
-}
-
-/* CARDS */
-
-@import url('https://afeld.github.io/emoji-css/emoji.css');
-
-.no-overlay-picture {
-  width: 40%;
-  height: 40%;
-  background-image: url("/img/miro.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 50%;
-  border: 2px solid rgba(255, 255, 255, 1);
-  box-shadow: 0 0px 30px 1px rgba(0, 0, 0, 0.8);
-
-}
-
-.card-image {
-  background-image: url(/img/contact_form.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.card-image .card-title {
-  border-bottom: 2px solid var(--primary-text-color);
-}
-
-.contact-overlay {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.75);
-}
-
-#apartment-name h5 {
-  color: var(--primary-text-color);
-}
-
-#degree img {
-  max-width: 60px;
-  width: 100%;
-  margin-bottom: 8px;
-}
-
-.content h1 {
-  font-weight: 700;
-  font-size: 3rem;
-  color: var(--primary-color-dark);
-  margin: 0;
-}
-
-.content h3 {
-  font-weight: 700;
-  color: var(--primary-color-dark);
-  margin: 0;
-}
-
-.content p {
-  margin-top: 0;
-  font-size: 16px;
-  margin-left: 3px;
-  margin-right: 3px;
-}
-
-.icons h5 {
-  margin-bottom: 0;
-}
-
-.md-v-line {
-  position: absolute;
-  border-left: 1px solid rgba(0, 0, 0, 0.125);
-  height: 50px;
-  top: 0px;
-  left: 54px;
-}
-.list-group {
-  background: var(--primary-color-light);
-}
-
-.fridge,
-.radio,
-.towels,
-.hairdryer {
-  display: inline;
-}
-.fridge img {
-  width: 20px;
-  margin: 0 8px 2px -5px;
-  top: 0;
-}
-.radio img {
-  width: 20px;
-  margin: 0 8px 5px 0;
-  top: 0;
-}
-.towels img {
-  width: 20px;
-  margin: 0 8px 2px -5px;
-  top: 0;
-}
-.hairdryer img {
-  width: 15px;
-  margin: 0 8px 2px 0;
-  top: 0;
-}
-
-.filter-gray {
-  filter: invert(0%) sepia(3%) saturate(851%) hue-rotate(340deg) brightness(89%) contrast(83%);
-}
-
-.btn-contact {
-  padding: 1rem 2rem;
-  color: #fff;
-  background: var(--primary-text-color);
-  border-radius: 50px;
-  text-transform: uppercase;
-}
-
-.btn-contact:hover {
-  background: rgb(231, 123, 0);
-  color: #fff;
+.navbar ul {
+  text-align: end;
 }
 
 /* HEADER PICTURE */
 .pimg {
-  background-image: url(../img/contact-header.jpg);
+  background-image: url(../apartmany/img/contact-header.jpg);
   background-size: cover;
   background-position-y: 80%;
   height: 400px;
@@ -281,67 +128,74 @@
   color: var(--primary-color-light);
 }
 
-/* RATING */
-.star-rating {
-  line-height:32px;
-  font-size:1.25em;
+/* MAIN SECTION */
+
+.bar {
+  width: 100%;
+  height: 1px;
+  background: var(--primary-color-dark);
 }
 
-.star-rating .fa-star{
+.header-line h2 {
+  padding: 0 0.8rem;
+  margin: 0;
+  font-size: 30px;
+}
+
+#prices h5 {
+  color: black;
+  width: max-content;
+  text-decoration: underline;
+  text-decoration-thickness: double;
+  text-decoration-color: var(--primary-text-color);
+}
+
+#prices h6 {
+  font-size: 1.25rem;
+  color: black;
+  width: max-content;
+  font-weight: bold;
+}
+
+#prices h6:hover {
   color: var(--primary-text-color);
-}
-
-.star-rating .fa-star:hover{
-  color: rgb(231, 123, 0);
+  width: max-content;
+  font-weight: bold;
   cursor: pointer;
 }
 
-/* REVIEW SCROLLBAR */
-.scrollbar {
-  height: 80vh;
-  overflow-y: scroll;
+.item-header h6,
+.item-header p {
+  padding-left: 12px;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  max-width: 100%;
 }
 
-/* MEDIA */
-.media img {
-  max-width: 64px;
-  max-height: 64px;
-  border-radius: 50%;
-  border: 2px solid var(--primary-color-dark);
+#prices h2 {
+  color: var(--primary-color-dark);
 }
 
-.media i {
-  color: var(--primary-text-color);
+#bullet-list {
+  margin-left: 45px;
 }
 
-.media span {
-  font-size: 0.75rem;
-  color: rgb(90, 90, 90);
+.prices-image {
+  position: absolute;
+  top: 17vh;
+  left: 0;
+  width: 100%;
+  height: 63vh;
+  overflow: hidden;
 }
 
-/* CONTACT FORMS */
-.header {
-  border: none;
-  background-color: var(--primary-color-dark);
-  transition: 0.3s ease-in-out;
+.header-text h1 {
   color: var(--primary-color-light);
-  border-radius: .25rem;
+  font-weight: 700;
 }
 
-.form-selection button {
-  border: none;
-  background-color: var(--primary-color-dark);
-  transition: 0.3s ease-in-out;
-  color: var(--primary-color-light);
-  border-radius: .25rem;
-}
-
-.form-selection button:hover {
-  border: none;
-  background-color: var(--primary-text-color);
-  transition: 0.3s ease-in-out;
-  color: var(--primary-color-light);
-  border-radius: .25rem;
+#emptyrow {
+  padding-bottom: 80px;
 }
 
 /* FOOTER */
@@ -445,17 +299,13 @@ footer.end {
   font-size: 12px;
 }
 
-/*  MEDIA QUESRIES */
-
+/* MEDIA QUERIES */
 @media (max-width: 1000px) {
   .nav-language .contact {
     display: none;
   }
   .nav-language .social {
     text-align: start;
-  }
-  .secondary-nav {
-    color: #fff !important;
   }
 }
 

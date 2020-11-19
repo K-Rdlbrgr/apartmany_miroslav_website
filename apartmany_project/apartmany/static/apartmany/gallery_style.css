@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
-@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 
 :root {
   --primary-color-light: rgb(241, 241, 241);
@@ -9,7 +9,7 @@
 }
 
 * {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -94,7 +94,7 @@
 .navbar {
   background: var(--primary-color-light);
   min-height: 12vh;
-  z-index: 5;
+  z-index: 16;
 }
 
 .navbar-brand img {
@@ -104,6 +104,10 @@
 
 .navbar-nav {
   color: #fff;
+}
+
+.navbar ul {
+  text-align: end;
 }
 
 /* Main Sections */
@@ -143,7 +147,7 @@
 
 /* CARDS */
 
-@import url('https://afeld.github.io/emoji-css/emoji.css');
+@import url("https://afeld.github.io/emoji-css/emoji.css");
 
 .no-overlay-picture {
   width: 40%;
@@ -154,7 +158,6 @@
   border-radius: 50%;
   border: 2px solid rgba(255, 255, 255, 1);
   box-shadow: 0 0px 30px 1px rgba(0, 0, 0, 0.8);
-
 }
 
 .card-image {
@@ -247,7 +250,8 @@
 }
 
 .filter-gray {
-  filter: invert(0%) sepia(3%) saturate(851%) hue-rotate(340deg) brightness(89%) contrast(83%);
+  filter: invert(0%) sepia(3%) saturate(851%) hue-rotate(340deg) brightness(89%)
+    contrast(83%);
 }
 
 .btn-contact {
@@ -291,7 +295,8 @@
   background-color: rgba(6, 44, 5, 0.02);
 }
 
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
   background-color: var(--primary-text-color);
 }
 
@@ -301,7 +306,7 @@
   background-color: var(--primary-color-dark);
   transition: 0.3s ease-in-out;
   color: var(--primary-color-light);
-  border-radius: .25rem;
+  border-radius: 0.25rem;
 }
 
 .form-selection button:hover {
@@ -309,7 +314,7 @@
   background-color: var(--primary-text-color);
   transition: 0.3s ease-in-out;
   color: var(--primary-color-light);
-  border-radius: .25rem;
+  border-radius: 0.25rem;
 }
 
 /* FOOTER */
@@ -421,9 +426,6 @@ footer.end {
   }
   .nav-language .social {
     text-align: start;
-  }
-  .secondary-nav {
-    color: #fff !important;
   }
 }
 

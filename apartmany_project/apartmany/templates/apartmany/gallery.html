@@ -28,27 +28,27 @@
     <!-- NAVBAR 1 -->
     <div class="nav-language">
       <div class="container nav-contain">
-        <div class="row align-items-center justify-content-between nav-row">
-          <div class="col-5 contact text-start">
+        <div class="row align-items-center pl-0 pr-0 pl-lg-3 pr-lg-3 justify-content-between nav-row">
+          <div class="col-lg-5 contact text-start pl-0 pr-0 d-none d-lg-block">
             <i class="fas fa-phone"></i>
             <a href="#"><span> +421 903 263 457</span></a>
             <span class="bar">|</span>
             <i class="fas fa-envelope"></i>
             <a href="#"><span> vysny.m@stonline.sk</span></a>
           </div>
-          <div class="col-3 col-md-2 col-sm-3 social text-center">
+          <div class="col-sm-3 col-lg-2 social text-start text-lg-center pl-0 pr-0 d-none d-sm-block">
             <a
-              href="https://www.tripadvisor.com/Hotel_Review-g1009332-d6969584-Reviews-Apartmany_a_Studia_Miroslav-Demanovska_Dolina_Zilina_Region.html"
+              href="https:/www.tripadvisor.com/Hotel_Review-g1009332-d6969584-Reviews-Apartmany_a_Studia_Miroslav-Demanovska_Dolina_Zilina_Region.html"
               ><i class="fab fa-tripadvisor fa-2x"></i
             ></a>
-            <a href="https://www.facebook.com/ApartmanyAStudiaMiroslav/"><i class="fab fa-facebook fa-2x"></i></a>
+            <a href="https:/www.facebook.com/ApartmanyAStudiaMiroslav/"><i class="fab fa-facebook fa-2x"></i></a>
           </div>
-          <div class="col-9 col-md-5 col-sm-8 languages text-right">
+          <div class="col-12 col-sm-9 col-lg-5 pl-sm-0 pr-sm-0 languages text-right align-content-center">
             <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
               <button type="button" class="btn btn-secondary"><img src="{% static 'apartmany/img/sk.png'%}" /> SK</button>
               <button type="button" class="btn btn-secondary active"><img src="{% static 'apartmany/img/uk.png'%}" /> ENG</button>
               <button type="button" class="btn btn-secondary"><img src="{% static 'apartmany/img/ger.png'%}" /> GER</button>
-              <button type="button" class="btn btn-secondary"><img src="{% static 'apartmany/img/pl.png'%}" /> PL</button>
+              <button type="button" class="btn btn-secondary pr-0"><img src="{% static 'apartmany/img/pl.png'%}" /> PL</button>
             </div>
           </div>
         </div>
@@ -58,7 +58,7 @@
     <!-- NAVBAR 2 -->
     <nav class="navbar sticky-top navbar-expand-lg navbar-light">
       <div class="container">
-        <a class="navbar-brand" href="index.html"><img src="{% static 'apartmany/img/logo1.png'%}" alt="Apartmany & Studia Miroslav"/></a>
+        <a class="navbar-brand" href="{% url 'home' %}"><img src="{% static 'apartmany/img/logo1.png'%}" alt="Apartmany & Studia Miroslav"/></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -72,7 +72,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
+            <li class="nav-item">
               <a class="nav-link" href="{% url 'home' %}">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
@@ -84,14 +84,14 @@
             <li class="nav-item">
               <a class="nav-link secondary-nav" href="{% url 'prices_and_faqs' %}">Pricelist</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item active">
               <a class="nav-link secondary-nav" href="{% url 'gallery' %}">Gallery</a>
             </li>
             <li class="nav-item">
               <a class="nav-link secondary-nav" href="{% url 'guestbook' %}">Guestbook</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link secondary-nav" href="#">Surroundings</a>
+              <a class="nav-link secondary-nav" href="{% url 'surroundings' %}">Surroundings</a>
             </li>
             <li class="nav-item">
               <a class="nav-link secondary-nav" href="{% url 'contact' %}">Contact</a>
@@ -131,17 +131,17 @@
               <div class="col-md-12">
                 <ul class="nav nav-pills justify-content-center mb-4" id="pills-tab" role="tablist">
                   <li class="nav-item gallery">
-                    <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Winter</a>
+                    <a class="nav-link active" id="pills-winter-tab" data-toggle="pill" href="#pills-winter" role="tab" aria-controls="pills-winter" aria-selected="true">Winter</a>
                   </li>
                   <li class="nav-item gallery">
-                    <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Summer</a>
+                    <a class="nav-link" id="pills-summer-tab" data-toggle="pill" href="#pills-summer" role="tab" aria-controls="pills-summer" aria-selected="false">Summer</a>
                   </li>
                   <li class="nav-item gallery">
-                    <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Facilities</a>
+                    <a class="nav-link" id="pills-facilities-tab" data-toggle="pill" href="#pills-facilities" role="tab" aria-controls="pills-facilities" aria-selected="false">Facilities</a>
                   </li>
                 </ul>
                 <div class="tab-content" id="pills-tabContent">
-                  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                  <div class="tab-pane fade show active" id="pills-winter" role="tabpanel" aria-labelledby="pills-winter-tab">
                     <div class="row justify-content-center">
                       <div class="col-md-12">
                         <div class="row">
@@ -150,31 +150,36 @@
                           </div>
                         </div>
                         <div class="row pt-sm-3 pt-0 pb-sm-3 pb-0">
-                          <a href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 pt-sm-0 pt-3 pb-sm-0 pb-3">
-                              <img src="https://unsplash.it/600.jpg?image=251" class="img-fluid">
+                          <a href="{% static 'apartmany/img/gallery/winter/w_1.jpg'%}" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 pt-sm-0 pt-3 pb-sm-0 pb-3">
+                              <img src="{% static 'apartmany/img/gallery/winter/w_1.jpg'%}" class="img-fluid">
                           </a>
-                          <a href="https://unsplash.it/1200/768.jpg?image=252" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 pt-sm-0 pt-3 pb-sm-0 pb-3">
-                              <img src="https://unsplash.it/600.jpg?image=252" class="img-fluid">
+                          <a href="{% static 'apartmany/img/gallery/winter/w_2.jpg'%}" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 pt-sm-0 pt-3 pb-sm-0 pb-3">
+                            <img src="{% static 'apartmany/img/gallery/winter/w_2.jpg'%}" class="img-fluid">
                           </a>
-                          <a href="https://unsplash.it/1200/768.jpg?image=253" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 pt-sm-0 pt-3 pb-sm-0 pb-3">
-                              <img src="https://unsplash.it/600.jpg?image=253" class="img-fluid">
+                          <a href="{% static 'apartmany/img/gallery/winter/w_3.jpg'%}" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 pt-sm-0 pt-3 pb-sm-0 pb-3">
+                            <img src="{% static 'apartmany/img/gallery/winter/w_3.jpg'%}" class="img-fluid">
                           </a>
                         </div>
                         <div class="row pt-sm-3 pt-0 pb-sm-3 pb-0">
-                          <a href="https://unsplash.it/1200/768.jpg?image=254" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 pt-sm-0 pt-3 pb-sm-0 pb-3">
-                              <img src="https://unsplash.it/600.jpg?image=254" class="img-fluid">
+                          <a href="{% static 'apartmany/img/gallery/winter/w_4.jpg'%}" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 pt-sm-0 pt-3 pb-sm-0 pb-3">
+                            <img src="{% static 'apartmany/img/gallery/winter/w_4.jpg'%}" class="img-fluid">
                           </a>
-                          <a href="https://unsplash.it/1200/768.jpg?image=255" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 pt-sm-0 pt-3 pb-sm-0 pb-3">
-                              <img src="https://unsplash.it/600.jpg?image=255" class="img-fluid">
+                          <a href="{% static 'apartmany/img/gallery/winter/w_5.jpg'%}" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 pt-sm-0 pt-3 pb-sm-0 pb-3">
+                            <img src="{% static 'apartmany/img/gallery/winter/w_5.jpg'%}" class="img-fluid">
                           </a>
-                          <a href="https://unsplash.it/1200/768.jpg?image=256" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 pt-sm-0 pt-3 pb-sm-0 pb-3">
-                              <img src="https://unsplash.it/600.jpg?image=256" class="img-fluid">
+                          <a href="{% static 'apartmany/img/gallery/winter/w_6.jpg'%}" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 pt-sm-0 pt-3 pb-sm-0 pb-3">
+                            <img src="{% static 'apartmany/img/gallery/winter/w_6.jpg'%}" class="img-fluid">
+                          </a>
+                        </div>
+                        <div class="row pt-sm-3 pt-0 pb-sm-3 pb-0">
+                          <a href="{% static 'apartmany/img/gallery/winter/w_7.jpg'%}" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 pt-sm-0 pt-3 pb-sm-0 pb-3">
+                            <img src="{% static 'apartmany/img/gallery/winter/w_7.jpg'%}" class="img-fluid">
                           </a>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                  <div class="tab-pane fade" id="pills-summer" role="tabpanel" aria-labelledby="pills-summer-tab">
                     <div class="row justify-content-center">
                       <div class="col-md-12">
                         <div class="row">
@@ -183,31 +188,108 @@
                           </div>
                         </div>
                         <div class="row pt-sm-3 pt-0 pb-sm-3 pb-0">
-                          <a href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 pt-sm-0 pt-3 pb-sm-0 pb-3">
-                              <img src="https://unsplash.it/600.jpg?image=251" class="img-fluid">
+                          <a href="{% static 'apartmany/img/gallery/summer/s_1.jpg'%}" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 pt-sm-0 pt-3 pb-sm-0 pb-3">
+                              <img src="{% static 'apartmany/img/gallery/summer/s_1.jpg'%}" class="img-fluid">
                           </a>
-                          <a href="https://unsplash.it/1200/768.jpg?image=252" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 pt-sm-0 pt-3 pb-sm-0 pb-3">
-                              <img src="https://unsplash.it/600.jpg?image=252" class="img-fluid">
+                          <a href="{% static 'apartmany/img/gallery/summer/s_2.jpg'%}" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 pt-sm-0 pt-3 pb-sm-0 pb-3">
+                            <img src="{% static 'apartmany/img/gallery/summer/s_2.jpg'%}" class="img-fluid">
                           </a>
-                          <a href="https://unsplash.it/1200/768.jpg?image=253" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 pt-sm-0 pt-3 pb-sm-0 pb-3">
-                              <img src="https://unsplash.it/600.jpg?image=253" class="img-fluid">
+                          <a href="{% static 'apartmany/img/gallery/summer/s_3.jpg'%}" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 pt-sm-0 pt-3 pb-sm-0 pb-3">
+                            <img src="{% static 'apartmany/img/gallery/summer/s_3.jpg'%}" class="img-fluid">
                           </a>
                         </div>
                         <div class="row pt-sm-3 pt-0 pb-sm-3 pb-0">
-                          <a href="https://unsplash.it/1200/768.jpg?image=254" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 pt-sm-0 pt-3 pb-sm-0 pb-3">
-                              <img src="https://unsplash.it/600.jpg?image=254" class="img-fluid">
+                          <a href="{% static 'apartmany/img/gallery/summer/s_4.jpg'%}" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 pt-sm-0 pt-3 pb-sm-0 pb-3">
+                              <img src="{% static 'apartmany/img/gallery/summer/s_4.jpg'%}" class="img-fluid">
                           </a>
-                          <a href="https://unsplash.it/1200/768.jpg?image=255" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 pt-sm-0 pt-3 pb-sm-0 pb-3">
-                              <img src="https://unsplash.it/600.jpg?image=255" class="img-fluid">
+                          <a href="{% static 'apartmany/img/gallery/summer/s_5.jpg'%}" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 pt-sm-0 pt-3 pb-sm-0 pb-3">
+                            <img src="{% static 'apartmany/img/gallery/summer/s_5.jpg'%}" class="img-fluid">
                           </a>
-                          <a href="https://unsplash.it/1200/768.jpg?image=256" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 pt-sm-0 pt-3 pb-sm-0 pb-3">
-                              <img src="https://unsplash.it/600.jpg?image=256" class="img-fluid">
+                          <a href="{% static 'apartmany/img/gallery/summer/s_6.jpg'%}" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 pt-sm-0 pt-3 pb-sm-0 pb-3">
+                            <img src="{% static 'apartmany/img/gallery/summer/s_6.jpg'%}" class="img-fluid">
+                          </a>
+                        </div>
+                        <div class="row pt-sm-3 pt-0 pb-sm-3 pb-0">
+                          <a href="{% static 'apartmany/img/gallery/summer/s_7.jpg'%}" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 pt-sm-0 pt-3 pb-sm-0 pb-3">
+                              <img src="{% static 'apartmany/img/gallery/summer/s_7.jpg'%}" class="img-fluid">
+                          </a>
+                          <a href="{% static 'apartmany/img/gallery/summer/s_8.jpg'%}" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 pt-sm-0 pt-3 pb-sm-0 pb-3">
+                            <img src="{% static 'apartmany/img/gallery/summer/s_8.jpg'%}" class="img-fluid">
+                          </a>
+                          <a href="{% static 'apartmany/img/gallery/summer/s_9.jpg'%}" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 pt-sm-0 pt-3 pb-sm-0 pb-3">
+                            <img src="{% static 'apartmany/img/gallery/summer/s_9.jpg'%}" class="img-fluid">
+                          </a>
+                        </div>
+                        <div class="row pt-sm-3 pt-0 pb-sm-3 pb-0">
+                          <a href="{% static 'apartmany/img/gallery/summer/s_10.jpg'%}" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 pt-sm-0 pt-3 pb-sm-0 pb-3">
+                              <img src="{% static 'apartmany/img/gallery/summer/s_10.jpg'%}" class="img-fluid">
+                          </a>
+                          <a href="{% static 'apartmany/img/gallery/summer/s_11.jpg'%}" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 pt-sm-0 pt-3 pb-sm-0 pb-3">
+                            <img src="{% static 'apartmany/img/gallery/summer/s_11.jpg'%}" class="img-fluid">
+                          </a>
+                          <a href="{% static 'apartmany/img/gallery/summer/s_12.jpg'%}" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 pt-sm-0 pt-3 pb-sm-0 pb-3">
+                            <img src="{% static 'apartmany/img/gallery/summer/s_12.jpg'%}" class="img-fluid">
+                          </a>
+                        </div>
+                        <div class="row pt-sm-3 pt-0 pb-sm-3 pb-0">
+                          <a href="{% static 'apartmany/img/gallery/summer/s_13.jpg'%}" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 pt-sm-0 pt-3 pb-sm-0 pb-3">
+                              <img src="{% static 'apartmany/img/gallery/summer/s_13.jpg'%}" class="img-fluid">
+                          </a>
+                          <a href="{% static 'apartmany/img/gallery/summer/s_14.jpg'%}" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 pt-sm-0 pt-3 pb-sm-0 pb-3">
+                            <img src="{% static 'apartmany/img/gallery/summer/s_14.jpg'%}" class="img-fluid">
+                          </a>
+                          <a href="{% static 'apartmany/img/gallery/summer/s_15.jpg'%}" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 pt-sm-0 pt-3 pb-sm-0 pb-3">
+                            <img src="{% static 'apartmany/img/gallery/summer/s_15.jpg'%}" class="img-fluid">
+                          </a>
+                        </div>
+                        <div class="row pt-sm-3 pt-0 pb-sm-3 pb-0">
+                          <a href="{% static 'apartmany/img/gallery/summer/s_16.jpg'%}" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 pt-sm-0 pt-3 pb-sm-0 pb-3">
+                              <img src="{% static 'apartmany/img/gallery/summer/s_16.jpg'%}" class="img-fluid">
+                          </a>
+                          <a href="{% static 'apartmany/img/gallery/summer/s_17.jpg'%}" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 pt-sm-0 pt-3 pb-sm-0 pb-3">
+                            <img src="{% static 'apartmany/img/gallery/summer/s_17.jpg'%}" class="img-fluid">
+                          </a>
+                          <a href="{% static 'apartmany/img/gallery/summer/s_18.jpg'%}" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 pt-sm-0 pt-3 pb-sm-0 pb-3">
+                            <img src="{% static 'apartmany/img/gallery/summer/s_18.jpg'%}" class="img-fluid">
+                          </a>
+                        </div>
+                        <div class="row pt-sm-3 pt-0 pb-sm-3 pb-0">
+                          <a href="{% static 'apartmany/img/gallery/summer/s_19.jpg'%}" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 pt-sm-0 pt-3 pb-sm-0 pb-3">
+                              <img src="{% static 'apartmany/img/gallery/summer/s_19.jpg'%}" class="img-fluid">
+                          </a>
+                          <a href="{% static 'apartmany/img/gallery/summer/s_20.jpg'%}" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 pt-sm-0 pt-3 pb-sm-0 pb-3">
+                            <img src="{% static 'apartmany/img/gallery/summer/s_20.jpg'%}" class="img-fluid">
+                          </a>
+                          <a href="{% static 'apartmany/img/gallery/summer/s_21.jpg'%}" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 pt-sm-0 pt-3 pb-sm-0 pb-3">
+                            <img src="{% static 'apartmany/img/gallery/summer/s_21.jpg'%}" class="img-fluid">
+                          </a>
+                        </div>
+                        <div class="row pt-sm-3 pt-0 pb-sm-3 pb-0">
+                          <a href="{% static 'apartmany/img/gallery/summer/s_22.jpg'%}" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 pt-sm-0 pt-3 pb-sm-0 pb-3">
+                              <img src="{% static 'apartmany/img/gallery/summer/s_22.jpg'%}" class="img-fluid">
+                          </a>
+                          <a href="{% static 'apartmany/img/gallery/summer/s_23.jpg'%}" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 pt-sm-0 pt-3 pb-sm-0 pb-3">
+                            <img src="{% static 'apartmany/img/gallery/summer/s_23.jpg'%}" class="img-fluid">
+                          </a>
+                          <a href="{% static 'apartmany/img/gallery/summer/s_24.jpg'%}" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 pt-sm-0 pt-3 pb-sm-0 pb-3">
+                            <img src="{% static 'apartmany/img/gallery/summer/s_24.jpg'%}" class="img-fluid">
+                          </a>
+                        </div>
+                        <div class="row pt-sm-3 pt-0 pb-sm-3 pb-0">
+                          <a href="{% static 'apartmany/img/gallery/summer/s_25.jpg'%}" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 pt-sm-0 pt-3 pb-sm-0 pb-3">
+                              <img src="{% static 'apartmany/img/gallery/summer/s_25.jpg'%}" class="img-fluid">
+                          </a>
+                          <a href="{% static 'apartmany/img/gallery/summer/s_26.jpg'%}" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 pt-sm-0 pt-3 pb-sm-0 pb-3">
+                            <img src="{% static 'apartmany/img/gallery/summer/s_26.jpg'%}" class="img-fluid">
+                          </a>
+                          <a href="{% static 'apartmany/img/gallery/summer/s_27.jpg'%}" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 pt-sm-0 pt-3 pb-sm-0 pb-3">
+                            <img src="{% static 'apartmany/img/gallery/summer/s_27.jpg'%}" class="img-fluid">
                           </a>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                  <div class="tab-pane fade" id="pills-facilities" role="tabpanel" aria-labelledby="pills-facilities-tab">
                     <div class="row justify-content-center">
                       <div class="col-md-12">
                         <div class="row">
@@ -216,25 +298,36 @@
                           </div>
                         </div>
                         <div class="row pt-sm-3 pt-0 pb-sm-3 pb-0">
-                          <a href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 pt-sm-0 pt-3 pb-sm-0 pb-3">
-                              <img src="https://unsplash.it/600.jpg?image=251" class="img-fluid">
+                          <a href="{% static 'apartmany/img/gallery/facilities/f_1.jpg'%}" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 pt-sm-0 pt-3 pb-sm-0 pb-3">
+                              <img src="{% static 'apartmany/img/gallery/facilities/f_1.jpg'%}" class="img-fluid">
                           </a>
-                          <a href="https://unsplash.it/1200/768.jpg?image=252" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 pt-sm-0 pt-3 pb-sm-0 pb-3">
-                              <img src="https://unsplash.it/600.jpg?image=252" class="img-fluid">
+                          <a href="{% static 'apartmany/img/gallery/facilities/f_2.jpg'%}" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 pt-sm-0 pt-3 pb-sm-0 pb-3">
+                            <img src="{% static 'apartmany/img/gallery/facilities/f_2.jpg'%}" class="img-fluid">
                           </a>
-                          <a href="https://unsplash.it/1200/768.jpg?image=253" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 pt-sm-0 pt-3 pb-sm-0 pb-3">
-                              <img src="https://unsplash.it/600.jpg?image=253" class="img-fluid">
+                          <a href="{% static 'apartmany/img/gallery/facilities/f_3.jpg'%}" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 pt-sm-0 pt-3 pb-sm-0 pb-3">
+                            <img src="{% static 'apartmany/img/gallery/facilities/f_3.jpg'%}" class="img-fluid">
                           </a>
                         </div>
                         <div class="row pt-sm-3 pt-0 pb-sm-3 pb-0">
-                          <a href="https://unsplash.it/1200/768.jpg?image=254" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 pt-sm-0 pt-3 pb-sm-0 pb-3">
-                              <img src="https://unsplash.it/600.jpg?image=254" class="img-fluid">
+                          <a href="{% static 'apartmany/img/gallery/facilities/f_4.jpg'%}" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 pt-sm-0 pt-3 pb-sm-0 pb-3">
+                              <img src="{% static 'apartmany/img/gallery/facilities/f_4.jpg'%}" class="img-fluid">
                           </a>
-                          <a href="https://unsplash.it/1200/768.jpg?image=255" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 pt-sm-0 pt-3 pb-sm-0 pb-3">
-                              <img src="https://unsplash.it/600.jpg?image=255" class="img-fluid">
+                          <a href="{% static 'apartmany/img/gallery/facilities/f_5.jpg'%}" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 pt-sm-0 pt-3 pb-sm-0 pb-3">
+                            <img src="{% static 'apartmany/img/gallery/facilities/f_5.jpg'%}" class="img-fluid">
                           </a>
-                          <a href="https://unsplash.it/1200/768.jpg?image=256" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 pt-sm-0 pt-3 pb-sm-0 pb-3">
-                              <img src="https://unsplash.it/600.jpg?image=256" class="img-fluid">
+                          <a href="{% static 'apartmany/img/gallery/facilities/f_6.jpg'%}" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 pt-sm-0 pt-3 pb-sm-0 pb-3">
+                            <img src="{% static 'apartmany/img/gallery/facilities/f_6.jpg'%}" class="img-fluid">
+                          </a>
+                        </div>
+                        <div class="row pt-sm-3 pt-0 pb-sm-3 pb-0">
+                          <a href="{% static 'apartmany/img/gallery/facilities/f_7.jpg'%}" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 pt-sm-0 pt-3 pb-sm-0 pb-3">
+                              <img src="{% static 'apartmany/img/gallery/facilities/f_7.jpg'%}" class="img-fluid">
+                          </a>
+                          <a href="{% static 'apartmany/img/gallery/facilities/f_8.jpg'%}" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 pt-sm-0 pt-3 pb-sm-0 pb-3">
+                            <img src="{% static 'apartmany/img/gallery/facilities/f_8.jpg'%}" class="img-fluid">
+                          </a>
+                          <a href="{% static 'apartmany/img/gallery/facilities/f_9.jpg'%}" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 pt-sm-0 pt-3 pb-sm-0 pb-3">
+                            <img src="{% static 'apartmany/img/gallery/facilities/f_9.jpg'%}" class="img-fluid">
                           </a>
                         </div>
                       </div>

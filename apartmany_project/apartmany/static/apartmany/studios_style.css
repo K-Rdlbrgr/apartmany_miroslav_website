@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
-@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 
 :root {
   --primary-color-light: rgb(241, 241, 241);
@@ -9,7 +9,7 @@
 }
 
 * {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -94,7 +94,7 @@
 .navbar {
   background: var(--primary-color-light);
   min-height: 12vh;
-  z-index: 5;
+  z-index: 16;
 }
 
 .navbar-brand img {
@@ -104,6 +104,10 @@
 
 .navbar-nav {
   color: #fff;
+}
+
+.navbar ul {
+  text-align: end;
 }
 
 /* Main Sections */
@@ -143,7 +147,7 @@
 
 /* CARDS */
 
-@import url('https://afeld.github.io/emoji-css/emoji.css');
+@import url("https://afeld.github.io/emoji-css/emoji.css");
 
 .inner-container {
   position: relative;
@@ -247,7 +251,12 @@
 }
 
 .filter-gray {
-  filter: invert(0%) sepia(3%) saturate(851%) hue-rotate(340deg) brightness(89%) contrast(83%);
+  filter: invert(0%) sepia(3%) saturate(851%) hue-rotate(340deg) brightness(89%)
+    contrast(83%);
+}
+
+.carousel-item img {
+  max-height: 500px;
 }
 
 /* FOOTER */
@@ -377,9 +386,6 @@ footer.end {
   }
   .nav-language .social {
     text-align: start;
-  }
-  .secondary-nav {
-    color: #fff !important;
   }
 }
 

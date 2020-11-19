@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
-@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 
 :root {
   --primary-color-light: rgb(241, 241, 241);
@@ -9,7 +9,7 @@
 }
 
 * {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -17,99 +17,97 @@
 
 /* AVATARS */
 
-.vodiapicker{
-  display: none; 
+.vodiapicker {
+  display: none;
 }
 
-#a{
+#a {
   padding-left: 0px;
 }
 
-#a img, .btn-select img{
+#a img,
+.btn-select img {
   width: 27px;
-  
 }
 
-#a li{
+#a li {
   list-style: none;
   padding-top: 5px;
   padding-bottom: 5px;
   border-bottom: 1px solid #ced4da;
 }
 
-#a li:hover{
- background-color: #F4F3F3;
+#a li:hover {
+  background-color: #f4f3f3;
 }
 
-#a li img{
+#a li img {
   margin: 5px;
 }
 
-#a li span, .btn-select li span{
+#a li span,
+.btn-select li span {
   margin-left: 30px;
 }
 
 /* item list */
 
-.b{
+.b {
   display: none;
   position: absolute;
   width: 100%;
   overflow-y: scroll;
   max-height: 250px;
-  box-shadow: 0 6px 12px rgba(0,0,0,.175);
-  border: 1px solid rgba(0,0,0,.15);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 5px;
   background-color: white;
   z-index: 2;
 }
 
-.open{
+.open {
   display: show !important;
 }
 
-.btn-select{
+.btn-select {
   width: 100%;
-  height: calc(1.5em + .75rem + 2px);
+  height: calc(1.5em + 0.75rem + 2px);
   border-radius: 5px;
   background-color: #fff;
   border: 1px solid #ccc;
   font-size: 1rem;
   font-weight: 400;
-  line-height: calc(1.5em + .75rem + 2px);
+  line-height: calc(1.5em + 0.75rem + 2px);
 }
-.btn-select li{
+.btn-select li {
   list-style: none;
   float: left;
   padding-bottom: 0px;
 }
 
-.btn-select:hover li{
+.btn-select:hover li {
   margin-left: 0px;
 }
 
-.btn-select:hover{
-  background-color: #F4F3F3;
+.btn-select:hover {
+  background-color: #f4f3f3;
   border: 1px solid transparent;
   box-shadow: inset 0 0px 0px 1px #ccc;
-  
-  
 }
 
-.btn-select:focus{
-   outline:none;
+.btn-select:focus {
+  outline: none;
 }
 
 .btn-select img {
   margin: 5px;
 }
 
-.lang-select{
+.lang-select {
   width: 100%;
 }
 
 /* END AVATARS */
-
 
 /* Top navbar with languages and contact */
 .nav-language {
@@ -190,7 +188,7 @@
 .navbar {
   background: var(--primary-color-light);
   min-height: 12vh;
-  z-index: 5;
+  z-index: 16;
 }
 
 .navbar-brand img {
@@ -200,6 +198,10 @@
 
 .navbar-nav {
   color: #fff;
+}
+
+.navbar ul {
+  text-align: end;
 }
 
 /* Main Sections */
@@ -239,7 +241,7 @@
 
 /* CARDS */
 
-@import url('https://afeld.github.io/emoji-css/emoji.css');
+@import url("https://afeld.github.io/emoji-css/emoji.css");
 
 .no-overlay-picture {
   width: 40%;
@@ -250,7 +252,6 @@
   border-radius: 50%;
   border: 2px solid rgba(255, 255, 255, 1);
   box-shadow: 0 0px 30px 1px rgba(0, 0, 0, 0.8);
-
 }
 
 .card-image {
@@ -343,7 +344,8 @@
 }
 
 .filter-gray {
-  filter: invert(0%) sepia(3%) saturate(851%) hue-rotate(340deg) brightness(89%) contrast(83%);
+  filter: invert(0%) sepia(3%) saturate(851%) hue-rotate(340deg) brightness(89%)
+    contrast(83%);
 }
 
 .btn-contact {
@@ -388,24 +390,24 @@
   margin-bottom: 0px;
 }
 
-.star-rating .fa-star{
+.star-rating .fa-star {
   color: var(--primary-text-color);
 }
 
-.star-rating .fa-star:hover{
+.star-rating .fa-star:hover {
   color: rgb(231, 123, 0);
   cursor: pointer;
 }
 
 .star-box {
   width: 100%;
-  height: calc(1.5em + .75rem + 2px);
+  height: calc(1.5em + 0.75rem + 2px);
   border-radius: 5px;
   background-color: #fff;
   border: 1px solid #ccc;
   font-size: 1rem;
   font-weight: 400;
-  line-height: calc(1.5em + .75rem + 2px);
+  line-height: calc(1.5em + 0.75rem + 2px);
 }
 
 /* RATING AND REVIEW SUMMARY */
@@ -425,13 +427,13 @@
 }
 
 .rating-label {
-  font-weight: bold
+  font-weight: bold;
 }
 
 .rating-bar {
   width: 300px;
   padding: 8px;
-  border-radius: 5px
+  border-radius: 5px;
 }
 
 .bar-container {
@@ -441,46 +443,46 @@
   color: white;
   border-radius: 20px;
   cursor: pointer;
-  margin-bottom: 5px
+  margin-bottom: 5px;
 }
 
 .bar-5 {
   /* width: 70%; */
   height: 13px;
   background-color: var(--primary-text-color);
-  border-radius: 20px
+  border-radius: 20px;
 }
 
 .bar-4 {
   /* width: 30%; */
   height: 13px;
   background-color: var(--primary-text-color);
-  border-radius: 20px
+  border-radius: 20px;
 }
 
 .bar-3 {
   /* width: 20%; */
   height: 13px;
   background-color: var(--primary-text-color);
-  border-radius: 20px
+  border-radius: 20px;
 }
 
 .bar-2 {
   /* width: 10%; */
   height: 13px;
   background-color: var(--primary-text-color);
-  border-radius: 20px
+  border-radius: 20px;
 }
 
 .bar-1 {
   /* width: 0%; */
   height: 13px;
   background-color: var(--primary-text-color);
-  border-radius: 20px
+  border-radius: 20px;
 }
 
 td {
-  padding-bottom: 10px
+  padding-bottom: 10px;
 }
 
 /* REVIEW SCROLLBAR */
@@ -512,7 +514,7 @@ td {
   background-color: var(--primary-color-dark);
   transition: 0.3s ease-in-out;
   color: var(--primary-color-light);
-  border-radius: .25rem;
+  border-radius: 0.25rem;
 }
 
 .form-selection button {
@@ -520,7 +522,7 @@ td {
   background-color: var(--primary-color-dark);
   transition: 0.3s ease-in-out;
   color: var(--primary-color-light);
-  border-radius: .25rem;
+  border-radius: 0.25rem;
 }
 
 .form-selection button:hover {
@@ -528,7 +530,7 @@ td {
   background-color: var(--primary-text-color);
   transition: 0.3s ease-in-out;
   color: var(--primary-color-light);
-  border-radius: .25rem;
+  border-radius: 0.25rem;
 }
 
 /* FORM */
@@ -645,9 +647,6 @@ footer.end {
   }
   .nav-language .social {
     text-align: start;
-  }
-  .secondary-nav {
-    color: #fff !important;
   }
 }
 
