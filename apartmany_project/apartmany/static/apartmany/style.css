@@ -628,7 +628,7 @@ footer.end {
 
 /* DISCOUNT */
 .alizarin {
-  background: var(--primary-text-color);
+  background: var(--primary-color-dark);
 }
 
 .descr .btn-header {
@@ -673,7 +673,7 @@ footer.end {
 }
 
 .dl .discount.alizarin:after {
-  border-top: 20px solid var(--primary-text-color);
+  border-top: 20px solid var(--primary-color-dark);
 }
 
 .dl .discount .type {
