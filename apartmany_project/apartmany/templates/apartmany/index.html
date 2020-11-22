@@ -71,7 +71,7 @@
               <a class="nav-link secondary-nav" href="{% url 'apartments' %}">Apartments</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link secondary-nav" href="{% url 'prices_and_faqs' %}">Prices & FAQs</a>
+              <a class="nav-link secondary-nav" href="{% url 'prices_and_faqs' %}">Prices/FAQs</a>
             </li>
             <li class="nav-item">
               <a class="nav-link secondary-nav" href="{% url 'gallery' %}">Gallery</a>
@@ -94,13 +94,12 @@
     <div class="container">
       <header class="v-header v-container">
         <div class="fullscreen-video-wrap">
-          <video src="{% static 'apartmany/img/bg.mov'%}" autoplay="true" loop="true"></video>
         </div>
 
         <div class="header-overlay"></div>
-        <div class="container">
-          <div class="row video d-flex justify-content-lg-between justify-content-center align-items-center">
-            <div class="col-12 col-lg-10 header-content d-md-inline-flex align-items-center">
+        <div class="container h-100">
+          <div class="row video h-100 d-flex justify-content-lg-between justify-content-center">
+            <div class="col-12 col-lg-8 col-xl-9 header-content d-md-inline-flex align-items-center align-self-center">
               <div class="header-image">
                 <img src="{% static 'apartmany/img/trip.png'%}" alt="Tripadvisor Logo" class="mb-md-0" id="tripadvisor">
               </div>
@@ -112,10 +111,28 @@
                   <a class="btn btn-header btn-md" href="{% url 'contact' %}" role="button">Reserve Now</a>
                 </div>
             </div>
-            <div class="col-12 col-lg-2 d-flex-inline d-none d-lg-block header-content">
+
+            <div class="d-none d-lg-block col-lg-4 col-xl-3 align-self-end p-0 pl-5">
+              <div class="dl">
+                <div class="brand align-items-center">
+                  <h2 class="m-0">Jasná<br>Ski Pass</h2>
+                </div>
+                <div class="discount alizarin py-1">
+                  ~ 20%
+                  <div class="type">
+                      discount
+                  </div>
+              </div>
+                <div class="descr">
+                  We offer special prices on 6 day ski passes for adults, seniors, juniors and children.
+                </div>
+              </div>
+            </div>
+
+            <!-- <div class="col-12 col-lg-2 d-flex-inline d-none d-lg-block header-content">
               <div class="cards mb-5 mt-5 ml-5 d-flex justify-content-center align-items-center" onclick="toggleText1()"><i class="fas fa-percent fa-3x" id="header-switch1-i" style="display: block"></i><p id="header-switch1" style="display: none">Only with us you can save <span>15% - 25%</span> on the regular ski passes cash-desk prices!</p></div>
               <div class="cards mb-5 mt-5 ml-5 d-flex justify-content-center align-items-center" onclick="toggleText2()"><i class="fas fa-map-marker-alt fa-3x" id="header-switch2-i" style="display: block"></i><p id="header-switch2" style="display: none">Live right next to the ski resorts of <span>Jasna</span> (4.5km) and <span>Ziarce</span> (800m)!</p></div>
-            </div>
+            </div> -->
           </div>
         </div>
       </header>
@@ -315,7 +332,25 @@
               </div>
             </div> -->
 
-            <!-- LOCATION -->
+          <!-- SPORTS -->
+          <div class="col-12 col-lg-4 mb-4">
+            <div class="card why-cards text-center">
+              <!-- Card image -->
+              <div class="view overlay">
+                <img class="card-img-top" src="{% static 'apartmany/img/why4.jpg'%}" alt="Sports">
+              </div>
+              <!-- Card content -->
+              <div class="card-body">
+                <!-- Title -->
+                <h4 class="card-title">SPORTS</h4>
+                <hr>
+                <!-- Text -->
+                <p class="card-text">We provide storage rooms for your sporting gear, you can rent bikes for free and if you still want to workout on top of that we currently installed a small workout reck.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- LOCATION -->
           <!-- <div class="col-12 col-lg-4 mb-4">
             <div class="card why-cards text-center" style="background-image: url(../static/apartmany/img/why6.jpg); border: 0px;">
               <div class="card-img-overlay text-white d-flex flex-column justify-content-center">
@@ -342,24 +377,6 @@
                 <hr>
                 <!-- Text -->
                 <p class="card-text">All attractions of the valley as well of the town of Liptovsky Mikulas are reachable within 15min by car and the High Tatra ski resorts are just a 40min drive away.</p>
-              </div>
-            </div>
-          </div>
-
-          <!-- SPORTS -->
-          <div class="col-12 col-lg-4 mb-4">
-            <div class="card why-cards text-center">
-              <!-- Card image -->
-              <div class="view overlay">
-                <img class="card-img-top" src="{% static 'apartmany/img/why4.jpg'%}" alt="Sports">
-              </div>
-              <!-- Card content -->
-              <div class="card-body">
-                <!-- Title -->
-                <h4 class="card-title">SPORTS</h4>
-                <hr>
-                <!-- Text -->
-                <p class="card-text">We provide storage rooms for your sporting gear, you can rent bikes for free and if you still want to workout on top of that we currently installed a small workout reck.</p>
               </div>
             </div>
           </div>
