@@ -631,6 +631,10 @@ footer.end {
   background: var(--primary-text-color);
 }
 
+.descr .btn-header {
+  padding: 0.5rem 1rem;
+}
+
 .dl {
   background: white;
   border-radius: 20px 20px 0 0;
@@ -681,7 +685,7 @@ footer.end {
 .dl .descr {
   color: #999;
   margin-top: 10px;
-  padding: 20px 15px;
+  padding: 20px 15px 10px 15px;
   font-size: 1rem;
 }
 
