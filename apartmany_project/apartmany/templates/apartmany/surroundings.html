@@ -364,7 +364,7 @@
     <section id="footer">
       <div class="container">
         <div class="row text-center text-xs-center text-sm-left text-md-left pb-2">
-          <div class="col-sm-6 col-md-6 pt-3 pb-1">
+          <div class="col-md-6 pt-3 pb-1 d-none d-md-block">
             <div class="row text-center justify-content-start text-xs-center text-sm-left text-md-left footer-change">
               <div class="col-xs-12 footer-change">
                 <h5>Quick Links</h5>
@@ -373,29 +373,29 @@
             <div class="row text-center text-xs-center text-sm-left text-md-left">
               <div class="col-sm-12 col-md-6">
                 <ul class="list-unstyled quick-links">
-                  <li><a href="index.html"><i class="fa fa-angle-double-right"></i>Home</a></li>
-                  <li><a href="/apartment.html"><i class="fa fa-angle-double-right"></i>Apartments</a></li>
-                  <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Studios</a></li>
-                  <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Pricelist</a></li>
+                  <li><a href="{% url 'home' %}"><i class="fa fa-angle-double-right"></i>Home</a></li>
+                  <li><a href="{% url 'apartments' %}"><i class="fa fa-angle-double-right"></i>Apartments</a></li>
+                  <li><a href="{% url 'studios' %}"><i class="fa fa-angle-double-right"></i>Studios</a></li>
+                  <li><a href="{% url 'prices_and_faqs' %}"><i class="fa fa-angle-double-right"></i>Pricelist</a></li>
                 </ul>
               </div>
               <div class="col-sm-12 col-md-6">
                 <ul class="list-unstyled quick-links">
-                  <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Gallery</a></li>
-                  <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Guestbook</a></li>
-                  <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Surroundings</a></li>
-                  <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Order</a></li>
+                  <li><a href="{% url 'gallery' %}"><i class="fa fa-angle-double-right"></i>Gallery</a></li>
+                  <li><a href="{% url 'guestbook' %}"><i class="fa fa-angle-double-right"></i>Guestbook</a></li>
+                  <li><a href="{% url 'surroundings' %}"><i class="fa fa-angle-double-right"></i>Surroundings</a></li>
+                  <li><a href="{% url 'contact' %}"><i class="fa fa-angle-double-right"></i>Contact</a></li>
                 </ul>
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-md-6 pt-3 pb-1">
-            <div class="row text-center justify-content-end text-xs-center text-sm-left text-md-left footer-change">
+          <div class="col-12 col-md-6 pt-3 pb-1">
+            <div class="row justify-content-md-end justify-content-center text-center text-md-left footer-change">
               <div class="col-xs-12 footer-change">
                 <h5>Contact</h5>
               </div>
             </div>
-            <div class="row text-center text-xs-center text-sm-right text-md-right">
+            <div class="row text-center text-md-right">
               <div class="col-sm-12 col-md-12">
                 <p>Miroslav Vysny <br>
                 Demanovskaà Dolina 11 <br>
@@ -408,8 +408,8 @@
         <div class="row">
           <div class="col-xs-12 col-sm-12 col-md-12 mt-0 mt-sm-2">
             <ul class="list-unstyled list-inline social text-center">
-              <li class="list-inline-item"><a href="https://www.facebook.com/ApartmanyAStudiaMiroslav/"><i class="fab fa-facebook"></i></a></li>
-              <li class="list-inline-item"><a href="https://www.tripadvisor.com/Hotel_Review-g1009332-d6969584-Reviews-Apartmany_a_Studia_Miroslav-Demanovska_Dolina_Zilina_Region.html"><i class="fab fa-tripadvisor"></i></a></li>
+              <li class="list-inline-item"><a href="https:/www.facebook.com/ApartmanyAStudiaMiroslav/"><i class="fab fa-facebook"></i></a></li>
+              <li class="list-inline-item"><a href="https:/www.tripadvisor.com/Hotel_Review-g1009332-d6969584-Reviews-Apartmany_a_Studia_Miroslav-Demanovska_Dolina_Zilina_Region.html"><i class="fab fa-tripadvisor"></i></a></li>
               <li class="list-inline-item"><a href="javascript:void();"><i class="fab fa-instagram"></i></a></li>
               <li class="list-inline-item"><a href="javascript:void();" ><i class="fas fa-phone"></i></a></li>
               <li class="list-inline-item"><a href="javascript:void();" ><i class="fa fa-envelope"></i></a></li>
