@@ -2,6 +2,7 @@
 {% load mathfilters %}
 {% load crispy_forms_tags %}
 {% load widget_tweaks %}
+{% load i18n %}
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -53,10 +54,15 @@
           </div>
           <div class="col-12 col-sm-9 col-lg-5 pl-sm-0 pr-sm-0 languages text-right align-content-center">
             <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
-              <button type="button" class="btn btn-secondary"><img src="{% static 'apartmany/img/sk.png'%}" /> SK</button>
-              <button type="button" class="btn btn-secondary active"><img src="{% static 'apartmany/img/uk.png'%}" /> ENG</button>
-              <button type="button" class="btn btn-secondary"><img src="{% static 'apartmany/img/ger.png'%}" /> GER</button>
-              <button type="button" class="btn btn-secondary pr-0"><img src="{% static 'apartmany/img/pl.png'%}" /> PL</button>
+              <form action="{% url 'set_language' %}" method="post">
+                {% csrf_token %}
+                <input type="hidden" name="text" value="{{ redirect_to }}">
+                  {% get_available_languages as LANGUAGES %}
+                  {% get_language_info_list for LANGUAGES as languages %}
+                  {% for language in languages %}
+                    <button type="submit" name="language" value="{{ language.code }}" class="button btn btn-secondary {% if language.code == 'pl' %} pr-0 {% endif %}"><img src="{% static 'apartmany/img/'%}{{ language.code }}.png"/> {{ language.code }}</button>
+                  {% endfor %}
+              </form>
             </div>
           </div>
         </div>
@@ -117,7 +123,7 @@
         <div class="row h-100 align-content-center">
           <div class="col-12">
             <div class="header-text text-center justify-content-center">
-              <h1>GUESTBOOK</h1>
+              <h1>{% trans 'GUESTBOOK' %}</h1>
             </div>
           </div>
         </div>
