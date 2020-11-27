@@ -1,678 +1,455 @@
-{% load static %}
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <!-- BOOTSTRAP -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
-    <!-- FONTAWESOME -->
-    <script src="https://kit.fontawesome.com/2b498beeb7.js"></script>
-    <!-- JQUERY -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <!-- OWN CSS -->
-    <link rel="stylesheet" href="{% static 'apartmany/prices_and_faqs_style.css'%}" />
-    <title>Miroslav Apartmany & Studia</title>
-  </head>
+{% extends "base.html" %}
 
-  <body>
-    <!-- NAVBAR 1 -->
-    <div class="nav-language">
-      <div class="container nav-contain">
-        <div class="row align-items-center pl-0 pr-0 pl-lg-3 pr-lg-3 justify-content-between nav-row">
-          <div class="col-lg-5 contact text-start pl-0 pr-0 d-none d-lg-block">
-            <i class="fas fa-phone"></i>
-            <a href="#"><span> +421 903 263 457</span></a>
-            <span class="bar">|</span>
-            <i class="fas fa-envelope"></i>
-            <a href="#"><span> vysny.m@stonline.sk</span></a>
-          </div>
-          <div class="col-sm-3 col-lg-2 social text-start text-lg-center pl-0 pr-0 d-none d-sm-block">
-            <a
-              href="https:/www.tripadvisor.com/Hotel_Review-g1009332-d6969584-Reviews-Apartmany_a_Studia_Miroslav-Demanovska_Dolina_Zilina_Region.html"
-              ><i class="fab fa-tripadvisor fa-2x"></i
-            ></a>
-            <a href="https:/www.facebook.com/ApartmanyAStudiaMiroslav/"><i class="fab fa-facebook fa-2x"></i></a>
-          </div>
-          <div class="col-12 col-sm-9 col-lg-5 pl-sm-0 pr-sm-0 languages text-right align-content-center">
-            <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
-              <button type="button" class="btn btn-secondary"><img src="{% static 'apartmany/img/sk.png'%}" /> SK</button>
-              <button type="button" class="btn btn-secondary active"><img src="{% static 'apartmany/img/uk.png'%}" /> ENG</button>
-              <button type="button" class="btn btn-secondary"><img src="{% static 'apartmany/img/ger.png'%}" /> GER</button>
-              <button type="button" class="btn btn-secondary pr-0"><img src="{% static 'apartmany/img/pl.png'%}" /> PL</button>
+{% load static %}
+{% load i18n %}
+
+{% block style %}
+  <!-- OWN CSS -->
+  <link rel="stylesheet" href="{% static 'apartmany/prices_and_faqs_style.css'%}" />
+{% endblock %}
+
+{% block title %}Miroslav Apartmany & Studia{% endblock %}
+
+{% block content %}
+
+  <!-- START NINOCHKA -->
+  <section id="prices">
+    
+    <div class="pimg">
+      <div class="pimg-overlay">
+        <div class="row h-100 align-content-center">
+          <div class="col-12">
+            <div class="header-text text-center justify-content-center">
+              <h1>PRICES<br>&<br>FAQS</h1>
             </div>
           </div>
         </div>
       </div>
     </div>
 
-    <!-- NAVBAR 2 -->
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light">
-      <div class="container">
-        <a class="navbar-brand" href="{% url 'home' %}"><img src="{% static 'apartmany/img/logo1.png'%}" alt="Apartmany & Studia Miroslav"/></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="{% url 'home' %}">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link secondary-nav" href="{% url 'studios' %}">Studios</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link secondary-nav" href="{% url 'apartments' %}">Apartments</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link secondary-nav" href="{% url 'prices_and_faqs' %}">Prices/FAQs</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link secondary-nav" href="{% url 'gallery' %}">Gallery</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link secondary-nav" href="{% url 'guestbook' %}">Guestbook</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link secondary-nav" href="{% url 'surroundings' %}">Surroundings</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link secondary-nav" href="{% url 'contact' %}">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
-        <!-- START NINOCHKA -->
-        <section id="prices">
-          
-          <div class="pimg">
-            <div class="pimg-overlay">
-              <div class="row h-100 align-content-center">
-                <div class="col-12">
-                  <div class="header-text text-center justify-content-center">
-                    <h1>PRICES<br>&<br>FAQS</h1>
-                  </div>
-                </div>
-              </div>
-            </div>
+    <div class="container">
+      <div class="faq mt-5 mb-5">
+        <div class="row mb-3 align-items-center">
+          <div class="col-sm-3 header-line d-none d-sm-block">
+              <hr class="bar" />
           </div>
+          <div class="col-12 col-sm-6 header-line text-center">
+              <h2>Price Information</h2>
+          </div>
+          <div class="col-12 col-sm-3 header-line">
+            <hr class="bar" />
+          </div>
+        </div>
+        
+        <div class="row mb-1">
+          <div class="col-12">
+            <p style="text-align: justify">
+              Our prices per person per night are in the range of 18 to 25 Euros. The price depends on the period (season/off season) and the number of people in a studio or an apartment. We will be happy to send you the complete pricelist via email. A single adult in a studio or an apartment has to pay the equivalent to two adults. Additionally to accomodation costs, a local tax fee for adults and children older than 12 years of 1 Euro per person and night has to be charged.
+            </p>
+          </div>
+        </div>
 
-          <div class="container">
-            <div class="faq mt-5 mb-5">
-              <div class="row mb-3 align-items-center">
-                <div class="col-sm-3 header-line d-none d-sm-block">
-                    <hr class="bar" />
-                </div>
-                <div class="col-12 col-sm-6 header-line text-center">
-                    <h2>Price Information</h2>
-                </div>
-                <div class="col-12 col-sm-3 header-line">
-                  <hr class="bar" />
-                </div>
-              </div>
-              
-              <div class="row mb-1">
-                <div class="col-12">
-                <p style="text-align: justify">
-                  Our prices per person per night are in the range of 18 to 25 Euros. The price depends on the period (season/off season) and the number of people in a studio or an apartment. We will be happy to send you the complete pricelist via email. A single adult in a studio or an apartment has to pay the equivalent to two adults. Additionally to accomodation costs, a local tax fee for adults and children older than 12 years of 1 Euro per person and night has to be charged.
-                </p>
+        <div class="row mb-1">
+          <div class="col-12">
+            <div class="my-4 w-100 p-2 header">
+              <h4 class="m-0 text-center">Discounts</h4>
+            </div>
+            <ul class="list-group mb-3">
+              <li class="list-group-item"><strong>Children up to 12 years: </strong><br class="d-lg-none">50 % off full price (in studios only)* </li>
+              <li class="list-group-item"><strong>Children up to 12 years on a sofa-bed: </strong><br class="d-lg-none">60% off full price (in studios only)* </li>
+              <li class="list-group-item"><strong>Adult on a sofa-bed: </strong><br class="d-lg-none">20% off full price (in studios only) </li>
+            </ul>
 
-                <!-- <h4 class="mb-3 text-center">Discounts</h4>
-                <ul class="list-group mb-3">
-                  <div class="row">
-                    <div class="col-12">
-                      <ul class="list-group list-group-horizontal">
-                        <li class="list-group-item col-6"><strong>Children up to 12 years</strong></li>
-                        <li class="list-group-item col-6">50 % off full price (in studios only)*</li>
-                      </ul>
-                    </div>
-                    <div class="col-12">
-                      <ul class="list-group list-group-horizontal">
-                        <li class="list-group-item col-6"><strong>Children up to 12 years on a sofa-bed</strong></li>
-                        <li class="list-group-item col-6">60 % off full price (in studios only)*</li>
-                      </ul>
-                    </div>
-                    <div class="col-12">
-                      <ul class="list-group list-group-horizontal">
-                        <li class="list-group-item col-6"><strong>Adult on a sofa-bed</strong></li>
-                        <li class="list-group-item col-6">20% off full price (in studios only)</li>
-                      </ul>
-                    </div>
-                  </div>
-                </ul> -->
+            <p style="text-align: justify">
+              *  Discounts for children are only valid if there are 2 adults paying the full price in the same studio. Two children accommodated by themselves in 1 studio are paying full/adult prices. 
+            </p>
+          </div>
+        </div>
+        
+        
+        <section class="my-4 text-center dark-grey-text">
+          <div class="row">
 
-                </div>
-              </div>
-
-              <div class="row mb-1">
-                <div class="col-12">
-                  <div class="my-4 w-100 p-2 header">
-                    <h4 class="m-0 text-center">Discounts</h4>
-                  </div>
-                  <ul class="list-group mb-3">
-                    <li class="list-group-item"><strong>Children up to 12 years: </strong><br class="d-lg-none">50 % off full price (in studios only)* </li>
-                    <li class="list-group-item"><strong>Children up to 12 years on a sofa-bed: </strong><br class="d-lg-none">60% off full price (in studios only)* </li>
-                    <li class="list-group-item"><strong>Adult on a sofa-bed: </strong><br class="d-lg-none">20% off full price (in studios only) </li>
-                  </ul>
-
-                  <p style="text-align: justify">
-                    *  Discounts for children are only valid if there are 2 adults paying the full price in the same studio. Two children accommodated by themselves in 1 studio are paying full/adult prices. 
-                  </p>
-                </div>
-              </div>
-              
-              
-              <section class="my-4 text-center dark-grey-text">
-                <div class="row">
-
-                  <!-- Grid column -->
-                  <div class="col-lg-4 col-md-12 mb-4">
-                    <div class="card discount-card">
-                      <div class="card-body">
-                        <h4 class="mb-4 font-weight-bold">Restaurants</h4>
-                        <div class="d-flex justify-content-center">
-                          <div class="rounded-circle color-circle d-flex justify-content-center align-items-center">
-                            <i class="m-4 px-2 fas fa-4x fa-utensils indigo-text"></i>
-                          </div>
-                        </div>
-
-                        <h2 class="font-weight-bold my-4">10% - 15%</h2>
-                        <hr>
-                        <p class="grey-text">Enjoy discounts at classic slovakian and international restaurants and cafés in Liptovský Mikuláš, Ružomberok, Demänovská Dolina and the whole area.</p>
-
-                      </div>
+            <!-- Grid column -->
+            <div class="col-lg-4 col-md-12 mb-4">
+              <div class="card discount-card">
+                <div class="card-body">
+                  <h4 class="mb-4 font-weight-bold">Restaurants</h4>
+                  <div class="d-flex justify-content-center">
+                    <div class="rounded-circle color-circle d-flex justify-content-center align-items-center">
+                      <i class="m-4 px-2 fas fa-4x fa-utensils indigo-text"></i>
                     </div>
                   </div>
-                  <!-- Grid column -->
 
-                  <!-- Grid column -->
-                  <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="card discount-card">
-                      <div class="card-body text-white" style="background: var(--primary-text-color)">
-                        <h4 class="mb-4 font-weight-bold">Ski Passes</h4>
-                        <div class="d-flex justify-content-center">
-                          <div class="rounded-circle white-circle d-flex justify-content-center align-items-center">
-                            <i class="m-4 fas fa-4x fa-skiing"></i>
-                          </div>
-                        </div>
-
-                        <h2 class="font-weight-bold text-white my-4">~ 20%</h2>
-                        <hr>
-                        <p>Take advantage of our ski pass discounts and save 31€ (children), 39€ (juniors, seniors) or 48€ (adults) on a 6 day pass for the Jasná ski center, respectively.</p>
-
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Grid column -->
-
-                  <!-- Grid column -->
-                  <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="card discount-card">
-                      <div class="card-body">
-                        <h4 class="mb-4 font-weight-bold">Activities & Services</h4>
-                        <div class="d-flex justify-content-center">
-                          <div class="rounded-circle color-circle d-flex justify-content-center align-items-center">
-                            <i class="m-4 px-2 fas fa-4x fa-running indigo-text"></i>
-                          </div>
-                        </div>
-
-                        <h2 class="font-weight-bold my-4">10% - 20%</h2>
-                        <hr>
-                        <p class="grey-text">Go on adventures and save money by benefitting from our discounts for skiing schools, rafting, bowling, laser tag, tennis, climbing and many more.</p>
-
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Grid column -->
+                  <h2 class="font-weight-bold my-4">10% - 15%</h2>
+                  <hr>
+                  <p class="grey-text">Enjoy discounts at classic slovakian and international restaurants and cafés in Liptovský Mikuláš, Ružomberok, Demänovská Dolina and the whole area.</p>
 
                 </div>
-              </section>
-
-              <!-- <ul class="list-group">
-                <li class="list-group-item" style="background-color: rgba(0,0,0,.03)">
-                  <h5 class="mb-3">Discounts:</h5>
-                  <ul type="disc" id="bullet-list" class="mb-3">
-                    <li><strong>Children up to 12 years: </strong> 50 % off full price (in studios only)* </li>
-                    <li><strong>Children up to 12 years on a sofa-bed: </strong> 60% off full price (in studios only)* </li>
-                    <li><strong>Adult on a sofa-bed: </strong> 20% off full price (in studios only) </li>  
-                  </ul>
-                  <p>
-                  *  Discounts for children are only valid if there are 2 adults paying the full price in the same studio. Two children accommodated by themselves in 1 studio are paying full/adult prices. 
-                  </p>
-                </li>
-                <li class="list-group-item" style="background-color: rgba(0,0,0,.03)">
-                  <h5 class="mb-3">Additional charges:</h5>
-                  <ul type="disc" id="bullet-list">
-                    <li><strong>Single adult in a studio/apartment: </strong> price equivalent to 2 adults </li>
-                  </ul>
-                </li>
-                <li class="list-group-item" style="background-color: rgba(0,0,0,.03)">
-                  
-                  <h5 class="mb-3">Local taxes:</h5>
-                  <ul type="disc" id="bullet-list">
-                    <li><strong>Adults and children older than 12 years: </strong> 1 Euro/person/night </li>
-                  </ul>
-                </li>
-              </ul>
-            </div> -->
-
-            <div class="faq mt-5 mb-5">
-              <div class="row mb-3 align-items-center">
-                <div class="col-sm-3 header-line d-none d-sm-block">
-                    <hr class="bar" />
-                </div>
-                <div class="col-12 col-sm-6 header-line text-center">
-                    <h2>Frequently Asked Questions</h2>
-                </div>
-                <div class="col-12 col-sm-3 header-line">
-                  <hr class="bar" />
-                </div>
-              </div>
-                <div class="row mb-1">
-                  <div class="col-12">
-                  <p style="text-align:justify">
-                    Below, you can find important information regarding check-in and check-out, reservations, facilities, etc. Click on the headers to collapse the topics and then click on the questions to see the answers. If your question however remains unanswered, please do not hesitate to contact us via e-mail or call.
-                  </p>
-                  </div>
-                </div>
-                <div id="accordion">
-                  <div class="card">
-                    <div class="card-header" id="headingOne">
-                      
-                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                          <h5>Check-in & Check-out</h5>
-                        </button>
-                      
-                    </div>
-                
-                    <div id="collapseOne" class="collapse hidden" aria-labelledby="headingOne" data-parent="#accordion">
-                      <div class="card-body">
-                          <div id="accordionQ1">
-                            <div class="item">
-                              <div class="item-header" data-toggle="collapse" data-target="#collapseOneQ1" aria-expanded="true" aria-controls="collapseOneQ1">
-                              <h6 class="item-header-title">When can I check-in and check-out?</h6>
-                                <span aria-hidden="true"></span>
-                              <div id="collapseOneQ1" class="collapse hidden" aria-labelledby="headingOneQ1" data-parent="#accordionQ1">
-                                <p>You can check-in after 2pm on the day of your arrival. The heck-out time is at 10am the latest. </p>
-                              </div>
-                              </div>
-                            </div>
-                          </div>
-                          <hr>
-                          <div id="accordionQ2">
-                            <div class="item">
-                              <div class="item-header" data-toggle="collapse" data-target="#collapseOneQ2" aria-expanded="true" aria-controls="collapseOneQ2">
-                              <h6 class="item-header-title">Do you offer early/late check-in (after 8pm) ?</h6>
-                                <span aria-hidden="true"></span>
-                              <div id="collapseOneQ2" class="collapse hidden" aria-labelledby="headingOneQ2" data-parent="#accordionQ2">
-                                <p>We recommend you to come after 2 pm, however it might be possible that your room is available earlier. Please contact us beforehand if you need to check-in earlier than 2pm. On the other hand, if you think you will arrive to our place later than 8pm, it's not a problem, just please let us know.</p>
-                              </div>
-                              </div>
-                            </div>
-                          </div>
-                          <hr>
-                          <div id="accordionQ3">
-                            <div class="item">
-                              <div class="item-header" data-toggle="collapse" data-target="#collapseOneQ3" aria-expanded="true" aria-controls="collapseOneQ3">
-                              <h6 class="item-header-title">Do you offer late check-out ?</h6>
-                                <span aria-hidden="true"></span>
-                              <div id="collapseOneQ3" class="collapse hidden" aria-labelledby="headingOneQ3" data-parent="#accordionQ3">
-                                <p>Unfortuntaly, during the season we do not offer late check-outs. It might be available off-season, upon request. </p>
-                              </div>
-                              </div>
-                            </div>
-                          </div>
-                    </div>
-                  </div>
-                  </div>
-                  <div class="card">
-                    <div class="card-header" id="headingTwo">
-                      <h5 class="mb-0">
-                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                          <h5>Reservations</h5>
-                        </button>
-                    </div>
-                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                      <div class="card-body">
-                        <div id="accordionQ4">
-                          <div class="item">
-                            <div class="item-header" data-toggle="collapse" data-target="#collapseOneQ4" aria-expanded="true" aria-controls="collapseOneQ4">
-                            <h6 class="item-header-title">How can I make a reservation enquiry?</h6>
-                              <span aria-hidden="true"></span>
-                            <div id="collapseOneQ4" class="collapse hidden" aria-labelledby="headingOneQ4" data-parent="#accordionQ4">
-                              <p>We arrange all reservations through emails. If you have any questions, you can contact us telephonically or message us on facebook, however reservation must be done via email. Please send us an email to <strong>vysny.m@stonline.sk</strong> with number of people and the time period you are interested in and we will send you a price list and a list of available apartments/studios suitable for your needs. Alternatively, you can simply fill out this form. </p>
-                            </div>
-                            </div>
-                          </div>
-                        </div>
-                        <hr>
-                        <div id="accordionQ5">
-                          <div class="item">
-                            <div class="item-header" data-toggle="collapse" data-target="#collapseOneQ5" aria-expanded="true" aria-controls="collapseOneQ5">
-                            <h6 class="item-header-title">When is the reservation valid?</h6>
-                              <span aria-hidden="true"></span>
-                            <div id="collapseOneQ5" class="collapse hidden" aria-labelledby="headingOneQ5" data-parent="#accordionQ5">
-                              <p>Your reservation is confirmed once we received your deposit. The deposit is usually 50% of the price.</p>
-                            </div>
-                            </div>
-                          </div>
-                        </div>
-                        <hr>
-                        <div id="accordionQ6">
-                          <div class="item">
-                            <div class="item-header" data-toggle="collapse" data-target="#collapseOneQ6" aria-expanded="true" aria-controls="collapseOneQ6">
-                            <h6 class="item-header-title">How and when do I pay?</h6>
-                              <span aria-hidden="true"></span>
-                            <div id="collapseOneQ6" class="collapse hidden" aria-labelledby="headingOneQ6" data-parent="#accordionQ6">
-                              <p>We usually require a deposit to be transfered to our account, prior to your arrival. We kindly ask you to pay the rest on the day of your arrival. We only accept cash payments in the local currency (Euro). </p>
-                            </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="card mb-8">
-                    <div class="card-header" id="headingThree">
-                      <h5 class="mb-0">
-                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                          <h5>Cancellations</h5>
-                        </button>
-                    </div>
-                    <div id="collapseThree" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                      <div class="card-body">
-                        <div id="accordionQ7">
-                          <div class="item">
-                            <div class="item-header" data-toggle="collapse" data-target="#collapseOneQ7" aria-expanded="true" aria-controls="collapseOneQ7">
-                            <h6 class="item-header-title">What happens if need to cancel my reservation?</h6>
-                              <span aria-hidden="true"></span>
-                            <div id="collapseOneQ7" class="collapse hidden" aria-labelledby="headingOneQ7" data-parent="#accordionQ7">
-                              <p>If, for any reason, you need to cancel your vacation at our place and you already paid the deposit, we will be happy to move your vacation to any agreed future term. </p>
-                            </div>
-                            </div>
-                          </div>
-                        </div>
-                        <hr>
-                        <div id="accordionQ8">
-                          <div class="item">
-                            <div class="item-header" data-toggle="collapse" data-target="#collapseOneQ8" aria-expanded="true" aria-controls="collapseOneQ8">
-                            <h6 class="item-header-title">Can I get my deposit back when I cancel?</h6>
-                              <span aria-hidden="true"></span>
-                            <div id="collapseOneQ8" class="collapse hidden" aria-labelledby="headingOneQ8" data-parent="#accordionQ8">
-                              <p>In case that we are still able to rebook your room to other guests, we will be happy to return the deposit to you, minus any fees for bank transfers.</p>
-                            </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="card">
-                    <div class="card-header" id="headingFour">
-                      <h5 class="mb-0">
-                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                          <h5>Location & Car Parking</h5>
-                        </button>
-                    </div>
-                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
-                      <div class="card-body">
-                        <div id="accordionQ9">
-                          <div class="item">
-                            <div class="item-header" data-toggle="collapse" data-target="#collapseOneQ9" aria-expanded="true" aria-controls="collapseOneQ9">
-                            <h6 class="item-header-title">How do I find you if I am coming by car?</h6>
-                              <span aria-hidden="true"></span>
-                            <div id="collapseOneQ9" class="collapse hidden" aria-labelledby="headingOneQ9" data-parent="#accordionQ9">
-                              <p>You can find us very easily. When you get down from the highway, you follow the road signs to JASNA. Then you just follow the road all the way to Demänovská Dolina. We are located at the very beginning of the valley, on the right side of the road, just next to a big hotel called Tri Studničky. </p>
-                            </div>
-                            </div>
-                          </div>
-                        </div>
-                        <hr>
-                        <div id="accordionQ10">
-                          <div class="item">
-                            <div class="item-header" data-toggle="collapse" data-target="#collapseOneQ10" aria-expanded="true" aria-controls="collapseOneQ10">
-                            <h6 class="item-header-title">How do I reach you if I am coming from Liptovský Mikuláš Main Station?</h6>
-                              <span aria-hidden="true"></span>
-                            <div id="collapseOneQ10" class="collapse hidden" aria-labelledby="headingOneQ10" data-parent="#accordionQ10">
-                              <p>From the Liptovský Mikuláš station (train and bus station are on the same location), you can simply take a short bus drive to the stop <strong>Demänovská Dolina Autocamping</strong>. From the bus stop, follow the road for around 500m (5 minutes) and you will see us on the right side of the road, just next to the big hotel called Tri Studničky.</p>
-                            </div>
-                            </div>
-                          </div>
-                        </div>
-                        <hr>
-                        <div id="accordionQ11">
-                          <div class="item">
-                            <div class="item-header" data-toggle="collapse" data-target="#collapseOneQ11" aria-expanded="true" aria-controls="collapseOneQ11">
-                            <h6 class="item-header-title">Do you offer car parking?</h6>
-                              <span aria-hidden="true"></span>
-                            <div id="collapseOneQ11" class="collapse hidden" aria-labelledby="headingOneQ11" data-parent="#accordionQ11">
-                              <p>Absolutely. You will have no troubles to fit your car on our spacious private parking lot. The parking lot is locked down during the night so you can sleep peacefully!</p>
-                            </div>
-                            </div>
-                          </div>
-                        </div>
-                        <hr>
-                        <div id="accordionQ12">
-                          <div class="item">
-                            <div class="item-header" data-toggle="collapse" data-target="#collapseOneQ12" aria-expanded="true" aria-controls="collapseOneQ12">
-                            <h6 class="item-header-title">How far is the ski-center from the apartments and how can I get there?</h6>
-                              <span aria-hidden="true"></span>
-                            <div id="collapseOneQ12" class="collapse hidden" aria-labelledby="headingOneQ12" data-parent="#accordionQ12">
-                              <p>We have a prime location above the parking P5 Pavcina Lehota where, in busy periods, visitors of Jasna ski center are asked to park their car and use the shuttle bus for the rest of their trip. You, as our guest can use your own car to get all to way to the ski lifts. The ride takes only around 8 minutes. You can also use the free shuttle bus that stops pretty much on our doorstep. </p>
-                            </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="card">
-                    <div class="card-header" id="headingFive">
-                      <h5 class="mb-0">
-                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                          <h5>Facilities & Amenities</h5>
-                        </button>
-                    </div>
-                    <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
-                      <div class="card-body">
-                        <div id="accordionQ13">
-                          <div class="item">
-                            <div class="item-header" data-toggle="collapse" data-target="#collapseOneQ13" aria-expanded="true" aria-controls="collapseOneQ13">
-                            <h6 class="item-header-title">Can a baby bed be placed in the room?</h6>
-                              <span aria-hidden="true"></span>
-                            <div id="collapseOneQ13" class="collapse hidden" aria-labelledby="headingOneQ13" data-parent="#accordionQ13">
-                              <p>Yes, we have a baby cot, baby bathtub and baby chair available for you, free of charge. Please let us know prior to your arrival that you will need these. </p>
-                            </div>
-                            </div>
-                          </div>
-                        </div>
-                        <hr>
-                        <div id="accordionQ14">
-                          <div class="item">
-                            <div class="item-header" data-toggle="collapse" data-target="#collapseOneQ14" aria-expanded="true" aria-controls="collapseOneQ14">
-                            <h6 class="item-header-title">How are the apartments/studios equipped?</h6>
-                              <span aria-hidden="true"></span>
-                            <div id="collapseOneQ14" class="collapse hidden" aria-labelledby="headingOneQ14" data-parent="#accordionQ14">
-                              <p>You can check the details of each apartment and studio in the section Apartments, Studios. Generally however, every studio has a fully equiped kitchen with a stove, microwave, fridge and all necessary utensils. There are towels and hairdryers in the bathroom and a TV and a radio in the bedroom. </p>
-                            </div>
-                            </div>
-                          </div>
-                        </div>
-                        <hr>
-                        <div id="accordionQ15">
-                          <div class="item">
-                            <div class="item-header" data-toggle="collapse" data-target="#collapseOneQ15" aria-expanded="true" aria-controls="collapseOneQ15">
-                            <h6 class="item-header-title">Are there any toiletries in the bathroom?</h6>
-                              <span aria-hidden="true"></span>
-                            <div id="collapseOneQ15" class="collapse hidden" aria-labelledby="headingOneQ15" data-parent="#accordionQ15">
-                              <p>Unfortuntaly, we do not provide toiletries :(</p>
-                            </div>
-                            </div>
-                          </div>
-                        </div>
-                        <hr>
-                        <div id="accordionQ16">
-                          <div class="item">
-                            <div class="item-header" data-toggle="collapse" data-target="#collapseOneQ16" aria-expanded="true" aria-controls="collapseOneQ16">
-                            <h6 class="item-header-title">Are the rooms heated/air-conditioned?</h6>
-                              <span aria-hidden="true"></span>
-                            <div id="collapseOneQ16" class="collapse hidden" aria-labelledby="headingOneQ16" data-parent="#accordionQ16">
-                              <p>During winter, the apartments are well heated so you can rest comfortably after skiing, in a warm cozy place. We do not have air-conditioning, however it is rarely too hot during summer since we are surrounded by trees. </p>
-                            </div>
-                            </div>
-                          </div>
-                        </div>
-                        <hr>
-                        <div id="accordionQ17">
-                          <div class="item">
-                            <div class="item-header" data-toggle="collapse" data-target="#collapseOneQ17" aria-expanded="true" aria-controls="collapseOneQ17">
-                            <h6 class="item-header-title">Where can we store our skies and ski boots?</h6>
-                              <span aria-hidden="true"></span>
-                            <div id="collapseOneQ17" class="collapse hidden" aria-labelledby="headingOneQ17" data-parent="#accordionQ17">
-                              <p>We have a dedicated ski room with enough space for all our clients. We even have ski boot dryers so you can rest assured your boots will be dry and warm the next morning when you are about to hit the slopes! </p>
-                            </div>
-                            </div>
-                          </div>
-                        </div>
-                        <hr>
-                        <div id="accordionQ18">
-                          <div class="item">
-                            <div class="item-header" data-toggle="collapse" data-target="#collapseOneQ18" aria-expanded="true" aria-controls="collapseOneQ18">
-                            <h6 class="item-header-title">Can we rent bikes? </h6>
-                              <span aria-hidden="true"></span>
-                            <div id="collapseOneQ18" class="collapse hidden" aria-labelledby="headingOneQ18" data-parent="#accordionQ18">
-                              <p> Yes! We have 8 mountain bikes (including small bikes for children) available for our guests free of charge.</p>
-                            </div>
-                            </div>
-                          </div>
-                        </div>
-                        <hr>
-                        <div id="accordionQ19">
-                          <div class="item">
-                            <div class="item-header" data-toggle="collapse" data-target="#collapseOneQ19" aria-expanded="true" aria-controls="collapseOneQ19">
-                            <h6 class="item-header-title">Do we have to pay extra to use the sauna? </h6>
-                              <span aria-hidden="true"></span>
-                            <div id="collapseOneQ19" class="collapse hidden" aria-labelledby="headingOneQ19" data-parent="#accordionQ19">
-                              <p> Use of our sauna is charged with a small fee of 5 euros per person. But you know what is cool? Cooling down is taken care of the river flowing right through our property!</p>
-                            </div>
-                            </div>
-                          </div>
-                        </div>
-                        
-                      </div>
-                    </div>
-                  </div>  
-                  <div id="emptyrow" class="row">
-
-                  </div>
-            
-              
-              
               </div>
             </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card discount-card">
+                <div class="card-body text-white" style="background: var(--primary-text-color)">
+                  <h4 class="mb-4 font-weight-bold">Ski Passes</h4>
+                  <div class="d-flex justify-content-center">
+                    <div class="rounded-circle white-circle d-flex justify-content-center align-items-center">
+                      <i class="m-4 fas fa-4x fa-skiing"></i>
+                    </div>
+                  </div>
+
+                  <h2 class="font-weight-bold text-white my-4">~ 20%</h2>
+                  <hr>
+                  <p>Take advantage of our ski pass discounts and save 31€ (children), 39€ (juniors, seniors) or 48€ (adults) on a 6 day pass for the Jasná ski center, respectively.</p>
+
+                </div>
+              </div>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card discount-card">
+                <div class="card-body">
+                  <h4 class="mb-4 font-weight-bold">Activities & Services</h4>
+                  <div class="d-flex justify-content-center">
+                    <div class="rounded-circle color-circle d-flex justify-content-center align-items-center">
+                      <i class="m-4 px-2 fas fa-4x fa-running indigo-text"></i>
+                    </div>
+                  </div>
+
+                  <h2 class="font-weight-bold my-4">10% - 20%</h2>
+                  <hr>
+                  <p class="grey-text">Go on adventures and save money by benefitting from our discounts for skiing schools, rafting, bowling, laser tag, tennis, climbing and many more.</p>
+
+                </div>
+              </div>
+            </div>
+            <!-- Grid column -->
+
           </div>
         </section>
-    
-        <!-- END NINOCHKA -->
+
+      <div class="faq mt-5 mb-5">
+        <div class="row mb-3 align-items-center">
+          <div class="col-sm-3 header-line d-none d-sm-block">
+              <hr class="bar" />
+          </div>
+          <div class="col-12 col-sm-6 header-line text-center">
+              <h2>Frequently Asked Questions</h2>
+          </div>
+          <div class="col-12 col-sm-3 header-line">
+            <hr class="bar" />
+          </div>
+        </div>
+          <div class="row mb-1">
+            <div class="col-12">
+            <p style="text-align:justify">
+              Below, you can find important information regarding check-in and check-out, reservations, facilities, etc. Click on the headers to collapse the topics and then click on the questions to see the answers. If your question however remains unanswered, please do not hesitate to contact us via e-mail or call.
+            </p>
+            </div>
+          </div>
+          <div id="accordion">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                
+                  <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <h5>Check-in & Check-out</h5>
+                  </button>
+                
+              </div>
+          
+              <div id="collapseOne" class="collapse hidden" aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="card-body">
+                    <div id="accordionQ1">
+                      <div class="item">
+                        <div class="item-header" data-toggle="collapse" data-target="#collapseOneQ1" aria-expanded="true" aria-controls="collapseOneQ1">
+                        <h6 class="item-header-title">When can I check-in and check-out?</h6>
+                          <span aria-hidden="true"></span>
+                        <div id="collapseOneQ1" class="collapse hidden" aria-labelledby="headingOneQ1" data-parent="#accordionQ1">
+                          <p>You can check-in after 2pm on the day of your arrival. The heck-out time is at 10am the latest. </p>
+                        </div>
+                        </div>
+                      </div>
+                    </div>
+                    <hr>
+                    <div id="accordionQ2">
+                      <div class="item">
+                        <div class="item-header" data-toggle="collapse" data-target="#collapseOneQ2" aria-expanded="true" aria-controls="collapseOneQ2">
+                        <h6 class="item-header-title">Do you offer early/late check-in (after 8pm) ?</h6>
+                          <span aria-hidden="true"></span>
+                        <div id="collapseOneQ2" class="collapse hidden" aria-labelledby="headingOneQ2" data-parent="#accordionQ2">
+                          <p>We recommend you to come after 2 pm, however it might be possible that your room is available earlier. Please contact us beforehand if you need to check-in earlier than 2pm. On the other hand, if you think you will arrive to our place later than 8pm, it's not a problem, just please let us know.</p>
+                        </div>
+                        </div>
+                      </div>
+                    </div>
+                    <hr>
+                    <div id="accordionQ3">
+                      <div class="item">
+                        <div class="item-header" data-toggle="collapse" data-target="#collapseOneQ3" aria-expanded="true" aria-controls="collapseOneQ3">
+                        <h6 class="item-header-title">Do you offer late check-out ?</h6>
+                          <span aria-hidden="true"></span>
+                        <div id="collapseOneQ3" class="collapse hidden" aria-labelledby="headingOneQ3" data-parent="#accordionQ3">
+                          <p>Unfortuntaly, during the season we do not offer late check-outs. It might be available off-season, upon request. </p>
+                        </div>
+                        </div>
+                      </div>
+                    </div>
+              </div>
+            </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <h5>Reservations</h5>
+                  </button>
+              </div>
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                <div class="card-body">
+                  <div id="accordionQ4">
+                    <div class="item">
+                      <div class="item-header" data-toggle="collapse" data-target="#collapseOneQ4" aria-expanded="true" aria-controls="collapseOneQ4">
+                      <h6 class="item-header-title">How can I make a reservation enquiry?</h6>
+                        <span aria-hidden="true"></span>
+                      <div id="collapseOneQ4" class="collapse hidden" aria-labelledby="headingOneQ4" data-parent="#accordionQ4">
+                        <p>We arrange all reservations through emails. If you have any questions, you can contact us telephonically or message us on facebook, however reservation must be done via email. Please send us an email to <strong>vysny.m@stonline.sk</strong> with number of people and the time period you are interested in and we will send you a price list and a list of available apartments/studios suitable for your needs. Alternatively, you can simply fill out this form. </p>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                  <hr>
+                  <div id="accordionQ5">
+                    <div class="item">
+                      <div class="item-header" data-toggle="collapse" data-target="#collapseOneQ5" aria-expanded="true" aria-controls="collapseOneQ5">
+                      <h6 class="item-header-title">When is the reservation valid?</h6>
+                        <span aria-hidden="true"></span>
+                      <div id="collapseOneQ5" class="collapse hidden" aria-labelledby="headingOneQ5" data-parent="#accordionQ5">
+                        <p>Your reservation is confirmed once we received your deposit. The deposit is usually 50% of the price.</p>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                  <hr>
+                  <div id="accordionQ6">
+                    <div class="item">
+                      <div class="item-header" data-toggle="collapse" data-target="#collapseOneQ6" aria-expanded="true" aria-controls="collapseOneQ6">
+                      <h6 class="item-header-title">How and when do I pay?</h6>
+                        <span aria-hidden="true"></span>
+                      <div id="collapseOneQ6" class="collapse hidden" aria-labelledby="headingOneQ6" data-parent="#accordionQ6">
+                        <p>We usually require a deposit to be transfered to our account, prior to your arrival. We kindly ask you to pay the rest on the day of your arrival. We only accept cash payments in the local currency (Euro). </p>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-8">
+              <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <h5>Cancellations</h5>
+                  </button>
+              </div>
+              <div id="collapseThree" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                <div class="card-body">
+                  <div id="accordionQ7">
+                    <div class="item">
+                      <div class="item-header" data-toggle="collapse" data-target="#collapseOneQ7" aria-expanded="true" aria-controls="collapseOneQ7">
+                      <h6 class="item-header-title">What happens if need to cancel my reservation?</h6>
+                        <span aria-hidden="true"></span>
+                      <div id="collapseOneQ7" class="collapse hidden" aria-labelledby="headingOneQ7" data-parent="#accordionQ7">
+                        <p>If, for any reason, you need to cancel your vacation at our place and you already paid the deposit, we will be happy to move your vacation to any agreed future term. </p>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                  <hr>
+                  <div id="accordionQ8">
+                    <div class="item">
+                      <div class="item-header" data-toggle="collapse" data-target="#collapseOneQ8" aria-expanded="true" aria-controls="collapseOneQ8">
+                      <h6 class="item-header-title">Can I get my deposit back when I cancel?</h6>
+                        <span aria-hidden="true"></span>
+                      <div id="collapseOneQ8" class="collapse hidden" aria-labelledby="headingOneQ8" data-parent="#accordionQ8">
+                        <p>In case that we are still able to rebook your room to other guests, we will be happy to return the deposit to you, minus any fees for bank transfers.</p>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingFour">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    <h5>Location & Car Parking</h5>
+                  </button>
+              </div>
+              <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                <div class="card-body">
+                  <div id="accordionQ9">
+                    <div class="item">
+                      <div class="item-header" data-toggle="collapse" data-target="#collapseOneQ9" aria-expanded="true" aria-controls="collapseOneQ9">
+                      <h6 class="item-header-title">How do I find you if I am coming by car?</h6>
+                        <span aria-hidden="true"></span>
+                      <div id="collapseOneQ9" class="collapse hidden" aria-labelledby="headingOneQ9" data-parent="#accordionQ9">
+                        <p>You can find us very easily. When you get down from the highway, you follow the road signs to JASNA. Then you just follow the road all the way to Demänovská Dolina. We are located at the very beginning of the valley, on the right side of the road, just next to a big hotel called Tri Studničky. </p>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                  <hr>
+                  <div id="accordionQ10">
+                    <div class="item">
+                      <div class="item-header" data-toggle="collapse" data-target="#collapseOneQ10" aria-expanded="true" aria-controls="collapseOneQ10">
+                      <h6 class="item-header-title">How do I reach you if I am coming from Liptovský Mikuláš Main Station?</h6>
+                        <span aria-hidden="true"></span>
+                      <div id="collapseOneQ10" class="collapse hidden" aria-labelledby="headingOneQ10" data-parent="#accordionQ10">
+                        <p>From the Liptovský Mikuláš station (train and bus station are on the same location), you can simply take a short bus drive to the stop <strong>Demänovská Dolina Autocamping</strong>. From the bus stop, follow the road for around 500m (5 minutes) and you will see us on the right side of the road, just next to the big hotel called Tri Studničky.</p>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                  <hr>
+                  <div id="accordionQ11">
+                    <div class="item">
+                      <div class="item-header" data-toggle="collapse" data-target="#collapseOneQ11" aria-expanded="true" aria-controls="collapseOneQ11">
+                      <h6 class="item-header-title">Do you offer car parking?</h6>
+                        <span aria-hidden="true"></span>
+                      <div id="collapseOneQ11" class="collapse hidden" aria-labelledby="headingOneQ11" data-parent="#accordionQ11">
+                        <p>Absolutely. You will have no troubles to fit your car on our spacious private parking lot. The parking lot is locked down during the night so you can sleep peacefully!</p>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                  <hr>
+                  <div id="accordionQ12">
+                    <div class="item">
+                      <div class="item-header" data-toggle="collapse" data-target="#collapseOneQ12" aria-expanded="true" aria-controls="collapseOneQ12">
+                      <h6 class="item-header-title">How far is the ski-center from the apartments and how can I get there?</h6>
+                        <span aria-hidden="true"></span>
+                      <div id="collapseOneQ12" class="collapse hidden" aria-labelledby="headingOneQ12" data-parent="#accordionQ12">
+                        <p>We have a prime location above the parking P5 Pavcina Lehota where, in busy periods, visitors of Jasna ski center are asked to park their car and use the shuttle bus for the rest of their trip. You, as our guest can use your own car to get all to way to the ski lifts. The ride takes only around 8 minutes. You can also use the free shuttle bus that stops pretty much on our doorstep. </p>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingFive">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                    <h5>Facilities & Amenities</h5>
+                  </button>
+              </div>
+              <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                <div class="card-body">
+                  <div id="accordionQ13">
+                    <div class="item">
+                      <div class="item-header" data-toggle="collapse" data-target="#collapseOneQ13" aria-expanded="true" aria-controls="collapseOneQ13">
+                      <h6 class="item-header-title">Can a baby bed be placed in the room?</h6>
+                        <span aria-hidden="true"></span>
+                      <div id="collapseOneQ13" class="collapse hidden" aria-labelledby="headingOneQ13" data-parent="#accordionQ13">
+                        <p>Yes, we have a baby cot, baby bathtub and baby chair available for you, free of charge. Please let us know prior to your arrival that you will need these. </p>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                  <hr>
+                  <div id="accordionQ14">
+                    <div class="item">
+                      <div class="item-header" data-toggle="collapse" data-target="#collapseOneQ14" aria-expanded="true" aria-controls="collapseOneQ14">
+                      <h6 class="item-header-title">How are the apartments/studios equipped?</h6>
+                        <span aria-hidden="true"></span>
+                      <div id="collapseOneQ14" class="collapse hidden" aria-labelledby="headingOneQ14" data-parent="#accordionQ14">
+                        <p>You can check the details of each apartment and studio in the section Apartments, Studios. Generally however, every studio has a fully equiped kitchen with a stove, microwave, fridge and all necessary utensils. There are towels and hairdryers in the bathroom and a TV and a radio in the bedroom. </p>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                  <hr>
+                  <div id="accordionQ15">
+                    <div class="item">
+                      <div class="item-header" data-toggle="collapse" data-target="#collapseOneQ15" aria-expanded="true" aria-controls="collapseOneQ15">
+                      <h6 class="item-header-title">Are there any toiletries in the bathroom?</h6>
+                        <span aria-hidden="true"></span>
+                      <div id="collapseOneQ15" class="collapse hidden" aria-labelledby="headingOneQ15" data-parent="#accordionQ15">
+                        <p>Unfortuntaly, we do not provide toiletries.</p>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                  <hr>
+                  <div id="accordionQ16">
+                    <div class="item">
+                      <div class="item-header" data-toggle="collapse" data-target="#collapseOneQ16" aria-expanded="true" aria-controls="collapseOneQ16">
+                      <h6 class="item-header-title">Are the rooms heated/air-conditioned?</h6>
+                        <span aria-hidden="true"></span>
+                      <div id="collapseOneQ16" class="collapse hidden" aria-labelledby="headingOneQ16" data-parent="#accordionQ16">
+                        <p>During winter, the apartments are well heated so you can rest comfortably after skiing, in a warm cozy place. We do not have air-conditioning, however it is rarely too hot during summer since we are surrounded by trees. </p>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                  <hr>
+                  <div id="accordionQ17">
+                    <div class="item">
+                      <div class="item-header" data-toggle="collapse" data-target="#collapseOneQ17" aria-expanded="true" aria-controls="collapseOneQ17">
+                      <h6 class="item-header-title">Where can we store our skies and ski boots?</h6>
+                        <span aria-hidden="true"></span>
+                      <div id="collapseOneQ17" class="collapse hidden" aria-labelledby="headingOneQ17" data-parent="#accordionQ17">
+                        <p>We have a dedicated ski room with enough space for all our clients. We even have ski boot dryers so you can rest assured your boots will be dry and warm the next morning when you are about to hit the slopes! </p>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                  <hr>
+                  <div id="accordionQ18">
+                    <div class="item">
+                      <div class="item-header" data-toggle="collapse" data-target="#collapseOneQ18" aria-expanded="true" aria-controls="collapseOneQ18">
+                      <h6 class="item-header-title">Can we rent bikes? </h6>
+                        <span aria-hidden="true"></span>
+                      <div id="collapseOneQ18" class="collapse hidden" aria-labelledby="headingOneQ18" data-parent="#accordionQ18">
+                        <p> Yes! We have 8 mountain bikes (including small bikes for children) available for our guests free of charge.</p>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                  <hr>
+                  <div id="accordionQ19">
+                    <div class="item">
+                      <div class="item-header" data-toggle="collapse" data-target="#collapseOneQ19" aria-expanded="true" aria-controls="collapseOneQ19">
+                      <h6 class="item-header-title">Do we have to pay extra to use the sauna? </h6>
+                        <span aria-hidden="true"></span>
+                      <div id="collapseOneQ19" class="collapse hidden" aria-labelledby="headingOneQ19" data-parent="#accordionQ19">
+                        <p> Use of our sauna is charged with a small fee of 5 euros per person. But you know what is cool? Cooling down is taken care of the river flowing right through our property!</p>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>  
+            <div id="emptyrow" class="row">
+
+            </div>
+      
         
- 
-
-    <!-- MAIN FOOTER -->
-    <section id="footer">
-      <div class="container">
-        <div class="row text-center text-xs-center text-sm-left text-md-left pb-2">
-          <div class="col-md-6 pt-3 pb-1 d-none d-md-block">
-            <div class="row text-center justify-content-start text-xs-center text-sm-left text-md-left footer-change">
-              <div class="col-xs-12 footer-change">
-                <h5>Quick Links</h5>
-              </div>
-            </div>
-            <div class="row text-center text-xs-center text-sm-left text-md-left">
-              <div class="col-sm-12 col-md-6">
-                <ul class="list-unstyled quick-links">
-                  <li><a href="{% url 'home' %}"><i class="fa fa-angle-double-right"></i>Home</a></li>
-                  <li><a href="{% url 'apartments' %}"><i class="fa fa-angle-double-right"></i>Apartments</a></li>
-                  <li><a href="{% url 'studios' %}"><i class="fa fa-angle-double-right"></i>Studios</a></li>
-                  <li><a href="{% url 'prices_and_faqs' %}"><i class="fa fa-angle-double-right"></i>Pricelist</a></li>
-                </ul>
-              </div>
-              <div class="col-sm-12 col-md-6">
-                <ul class="list-unstyled quick-links">
-                  <li><a href="{% url 'gallery' %}"><i class="fa fa-angle-double-right"></i>Gallery</a></li>
-                  <li><a href="{% url 'guestbook' %}"><i class="fa fa-angle-double-right"></i>Guestbook</a></li>
-                  <li><a href="{% url 'surroundings' %}"><i class="fa fa-angle-double-right"></i>Surroundings</a></li>
-                  <li><a href="{% url 'contact' %}"><i class="fa fa-angle-double-right"></i>Contact</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-6 pt-3 pb-1">
-            <div class="row justify-content-md-end justify-content-center text-center text-md-left footer-change">
-              <div class="col-xs-12 footer-change">
-                <h5>Contact</h5>
-              </div>
-            </div>
-            <div class="row text-center text-md-right">
-              <div class="col-sm-12 col-md-12">
-                <p>Miroslav Vysny <br>
-                Demanovskaà Dolina 11 <br>
-                031 01 Liptovsky Mikulas <br>
-                SLOVENSKO</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-xs-12 col-sm-12 col-md-12 mt-0 mt-sm-2">
-            <ul class="list-unstyled list-inline social text-center">
-              <li class="list-inline-item"><a href="https:/www.facebook.com/ApartmanyAStudiaMiroslav/"><i class="fab fa-facebook"></i></a></li>
-              <li class="list-inline-item"><a href="https:/www.tripadvisor.com/Hotel_Review-g1009332-d6969584-Reviews-Apartmany_a_Studia_Miroslav-Demanovska_Dolina_Zilina_Region.html"><i class="fab fa-tripadvisor"></i></a></li>
-              <li class="list-inline-item"><a href="javascript:void();"><i class="fab fa-instagram"></i></a></li>
-              <li class="list-inline-item"><a href="javascript:void();" ><i class="fas fa-phone"></i></a></li>
-              <li class="list-inline-item"><a href="javascript:void();" ><i class="fa fa-envelope"></i></a></li>
-            </ul>
-          </div>
-          </hr>
-        </div>	
-      </div>
-    </section>
-
-    <!-- END FOOTER -->
-    <footer class="end">
-      <div class="row text-center pt-2 pb-2">
-        <div class="col-12">
-          <p class="mb-0">Copyright &copy; 2019 by Miroslav Vysny</p>
+        
         </div>
       </div>
-    </footer>
+    </div>
+  </section>
 
-    <!-- BOOTSTRAP SCRIPTS -->
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"
-    ></script>
-    <script src="/js/main.js"></script>
-  </body>
-</html>
+  <!-- END NINOCHKA -->
+  
+{% endblock %}
