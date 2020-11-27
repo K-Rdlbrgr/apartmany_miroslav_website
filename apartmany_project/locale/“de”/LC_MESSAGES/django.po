@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-27 16:41+0100\n"
+"POT-Creation-Date: 2020-11-27 17:29+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,6 +16,83 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#: apartmany/templates/apartmany/contact.html:91
+msgid "CONTACT<br>&<br>RESERVATION"
+msgstr ""
+
+#: apartmany/templates/apartmany/contact.html:101
+msgid ""
+"Please feel free to send us any question or a reservation requests, using "
+"the forms provided below. In case you would like to reserve an apartment or "
+"studio, please provide us with your desired arrival and return dates, your "
+"preferred apartment or studio and the number of people. Be aware that in our "
+"high seasons between XX/XX/XX and XX/XX/XX, bookings can only be arranged "
+"for a whole week, starting each Saturday. Your reservation request does not "
+"represent a binding offer and we will get in contact with you through your "
+"provided email as soon as possible to arrange the booking."
+msgstr ""
+
+#: apartmany/templates/apartmany/contact.html:116
+msgid "Contact & Questions"
+msgstr ""
+
+#: apartmany/templates/apartmany/contact.html:119
+msgid "Reservation Request"
+msgstr ""
+
+#: apartmany/templates/apartmany/contact.html:126
+msgid "Name"
+msgstr ""
+
+#: apartmany/templates/apartmany/contact.html:127
+#: apartmany/templates/apartmany/contact.html:129
+msgid "Email"
+msgstr ""
+
+#: apartmany/templates/apartmany/contact.html:128
+msgid "Message"
+msgstr ""
+
+#: apartmany/templates/apartmany/contact.html:130
+msgid "Please Select"
+msgstr ""
+
+#: apartmany/templates/apartmany/contact.html:146
+msgid "Subject"
+msgstr ""
+
+#: apartmany/templates/apartmany/contact.html:155
+msgid "Send"
+msgstr ""
+
+#: apartmany/templates/apartmany/contact.html:179
+msgid "Accomodation Type"
+msgstr ""
+
+#: apartmany/templates/apartmany/contact.html:182
+msgid "Apartment"
+msgstr ""
+
+#: apartmany/templates/apartmany/contact.html:183
+msgid "Studio"
+msgstr ""
+
+#: apartmany/templates/apartmany/contact.html:187
+msgid "Accomodation Detail"
+msgstr ""
+
+#: apartmany/templates/apartmany/contact.html:199
+msgid "To"
+msgstr ""
+
+#: apartmany/templates/apartmany/contact.html:205
+msgid "Number of Guests"
+msgstr ""
+
+#: apartmany/templates/apartmany/contact.html:225
+msgid "Send Reservation Request"
+msgstr ""
 
 #: apartmany/templates/apartmany/guestbook.html:38
 msgid "GUESTBOOK"

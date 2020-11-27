@@ -88,7 +88,7 @@
       <div class="row h-100 align-content-center">
         <div class="col-12">
           <div class="header-text text-center justify-content-center">
-            <h1>CONTACT<br>&<br>RESERVATION</h1>
+            <h1>{% blocktrans %}CONTACT<br>&<br>RESERVATION{% endblocktrans %}</h1>
           </div>
         </div>
       </div>
@@ -98,7 +98,7 @@
   <div class="container">
     <div class="inner-container pt-5 pb-5">
       <div class="contact-text text-justify mb-5">
-        <p>Please feel free to send us any question or a reservation requests, using the forms provided below. In case you would like to reserve an apartment or studio, please provide us with your desired arrival and return dates, your preferred apartment or studio and the number of people. Be aware that in our high seasons between XX/XX/XX and XX/XX/XX, bookings can only be arranged for a whole week, starting each Saturday. Your reservation request does not represent a binding offer and we will get in contact with you through your provided email as soon as possible to arrange the booking.</p>
+        <p>{% blocktrans %}Please feel free to send us any question or a reservation requests, using the forms provided below. In case you would like to reserve an apartment or studio, please provide us with your desired arrival and return dates, your preferred apartment or studio and the number of people. Be aware that in our high seasons between XX/XX/XX and XX/XX/XX, bookings can only be arranged for a whole week, starting each Saturday. Your reservation request does not represent a binding offer and we will get in contact with you through your provided email as soon as possible to arrange the booking.{% endblocktrans %}</p>
       </div>
 
       <!-- CARDS -->
@@ -113,16 +113,21 @@
                   <div class="col-12">
                     <div class="row" style="margin: 0 -5px 0 -5px;">
                       <div class="col-6 text-center" style="padding: 0 5px 0 5px;">
-                        <button class="p-2 w-100" onclick="contactFunction()">Contact & Questions</button>
+                        <button class="p-2 w-100" onclick="contactFunction()">{% trans 'Contact & Questions' %}</button>
                       </div>
                       <div class="col-6 text-center" style="padding: 0 5px 0 5px;">
-                        <button class="p-2 w-100" onclick="reservationFunction()">Reservation Request</button>
+                        <button class="p-2 w-100" onclick="reservationFunction()">{% trans 'Reservation Request' %}</button>
                       </div>
                     </div>
                   </div>
                 </div>
 
                 <!-- START CONTACT & QUESTIONS -->
+                {% trans 'Name' as name %}
+                {% trans 'Email' as email %}
+                {% trans 'Message' as mes %}
+                {% trans 'Email' as email %}
+                {% trans 'Please Select' as select %}
 
                 <div class="row">
                   <div class="col-12">
@@ -130,24 +135,24 @@
                       {% csrf_token %}
                       <div class="form-row">
                         <div class="form-group col-12 col-md-6">
-                          <label for="inputName">Name</label>
+                          <label for="inputName">{{ name }}</label>
                           <input type="text" class="form-control" id="inputName" placeholder="Name" name="Name" required>
                         </div>
                         <div class="form-group col-12 col-md-6">
-                          <label for="inputEmail">Email</label>
+                          <label for="inputEmail">{{ email }}</label>
                           <input type="email" class="form-control" id="inputEmail" placeholder="Email" name="Email" required>
                         </div>
                         <div class="form-group col-12">
-                          <label for="inputSubject">Subject</label>
+                          <label for="inputSubject">{% trans 'Subject' %}</label>
                           <input type="text" class="form-control" id="inputSubject" placeholder="Subject" name="Subject" required>
                         </div>
                         <div class="form-group col-12">
-                          <label for="inputMessage">Message</label>
+                          <label for="inputMessage">{{ mes }}</label>
                           <textarea class="form-control" id="inputMessage" rows="10" name="Message" required></textarea>
                         </div>
                       </div>
                       <div class="text-center">
-                        <button type="submit" class="btn btn-contact" name="Submit-Contact">Send Message</button>
+                        <button type="submit" class="btn btn-contact" name="Submit-Contact">{% trans 'Send' %} {{ mes }}</button>
                       </div>
                     </form>
                   </div>
@@ -163,25 +168,25 @@
                       {% csrf_token %}
                       <div class="form-row">
                         <div class="form-group col-12 col-md-6">
-                          <label for="inputName">Name</label>
+                          <label for="inputName">{{ name }}</label>
                           <input type="text" class="form-control" id="inputName" placeholder="Name" name="Name" required>
                         </div>
                         <div class="form-group col-12 col-md-6">
-                          <label for="inputEmail">Email</label>
+                          <label for="inputEmail">{{ email }}</label>
                           <input type="email" class="form-control" id="inputEmail" placeholder="Email" name="Email" required>
                         </div>
                         <div class="form-group col-12 col-md-6">
-                          <label for="inputType">Accomodation Type</label>
+                          <label for="inputType">{% trans 'Accomodation Type' %}</label>
                           <select class="form-control" id="inputType" name="Type" required>
-                            <option value="Unknown">Please Select</option>
-                            <option value="Apartment">Apartment</option>
-                            <option value="Studio">Studio</option>
+                            <option value="Unknown">{{ select }}</option>
+                            <option value="Apartment">{% trans 'Apartment' %}</option>
+                            <option value="Studio">{% trans 'Studio' %}</option>
                           </select>
                         </div>
                         <div class="form-group col-12 col-md-6">
-                          <label for="inputNumber">Accomodation Detail</label>
+                          <label for="inputNumber">{% trans 'Accomodation Detail' %}</label>
                           <select class="form-control" id="inputNumber" name="Number" required>
-                            <option value="Unknown">Please Select</option>
+                            <option value="Unknown">{{ select }}</option>
                           </select>
                         </div>
                         <div class="form-group col-12 col-lg-6">
@@ -191,15 +196,15 @@
                               <input type='text' class="form-control" id='inputStartDate' placeholder="First Day" name="Start_Date" required>    
                             </div>
                             <div class="col-6">
-                              <label for="inputEndDate">To</label>
+                              <label for="inputEndDate">{% trans 'To' %}</label>
                               <input type='text' class="form-control" id='inputEndDate' placeholder="Last Day" name="End_Date" required>  
                             </div>
                           </div>
                         </div>
                         <div class="form-group col-12 col-lg-6">
-                          <label for="inputGuests">Number of Guests</label>
+                          <label for="inputGuests">{% trans 'Number of Guests' %}</label>
                           <select class="form-control" id="inputGuests" name="Guests" required>
-                            <option value="Unknown">Please Select</option>
+                            <option value="Unknown">{{ select }}</option>
                             <option value="1">1</option>
                             <option value="2">2</option>
                             <option value="3">3</option>
@@ -212,12 +217,12 @@
                           </select>
                         </div>
                         <div class="form-group col-12">
-                          <label for="inputMessage">Message</label>
+                          <label for="inputMessage">{{ mes }}</label>
                           <textarea class="form-control" id="inputMessage" rows="10" name="Message" required></textarea>
                         </div>
                       </div>
                       <div class="text-center">
-                        <button type="submit" class="btn btn-contact" name="Submit-Reservation">Send Message</button>
+                        <button type="submit" class="btn btn-contact" name="Submit-Reservation">{% trans 'Send Reservation Request' %}</button>
                       </div>
                     </form>
                   </div>
