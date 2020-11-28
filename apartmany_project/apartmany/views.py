@@ -1,3 +1,4 @@
+from django.utils.translation import gettext as _
 from django.shortcuts import render
 from django.core.mail import send_mail
 from django.conf import settings
@@ -51,19 +52,19 @@ def guestbook(request):
     ratings = {
         "average": average_rating,
         "amount": len(temp_ratings),
-        "summary": {"five": {"tag": "Excellent",
+        "summary": {"five": {"tag": _("Excellent"),
                              "amount": temp_ratings.count(5),
                              "percentage": str((temp_ratings.count(5) / len(temp_ratings)) * 100) + '%'},
-                    "four": {"tag": "Good",
+                    "four": {"tag": _("Good"),
                              "amount": temp_ratings.count(4),
                              "percentage": str((temp_ratings.count(4) / len(temp_ratings)) * 100) + '%'},
-                    "three": {"tag": "Average",
+                    "three": {"tag": _("Average"),
                               "amount": temp_ratings.count(3),
                               "percentage": str((temp_ratings.count(3) / len(temp_ratings)) * 100) + '%'},
-                    "two": {"tag": "Poor",
+                    "two": {"tag": _("Poor"),
                             "amount": temp_ratings.count(2),
                             "percentage": str((temp_ratings.count(2) / len(temp_ratings)) * 100) + '%'},
-                    "one": {"tag": "Terrible",
+                    "one": {"tag": _("Terrible"),
                             "amount": temp_ratings.count(1),
                             "percentage": str((temp_ratings.count(1) / len(temp_ratings)) * 100) + '%'}
                     }

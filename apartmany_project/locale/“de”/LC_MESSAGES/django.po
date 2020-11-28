@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-27 17:29+0100\n"
+"POT-Creation-Date: 2020-11-28 18:11+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,6 +16,34 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#: apartmany/forms.py:16 apartmany/templates/apartmany/contact.html:126
+msgid "Name"
+msgstr ""
+
+#: apartmany/forms.py:19
+msgid "Title"
+msgstr ""
+
+#: apartmany/forms.py:22
+msgid "Rating"
+msgstr ""
+
+#: apartmany/forms.py:25 apartmany/templates/apartmany/contact.html:128
+msgid "Message"
+msgstr ""
+
+#: apartmany/forms.py:31
+msgid "Your Name"
+msgstr ""
+
+#: apartmany/forms.py:32
+msgid "Title of Comment"
+msgstr ""
+
+#: apartmany/forms.py:36
+msgid "Picture"
+msgstr ""
 
 #: apartmany/templates/apartmany/contact.html:91
 msgid "CONTACT<br>&<br>RESERVATION"
@@ -41,17 +69,9 @@ msgstr ""
 msgid "Reservation Request"
 msgstr ""
 
-#: apartmany/templates/apartmany/contact.html:126
-msgid "Name"
-msgstr ""
-
 #: apartmany/templates/apartmany/contact.html:127
 #: apartmany/templates/apartmany/contact.html:129
 msgid "Email"
-msgstr ""
-
-#: apartmany/templates/apartmany/contact.html:128
-msgid "Message"
 msgstr ""
 
 #: apartmany/templates/apartmany/contact.html:130
@@ -96,6 +116,27 @@ msgstr ""
 
 #: apartmany/templates/apartmany/guestbook.html:38
 msgid "GUESTBOOK"
+msgstr ""
+
+#: apartmany/templates/apartmany/guestbook.html:48
+msgid ""
+"Here you can find all the reviews of our previous guests which they left on "
+"our website. If you are a previous guest yourself and have not yet left a "
+"comment, please feel free to do so. We really appreciate your opinions and "
+"suggestions and would like to thank all of our guests for taking the time to "
+"write all those reviews. We hope to see you soon again!"
+msgstr ""
+
+#: apartmany/templates/apartmany/guestbook.html:63
+msgid "Review"
+msgstr ""
+
+#: apartmany/templates/apartmany/guestbook.html:129
+msgid "Poste Review"
+msgstr ""
+
+#: apartmany/templates/apartmany/guestbook.html:153
+msgid "out of 5"
 msgstr ""
 
 #: apartmany/templates/apartmany/surroundings.html:24
@@ -324,4 +365,24 @@ msgid ""
 "                031 01 Liptovsky Mikulas <br>\n"
 "                SLOVENSKO\n"
 "                "
+msgstr ""
+
+#: apartmany/views.py:55
+msgid "Excellent"
+msgstr ""
+
+#: apartmany/views.py:58
+msgid "Good"
+msgstr ""
+
+#: apartmany/views.py:61
+msgid "Average"
+msgstr ""
+
+#: apartmany/views.py:64
+msgid "Poor"
+msgstr ""
+
+#: apartmany/views.py:67
+msgid "Terrible"
 msgstr ""
