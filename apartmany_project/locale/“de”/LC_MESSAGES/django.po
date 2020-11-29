@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-28 18:11+0100\n"
+"POT-Creation-Date: 2020-11-29 12:21+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -137,6 +137,326 @@ msgstr ""
 
 #: apartmany/templates/apartmany/guestbook.html:153
 msgid "out of 5"
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:23
+msgid "PRICES<br>&<br>FAQS"
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:37
+msgid "Price Information"
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:47
+msgid ""
+"\n"
+"              Our prices per person per night are in the range of 18 to 25 "
+"Euros. The price depends on the period (season/off season) and the number of "
+"people in a studio or an apartment. We will be happy to send you the "
+"complete pricelist via email. A single adult in a studio or an apartment has "
+"to pay the equivalent to two adults. Additionally to accomodation costs, a "
+"local tax fee for adults and children older than 12 years of 1 Euro per "
+"person and night has to be charged.\n"
+"              "
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:57
+msgid "Discounts"
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:60
+msgid "Children up to 12 years:"
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:61
+msgid "Children up to 12 years on a sofa-bed:"
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:62
+msgid "Adult on a sofa-bed:"
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:66
+msgid ""
+"Discounts for children are only valid if there are 2 adults paying the full "
+"price in the same studio. Two children accommodated by themselves in 1 "
+"studio are paying full/adult prices."
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:79
+msgid "Restaurants"
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:88
+msgid ""
+"Enjoy discounts at classic slovakian and international restaurants and cafés "
+"in Liptovský Mikuláš, Ružomberok, Demänovská Dolina and the whole area."
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:99
+msgid "Ski Passes"
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:108
+msgid ""
+"Take advantage of our ski pass discounts and save 31€ (children), 39€ "
+"(juniors, seniors) or 48€ (adults) on a 6 day pass for the Jasná ski center, "
+"respectively."
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:119
+msgid "Activities & Services"
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:128
+msgid ""
+"Go on adventures and save money by benefitting from our discounts for skiing "
+"schools, rafting, bowling, laser tag, tennis, climbing and many more."
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:144
+msgid "Frequently Asked Questions"
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:153
+msgid ""
+"Below, you can find important information regarding check-in and check-out, "
+"reservations, facilities, etc. Click on the headers to collapse the topics "
+"and then click on the questions to see the answers. If your question however "
+"remains unanswered, please do not hesitate to contact us via e-mail or call."
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:162
+msgid "Check-in & Check-out"
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:172
+msgid "When can I check-in and check-out?"
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:175
+msgid ""
+"You can check-in after 2pm on the day of your arrival. The heck-out time is "
+"at 10am the latest."
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:184
+msgid "Do you offer early/late check-in (after 8pm) ?"
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:187
+msgid ""
+"We recommend you to come after 2 pm, however it might be possible that your "
+"room is available earlier. Please contact us beforehand if you need to check-"
+"in earlier than 2pm. On the other hand, if you think you will arrive to our "
+"place later than 8pm, it's not a problem, just please let us know."
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:196
+msgid "Do you offer late check-out ?"
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:199
+msgid ""
+"Unfortuntaly, during the season we do not offer late check-outs. It might be "
+"available off-season, upon request."
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:211
+msgid "Reservations"
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:219
+msgid "How can I make a reservation enquiry?"
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:222
+msgid ""
+"We arrange all reservations through emails. If you have any questions, you "
+"can contact us telephonically or message us on facebook, however reservation "
+"must be done via email. Please send us an email to <strong>vysny.m@stonline."
+"sk</strong> with number of people and the time period you are interested in "
+"and we will send you a price list and a list of available apartments/studios "
+"suitable for your needs. Alternatively, you can simply fill out this form."
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:231
+msgid "When is the reservation valid?"
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:234
+#, python-format
+msgid ""
+"Your reservation is confirmed once we received your deposit. The deposit is "
+"usually 50%% of the price."
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:243
+msgid "How and when do I pay?"
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:246
+msgid ""
+"We usually require a deposit to be transfered to our account, prior to your "
+"arrival. We kindly ask you to pay the rest on the day of your arrival. We "
+"only accept cash payments in the local currency (Euro)."
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:258
+msgid "Cancellations"
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:266
+msgid "What happens if need to cancel my reservation?"
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:269
+msgid ""
+"If, for any reason, you need to cancel your vacation at our place and you "
+"already paid the deposit, we will be happy to move your vacation to any "
+"agreed future term."
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:278
+msgid "Can I get my deposit back when I cancel?"
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:281
+msgid ""
+"In case that we are still able to rebook your room to other guests, we will "
+"be happy to return the deposit to you, minus any fees for bank transfers."
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:293
+msgid "Location & Car Parking"
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:301
+msgid "How do I find you if I am coming by car?"
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:304
+msgid ""
+"You can find us very easily. When you get down from the highway, you follow "
+"the road signs to JASNA. Then you just follow the road all the way to "
+"Demänovská Dolina. We are located at the very beginning of the valley, on "
+"the right side of the road, just next to a big hotel called Tri Studničky."
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:313
+msgid "How do I reach you if I am coming from Liptovský Mikuláš Main Station?"
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:316
+msgid ""
+"From the Liptovský Mikuláš station (train and bus station are on the same "
+"location), you can simply take a short bus drive to the stop "
+"<strong>Demänovská Dolina Autocamping</strong>. From the bus stop, follow "
+"the road for around 500m (5 minutes) and you will see us on the right side "
+"of the road, just next to the big hotel called Tri Studničky."
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:325
+msgid "Do you offer car parking?"
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:328
+msgid ""
+"Absolutely. You will have no troubles to fit your car on our spacious "
+"private parking lot. The parking lot is locked down during the night so you "
+"can sleep peacefully!"
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:337
+msgid "How far is the ski-center from the apartments and how can I get there?"
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:340
+msgid ""
+"We have a prime location above the parking P5 Pavcina Lehota where, in busy "
+"periods, visitors of Jasna ski center are asked to park their car and use "
+"the shuttle bus for the rest of their trip. You, as our guest can use your "
+"own car to get all to way to the ski lifts. The ride takes only around 8 "
+"minutes. You can also use the free shuttle bus that stops pretty much on our "
+"doorstep."
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:352
+msgid "Facilities & Amenities"
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:360
+msgid "Can a baby bed be placed in the room?"
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:363
+msgid ""
+"Yes, we have a baby cot, baby bathtub and baby chair available for you, free "
+"of charge. Please let us know prior to your arrival that you will need these."
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:372
+msgid "How are the apartments/studios equipped?"
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:375
+msgid ""
+"You can check the details of each apartment and studio in the section "
+"Apartments, Studios. Generally however, every studio has a fully equiped "
+"kitchen with a stove, microwave, fridge and all necessary utensils. There "
+"are towels and hairdryers in the bathroom and a TV and a radio in the "
+"bedroom."
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:384
+msgid "Are there any toiletries in the bathroom?"
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:387
+msgid "Unfortuntaly, we do not provide toiletries."
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:396
+msgid "Are the rooms heated/air-conditioned?"
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:399
+msgid ""
+"During winter, the apartments are well heated so you can rest comfortably "
+"after skiing, in a warm cozy place. We do not have air-conditioning, however "
+"it is rarely too hot during summer since we are surrounded by trees."
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:408
+msgid "Where can we store our skies and ski boots?"
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:411
+msgid ""
+"We have a dedicated ski room with enough space for all our clients. We even "
+"have ski boot dryers so you can rest assured your boots will be dry and warm "
+"the next morning when you are about to hit the slopes!"
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:420
+msgid "Can we rent bikes?"
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:423
+msgid ""
+"Yes! We have 8 mountain bikes (including small bikes for children) available "
+"for our guests free of charge."
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:432
+msgid "Do we have to pay extra to use the sauna?"
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:435
+msgid ""
+"Use of our sauna is charged with a small fee of 5 euros per person. But you "
+"know what is cool? Cooling down is taken care of the river flowing right "
+"through our property!"
 msgstr ""
 
 #: apartmany/templates/apartmany/surroundings.html:24

@@ -20,7 +20,7 @@
         <div class="row h-100 align-content-center">
           <div class="col-12">
             <div class="header-text text-center justify-content-center">
-              <h1>PRICES<br>&<br>FAQS</h1>
+              <h1>{% blocktrans %}PRICES<br>&<br>FAQS{% endblocktrans %}</h1>
             </div>
           </div>
         </div>
@@ -34,7 +34,7 @@
               <hr class="bar" />
           </div>
           <div class="col-12 col-sm-6 header-line text-center">
-              <h2>Price Information</h2>
+              <h2>{% trans 'Price Information' %}</h2>
           </div>
           <div class="col-12 col-sm-3 header-line">
             <hr class="bar" />
@@ -44,7 +44,9 @@
         <div class="row mb-1">
           <div class="col-12">
             <p style="text-align: justify">
+              {% blocktrans %}
               Our prices per person per night are in the range of 18 to 25 Euros. The price depends on the period (season/off season) and the number of people in a studio or an apartment. We will be happy to send you the complete pricelist via email. A single adult in a studio or an apartment has to pay the equivalent to two adults. Additionally to accomodation costs, a local tax fee for adults and children older than 12 years of 1 Euro per person and night has to be charged.
+              {% endblocktrans %}
             </p>
           </div>
         </div>
@@ -52,16 +54,16 @@
         <div class="row mb-1">
           <div class="col-12">
             <div class="my-4 w-100 p-2 header">
-              <h4 class="m-0 text-center">Discounts</h4>
+              <h4 class="m-0 text-center">{% trans 'Discounts' %}</h4>
             </div>
             <ul class="list-group mb-3">
-              <li class="list-group-item"><strong>Children up to 12 years: </strong><br class="d-lg-none">50 % off full price (in studios only)* </li>
-              <li class="list-group-item"><strong>Children up to 12 years on a sofa-bed: </strong><br class="d-lg-none">60% off full price (in studios only)* </li>
-              <li class="list-group-item"><strong>Adult on a sofa-bed: </strong><br class="d-lg-none">20% off full price (in studios only) </li>
+              <li class="list-group-item"><strong>{% trans 'Children up to 12 years:' %} </strong><br class="d-lg-none">50 % off full price (in studios only)* </li>
+              <li class="list-group-item"><strong>{% trans 'Children up to 12 years on a sofa-bed:' %} </strong><br class="d-lg-none">60% off full price (in studios only)* </li>
+              <li class="list-group-item"><strong>{% trans 'Adult on a sofa-bed:' %} </strong><br class="d-lg-none">20% off full price (in studios only) </li>
             </ul>
 
             <p style="text-align: justify">
-              *  Discounts for children are only valid if there are 2 adults paying the full price in the same studio. Two children accommodated by themselves in 1 studio are paying full/adult prices. 
+              *  {% blocktrans %}Discounts for children are only valid if there are 2 adults paying the full price in the same studio. Two children accommodated by themselves in 1 studio are paying full/adult prices.{% endblocktrans %}
             </p>
           </div>
         </div>
@@ -74,7 +76,7 @@
             <div class="col-lg-4 col-md-12 mb-4">
               <div class="card discount-card">
                 <div class="card-body">
-                  <h4 class="mb-4 font-weight-bold">Restaurants</h4>
+                  <h4 class="mb-4 font-weight-bold">{% trans 'Restaurants' %}</h4>
                   <div class="d-flex justify-content-center">
                     <div class="rounded-circle color-circle d-flex justify-content-center align-items-center">
                       <i class="m-4 px-2 fas fa-4x fa-utensils indigo-text"></i>
@@ -83,7 +85,7 @@
 
                   <h2 class="font-weight-bold my-4">10% - 15%</h2>
                   <hr>
-                  <p class="grey-text">Enjoy discounts at classic slovakian and international restaurants and cafés in Liptovský Mikuláš, Ružomberok, Demänovská Dolina and the whole area.</p>
+                  <p class="grey-text">{% blocktrans %}Enjoy discounts at classic slovakian and international restaurants and cafés in Liptovský Mikuláš, Ružomberok, Demänovská Dolina and the whole area.{% endblocktrans %}</p>
 
                 </div>
               </div>
@@ -94,7 +96,7 @@
             <div class="col-lg-4 col-md-6 mb-4">
               <div class="card discount-card">
                 <div class="card-body text-white" style="background: var(--primary-text-color)">
-                  <h4 class="mb-4 font-weight-bold">Ski Passes</h4>
+                  <h4 class="mb-4 font-weight-bold">{% trans 'Ski Passes' %}</h4>
                   <div class="d-flex justify-content-center">
                     <div class="rounded-circle white-circle d-flex justify-content-center align-items-center">
                       <i class="m-4 fas fa-4x fa-skiing"></i>
@@ -103,7 +105,7 @@
 
                   <h2 class="font-weight-bold text-white my-4">~ 20%</h2>
                   <hr>
-                  <p>Take advantage of our ski pass discounts and save 31€ (children), 39€ (juniors, seniors) or 48€ (adults) on a 6 day pass for the Jasná ski center, respectively.</p>
+                  <p>{% blocktrans %}Take advantage of our ski pass discounts and save 31€ (children), 39€ (juniors, seniors) or 48€ (adults) on a 6 day pass for the Jasná ski center, respectively.{% endblocktrans %}</p>
 
                 </div>
               </div>
@@ -114,7 +116,7 @@
             <div class="col-lg-4 col-md-6 mb-4">
               <div class="card discount-card">
                 <div class="card-body">
-                  <h4 class="mb-4 font-weight-bold">Activities & Services</h4>
+                  <h4 class="mb-4 font-weight-bold">{% trans 'Activities & Services' %}</h4>
                   <div class="d-flex justify-content-center">
                     <div class="rounded-circle color-circle d-flex justify-content-center align-items-center">
                       <i class="m-4 px-2 fas fa-4x fa-running indigo-text"></i>
@@ -123,7 +125,7 @@
 
                   <h2 class="font-weight-bold my-4">10% - 20%</h2>
                   <hr>
-                  <p class="grey-text">Go on adventures and save money by benefitting from our discounts for skiing schools, rafting, bowling, laser tag, tennis, climbing and many more.</p>
+                  <p class="grey-text">{% blocktrans %}Go on adventures and save money by benefitting from our discounts for skiing schools, rafting, bowling, laser tag, tennis, climbing and many more.{% endblocktrans %}</p>
 
                 </div>
               </div>
@@ -139,7 +141,7 @@
               <hr class="bar" />
           </div>
           <div class="col-12 col-sm-6 header-line text-center">
-              <h2>Frequently Asked Questions</h2>
+              <h2>{% trans 'Frequently Asked Questions' %}</h2>
           </div>
           <div class="col-12 col-sm-3 header-line">
             <hr class="bar" />
@@ -148,7 +150,7 @@
           <div class="row mb-1">
             <div class="col-12">
             <p style="text-align:justify">
-              Below, you can find important information regarding check-in and check-out, reservations, facilities, etc. Click on the headers to collapse the topics and then click on the questions to see the answers. If your question however remains unanswered, please do not hesitate to contact us via e-mail or call.
+              {% blocktrans %}Below, you can find important information regarding check-in and check-out, reservations, facilities, etc. Click on the headers to collapse the topics and then click on the questions to see the answers. If your question however remains unanswered, please do not hesitate to contact us via e-mail or call.{% endblocktrans %}
             </p>
             </div>
           </div>
@@ -157,7 +159,7 @@
               <div class="card-header" id="headingOne">
                 
                   <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    <h5>Check-in & Check-out</h5>
+                    <h5>{% blocktrans %}Check-in & Check-out{% endblocktrans %}</h5>
                   </button>
                 
               </div>
@@ -167,10 +169,10 @@
                     <div id="accordionQ1">
                       <div class="item">
                         <div class="item-header" data-toggle="collapse" data-target="#collapseOneQ1" aria-expanded="true" aria-controls="collapseOneQ1">
-                        <h6 class="item-header-title">When can I check-in and check-out?</h6>
+                        <h6 class="item-header-title">{% blocktrans %}When can I check-in and check-out?{% endblocktrans %}</h6>
                           <span aria-hidden="true"></span>
                         <div id="collapseOneQ1" class="collapse hidden" aria-labelledby="headingOneQ1" data-parent="#accordionQ1">
-                          <p>You can check-in after 2pm on the day of your arrival. The heck-out time is at 10am the latest. </p>
+                          <p>{% blocktrans %}You can check-in after 2pm on the day of your arrival. The heck-out time is at 10am the latest.{% endblocktrans %}</p>
                         </div>
                         </div>
                       </div>
@@ -179,10 +181,10 @@
                     <div id="accordionQ2">
                       <div class="item">
                         <div class="item-header" data-toggle="collapse" data-target="#collapseOneQ2" aria-expanded="true" aria-controls="collapseOneQ2">
-                        <h6 class="item-header-title">Do you offer early/late check-in (after 8pm) ?</h6>
+                        <h6 class="item-header-title">{% blocktrans %}Do you offer early/late check-in (after 8pm) ?{% endblocktrans %}</h6>
                           <span aria-hidden="true"></span>
                         <div id="collapseOneQ2" class="collapse hidden" aria-labelledby="headingOneQ2" data-parent="#accordionQ2">
-                          <p>We recommend you to come after 2 pm, however it might be possible that your room is available earlier. Please contact us beforehand if you need to check-in earlier than 2pm. On the other hand, if you think you will arrive to our place later than 8pm, it's not a problem, just please let us know.</p>
+                          <p>{% blocktrans %}We recommend you to come after 2 pm, however it might be possible that your room is available earlier. Please contact us beforehand if you need to check-in earlier than 2pm. On the other hand, if you think you will arrive to our place later than 8pm, it's not a problem, just please let us know.{% endblocktrans %}</p>
                         </div>
                         </div>
                       </div>
@@ -191,10 +193,10 @@
                     <div id="accordionQ3">
                       <div class="item">
                         <div class="item-header" data-toggle="collapse" data-target="#collapseOneQ3" aria-expanded="true" aria-controls="collapseOneQ3">
-                        <h6 class="item-header-title">Do you offer late check-out ?</h6>
+                        <h6 class="item-header-title">{% blocktrans %}Do you offer late check-out ?{% endblocktrans %}</h6>
                           <span aria-hidden="true"></span>
                         <div id="collapseOneQ3" class="collapse hidden" aria-labelledby="headingOneQ3" data-parent="#accordionQ3">
-                          <p>Unfortuntaly, during the season we do not offer late check-outs. It might be available off-season, upon request. </p>
+                          <p>{% blocktrans %}Unfortuntaly, during the season we do not offer late check-outs. It might be available off-season, upon request.{% endblocktrans %}</p>
                         </div>
                         </div>
                       </div>
@@ -206,7 +208,7 @@
               <div class="card-header" id="headingTwo">
                 <h5 class="mb-0">
                   <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    <h5>Reservations</h5>
+                    <h5>{% trans 'Reservations' %}</h5>
                   </button>
               </div>
               <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
@@ -214,10 +216,10 @@
                   <div id="accordionQ4">
                     <div class="item">
                       <div class="item-header" data-toggle="collapse" data-target="#collapseOneQ4" aria-expanded="true" aria-controls="collapseOneQ4">
-                      <h6 class="item-header-title">How can I make a reservation enquiry?</h6>
+                      <h6 class="item-header-title">{% blocktrans %}How can I make a reservation enquiry?{% endblocktrans %}</h6>
                         <span aria-hidden="true"></span>
                       <div id="collapseOneQ4" class="collapse hidden" aria-labelledby="headingOneQ4" data-parent="#accordionQ4">
-                        <p>We arrange all reservations through emails. If you have any questions, you can contact us telephonically or message us on facebook, however reservation must be done via email. Please send us an email to <strong>vysny.m@stonline.sk</strong> with number of people and the time period you are interested in and we will send you a price list and a list of available apartments/studios suitable for your needs. Alternatively, you can simply fill out this form. </p>
+                        <p>{% blocktrans %}We arrange all reservations through emails. If you have any questions, you can contact us telephonically or message us on facebook, however reservation must be done via email. Please send us an email to <strong>vysny.m@stonline.sk</strong> with number of people and the time period you are interested in and we will send you a price list and a list of available apartments/studios suitable for your needs. Alternatively, you can simply fill out this form.{% endblocktrans %}</p>
                       </div>
                       </div>
                     </div>
@@ -226,10 +228,10 @@
                   <div id="accordionQ5">
                     <div class="item">
                       <div class="item-header" data-toggle="collapse" data-target="#collapseOneQ5" aria-expanded="true" aria-controls="collapseOneQ5">
-                      <h6 class="item-header-title">When is the reservation valid?</h6>
+                      <h6 class="item-header-title">{% blocktrans %}When is the reservation valid?{% endblocktrans %}</h6>
                         <span aria-hidden="true"></span>
                       <div id="collapseOneQ5" class="collapse hidden" aria-labelledby="headingOneQ5" data-parent="#accordionQ5">
-                        <p>Your reservation is confirmed once we received your deposit. The deposit is usually 50% of the price.</p>
+                        <p>{% blocktrans %}Your reservation is confirmed once we received your deposit. The deposit is usually 50% of the price.{% endblocktrans %}</p>
                       </div>
                       </div>
                     </div>
@@ -238,10 +240,10 @@
                   <div id="accordionQ6">
                     <div class="item">
                       <div class="item-header" data-toggle="collapse" data-target="#collapseOneQ6" aria-expanded="true" aria-controls="collapseOneQ6">
-                      <h6 class="item-header-title">How and when do I pay?</h6>
+                      <h6 class="item-header-title">{% blocktrans %}How and when do I pay?{% endblocktrans %}</h6>
                         <span aria-hidden="true"></span>
                       <div id="collapseOneQ6" class="collapse hidden" aria-labelledby="headingOneQ6" data-parent="#accordionQ6">
-                        <p>We usually require a deposit to be transfered to our account, prior to your arrival. We kindly ask you to pay the rest on the day of your arrival. We only accept cash payments in the local currency (Euro). </p>
+                        <p>{% blocktrans %}We usually require a deposit to be transfered to our account, prior to your arrival. We kindly ask you to pay the rest on the day of your arrival. We only accept cash payments in the local currency (Euro).{% endblocktrans %}</p>
                       </div>
                       </div>
                     </div>
@@ -253,7 +255,7 @@
               <div class="card-header" id="headingThree">
                 <h5 class="mb-0">
                   <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    <h5>Cancellations</h5>
+                    <h5>{% trans 'Cancellations' %}</h5>
                   </button>
               </div>
               <div id="collapseThree" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
@@ -261,10 +263,10 @@
                   <div id="accordionQ7">
                     <div class="item">
                       <div class="item-header" data-toggle="collapse" data-target="#collapseOneQ7" aria-expanded="true" aria-controls="collapseOneQ7">
-                      <h6 class="item-header-title">What happens if need to cancel my reservation?</h6>
+                      <h6 class="item-header-title">{% blocktrans %}What happens if need to cancel my reservation?{% endblocktrans %}</h6>
                         <span aria-hidden="true"></span>
                       <div id="collapseOneQ7" class="collapse hidden" aria-labelledby="headingOneQ7" data-parent="#accordionQ7">
-                        <p>If, for any reason, you need to cancel your vacation at our place and you already paid the deposit, we will be happy to move your vacation to any agreed future term. </p>
+                        <p>{% blocktrans %}If, for any reason, you need to cancel your vacation at our place and you already paid the deposit, we will be happy to move your vacation to any agreed future term.{% endblocktrans %}</p>
                       </div>
                       </div>
                     </div>
@@ -273,10 +275,10 @@
                   <div id="accordionQ8">
                     <div class="item">
                       <div class="item-header" data-toggle="collapse" data-target="#collapseOneQ8" aria-expanded="true" aria-controls="collapseOneQ8">
-                      <h6 class="item-header-title">Can I get my deposit back when I cancel?</h6>
+                      <h6 class="item-header-title">{% blocktrans %}Can I get my deposit back when I cancel?{% endblocktrans %}</h6>
                         <span aria-hidden="true"></span>
                       <div id="collapseOneQ8" class="collapse hidden" aria-labelledby="headingOneQ8" data-parent="#accordionQ8">
-                        <p>In case that we are still able to rebook your room to other guests, we will be happy to return the deposit to you, minus any fees for bank transfers.</p>
+                        <p>{% blocktrans %}In case that we are still able to rebook your room to other guests, we will be happy to return the deposit to you, minus any fees for bank transfers.{% endblocktrans %}</p>
                       </div>
                       </div>
                     </div>
@@ -288,7 +290,7 @@
               <div class="card-header" id="headingFour">
                 <h5 class="mb-0">
                   <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                    <h5>Location & Car Parking</h5>
+                    <h5>{% trans 'Location & Car Parking' %}</h5>
                   </button>
               </div>
               <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
@@ -296,10 +298,10 @@
                   <div id="accordionQ9">
                     <div class="item">
                       <div class="item-header" data-toggle="collapse" data-target="#collapseOneQ9" aria-expanded="true" aria-controls="collapseOneQ9">
-                      <h6 class="item-header-title">How do I find you if I am coming by car?</h6>
+                      <h6 class="item-header-title">{% blocktrans %}How do I find you if I am coming by car?{% endblocktrans %}</h6>
                         <span aria-hidden="true"></span>
                       <div id="collapseOneQ9" class="collapse hidden" aria-labelledby="headingOneQ9" data-parent="#accordionQ9">
-                        <p>You can find us very easily. When you get down from the highway, you follow the road signs to JASNA. Then you just follow the road all the way to Demänovská Dolina. We are located at the very beginning of the valley, on the right side of the road, just next to a big hotel called Tri Studničky. </p>
+                        <p>{% blocktrans %}You can find us very easily. When you get down from the highway, you follow the road signs to JASNA. Then you just follow the road all the way to Demänovská Dolina. We are located at the very beginning of the valley, on the right side of the road, just next to a big hotel called Tri Studničky.{% endblocktrans %}</p>
                       </div>
                       </div>
                     </div>
@@ -308,10 +310,10 @@
                   <div id="accordionQ10">
                     <div class="item">
                       <div class="item-header" data-toggle="collapse" data-target="#collapseOneQ10" aria-expanded="true" aria-controls="collapseOneQ10">
-                      <h6 class="item-header-title">How do I reach you if I am coming from Liptovský Mikuláš Main Station?</h6>
+                      <h6 class="item-header-title">{% blocktrans %}How do I reach you if I am coming from Liptovský Mikuláš Main Station?{% endblocktrans %}</h6>
                         <span aria-hidden="true"></span>
                       <div id="collapseOneQ10" class="collapse hidden" aria-labelledby="headingOneQ10" data-parent="#accordionQ10">
-                        <p>From the Liptovský Mikuláš station (train and bus station are on the same location), you can simply take a short bus drive to the stop <strong>Demänovská Dolina Autocamping</strong>. From the bus stop, follow the road for around 500m (5 minutes) and you will see us on the right side of the road, just next to the big hotel called Tri Studničky.</p>
+                        <p>{% blocktrans %}From the Liptovský Mikuláš station (train and bus station are on the same location), you can simply take a short bus drive to the stop <strong>Demänovská Dolina Autocamping</strong>. From the bus stop, follow the road for around 500m (5 minutes) and you will see us on the right side of the road, just next to the big hotel called Tri Studničky.{% endblocktrans %}</p>
                       </div>
                       </div>
                     </div>
@@ -320,10 +322,10 @@
                   <div id="accordionQ11">
                     <div class="item">
                       <div class="item-header" data-toggle="collapse" data-target="#collapseOneQ11" aria-expanded="true" aria-controls="collapseOneQ11">
-                      <h6 class="item-header-title">Do you offer car parking?</h6>
+                      <h6 class="item-header-title">{% blocktrans %}Do you offer car parking?{% endblocktrans %}</h6>
                         <span aria-hidden="true"></span>
                       <div id="collapseOneQ11" class="collapse hidden" aria-labelledby="headingOneQ11" data-parent="#accordionQ11">
-                        <p>Absolutely. You will have no troubles to fit your car on our spacious private parking lot. The parking lot is locked down during the night so you can sleep peacefully!</p>
+                        <p>{% blocktrans %}Absolutely. You will have no troubles to fit your car on our spacious private parking lot. The parking lot is locked down during the night so you can sleep peacefully!{% endblocktrans %}</p>
                       </div>
                       </div>
                     </div>
@@ -332,10 +334,10 @@
                   <div id="accordionQ12">
                     <div class="item">
                       <div class="item-header" data-toggle="collapse" data-target="#collapseOneQ12" aria-expanded="true" aria-controls="collapseOneQ12">
-                      <h6 class="item-header-title">How far is the ski-center from the apartments and how can I get there?</h6>
+                      <h6 class="item-header-title">{% blocktrans %}How far is the ski-center from the apartments and how can I get there?{% endblocktrans %}</h6>
                         <span aria-hidden="true"></span>
                       <div id="collapseOneQ12" class="collapse hidden" aria-labelledby="headingOneQ12" data-parent="#accordionQ12">
-                        <p>We have a prime location above the parking P5 Pavcina Lehota where, in busy periods, visitors of Jasna ski center are asked to park their car and use the shuttle bus for the rest of their trip. You, as our guest can use your own car to get all to way to the ski lifts. The ride takes only around 8 minutes. You can also use the free shuttle bus that stops pretty much on our doorstep. </p>
+                        <p>{% blocktrans %}We have a prime location above the parking P5 Pavcina Lehota where, in busy periods, visitors of Jasna ski center are asked to park their car and use the shuttle bus for the rest of their trip. You, as our guest can use your own car to get all to way to the ski lifts. The ride takes only around 8 minutes. You can also use the free shuttle bus that stops pretty much on our doorstep.{% endblocktrans %}</p>
                       </div>
                       </div>
                     </div>
@@ -347,7 +349,7 @@
               <div class="card-header" id="headingFive">
                 <h5 class="mb-0">
                   <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                    <h5>Facilities & Amenities</h5>
+                    <h5>{% trans 'Facilities & Amenities' %}</h5>
                   </button>
               </div>
               <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
@@ -355,10 +357,10 @@
                   <div id="accordionQ13">
                     <div class="item">
                       <div class="item-header" data-toggle="collapse" data-target="#collapseOneQ13" aria-expanded="true" aria-controls="collapseOneQ13">
-                      <h6 class="item-header-title">Can a baby bed be placed in the room?</h6>
+                      <h6 class="item-header-title">{% blocktrans %}Can a baby bed be placed in the room?{% endblocktrans %}</h6>
                         <span aria-hidden="true"></span>
                       <div id="collapseOneQ13" class="collapse hidden" aria-labelledby="headingOneQ13" data-parent="#accordionQ13">
-                        <p>Yes, we have a baby cot, baby bathtub and baby chair available for you, free of charge. Please let us know prior to your arrival that you will need these. </p>
+                        <p>{% blocktrans %}Yes, we have a baby cot, baby bathtub and baby chair available for you, free of charge. Please let us know prior to your arrival that you will need these.{% endblocktrans %}</p>
                       </div>
                       </div>
                     </div>
@@ -367,10 +369,10 @@
                   <div id="accordionQ14">
                     <div class="item">
                       <div class="item-header" data-toggle="collapse" data-target="#collapseOneQ14" aria-expanded="true" aria-controls="collapseOneQ14">
-                      <h6 class="item-header-title">How are the apartments/studios equipped?</h6>
+                      <h6 class="item-header-title">{% blocktrans %}How are the apartments/studios equipped?{% endblocktrans %}</h6>
                         <span aria-hidden="true"></span>
                       <div id="collapseOneQ14" class="collapse hidden" aria-labelledby="headingOneQ14" data-parent="#accordionQ14">
-                        <p>You can check the details of each apartment and studio in the section Apartments, Studios. Generally however, every studio has a fully equiped kitchen with a stove, microwave, fridge and all necessary utensils. There are towels and hairdryers in the bathroom and a TV and a radio in the bedroom. </p>
+                        <p>{% blocktrans %}You can check the details of each apartment and studio in the section Apartments, Studios. Generally however, every studio has a fully equiped kitchen with a stove, microwave, fridge and all necessary utensils. There are towels and hairdryers in the bathroom and a TV and a radio in the bedroom.{% endblocktrans %}</p>
                       </div>
                       </div>
                     </div>
@@ -379,10 +381,10 @@
                   <div id="accordionQ15">
                     <div class="item">
                       <div class="item-header" data-toggle="collapse" data-target="#collapseOneQ15" aria-expanded="true" aria-controls="collapseOneQ15">
-                      <h6 class="item-header-title">Are there any toiletries in the bathroom?</h6>
+                      <h6 class="item-header-title">{% blocktrans %}Are there any toiletries in the bathroom?{% endblocktrans %}</h6>
                         <span aria-hidden="true"></span>
                       <div id="collapseOneQ15" class="collapse hidden" aria-labelledby="headingOneQ15" data-parent="#accordionQ15">
-                        <p>Unfortuntaly, we do not provide toiletries.</p>
+                        <p>{% blocktrans %}Unfortuntaly, we do not provide toiletries.{% endblocktrans %}</p>
                       </div>
                       </div>
                     </div>
@@ -391,10 +393,10 @@
                   <div id="accordionQ16">
                     <div class="item">
                       <div class="item-header" data-toggle="collapse" data-target="#collapseOneQ16" aria-expanded="true" aria-controls="collapseOneQ16">
-                      <h6 class="item-header-title">Are the rooms heated/air-conditioned?</h6>
+                      <h6 class="item-header-title">{% blocktrans %}Are the rooms heated/air-conditioned?{% endblocktrans %}</h6>
                         <span aria-hidden="true"></span>
                       <div id="collapseOneQ16" class="collapse hidden" aria-labelledby="headingOneQ16" data-parent="#accordionQ16">
-                        <p>During winter, the apartments are well heated so you can rest comfortably after skiing, in a warm cozy place. We do not have air-conditioning, however it is rarely too hot during summer since we are surrounded by trees. </p>
+                        <p>{% blocktrans %}During winter, the apartments are well heated so you can rest comfortably after skiing, in a warm cozy place. We do not have air-conditioning, however it is rarely too hot during summer since we are surrounded by trees.{% endblocktrans %}</p>
                       </div>
                       </div>
                     </div>
@@ -403,10 +405,10 @@
                   <div id="accordionQ17">
                     <div class="item">
                       <div class="item-header" data-toggle="collapse" data-target="#collapseOneQ17" aria-expanded="true" aria-controls="collapseOneQ17">
-                      <h6 class="item-header-title">Where can we store our skies and ski boots?</h6>
+                      <h6 class="item-header-title">{% blocktrans %}Where can we store our skies and ski boots?{% endblocktrans %}</h6>
                         <span aria-hidden="true"></span>
                       <div id="collapseOneQ17" class="collapse hidden" aria-labelledby="headingOneQ17" data-parent="#accordionQ17">
-                        <p>We have a dedicated ski room with enough space for all our clients. We even have ski boot dryers so you can rest assured your boots will be dry and warm the next morning when you are about to hit the slopes! </p>
+                        <p>{% blocktrans %}We have a dedicated ski room with enough space for all our clients. We even have ski boot dryers so you can rest assured your boots will be dry and warm the next morning when you are about to hit the slopes!{% endblocktrans %}</p>
                       </div>
                       </div>
                     </div>
@@ -415,10 +417,10 @@
                   <div id="accordionQ18">
                     <div class="item">
                       <div class="item-header" data-toggle="collapse" data-target="#collapseOneQ18" aria-expanded="true" aria-controls="collapseOneQ18">
-                      <h6 class="item-header-title">Can we rent bikes? </h6>
+                      <h6 class="item-header-title">{% blocktrans %}Can we rent bikes?{% endblocktrans %}</h6>
                         <span aria-hidden="true"></span>
                       <div id="collapseOneQ18" class="collapse hidden" aria-labelledby="headingOneQ18" data-parent="#accordionQ18">
-                        <p> Yes! We have 8 mountain bikes (including small bikes for children) available for our guests free of charge.</p>
+                        <p>{% blocktrans %}Yes! We have 8 mountain bikes (including small bikes for children) available for our guests free of charge.{% endblocktrans %}</p>
                       </div>
                       </div>
                     </div>
@@ -427,10 +429,10 @@
                   <div id="accordionQ19">
                     <div class="item">
                       <div class="item-header" data-toggle="collapse" data-target="#collapseOneQ19" aria-expanded="true" aria-controls="collapseOneQ19">
-                      <h6 class="item-header-title">Do we have to pay extra to use the sauna? </h6>
+                      <h6 class="item-header-title">{% blocktrans %}Do we have to pay extra to use the sauna?{% endblocktrans %}</h6>
                         <span aria-hidden="true"></span>
                       <div id="collapseOneQ19" class="collapse hidden" aria-labelledby="headingOneQ19" data-parent="#accordionQ19">
-                        <p> Use of our sauna is charged with a small fee of 5 euros per person. But you know what is cool? Cooling down is taken care of the river flowing right through our property!</p>
+                        <p>{% blocktrans %}Use of our sauna is charged with a small fee of 5 euros per person. But you know what is cool? Cooling down is taken care of the river flowing right through our property!{% endblocktrans %}</p>
                       </div>
                       </div>
                     </div>
