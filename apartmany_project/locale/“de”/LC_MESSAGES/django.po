@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-29 14:02+0100\n"
+"POT-Creation-Date: 2020-11-29 14:33+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -51,6 +51,7 @@ msgid "Apartment"
 msgstr ""
 
 #: apartmany/templates/apartmany/apartments.html:16
+#: apartmany/templates/apartmany/index.html:310
 #: apartmany/templates/base.html:27
 msgid "Apartments"
 msgstr ""
@@ -79,11 +80,13 @@ msgid "Superior"
 msgstr ""
 
 #: apartmany/templates/apartmany/apartments.html:22
+#: apartmany/templates/apartmany/index.html:15
 #: apartmany/templates/apartmany/studios.html:20
 msgid "Previous"
 msgstr ""
 
 #: apartmany/templates/apartmany/apartments.html:23
+#: apartmany/templates/apartmany/index.html:16
 #: apartmany/templates/apartmany/studios.html:21
 msgid "Next"
 msgstr ""
@@ -292,6 +295,256 @@ msgstr ""
 
 #: apartmany/templates/apartmany/guestbook.html:153
 msgid "out of 5"
+msgstr ""
+
+#: apartmany/templates/apartmany/index.html:14
+msgid "Save"
+msgstr ""
+
+#: apartmany/templates/apartmany/index.html:32
+msgid "Relax in the forrest<br>not the village"
+msgstr ""
+
+#: apartmany/templates/apartmany/index.html:34
+msgid ""
+"\n"
+"                  Modern accomodation in the heart of the Demanovska Valley\n"
+"                  "
+msgstr ""
+
+#: apartmany/templates/apartmany/index.html:38
+msgid "Reserve Now"
+msgstr ""
+
+#: apartmany/templates/apartmany/index.html:45
+msgid "Jasná<br>Ski Pass"
+msgstr ""
+
+#: apartmany/templates/apartmany/index.html:50
+msgid "discount"
+msgstr ""
+
+#: apartmany/templates/apartmany/index.html:54
+msgid ""
+"\n"
+"                We offer special prices on 6 day ski passes for adults, "
+"seniors, juniors and children.\n"
+"                "
+msgstr ""
+
+#: apartmany/templates/apartmany/index.html:57
+msgid "Learn more"
+msgstr ""
+
+#: apartmany/templates/apartmany/index.html:74
+msgid "Why staying at Miroslav Apartmany & Studia"
+msgstr ""
+
+#: apartmany/templates/apartmany/index.html:82
+msgid ""
+"\n"
+"          Our accommodation facility is located in the opening of one of the "
+"most beautiful valleys in Slovakia - Demanovska valley - at the end of "
+"which, there's a well-known ski-centre JASNA Chopok. We are also close to "
+"the biggest Aquapark in Slovakia - Tatralandia. In summer, hiking is sought "
+"after in this area.\n"
+"          "
+msgstr ""
+
+#: apartmany/templates/apartmany/index.html:103
+msgid "SAUNA"
+msgstr ""
+
+#: apartmany/templates/apartmany/index.html:107
+msgid ""
+"\n"
+"              Since early 2019 we can offer a modern sauna just next to the "
+"main building and direct access to the river by stairs for a nice cooldown "
+"afterwards.\n"
+"              "
+msgstr ""
+
+#: apartmany/templates/apartmany/index.html:125
+msgid "PLAYGROUND"
+msgstr ""
+
+#: apartmany/templates/apartmany/index.html:129
+msgid ""
+"\n"
+"              The accomodation provides a lot of possibilities to play with "
+"for the kids including a trampoline, swings and a playing house with a slide "
+"and sandbox.\n"
+"              "
+msgstr ""
+
+#: apartmany/templates/apartmany/index.html:150
+msgid "OUTDOOR FACILITIES"
+msgstr ""
+
+#: apartmany/templates/apartmany/index.html:154
+msgid ""
+"\n"
+"                Surrounded by the beautiful nature of Demanovska Valley our "
+"guests can enjoy several outdoor sitting groups, barbecues and fireplaces "
+"right by the river.\n"
+"                "
+msgstr ""
+
+#: apartmany/templates/apartmany/index.html:188
+msgid "SKI PASSES DEALS"
+msgstr ""
+
+#: apartmany/templates/apartmany/index.html:192
+msgid ""
+"\n"
+"                      Take advantage of special prices for ski passes of "
+"Jasna ski center.\n"
+"                      "
+msgstr ""
+
+#: apartmany/templates/apartmany/index.html:198
+msgid "6 DAY SKI PASS ADULTS for 175€ instead of 223€"
+msgstr ""
+
+#: apartmany/templates/apartmany/index.html:199
+msgid "6 DAY SKI PASS JUNIOR/SENIOR for 140€ instead of 179€"
+msgstr ""
+
+#: apartmany/templates/apartmany/index.html:200
+msgid "6 DAY SKI PASS CHILDREN for 125€ instead of 156€"
+msgstr ""
+
+#: apartmany/templates/apartmany/index.html:217
+msgid "SPORTS"
+msgstr ""
+
+#: apartmany/templates/apartmany/index.html:221
+msgid ""
+"\n"
+"                We provide storage rooms for your sporting gear, you can "
+"rent bikes for free and if you still want to workout on top of that we "
+"currently installed a small workout reck.\n"
+"                "
+msgstr ""
+
+#: apartmany/templates/apartmany/index.html:239
+msgid "LOCATION"
+msgstr ""
+
+#: apartmany/templates/apartmany/index.html:243
+msgid ""
+"\n"
+"                All attractions of the valley as well of the town of "
+"Liptovsky Mikulas are reachable within 15min by car and the High Tatra ski "
+"resorts are just a 40min drive away.\n"
+"                "
+msgstr ""
+
+#: apartmany/templates/apartmany/index.html:261
+msgid "PARKING"
+msgstr ""
+
+#: apartmany/templates/apartmany/index.html:265
+msgid ""
+"\n"
+"                There are numerous car parks directly on our property which "
+"all our guests can use for free. As another advantage, you are also able to "
+"drive to the Jasna ski resort by your own car.\n"
+"                "
+msgstr ""
+
+#: apartmany/templates/apartmany/index.html:291
+msgid "Apartments and Studios"
+msgstr ""
+
+#: apartmany/templates/apartmany/index.html:299
+msgid ""
+"\n"
+"          We offer 14 modern studios and apartments, each with its own "
+"kitchen and bathroom. Our apartments are suitable for families as well as "
+"for couples. There is an option to have breakfast in the nearby pension "
+"(just 50m from us).\n"
+"          "
+msgstr ""
+
+#: apartmany/templates/apartmany/index.html:343
+#: apartmany/templates/apartmany/index.html:392
+msgid ""
+"\n"
+"                Explore the facilities and take a 360° tour through each of "
+"our apartments\n"
+"                "
+msgstr ""
+
+#: apartmany/templates/apartmany/index.html:350
+msgid "Apartment Tour"
+msgstr ""
+
+#: apartmany/templates/apartmany/index.html:359
+#: apartmany/templates/apartmany/studios.html:15
+#: apartmany/templates/base.html:26
+msgid "Studios"
+msgstr ""
+
+#: apartmany/templates/apartmany/index.html:399
+msgid "Studio Tour"
+msgstr ""
+
+#: apartmany/templates/apartmany/index.html:423
+msgid "What to do in Demanovska Valley"
+msgstr ""
+
+#: apartmany/templates/apartmany/index.html:431
+msgid ""
+"\n"
+"        The Demanovska Valley has a lot of differnet activities to offer "
+"which are located just a few minutes away from our accomodation. The valley "
+"provides perfect skiing and hiking conditions as well as being home for "
+"several aquaparks, thermal spas, historical sites, museums and Slovakia's "
+"longest cave system.\n"
+"        "
+msgstr ""
+
+#: apartmany/templates/apartmany/index.html:446
+msgid "HIKING"
+msgstr ""
+
+#: apartmany/templates/apartmany/index.html:448
+msgid ""
+"\n"
+"                    Low Tatras offer a large number of trails for hiking and "
+"trekking with different levels of difficulty, from the demanding, which "
+"requires a certain degree of preparation to those that are designed for "
+"families with children or beginners.\n"
+"                    "
+msgstr ""
+
+#: apartmany/templates/apartmany/index.html:465
+msgid "SKIING"
+msgstr ""
+
+#: apartmany/templates/apartmany/index.html:467
+msgid ""
+"\n"
+"                    Located just next to the ski resorts of Jasna and "
+"Ziarce, you'll be able to minimize travelling time and enjoy your skiing on "
+"Slovakia's longest ski slopes even more. We also provide a storage room for "
+"all your equipment.\n"
+"                    "
+msgstr ""
+
+#: apartmany/templates/apartmany/index.html:484
+msgid "THERMAL"
+msgstr ""
+
+#: apartmany/templates/apartmany/index.html:486
+msgid ""
+"\n"
+"                    All within 20km, you can find the aquaparks Tatralandia "
+"and Besenova, thermal swimming pools in Liptovsky Jan and the recreation "
+"centre of Liptovsky Mara which together offer a variety of watersports "
+"activities and relaxing opportunities.\n"
+"                    "
 msgstr ""
 
 #: apartmany/templates/apartmany/prices_and_faqs.html:23
@@ -612,11 +865,6 @@ msgid ""
 "Use of our sauna is charged with a small fee of 5 euros per person. But you "
 "know what is cool? Cooling down is taken care of the river flowing right "
 "through our property!"
-msgstr ""
-
-#: apartmany/templates/apartmany/studios.html:15
-#: apartmany/templates/base.html:26
-msgid "Studios"
 msgstr ""
 
 #: apartmany/templates/apartmany/studios.html:16
