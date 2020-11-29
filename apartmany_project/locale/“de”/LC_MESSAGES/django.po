@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-29 12:57+0100\n"
+"POT-Creation-Date: 2020-11-29 14:02+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -60,14 +60,17 @@ msgid "Apartment Details"
 msgstr ""
 
 #: apartmany/templates/apartmany/apartments.html:18
+#: apartmany/templates/apartmany/studios.html:17
 msgid "Details"
 msgstr ""
 
 #: apartmany/templates/apartmany/apartments.html:19
+#: apartmany/templates/apartmany/studios.html:18
 msgid "Standard"
 msgstr ""
 
 #: apartmany/templates/apartmany/apartments.html:20
+#: apartmany/templates/apartmany/studios.html:19
 msgid "Comfort"
 msgstr ""
 
@@ -76,18 +79,22 @@ msgid "Superior"
 msgstr ""
 
 #: apartmany/templates/apartmany/apartments.html:22
+#: apartmany/templates/apartmany/studios.html:20
 msgid "Previous"
 msgstr ""
 
 #: apartmany/templates/apartmany/apartments.html:23
+#: apartmany/templates/apartmany/studios.html:21
 msgid "Next"
 msgstr ""
 
 #: apartmany/templates/apartmany/apartments.html:24
+#: apartmany/templates/apartmany/studios.html:22
 msgid "Maximum Capacity"
 msgstr ""
 
 #: apartmany/templates/apartmany/apartments.html:25
+#: apartmany/templates/apartmany/studios.html:23
 msgid "Singlebed"
 msgstr ""
 
@@ -96,6 +103,7 @@ msgid "Singlebeds"
 msgstr ""
 
 #: apartmany/templates/apartmany/apartments.html:27
+#: apartmany/templates/apartmany/studios.html:24
 msgid "Doublebed"
 msgstr ""
 
@@ -104,6 +112,7 @@ msgid "Doublebeds"
 msgstr ""
 
 #: apartmany/templates/apartmany/apartments.html:29
+#: apartmany/templates/apartmany/studios.html:25
 msgid "Sofabed"
 msgstr ""
 
@@ -240,6 +249,7 @@ msgid "Accomodation Type"
 msgstr ""
 
 #: apartmany/templates/apartmany/contact.html:183
+#: apartmany/templates/apartmany/studios.html:14
 msgid "Studio"
 msgstr ""
 
@@ -604,6 +614,78 @@ msgid ""
 "through our property!"
 msgstr ""
 
+#: apartmany/templates/apartmany/studios.html:15
+#: apartmany/templates/base.html:26
+msgid "Studios"
+msgstr ""
+
+#: apartmany/templates/apartmany/studios.html:16
+msgid "Studio Details"
+msgstr ""
+
+#: apartmany/templates/apartmany/studios.html:48
+msgid ""
+"Our accomodation provides a total of nine studios. They are ranging between "
+"28m² and 36m² and are equipped with everything you need for your holiday. "
+"Besides more detailed information and pictures of each of our studios, you "
+"can also take a virtual 360° tour through them with the button in the top "
+"right corner in every studio description."
+msgstr ""
+
+#: apartmany/templates/apartmany/studios.html:134
+#: apartmany/templates/apartmany/studios.html:251
+#: apartmany/templates/apartmany/studios.html:834
+#: apartmany/templates/apartmany/studios.html:951
+msgid ""
+"\n"
+"                This studio is on the first floor (no lift), has its own "
+"entrance, fully equiped kitchen, bedroom with one double bed, one single bed "
+"and one sofabed, bathroom with WC (towels, hairdryer), shower/warm water, "
+"radio, TV set, Wi-Fi.\n"
+"                "
+msgstr ""
+
+#: apartmany/templates/apartmany/studios.html:368
+#: apartmany/templates/apartmany/studios.html:484
+msgid ""
+"\n"
+"                This studio is on the ground floor, has its own entrance, "
+"fully equiped kitchen, bedroom with one double bed and one single bed, "
+"bathroom with WC (towels, hairdryer), shower/warm water, radio, TV set, Wi-"
+"Fi.\n"
+"                "
+msgstr ""
+
+#: apartmany/templates/apartmany/studios.html:600
+msgid ""
+"\n"
+"                This studio is on the second floor (with quite steep "
+"stairway), has its own entrance, fully equiped kitchen, bedroom with one "
+"double bed, one single bed and one sofa bed, bathroom with WC (towels, "
+"hairdryer), shower/warm water, radio, TV set, Wi-Fi.\n"
+"                "
+msgstr ""
+
+#: apartmany/templates/apartmany/studios.html:717
+msgid ""
+"\n"
+"                This studio is on the ground floor, has its own entrance, "
+"fully equiped kitchen, bedroom with one double bed, one single bed and one "
+"sofabed, bathroom with WC (towels, hairdryer), shower/warm water, radio, TV "
+"set, Wi-Fi.\n"
+"                "
+msgstr ""
+
+#: apartmany/templates/apartmany/studios.html:1068
+msgid ""
+"\n"
+"                This cozy attic studio is on the third floor (no lift), has "
+"its own entrance, fully equipped kitchen, bedroom with one double bed, one "
+"single bed and one sofabed, bathroom with WC (towels, hairdryer), shower/"
+"warm water, radio, TV set, Wi-Fi.\n"
+"                "
+msgstr ""
+
 #: apartmany/templates/apartmany/surroundings.html:24
 msgid "SURROUNDINGS"
 msgstr ""
@@ -788,10 +870,6 @@ msgstr ""
 
 #: apartmany/templates/base.html:25
 msgid "Home"
-msgstr ""
-
-#: apartmany/templates/base.html:26
-msgid "Studios"
 msgstr ""
 
 #: apartmany/templates/base.html:28

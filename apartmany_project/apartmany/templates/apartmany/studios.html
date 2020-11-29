@@ -11,6 +11,19 @@
 {% block title %}Miroslav Apartmany & Studia{% endblock %}
 
 {% block content %}
+{% trans 'Studio' as studio %}
+{% trans 'Studios' as studios %}
+{% trans 'Studio Details' as details %}
+{% trans 'Details' as details_sm %}
+{% trans 'Standard' as standard %}
+{% trans 'Comfort' as comfort %}
+{% trans 'Previous' as previous %}
+{% trans 'Next' as next %}
+{% trans 'Maximum Capacity' as capacity %}
+{% trans 'Singlebed' as single %}
+{% trans 'Doublebed' as double %}
+{% trans 'Sofabed' as sofa %}
+
   <!-- HEADER -->
 
   <div class="pimg">
@@ -18,7 +31,7 @@
       <div class="row h-100 align-content-center">
         <div class="col-12">
           <div class="header-text text-center justify-content-center">
-            <h1>STUDIOS</h1>
+            <h1>{{ studios|upper }}</h1>
           </div>
         </div>
       </div>
@@ -32,7 +45,7 @@
   <div class="container">
     <div class="inner-container pt-5 pb-5">
       <div class="contact-text text-justify mb-5">
-        <p>Our accomodation provides a total of nine studios. They are ranging between 28m² and 36m² and are equipped with everything you need for your holiday. Besides more detailed information and pictures of each of our studios, you can also take a virtual 360° tour through them with the button in the top right corner in every studio description.</p>
+        <p>{% blocktrans %}Our accomodation provides a total of nine studios. They are ranging between 28m² and 36m² and are equipped with everything you need for your holiday. Besides more detailed information and pictures of each of our studios, you can also take a virtual 360° tour through them with the button in the top right corner in every studio description.{% endblocktrans %}</p>
       </div>
 
       <!-- CARDS -->
@@ -42,9 +55,9 @@
         <div class="content">
           <div class="row" id="apartment-name">
             <div class="col-8">
-              <h1 class="d-none d-md-block">Studio 1</h1>
-              <h3 class="d-block d-md-none">Studio 1</h3>
-              <h5>Standard</h5>
+              <h1 class="d-none d-md-block">{{ studio }} 1</h1>
+              <h3 class="d-block d-md-none">{{ studio }} 1</h3>
+              <h5>{{ standard }}</h5>
             </div>
             <div class="col-4 img-fluid justify-content-center text-right" id="degree">
               <a href="">
@@ -76,11 +89,11 @@
                   <!--Controls-->
                   <a class="carousel-control-prev" href="#carousel-thumb-1" role="button" data-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
+                    <span class="sr-only">{{ previous }}</span>
                   </a>
                   <a class="carousel-control-next" href="#carousel-thumb-1" role="button" data-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
+                    <span class="sr-only">{{ next }}</span>
                   </a>
                   <!--/.Controls-->
                   <ol class="carousel-indicators">
@@ -96,8 +109,8 @@
             </div>
             <div class="col-12 col-lg-6 mt-4 mt-lg-0 icons">
               <div class="d-flex justify-content-between">
-                <h5 class="d-none d-sm-block">Studio Details</h5>
-                <h5 class="d-block d-sm-none">Details</h5>
+                <h5 class="d-none d-sm-block">{{ studio }}</h5>
+                <h5 class="d-block d-sm-none">{{ details_sm }}</h5>
                 <div class="">
                   <i class="fas fa-wifi mr-2"></i>
                   <i class="fas fa-tv mr-2"></i>
@@ -117,7 +130,11 @@
                 </div>
               </div>
               <hr>
-              <p class="text-justify">This studio is on the first floor (no lift), has its own entrance, fully equiped kitchen, bedroom with one double bed, one single bed and one sofabed, bathroom with WC (towels, hairdryer), shower/warm water, radio, TV set, Wi-Fi.</p>
+              <p class="text-justify">
+                {% blocktrans %}
+                This studio is on the first floor (no lift), has its own entrance, fully equiped kitchen, bedroom with one double bed, one single bed and one sofabed, bathroom with WC (towels, hairdryer), shower/warm water, radio, TV set, Wi-Fi.
+                {% endblocktrans %}
+              </p>
               <ul class="list-group mb-3">
                 <li class="list-group-item">
                   <div class="md-v-line"></div>
@@ -127,21 +144,21 @@
                 <li class="list-group-item d-none d-sm-block">
                   <div class="md-v-line"></div>
                   <i class="fas fa-bed pr-1 mr-5"></i>
-                  1 Doublebed, 1 Singlebed, 1 Sofabed
+                  1 {{ double }}, 1 {{ single }}, 1 {{ sofa }}
                 </li>
                 <li class="list-group-item d-flex d-sm-none align-items-center">
                   <div class="md-v-line h-100"></div>
                   <i class="fas fa-bed pr-2"></i>
                   <div class="d-inline-block">
-                    <div class="ml-5">1 Doublebed</div>
-                    <div class="ml-5">1 Singlebed</div>
-                    <div class="ml-5">1 Sofabed</div>
+                    <div class="ml-5">1 {{ double }}</div>
+                    <div class="ml-5">1 {{ single }}</div>
+                    <div class="ml-5">1 {{ sofa }}</div>
                   </div>
                 </li>
                 <li class="list-group-item">
                   <div class="md-v-line" style="height:100%"></div>
                   <i class="fas fa-users pr-1 d-inline"></i>
-                  <div class="d-inline ml-5">Maximal Capacity: 4</div>
+                  <div class="d-inline ml-5">{{ capacity }}: 4</div>
                 </li>
               </ul>
             </div>
@@ -155,9 +172,9 @@
         <div class="content">
           <div class="row" id="apartment-name">
             <div class="col-8">
-              <h1 class="d-none d-md-block">Studio 2</h1>
-              <h3 class="d-block d-md-none">Studio 2</h3>
-              <h5>Standard</h5>
+              <h1 class="d-none d-md-block">{{ studio }} 2</h1>
+              <h3 class="d-block d-md-none">{{ studio }} 2</h3>
+              <h5>{{ standard }}</h5>
             </div>
             <div class="col-4 img-fluid justify-content-center text-right" id="degree">
               <a href="">
@@ -189,11 +206,11 @@
                   <!--Controls-->
                   <a class="carousel-control-prev" href="#carousel-thumb-2" role="button" data-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
+                    <span class="sr-only">{{ previous }}</span>
                   </a>
                   <a class="carousel-control-next" href="#carousel-thumb-2" role="button" data-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
+                    <span class="sr-only">{{ next }}</span>
                   </a>
                   <!--/.Controls-->
                   <ol class="carousel-indicators">
@@ -209,8 +226,8 @@
             </div>
             <div class="col-12 col-lg-6 mt-4 mt-lg-0 icons">
               <div class="d-flex justify-content-between">
-                <h5 class="d-none d-sm-block">Studio Details</h5>
-                <h5 class="d-block d-sm-none">Details</h5>
+                <h5 class="d-none d-sm-block">{{ details }}</h5>
+                <h5 class="d-block d-sm-none">{{ details_sm }}</h5>
                 <div class="">
                   <i class="fas fa-wifi mr-2"></i>
                   <i class="fas fa-tv mr-2"></i>
@@ -230,7 +247,11 @@
                 </div>
               </div>
               <hr>
-              <p class="text-justify">This studio is on the first floor (no lift), has its own entrance, fully equiped kitchen, bedroom with one double bed, one single bed and one sofabed, bathroom with WC (towels, hairdryer), shower/warm water, radio, TV set, Wi-Fi.</p>
+              <p class="text-justify">
+                {% blocktrans %}
+                This studio is on the first floor (no lift), has its own entrance, fully equiped kitchen, bedroom with one double bed, one single bed and one sofabed, bathroom with WC (towels, hairdryer), shower/warm water, radio, TV set, Wi-Fi.
+                {% endblocktrans %}
+              </p>
               <ul class="list-group mb-3">
                 <li class="list-group-item">
                   <div class="md-v-line"></div>
@@ -240,21 +261,21 @@
                 <li class="list-group-item d-none d-sm-block">
                   <div class="md-v-line"></div>
                   <i class="fas fa-bed pr-1 mr-5"></i>
-                  1 Doublebed, 1 Singlebed, 1 Sofabed
+                  1 {{ double }}, 1 {{ single }}, 1 {{ sofa }}
                 </li>
                 <li class="list-group-item d-flex d-sm-none align-items-center">
                   <div class="md-v-line h-100"></div>
                   <i class="fas fa-bed pr-2"></i>
                   <div class="d-inline-block">
-                    <div class="ml-5">1 Doublebed</div>
-                    <div class="ml-5">1 Singlebed</div>
-                    <div class="ml-5">1 Sofabed</div>
+                    <div class="ml-5">1 {{ double }}</div>
+                    <div class="ml-5">1 {{ single }}</div>
+                    <div class="ml-5">1 {{ sofa }}</div>
                   </div>
                 </li>
                 <li class="list-group-item">
                   <div class="md-v-line" style="height:100%"></div>
                   <i class="fas fa-users pr-1 d-inline"></i>
-                  <div class="d-inline ml-5">Maximal Capacity: 4</div>
+                  <div class="d-inline ml-5">{{ capacity }}: 4</div>
                 </li>
               </ul>
             </div>
@@ -268,9 +289,9 @@
         <div class="content">
           <div class="row" id="apartment-name">
             <div class="col-8">
-              <h1 class="d-none d-md-block">Studio 3</h1>
-              <h3 class="d-block d-md-none">Studio 3</h3>
-              <h5>Standard</h5>
+              <h1 class="d-none d-md-block">{{ studio }} 3</h1>
+              <h3 class="d-block d-md-none">{{ studio }} 3</h3>
+              <h5>{{ standard }}</h5>
             </div>
             <div class="col-4 img-fluid justify-content-center text-right" id="degree">
               <a href="">
@@ -302,11 +323,11 @@
                   <!--Controls-->
                   <a class="carousel-control-prev" href="#carousel-thumb-3" role="button" data-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
+                    <span class="sr-only">{{ previous }}</span>
                   </a>
                   <a class="carousel-control-next" href="#carousel-thumb-3" role="button" data-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
+                    <span class="sr-only">{{ next }}</span>
                   </a>
                   <!--/.Controls-->
                   <ol class="carousel-indicators">
@@ -322,8 +343,8 @@
             </div>
             <div class="col-12 col-lg-6 mt-4 mt-lg-0 icons">
               <div class="d-flex justify-content-between">
-                <h5 class="d-none d-sm-block">Studio Details</h5>
-                <h5 class="d-block d-sm-none">Details</h5>
+                <h5 class="d-none d-sm-block">{{ details }}</h5>
+                <h5 class="d-block d-sm-none">{{ details_sm }}</h5>
                 <div class="">
                   <i class="fas fa-wifi mr-2"></i>
                   <i class="fas fa-tv mr-2"></i>
@@ -343,7 +364,11 @@
                 </div>
               </div>
               <hr>
-              <p class="text-justify">This studio is on the ground floor, has its own entrance, fully equiped kitchen, bedroom with one double bed and one single bed, bathroom with WC (towels, hairdryer), shower/warm water, radio, TV set, Wi-Fi.</p>
+              <p class="text-justify">
+                {% blocktrans %}
+                This studio is on the ground floor, has its own entrance, fully equiped kitchen, bedroom with one double bed and one single bed, bathroom with WC (towels, hairdryer), shower/warm water, radio, TV set, Wi-Fi.
+                {% endblocktrans %}
+              </p>
               <ul class="list-group mb-3">
                 <li class="list-group-item">
                   <div class="md-v-line"></div>
@@ -353,20 +378,20 @@
                 <li class="list-group-item d-none d-sm-block">
                   <div class="md-v-line"></div>
                   <i class="fas fa-bed pr-1 mr-5"></i>
-                  1 Doublebed, 1 Singlebed
+                  1 {{ double }}, 1 {{ single }}
                 </li>
                 <li class="list-group-item d-flex d-sm-none align-items-center">
                   <div class="md-v-line h-100"></div>
                   <i class="fas fa-bed pr-2"></i>
                   <div class="d-inline-block">
-                    <div class="ml-5">1 Doublebed</div>
-                    <div class="ml-5">1 Singlebed</div>
+                    <div class="ml-5">1 {{ double }}</div>
+                    <div class="ml-5">1 {{ single }}</div>
                   </div>
                 </li>
                 <li class="list-group-item">
                   <div class="md-v-line" style="height:100%"></div>
                   <i class="fas fa-users pr-1 d-inline"></i>
-                  <div class="d-inline ml-5">Maximal Capacity: 3</div>
+                  <div class="d-inline ml-5">{{ capacity }}: 3</div>
                 </li>
               </ul>
             </div>
@@ -380,9 +405,9 @@
         <div class="content">
           <div class="row" id="apartment-name">
             <div class="col-8">
-              <h1 class="d-none d-md-block">Studio 4</h1>
-              <h3 class="d-block d-md-none">Studio 4</h3>
-              <h5>Standard</h5>
+              <h1 class="d-none d-md-block">{{ studio }} 4</h1>
+              <h3 class="d-block d-md-none">{{ studio }} 4</h3>
+              <h5>{{ standard }}</h5>
             </div>
             <div class="col-4 img-fluid justify-content-center text-right" id="degree">
               <a href="">
@@ -414,11 +439,11 @@
                   <!--Controls-->
                   <a class="carousel-control-prev" href="#carousel-thumb-4" role="button" data-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
+                    <span class="sr-only">{{ previous }}</span>
                   </a>
                   <a class="carousel-control-next" href="#carousel-thumb-4" role="button" data-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
+                    <span class="sr-only">{{ next }}</span>
                   </a>
                   <!--/.Controls-->
                   <ol class="carousel-indicators">
@@ -434,8 +459,8 @@
             </div>
             <div class="col-12 col-lg-6 mt-4 mt-lg-0 icons">
               <div class="d-flex justify-content-between">
-                <h5 class="d-none d-sm-block">Studio Details</h5>
-                <h5 class="d-block d-sm-none">Details</h5>
+                <h5 class="d-none d-sm-block">{{ details }}</h5>
+                <h5 class="d-block d-sm-none">{{ details_sm }}</h5>
                 <div class="">
                   <i class="fas fa-wifi mr-2"></i>
                   <i class="fas fa-tv mr-2"></i>
@@ -455,7 +480,11 @@
                 </div>
               </div>
               <hr>
-              <p class="text-justify">This studio is on the ground floor, has its own entrance, fully equiped kitchen, bedroom with one double bed and one single bed, bathroom with WC (towels, hairdryer), shower/warm water, radio, TV set, Wi-Fi.</p>
+              <p class="text-justify">
+                {% blocktrans %}
+                This studio is on the ground floor, has its own entrance, fully equiped kitchen, bedroom with one double bed and one single bed, bathroom with WC (towels, hairdryer), shower/warm water, radio, TV set, Wi-Fi.
+                {% endblocktrans %}
+              </p>
               <ul class="list-group mb-3">
                 <li class="list-group-item">
                   <div class="md-v-line"></div>
@@ -465,20 +494,20 @@
                 <li class="list-group-item d-none d-sm-block">
                   <div class="md-v-line"></div>
                   <i class="fas fa-bed pr-1 mr-5"></i>
-                  1 Doublebed, 1 Singlebed
+                  1 {{ double }}, 1 {{ single }}
                 </li>
                 <li class="list-group-item d-flex d-sm-none align-items-center">
                   <div class="md-v-line h-100"></div>
                   <i class="fas fa-bed pr-2"></i>
                   <div class="d-inline-block">
-                    <div class="ml-5">1 Doublebed</div>
-                    <div class="ml-5">1 Singlebed</div>
+                    <div class="ml-5">1 {{ double }}</div>
+                    <div class="ml-5">1 {{ single }}</div>
                   </div>
                 </li>
                 <li class="list-group-item">
                   <div class="md-v-line" style="height:100%"></div>
                   <i class="fas fa-users pr-1 d-inline"></i>
-                  <div class="d-inline ml-5">Maximal Capacity: 3</div>
+                  <div class="d-inline ml-5">{{ capacity }}: 3</div>
                 </li>
               </ul>
             </div>
@@ -492,9 +521,9 @@
         <div class="content">
           <div class="row" id="apartment-name">
             <div class="col-8">
-              <h1 class="d-none d-md-block">Studio 5</h1>
-              <h3 class="d-block d-md-none">Studio 5</h3>
-              <h5>Standard</h5>
+              <h1 class="d-none d-md-block">{{ studio }} 5</h1>
+              <h3 class="d-block d-md-none">{{ studio }} 5</h3>
+              <h5>{{ standard }}</h5>
             </div>
             <div class="col-4 img-fluid justify-content-center text-right" id="degree">
               <a href="">
@@ -526,11 +555,11 @@
                   <!--Controls-->
                   <a class="carousel-control-prev" href="#carousel-thumb-5" role="button" data-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
+                    <span class="sr-only">{{ previous }}</span>
                   </a>
                   <a class="carousel-control-next" href="#carousel-thumb-5" role="button" data-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
+                    <span class="sr-only">{{ next }}</span>
                   </a>
                   <!--/.Controls-->
                   <ol class="carousel-indicators">
@@ -546,8 +575,8 @@
             </div>
             <div class="col-12 col-lg-6 mt-4 mt-lg-0 icons">
               <div class="d-flex justify-content-between">
-                <h5 class="d-none d-sm-block">Studio Details</h5>
-                <h5 class="d-block d-sm-none">Details</h5>
+                <h5 class="d-none d-sm-block">{{ details }}</h5>
+                <h5 class="d-block d-sm-none">{{ details_sm }}</h5>
                 <div class="">
                   <i class="fas fa-wifi mr-2"></i>
                   <i class="fas fa-tv mr-2"></i>
@@ -567,7 +596,11 @@
                 </div>
               </div>
               <hr>
-              <p class="text-justify">This studio is on the second floor (with quite steep stairway), has its own entrance, fully equiped kitchen, bedroom with one double bed, one single bed and one sofa bed, bathroom with WC (towels, hairdryer), shower/warm water, radio, TV set, Wi-Fi.</p>
+              <p class="text-justify">
+                {% blocktrans %}
+                This studio is on the second floor (with quite steep stairway), has its own entrance, fully equiped kitchen, bedroom with one double bed, one single bed and one sofa bed, bathroom with WC (towels, hairdryer), shower/warm water, radio, TV set, Wi-Fi.
+                {% endblocktrans %}
+              </p>
               <ul class="list-group mb-3">
                 <li class="list-group-item">
                   <div class="md-v-line"></div>
@@ -577,21 +610,21 @@
                 <li class="list-group-item d-none d-sm-block">
                   <div class="md-v-line"></div>
                   <i class="fas fa-bed pr-1 mr-5"></i>
-                  1 Doublebed, 1 Singlebed, 1 Sofabed
+                  1 {{ double }}, 1 {{ single }}, 1 {{ sofa }}
                 </li>
                 <li class="list-group-item d-flex d-sm-none align-items-center">
                   <div class="md-v-line h-100"></div>
                   <i class="fas fa-bed pr-2"></i>
                   <div class="d-inline-block">
-                    <div class="ml-5">1 Doublebed</div>
-                    <div class="ml-5">1 Singlebed</div>
-                    <div class="ml-5">1 Sofabed</div>
+                    <div class="ml-5">1 {{ double }}</div>
+                    <div class="ml-5">1 {{ single }}</div>
+                    <div class="ml-5">1 {{ sofa }}</div>
                   </div>
                 </li>
                 <li class="list-group-item">
                   <div class="md-v-line" style="height:100%"></div>
                   <i class="fas fa-users pr-1 d-inline"></i>
-                  <div class="d-inline ml-5">Maximal Capacity: 4</div>
+                  <div class="d-inline ml-5">{{ capacity }}: 4</div>
                 </li>
               </ul>
             </div>
@@ -605,9 +638,9 @@
         <div class="content">
           <div class="row" id="apartment-name">
             <div class="col-8">
-              <h1 class="d-none d-md-block">Studio 6</h1>
-              <h3 class="d-block d-md-none">Studio 6</h3>
-              <h5>Comfort</h5>
+              <h1 class="d-none d-md-block">{{ studio }} 6</h1>
+              <h3 class="d-block d-md-none">{{ studio }} 6</h3>
+              <h5>{{ comfort }}</h5>
             </div>
             <div class="col-4 img-fluid justify-content-center text-right" id="degree">
               <a href="">
@@ -639,11 +672,11 @@
                   <!--Controls-->
                   <a class="carousel-control-prev" href="#carousel-thumb-6" role="button" data-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
+                    <span class="sr-only">{{ previous }}</span>
                   </a>
                   <a class="carousel-control-next" href="#carousel-thumb-6" role="button" data-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
+                    <span class="sr-only">{{ next }}</span>
                   </a>
                   <!--/.Controls-->
                   <ol class="carousel-indicators">
@@ -659,8 +692,8 @@
             </div>
             <div class="col-12 col-lg-6 mt-4 mt-lg-0 icons">
               <div class="d-flex justify-content-between">
-                <h5 class="d-none d-sm-block">Studio Details</h5>
-                <h5 class="d-block d-sm-none">Details</h5>
+                <h5 class="d-none d-sm-block">{{ details }}</h5>
+                <h5 class="d-block d-sm-none">{{ details_sm }}</h5>
                 <div class="">
                   <i class="fas fa-wifi mr-2"></i>
                   <i class="fas fa-tv mr-2"></i>
@@ -680,7 +713,11 @@
                 </div>
               </div>
               <hr>
-              <p class="text-justify">This studio is on the ground floor, has its own entrance, fully equiped kitchen, bedroom with one double bed, one single bed and one sofabed, bathroom with WC (towels, hairdryer), shower/warm water, radio, TV set, Wi-Fi.</p>
+              <p class="text-justify">
+                {% blocktrans %}
+                This studio is on the ground floor, has its own entrance, fully equiped kitchen, bedroom with one double bed, one single bed and one sofabed, bathroom with WC (towels, hairdryer), shower/warm water, radio, TV set, Wi-Fi.
+                {% endblocktrans %}
+              </p>
               <ul class="list-group mb-3">
                 <li class="list-group-item">
                   <div class="md-v-line"></div>
@@ -690,21 +727,21 @@
                 <li class="list-group-item d-none d-sm-block">
                   <div class="md-v-line"></div>
                   <i class="fas fa-bed pr-1 mr-5"></i>
-                  1 Doublebed, 1 Singlebed, 1 Sofabed
+                  1 {{ double }}, 1 {{ single }}, 1 {{ sofa }}
                 </li>
                 <li class="list-group-item d-flex d-sm-none align-items-center">
                   <div class="md-v-line h-100"></div>
                   <i class="fas fa-bed pr-2"></i>
                   <div class="d-inline-block">
-                    <div class="ml-5">1 Doublebed</div>
-                    <div class="ml-5">1 Singlebed</div>
-                    <div class="ml-5">1 Sofabed</div>
+                    <div class="ml-5">1 {{ double }}</div>
+                    <div class="ml-5">1 {{ single }}</div>
+                    <div class="ml-5">1 {{ sofa }}</div>
                   </div>
                 </li>
                 <li class="list-group-item">
                   <div class="md-v-line" style="height:100%"></div>
                   <i class="fas fa-users pr-1 d-inline"></i>
-                  <div class="d-inline ml-5">Maximal Capacity: 4</div>
+                  <div class="d-inline ml-5">{{ capacity }}: 4</div>
                 </li>
               </ul>
             </div>
@@ -718,9 +755,9 @@
         <div class="content">
           <div class="row" id="apartment-name">
             <div class="col-8">
-              <h1 class="d-none d-md-block">Studio 8</h1>
-              <h3 class="d-block d-md-none">Studio 8</h3>
-              <h5>Comfort</h5>
+              <h1 class="d-none d-md-block">{{ studio }} 8</h1>
+              <h3 class="d-block d-md-none">{{ studio }} 8</h3>
+              <h5>{{ comfort }}</h5>
             </div>
             <div class="col-4 img-fluid justify-content-center text-right" id="degree">
               <a href="">
@@ -752,11 +789,11 @@
                   <!--Controls-->
                   <a class="carousel-control-prev" href="#carousel-thumb-8" role="button" data-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
+                    <span class="sr-only">{{ previous }}</span>
                   </a>
                   <a class="carousel-control-next" href="#carousel-thumb-8" role="button" data-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
+                    <span class="sr-only">{{ next }}</span>
                   </a>
                   <!--/.Controls-->
                   <ol class="carousel-indicators">
@@ -772,8 +809,8 @@
             </div>
             <div class="col-12 col-lg-6 mt-4 mt-lg-0 icons">
               <div class="d-flex justify-content-between">
-                <h5 class="d-none d-sm-block">Studio Details</h5>
-                <h5 class="d-block d-sm-none">Details</h5>
+                <h5 class="d-none d-sm-block">{{ details }}</h5>
+                <h5 class="d-block d-sm-none">{{ details_sm }}</h5>
                 <div class="">
                   <i class="fas fa-wifi mr-2"></i>
                   <i class="fas fa-tv mr-2"></i>
@@ -793,7 +830,11 @@
                 </div>
               </div>
               <hr>
-              <p class="text-justify">This studio is on the first floor (no lift), has its own entrance, fully equiped kitchen, bedroom with one double bed, one single bed and one sofabed, bathroom with WC (towels, hairdryer), shower/warm water, radio, TV set, Wi-Fi.</p>
+              <p class="text-justify">
+                {% blocktrans %}
+                This studio is on the first floor (no lift), has its own entrance, fully equiped kitchen, bedroom with one double bed, one single bed and one sofabed, bathroom with WC (towels, hairdryer), shower/warm water, radio, TV set, Wi-Fi.
+                {% endblocktrans %}
+              </p>
               <ul class="list-group mb-3">
                 <li class="list-group-item">
                   <div class="md-v-line"></div>
@@ -803,21 +844,21 @@
                 <li class="list-group-item d-none d-sm-block">
                   <div class="md-v-line"></div>
                   <i class="fas fa-bed pr-1 mr-5"></i>
-                  1 Doublebed, 1 Singlebed, 1 Sofabed
+                  1 {{ double }}, 1 {{ single }}, 1 {{ sofa }}
                 </li>
                 <li class="list-group-item d-flex d-sm-none align-items-center">
                   <div class="md-v-line h-100"></div>
                   <i class="fas fa-bed pr-2"></i>
                   <div class="d-inline-block">
-                    <div class="ml-5">1 Doublebed</div>
-                    <div class="ml-5">1 Singlebed</div>
-                    <div class="ml-5">1 Sofabed</div>
+                    <div class="ml-5">1 {{ double }}</div>
+                    <div class="ml-5">1 {{ single }}</div>
+                    <div class="ml-5">1 {{ sofa }}</div>
                   </div>
                 </li>
                 <li class="list-group-item">
                   <div class="md-v-line" style="height:100%"></div>
                   <i class="fas fa-users pr-1 d-inline"></i>
-                  <div class="d-inline ml-5">Maximal Capacity: 4</div>
+                  <div class="d-inline ml-5">{{ capacity }}: 4</div>
                 </li>
               </ul>
             </div>
@@ -831,9 +872,9 @@
         <div class="content">
           <div class="row" id="apartment-name">
             <div class="col-8">
-              <h1 class="d-none d-md-block">Studio 9</h1>
-              <h3 class="d-block d-md-none">Studio 9</h3>
-              <h5>Comfort</h5>
+              <h1 class="d-none d-md-block">{{ studio }} 9</h1>
+              <h3 class="d-block d-md-none">{{ studio }} 9</h3>
+              <h5>{{ comfort }}</h5>
             </div>
             <div class="col-4 img-fluid justify-content-center text-right" id="degree">
               <a href="">
@@ -865,11 +906,11 @@
                   <!--Controls-->
                   <a class="carousel-control-prev" href="#carousel-thumb-9" role="button" data-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
+                    <span class="sr-only">{{ previous }}</span>
                   </a>
                   <a class="carousel-control-next" href="#carousel-thumb-9" role="button" data-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
+                    <span class="sr-only">{{ next }}</span>
                   </a>
                   <!--/.Controls-->
                   <ol class="carousel-indicators">
@@ -885,8 +926,8 @@
             </div>
             <div class="col-12 col-lg-6 mt-4 mt-lg-0 icons">
               <div class="d-flex justify-content-between">
-                <h5 class="d-none d-sm-block">Studio Details</h5>
-                <h5 class="d-block d-sm-none">Details</h5>
+                <h5 class="d-none d-sm-block">{{ details }}</h5>
+                <h5 class="d-block d-sm-none">{{ details_sm }}</h5>
                 <div class="">
                   <i class="fas fa-wifi mr-2"></i>
                   <i class="fas fa-tv mr-2"></i>
@@ -906,7 +947,11 @@
                 </div>
               </div>
               <hr>
-              <p class="text-justify">This studio is on the first floor (no lift), has its own entrance, fully equiped kitchen, bedroom with one double bed, one single bed and one sofabed, bathroom with WC (towels, hairdryer), shower/warm water, radio, TV set, Wi-Fi.</p>
+              <p class="text-justify">
+                {% blocktrans %}
+                This studio is on the first floor (no lift), has its own entrance, fully equiped kitchen, bedroom with one double bed, one single bed and one sofabed, bathroom with WC (towels, hairdryer), shower/warm water, radio, TV set, Wi-Fi.
+                {% endblocktrans %}
+              </p>
               <ul class="list-group mb-3">
                 <li class="list-group-item">
                   <div class="md-v-line"></div>
@@ -916,21 +961,21 @@
                 <li class="list-group-item d-none d-sm-block">
                   <div class="md-v-line"></div>
                   <i class="fas fa-bed pr-1 mr-5"></i>
-                  1 Doublebed, 1 Singlebed, 1 Sofabed
+                  1 {{ double }}, 1 {{ single }}, 1 {{ sofa }}
                 </li>
                 <li class="list-group-item d-flex d-sm-none align-items-center">
                   <div class="md-v-line h-100"></div>
                   <i class="fas fa-bed pr-2"></i>
                   <div class="d-inline-block">
-                    <div class="ml-5">1 Doublebed</div>
-                    <div class="ml-5">1 Singlebed</div>
-                    <div class="ml-5">1 Sofabed</div>
+                    <div class="ml-5">1 {{ double }}</div>
+                    <div class="ml-5">1 {{ double }}</div>
+                    <div class="ml-5">1 {{ double }}</div>
                   </div>
                 </li>
                 <li class="list-group-item">
                   <div class="md-v-line" style="height:100%"></div>
                   <i class="fas fa-users pr-1 d-inline"></i>
-                  <div class="d-inline ml-5">Maximal Capacity: 4</div>
+                  <div class="d-inline ml-5">{{ capacity }}: 4</div>
                 </li>
               </ul>
             </div>
@@ -944,9 +989,9 @@
         <div class="content">
           <div class="row" id="apartment-name">
             <div class="col-8">
-              <h1 class="d-none d-md-block">Studio 10</h1>
-              <h3 class="d-block d-md-none">Studio 10</h3>
-              <h5>Standard</h5>
+              <h1 class="d-none d-md-block">{{ studio }} 10</h1>
+              <h3 class="d-block d-md-none">{{ studio }} 10</h3>
+              <h5>{{ standard }}</h5>
             </div>
             <div class="col-4 img-fluid justify-content-center text-right" id="degree">
               <a href="">
@@ -978,11 +1023,11 @@
                   <!--Controls-->
                   <a class="carousel-control-prev" href="#carousel-thumb-10" role="button" data-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
+                    <span class="sr-only">{{ previous }}</span>
                   </a>
                   <a class="carousel-control-next" href="#carousel-thumb-10" role="button" data-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
+                    <span class="sr-only">{{ next }}</span>
                   </a>
                   <!--/.Controls-->
                   <ol class="carousel-indicators">
@@ -998,8 +1043,8 @@
             </div>
             <div class="col-12 col-lg-6 mt-4 mt-lg-0 icons">
               <div class="d-flex justify-content-between">
-                <h5 class="d-none d-sm-block">Studio Details</h5>
-                <h5 class="d-block d-sm-none">Details</h5>
+                <h5 class="d-none d-sm-block">{{ details }}</h5>
+                <h5 class="d-block d-sm-none">{{ details_sm }}</h5>
                 <div class="">
                   <i class="fas fa-wifi mr-2"></i>
                   <i class="fas fa-tv mr-2"></i>
@@ -1019,7 +1064,11 @@
                 </div>
               </div>
               <hr>
-              <p class="text-justify">This cozy attic studio is on the third floor (no lift), has its own entrance, fully equipped kitchen, bedroom with one double bed, one single bed and one sofabed, bathroom with WC (towels, hairdryer), shower/warm water, radio, TV set, Wi-Fi.</p>
+              <p class="text-justify">
+                {% blocktrans %}
+                This cozy attic studio is on the third floor (no lift), has its own entrance, fully equipped kitchen, bedroom with one double bed, one single bed and one sofabed, bathroom with WC (towels, hairdryer), shower/warm water, radio, TV set, Wi-Fi.
+                {% endblocktrans %}
+              </p>
               <ul class="list-group mb-3">
                 <li class="list-group-item">
                   <div class="md-v-line"></div>
@@ -1029,21 +1078,21 @@
                 <li class="list-group-item d-none d-sm-block">
                   <div class="md-v-line"></div>
                   <i class="fas fa-bed pr-1 mr-5"></i>
-                  1 Doublebed, 1 Singlebed, 1 Sofabed
+                  1 {{ double }}, 1 {{ single }}, 1 {{ sofa }}
                 </li>
                 <li class="list-group-item d-flex d-sm-none align-items-center">
                   <div class="md-v-line h-100"></div>
                   <i class="fas fa-bed pr-2"></i>
                   <div class="d-inline-block">
-                    <div class="ml-5">1 Doublebed</div>
-                    <div class="ml-5">1 Singlebed</div>
-                    <div class="ml-5">1 Sofabed</div>
+                    <div class="ml-5">1 {{ double }}</div>
+                    <div class="ml-5">1 {{ single }}</div>
+                    <div class="ml-5">1 {{ sofa }}</div>
                   </div>
                 </li>
                 <li class="list-group-item">
                   <div class="md-v-line" style="height:100%"></div>
                   <i class="fas fa-users pr-1 d-inline"></i>
-                  <div class="d-inline ml-5">Maximal Capacity: 4</div>
+                  <div class="d-inline ml-5">{{ capacity }}: 4</div>
                 </li>
               </ul>
             </div>
