@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-29 12:21+0100\n"
+"POT-Creation-Date: 2020-11-29 12:48+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -43,6 +43,154 @@ msgstr ""
 
 #: apartmany/forms.py:36
 msgid "Picture"
+msgstr ""
+
+#: apartmany/templates/apartmany/apartments.html:21
+msgid "APARTMENTS"
+msgstr ""
+
+#: apartmany/templates/apartmany/apartments.html:36
+msgid ""
+"\n"
+"        Our accomodation provides a total of five apartments. They are "
+"ranging between 35m² and 82m² and are equipped\n"
+"        with everything you need for your holiday. Besides more detailed "
+"information and pictures of each of our\n"
+"        apartments, you can also take a virtual 360° tour through them with "
+"the button in the top right corner in every\n"
+"        apartment description.\n"
+"        "
+msgstr ""
+
+#: apartmany/templates/apartmany/apartments.html:46
+#: apartmany/templates/apartmany/contact.html:182
+msgid "Apartment"
+msgstr ""
+
+#: apartmany/templates/apartmany/apartments.html:47
+msgid "Apartment Details"
+msgstr ""
+
+#: apartmany/templates/apartmany/apartments.html:48
+msgid "Details"
+msgstr ""
+
+#: apartmany/templates/apartmany/apartments.html:49
+msgid "Standard"
+msgstr ""
+
+#: apartmany/templates/apartmany/apartments.html:50
+msgid "Comfort"
+msgstr ""
+
+#: apartmany/templates/apartmany/apartments.html:51
+msgid "Superior"
+msgstr ""
+
+#: apartmany/templates/apartmany/apartments.html:52
+msgid "Previous"
+msgstr ""
+
+#: apartmany/templates/apartmany/apartments.html:53
+msgid "Next"
+msgstr ""
+
+#: apartmany/templates/apartmany/apartments.html:54
+msgid "Maximum Capacity"
+msgstr ""
+
+#: apartmany/templates/apartmany/apartments.html:55
+msgid "Singlebed"
+msgstr ""
+
+#: apartmany/templates/apartmany/apartments.html:56
+msgid "Singlebeds"
+msgstr ""
+
+#: apartmany/templates/apartmany/apartments.html:57
+msgid "Doublebed"
+msgstr ""
+
+#: apartmany/templates/apartmany/apartments.html:58
+msgid "Doublebeds"
+msgstr ""
+
+#: apartmany/templates/apartmany/apartments.html:59
+msgid "Sofabed"
+msgstr ""
+
+#: apartmany/templates/apartmany/apartments.html:60
+msgid "Sofabeds"
+msgstr ""
+
+#: apartmany/templates/apartmany/apartments.html:163
+msgid ""
+"\n"
+"              This apartment with a seperate living room and bedroom is on "
+"the ground floor, has its own entrance, fully\n"
+"              equipped kitchen, bedroom with one double bed, one single bed "
+"and one sofabed, bathroom with WC (towels,\n"
+"              hairdryer), shower/warm water, radio, 2 LCD TVs (82 + 67 cm), "
+"Wi-Fi.\n"
+"              "
+msgstr ""
+
+#: apartmany/templates/apartmany/apartments.html:301
+msgid ""
+"\n"
+"              Superior is our biggest, newest (complete renovation in 2015) "
+"and the most comfortable apartment. It is\n"
+"              situated on the second floor (no lift) has its own entrance, "
+"fully equiped kitchen (big fridge, toaster,\n"
+"              coffee machine) that is connected to the living room (LCD TV "
+"120 cm). There are two seperate bedrooms; one\n"
+"              with a double bed, a single bed and a sofabed (LCD TV 70 cm) "
+"and the other one with one double and two\n"
+"              single beds. It has a large bathroom with WC and washing "
+"machine (towels, hairdryer, shower/ warm water.)\n"
+"              and one additional bathroom with only toilet. Wi-Fi is "
+"available in the apartment.\n"
+"              "
+msgstr ""
+
+#: apartmany/templates/apartmany/apartments.html:442
+msgid ""
+"\n"
+"              Comfortable, new apartment on the ground floor, that has its "
+"own entrance, fully equiped kitchen, living\n"
+"              room with a sofabed and bedroom with one double bed and one "
+"single bed. There is a bathroom with WC\n"
+"              (towels, hairdryer), shower/warm water, radio, 2 LCD TVs (101 "
+"+ 67 cm), Wi-Fi.\n"
+"              "
+msgstr ""
+
+#: apartmany/templates/apartmany/apartments.html:580
+msgid ""
+"\n"
+"              Comfortable, new apartment on the first floor (no lift), that "
+"has its own entrance, fully equiped kitchen,\n"
+"              living room with a sofabed and bedroom with one double and one "
+"single bed. There is a bathroom with WC\n"
+"              (towels, hairdryer), shower/warm water, radio, 2 LCD TVs (101 "
+"+ 67 cm), Wi-Fi.\n"
+"              "
+msgstr ""
+
+#: apartmany/templates/apartmany/apartments.html:718
+msgid ""
+"\n"
+"              This large and comfortable mezonet apartment is situated on "
+"the second and third floor (no lift). It has\n"
+"              its own entrance, large bathroom with WC and a washing machine "
+"(towels, hairddryer), and another bathroom\n"
+"              with toilet only. Fully equipped kitchen is connected with the "
+"living room (LCD TV 107 cm) that contains a\n"
+"              sofabed. In the attic of this two floor apartment there are "
+"two bedrooms; one with a double and a single\n"
+"              bed (LCD TV 82 cm), and other one with two single beds. There "
+"is also free Wi-Fi and radio available.\n"
+"              "
 msgstr ""
 
 #: apartmany/templates/apartmany/contact.html:91
@@ -88,10 +236,6 @@ msgstr ""
 
 #: apartmany/templates/apartmany/contact.html:179
 msgid "Accomodation Type"
-msgstr ""
-
-#: apartmany/templates/apartmany/contact.html:182
-msgid "Apartment"
 msgstr ""
 
 #: apartmany/templates/apartmany/contact.html:183
