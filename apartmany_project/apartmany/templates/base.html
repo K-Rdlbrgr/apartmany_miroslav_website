@@ -82,28 +82,28 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
+            <li class="nav-item {% if request.resolver_match.url_name == 'home' %}active{% endif %}">
               <a class="nav-link" href="{% url 'home' %}">{{ home }}<span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item {% if request.resolver_match.url_name == 'studios' %}active{% endif %}">
               <a class="nav-link secondary-nav" href="{% url 'studios' %}">{{ studios }}</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item {% if request.resolver_match.url_name == 'apartments' %}active{% endif %}">
               <a class="nav-link secondary-nav" href="{% url 'apartments' %}">{{ apartments }}</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item {% if request.resolver_match.url_name == 'prices_and_faqs' %}active{% endif %}">
               <a class="nav-link secondary-nav" href="{% url 'prices_and_faqs' %}">{{ prices_and_faqs }}</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item {% if request.resolver_match.url_name == 'gallery' %}active{% endif %}">
               <a class="nav-link secondary-nav" href="{% url 'gallery' %}">{{ gallery }}</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item {% if request.resolver_match.url_name == 'guestbook' %}active{% endif %}">
               <a class="nav-link secondary-nav" href="{% url 'guestbook' %}">{{ guestbook }}</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item {% if request.resolver_match.url_name == 'surroundings' %}active{% endif %}">
               <a class="nav-link secondary-nav" href="{% url 'surroundings' %}">{{ surroundings }}</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item {% if request.resolver_match.url_name == 'contact' %}active{% endif %}">
               <a class="nav-link secondary-nav pr-lg-0" href="{% url 'contact' %}">{{ contact }}</a>
             </li>
           </ul>
