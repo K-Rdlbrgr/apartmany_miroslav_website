@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-29 12:48+0100\n"
+"POT-Creation-Date: 2020-11-29 12:57+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -45,11 +45,73 @@ msgstr ""
 msgid "Picture"
 msgstr ""
 
-#: apartmany/templates/apartmany/apartments.html:21
-msgid "APARTMENTS"
+#: apartmany/templates/apartmany/apartments.html:15
+#: apartmany/templates/apartmany/contact.html:182
+msgid "Apartment"
 msgstr ""
 
-#: apartmany/templates/apartmany/apartments.html:36
+#: apartmany/templates/apartmany/apartments.html:16
+#: apartmany/templates/base.html:27
+msgid "Apartments"
+msgstr ""
+
+#: apartmany/templates/apartmany/apartments.html:17
+msgid "Apartment Details"
+msgstr ""
+
+#: apartmany/templates/apartmany/apartments.html:18
+msgid "Details"
+msgstr ""
+
+#: apartmany/templates/apartmany/apartments.html:19
+msgid "Standard"
+msgstr ""
+
+#: apartmany/templates/apartmany/apartments.html:20
+msgid "Comfort"
+msgstr ""
+
+#: apartmany/templates/apartmany/apartments.html:21
+msgid "Superior"
+msgstr ""
+
+#: apartmany/templates/apartmany/apartments.html:22
+msgid "Previous"
+msgstr ""
+
+#: apartmany/templates/apartmany/apartments.html:23
+msgid "Next"
+msgstr ""
+
+#: apartmany/templates/apartmany/apartments.html:24
+msgid "Maximum Capacity"
+msgstr ""
+
+#: apartmany/templates/apartmany/apartments.html:25
+msgid "Singlebed"
+msgstr ""
+
+#: apartmany/templates/apartmany/apartments.html:26
+msgid "Singlebeds"
+msgstr ""
+
+#: apartmany/templates/apartmany/apartments.html:27
+msgid "Doublebed"
+msgstr ""
+
+#: apartmany/templates/apartmany/apartments.html:28
+msgid "Doublebeds"
+msgstr ""
+
+#: apartmany/templates/apartmany/apartments.html:29
+msgid "Sofabed"
+msgstr ""
+
+#: apartmany/templates/apartmany/apartments.html:30
+msgid "Sofabeds"
+msgstr ""
+
+#: apartmany/templates/apartmany/apartments.html:53
 msgid ""
 "\n"
 "        Our accomodation provides a total of five apartments. They are "
@@ -62,68 +124,7 @@ msgid ""
 "        "
 msgstr ""
 
-#: apartmany/templates/apartmany/apartments.html:46
-#: apartmany/templates/apartmany/contact.html:182
-msgid "Apartment"
-msgstr ""
-
-#: apartmany/templates/apartmany/apartments.html:47
-msgid "Apartment Details"
-msgstr ""
-
-#: apartmany/templates/apartmany/apartments.html:48
-msgid "Details"
-msgstr ""
-
-#: apartmany/templates/apartmany/apartments.html:49
-msgid "Standard"
-msgstr ""
-
-#: apartmany/templates/apartmany/apartments.html:50
-msgid "Comfort"
-msgstr ""
-
-#: apartmany/templates/apartmany/apartments.html:51
-msgid "Superior"
-msgstr ""
-
-#: apartmany/templates/apartmany/apartments.html:52
-msgid "Previous"
-msgstr ""
-
-#: apartmany/templates/apartmany/apartments.html:53
-msgid "Next"
-msgstr ""
-
-#: apartmany/templates/apartmany/apartments.html:54
-msgid "Maximum Capacity"
-msgstr ""
-
-#: apartmany/templates/apartmany/apartments.html:55
-msgid "Singlebed"
-msgstr ""
-
-#: apartmany/templates/apartmany/apartments.html:56
-msgid "Singlebeds"
-msgstr ""
-
-#: apartmany/templates/apartmany/apartments.html:57
-msgid "Doublebed"
-msgstr ""
-
-#: apartmany/templates/apartmany/apartments.html:58
-msgid "Doublebeds"
-msgstr ""
-
-#: apartmany/templates/apartmany/apartments.html:59
-msgid "Sofabed"
-msgstr ""
-
-#: apartmany/templates/apartmany/apartments.html:60
-msgid "Sofabeds"
-msgstr ""
-
-#: apartmany/templates/apartmany/apartments.html:163
+#: apartmany/templates/apartmany/apartments.html:165
 msgid ""
 "\n"
 "              This apartment with a seperate living room and bedroom is on "
@@ -135,7 +136,7 @@ msgid ""
 "              "
 msgstr ""
 
-#: apartmany/templates/apartmany/apartments.html:301
+#: apartmany/templates/apartmany/apartments.html:303
 msgid ""
 "\n"
 "              Superior is our biggest, newest (complete renovation in 2015) "
@@ -153,7 +154,7 @@ msgid ""
 "              "
 msgstr ""
 
-#: apartmany/templates/apartmany/apartments.html:442
+#: apartmany/templates/apartmany/apartments.html:444
 msgid ""
 "\n"
 "              Comfortable, new apartment on the ground floor, that has its "
@@ -165,7 +166,7 @@ msgid ""
 "              "
 msgstr ""
 
-#: apartmany/templates/apartmany/apartments.html:580
+#: apartmany/templates/apartmany/apartments.html:582
 msgid ""
 "\n"
 "              Comfortable, new apartment on the first floor (no lift), that "
@@ -177,7 +178,7 @@ msgid ""
 "              "
 msgstr ""
 
-#: apartmany/templates/apartmany/apartments.html:718
+#: apartmany/templates/apartmany/apartments.html:720
 msgid ""
 "\n"
 "              This large and comfortable mezonet apartment is situated on "
@@ -791,10 +792,6 @@ msgstr ""
 
 #: apartmany/templates/base.html:26
 msgid "Studios"
-msgstr ""
-
-#: apartmany/templates/base.html:27
-msgid "Apartments"
 msgstr ""
 
 #: apartmany/templates/base.html:28

@@ -12,13 +12,30 @@
 
 {% block content %}
 
+{% trans 'Apartment' as apartment %}
+{% trans 'Apartments' as apartments %}
+{% trans 'Apartment Details' as details %}
+{% trans 'Details' as details_sm %}
+{% trans 'Standard' as standard %}
+{% trans 'Comfort' as comfort %}
+{% trans 'Superior' as superior %}
+{% trans 'Previous' as previous %}
+{% trans 'Next' as next %}
+{% trans 'Maximum Capacity' as capacity %}
+{% trans 'Singlebed' as single %}
+{% trans 'Singlebeds' as singles %}
+{% trans 'Doublebed' as double %}
+{% trans 'Doublebeds' as doubles %}
+{% trans 'Sofabed' as sofa %}
+{% trans 'Sofabeds' as sofas %}
+
 <!-- HEADER -->
 <div class="pimg">
   <div class="pimg-overlay">
     <div class="row h-100 align-content-center">
       <div class="col-12">
         <div class="header-text text-center justify-content-center">
-          <h1>{% trans 'APARTMENTS' %}</h1>
+          <h1>{{ apartments|upper }}</h1>
         </div>
       </div>
     </div>
@@ -43,21 +60,6 @@
     </div>
 
     <!-- CARDS -->
-    {% trans 'Apartment' as apartment %}
-    {% trans 'Apartment Details' as details %}
-    {% trans 'Details' as details_sm %}
-    {% trans 'Standard' as standard %}
-    {% trans 'Comfort' as comfort %}
-    {% trans 'Superior' as superior %}
-    {% trans 'Previous' as previous %}
-    {% trans 'Next' as next %}
-    {% trans 'Maximum Capacity' as capacity %}
-    {% trans 'Singlebed' as single %}
-    {% trans 'Singlebeds' as singles %}
-    {% trans 'Doublebed' as double %}
-    {% trans 'Doublebeds' as doubles %}
-    {% trans 'Sofabed' as sofa %}
-    {% trans 'Sofabeds' as sofas %}
 
     <!-- APARTMENT 7 -->
     <div class="card mb-5">
