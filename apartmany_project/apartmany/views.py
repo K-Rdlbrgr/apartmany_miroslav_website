@@ -121,7 +121,7 @@ def contact(request):
                       ['kevin.riedlberger@novasbe.pt'],
                       fail_silently=False)
 
-            message = f'Thank you very much for your contact request {name}! We will contact you as oon as possible.'
+            message = f'Thank you very much for your contact request {name}! We will contact you as soon as possible.'
             return render(request, 'apartmany/contact.html', {'message': message})
 
         elif 'Submit-Reservation' in request.POST:
@@ -142,7 +142,7 @@ def contact(request):
                       ['kevin.riedlberger@novasbe.pt'],
                       fail_silently=False)
 
-            message = f'Thank you very much for your reservation request {name}! We will contact you as oon as possible.'
+            message = f'Thank you very much for your reservation request {name}! We will contact you as soon as possible.'
 
             return render(request, 'apartmany/contact.html', {'message': message})
 
