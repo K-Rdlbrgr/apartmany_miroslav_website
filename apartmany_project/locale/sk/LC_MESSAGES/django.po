@@ -1,0 +1,1141 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-02-17 20:01+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && n "
+">= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
+
+#: apartmany/forms.py:16 apartmany/templates/apartmany/contact.html:100
+msgid "Name"
+msgstr ""
+
+#: apartmany/forms.py:19
+msgid "Title"
+msgstr ""
+
+#: apartmany/forms.py:22
+msgid "Rating"
+msgstr ""
+
+#: apartmany/forms.py:25 apartmany/templates/apartmany/contact.html:102
+msgid "Message"
+msgstr ""
+
+#: apartmany/forms.py:31
+msgid "Your Name"
+msgstr ""
+
+#: apartmany/forms.py:32
+msgid "Title of Comment"
+msgstr ""
+
+#: apartmany/forms.py:36
+msgid "Picture"
+msgstr ""
+
+#: apartmany/templates/apartmany/apartments.html:15
+#: apartmany/templates/apartmany/contact.html:156
+msgid "Apartment"
+msgstr ""
+
+#: apartmany/templates/apartmany/apartments.html:16
+#: apartmany/templates/apartmany/index.html:288
+#: apartmany/templates/base.html:27
+msgid "Apartments"
+msgstr ""
+
+#: apartmany/templates/apartmany/apartments.html:17
+msgid "Apartment Details"
+msgstr ""
+
+#: apartmany/templates/apartmany/apartments.html:18
+#: apartmany/templates/apartmany/studios.html:17
+msgid "Details"
+msgstr ""
+
+#: apartmany/templates/apartmany/apartments.html:19
+#: apartmany/templates/apartmany/studios.html:18
+msgid "Standard"
+msgstr ""
+
+#: apartmany/templates/apartmany/apartments.html:20
+#: apartmany/templates/apartmany/studios.html:19
+msgid "Comfort"
+msgstr ""
+
+#: apartmany/templates/apartmany/apartments.html:21
+msgid "Superior"
+msgstr ""
+
+#: apartmany/templates/apartmany/apartments.html:22
+#: apartmany/templates/apartmany/index.html:15
+#: apartmany/templates/apartmany/studios.html:20
+msgid "Previous"
+msgstr ""
+
+#: apartmany/templates/apartmany/apartments.html:23
+#: apartmany/templates/apartmany/index.html:16
+#: apartmany/templates/apartmany/studios.html:21
+msgid "Next"
+msgstr ""
+
+#: apartmany/templates/apartmany/apartments.html:24
+#: apartmany/templates/apartmany/studios.html:22
+msgid "Maximum Capacity"
+msgstr ""
+
+#: apartmany/templates/apartmany/apartments.html:25
+#: apartmany/templates/apartmany/studios.html:23
+msgid "Singlebed"
+msgstr ""
+
+#: apartmany/templates/apartmany/apartments.html:26
+msgid "Singlebeds"
+msgstr ""
+
+#: apartmany/templates/apartmany/apartments.html:27
+#: apartmany/templates/apartmany/studios.html:24
+msgid "Doublebed"
+msgstr ""
+
+#: apartmany/templates/apartmany/apartments.html:28
+msgid "Doublebeds"
+msgstr ""
+
+#: apartmany/templates/apartmany/apartments.html:29
+#: apartmany/templates/apartmany/studios.html:25
+msgid "Sofabed"
+msgstr ""
+
+#: apartmany/templates/apartmany/apartments.html:30
+msgid "Sofabeds"
+msgstr ""
+
+#: apartmany/templates/apartmany/apartments.html:53
+msgid ""
+"Apartmany & Studia Miroslav accodommodation with wellness & sauna in "
+"Demanovska Dolina, in the close proximity of Jasna Chopok ski center "
+"provides a total of nine studios and five apartments. Our apartments are "
+"ranging between 35m² and 82m² and have fully equipped kitchen. Besides more "
+"detailed information and pictures of each of our apartments, you can also "
+"take a virtual 360° tour through them with the button in the top right "
+"corner in every apartment description."
+msgstr ""
+
+#: apartmany/templates/apartmany/apartments.html:160
+msgid ""
+"This apartment with a seperate living room and bedroom is on the ground "
+"floor, has its own entrance, fully equipped kitchen, bedroom with one double "
+"bed, one single bed and one sofabed, bathroom with WC (towels, hairdryer), "
+"shower/warm water, radio, 2 LCD TVs (82 + 67 cm), Wi-Fi."
+msgstr ""
+
+#: apartmany/templates/apartmany/apartments.html:294
+msgid ""
+"Superior is our biggest, newest (complete renovation in 2015) and the most "
+"comfortable apartment. It is situated on the second floor (no lift) has its "
+"own entrance, fully equiped kitchen (big fridge, toaster, coffee machine) "
+"that is connected to the living room (LCD TV 120 cm). There are two seperate "
+"bedrooms; one with a double bed, a single bed and a sofabed (LCD TV 70 cm) "
+"and the other one with one double and two single beds. It has a large "
+"bathroom with WC and washing machine (towels, hairdryer, shower/ warm water) "
+"and one additional bathroom with only toilet. Wi-Fi is available in the "
+"apartment."
+msgstr ""
+
+#: apartmany/templates/apartmany/apartments.html:428
+msgid ""
+"Comfortable, new apartment on the ground floor, that has its own entrance, "
+"fully equiped kitchen, living room with a sofabed and bedroom with one "
+"double bed and one single bed. There is a bathroom with WC (towels, "
+"hairdryer), shower/warm water, radio, 2 LCD TVs (101 + 67 cm), Wi-Fi."
+msgstr ""
+
+#: apartmany/templates/apartmany/apartments.html:562
+msgid ""
+"Comfortable, new apartment on the first floor (no lift), that has its own "
+"entrance, fully equiped kitchen, living room with a sofabed and bedroom with "
+"one double and one single bed. There is a bathroom with WC (towels, "
+"hairdryer), shower/warm water, radio, 2 LCD TVs (101 + 67 cm), Wi-Fi."
+msgstr ""
+
+#: apartmany/templates/apartmany/apartments.html:696
+msgid ""
+"This large and comfortable mezonet apartment is situated on the second and "
+"third floor (no lift). It has its own entrance, large bathroom with WC and a "
+"washing machine (towels, hairddryer), and another bathroom with toilet only. "
+"Fully equipped kitchen is connected with the living room (LCD TV 107 cm) "
+"that contains a sofabed. In the attic of this two floor apartment there are "
+"two bedrooms; one with a double and a single bed (LCD TV 82 cm), and other "
+"one with two single beds. There is also free Wi-Fi and radio available."
+msgstr ""
+
+#: apartmany/templates/apartmany/contact.html:65
+msgid "CONTACT<br>&<br>RESERVATION"
+msgstr ""
+
+#: apartmany/templates/apartmany/contact.html:75
+msgid ""
+"Please feel free to send us any question or a reservation requests, using "
+"the forms provided below. In case you would like to reserve an apartment or "
+"studio, please provide us with your desired arrival and return dates, your "
+"preferred apartment or studio and the number of people. Be aware that in "
+"during the high season, bookings can only be arranged for a whole week, "
+"starting each Saturday. Your reservation request does not represent a "
+"binding offer and we will get in contact with you through your provided "
+"email as soon as possible to arrange the booking."
+msgstr ""
+
+#: apartmany/templates/apartmany/contact.html:90
+msgid "Contact & Questions"
+msgstr ""
+
+#: apartmany/templates/apartmany/contact.html:93
+msgid "Reservation Request"
+msgstr ""
+
+#: apartmany/templates/apartmany/contact.html:101
+#: apartmany/templates/apartmany/contact.html:103
+msgid "Email"
+msgstr ""
+
+#: apartmany/templates/apartmany/contact.html:104
+msgid "Please Select"
+msgstr ""
+
+#: apartmany/templates/apartmany/contact.html:120
+msgid "Subject"
+msgstr ""
+
+#: apartmany/templates/apartmany/contact.html:129
+msgid "Send"
+msgstr ""
+
+#: apartmany/templates/apartmany/contact.html:153
+msgid "Accomodation Type"
+msgstr ""
+
+#: apartmany/templates/apartmany/contact.html:157
+#: apartmany/templates/apartmany/studios.html:14
+msgid "Studio"
+msgstr ""
+
+#: apartmany/templates/apartmany/contact.html:161
+msgid "Accomodation Detail"
+msgstr ""
+
+#: apartmany/templates/apartmany/contact.html:173
+msgid "To"
+msgstr ""
+
+#: apartmany/templates/apartmany/contact.html:179
+msgid "Number of Guests"
+msgstr ""
+
+#: apartmany/templates/apartmany/contact.html:199
+msgid "Send Reservation Request"
+msgstr ""
+
+#: apartmany/templates/apartmany/gallery.html:62
+#: apartmany/templates/apartmany/gallery.html:95
+#: apartmany/templates/apartmany/gallery.html:205
+msgid ""
+"Apartmany & Studia Miroslav - modern accommodation with sauna located in the "
+"heart of Demanovska Valley just a few minutes from Jasna Chopok ski center - "
+"offers something for everyone during both summer and winter. We are "
+"surrounded by lush green forrest and the river Demanovka flows right through "
+"our property. Our place is amazing for families with children that can play "
+"in the huge garden, use the trampoline or the wooden playhouse with slides "
+"and sandbox. However our place is also perfect for a couple's romantic "
+"getaway thanks to many picturesque quier corners and the tranquility of the "
+"valley. Our guests also appreciate that we have 5 grills and 2 firepits "
+"available for barbeque, 8 bikes for free rent, storage spaces for sports "
+"equipment, spacious parking lot and a small workout area."
+msgstr ""
+
+#: apartmany/templates/apartmany/guestbook.html:38
+msgid "REVIEWS"
+msgstr ""
+
+#: apartmany/templates/apartmany/guestbook.html:48
+msgid ""
+"Here you can find all the Apartmany & Studia Miroslav reviews of our "
+"previous guests. If you are a previous guest yourself and have not yet left "
+"a comment, please feel free to do so. We really appreciate your opinions and "
+"suggestions and would like to thank all of our guests for taking the time to "
+"write all those reviews. We hope to see you soon again!"
+msgstr ""
+
+#: apartmany/templates/apartmany/guestbook.html:63
+msgid "Review"
+msgstr ""
+
+#: apartmany/templates/apartmany/guestbook.html:129
+msgid "Poste Review"
+msgstr ""
+
+#: apartmany/templates/apartmany/guestbook.html:153
+msgid "out of 5"
+msgstr ""
+
+#: apartmany/templates/apartmany/index.html:14
+msgid "Save"
+msgstr ""
+
+#: apartmany/templates/apartmany/index.html:32
+msgid "Relax in the forrest<br>not the village"
+msgstr ""
+
+#: apartmany/templates/apartmany/index.html:34
+msgid ""
+"Modern accomodation with sauna in the heart of the Demanovska Valley, just a "
+"stone's throw away from Jasna Chopok ski center"
+msgstr ""
+
+#: apartmany/templates/apartmany/index.html:36
+msgid "Reserve Now"
+msgstr ""
+
+#: apartmany/templates/apartmany/index.html:43
+msgid "Jasná<br>Ski Pass"
+msgstr ""
+
+#: apartmany/templates/apartmany/index.html:48
+msgid "discount"
+msgstr ""
+
+#: apartmany/templates/apartmany/index.html:52
+msgid ""
+"We offer special prices on 6 day ski passes for adults, seniors, juniors and "
+"children."
+msgstr ""
+
+#: apartmany/templates/apartmany/index.html:53
+msgid "Learn more"
+msgstr ""
+
+#: apartmany/templates/apartmany/index.html:70
+msgid "Why staying at Miroslav Apartmany & Studia"
+msgstr ""
+
+#: apartmany/templates/apartmany/index.html:78
+msgid ""
+"Our accommodation facility with sauna, surrounded by a river, trees and a "
+"spacious garden is located in the opening of one of the most beautiful "
+"valleys in Slovakia - Demanovska valley in Low Tatras - at the end of which, "
+"there's a well-known ski-centre JASNA Chopok. We are also close to the "
+"biggest Aquapark in Slovakia - Tatralandia. In summer, hiking and mountain "
+"biking is highly sought after in this area."
+msgstr ""
+
+#: apartmany/templates/apartmany/index.html:97
+msgid "SAUNA"
+msgstr ""
+
+#: apartmany/templates/apartmany/index.html:101
+msgid ""
+"Since early 2019 we offer our guests a private stay in a modern sauna and a "
+"relaxation room with fireplace. Cooling down is enabled by direct access to "
+"the river Demanovka that flows through our property."
+msgstr ""
+
+#: apartmany/templates/apartmany/index.html:117
+msgid "PLAYGROUND"
+msgstr ""
+
+#: apartmany/templates/apartmany/index.html:121
+msgid ""
+"Our accomodation provides a plenty of entertainment for your kids including "
+"a spacious garden, a trampoline, swings and a wooden play house with a slide "
+"and sandbox."
+msgstr ""
+
+#: apartmany/templates/apartmany/index.html:140
+msgid "OUTDOOR FACILITIES"
+msgstr ""
+
+#: apartmany/templates/apartmany/index.html:144
+msgid ""
+"Surrounded by the beautiful forrest of Demanovska Valley our guests can "
+"enjoy hanging out at several outdoor sitting areas, 5 grills and 2 firepits "
+"right by the river."
+msgstr ""
+
+#: apartmany/templates/apartmany/index.html:176
+msgid "SKI PASSES DEALS"
+msgstr ""
+
+#: apartmany/templates/apartmany/index.html:180
+msgid "Take advantage of special prices for ski passes of Jasna ski center."
+msgstr ""
+
+#: apartmany/templates/apartmany/index.html:184
+msgid "6 DAY SKI PASS ADULTS for 175€ instead of 223€"
+msgstr ""
+
+#: apartmany/templates/apartmany/index.html:185
+msgid "6 DAY SKI PASS JUNIOR/SENIOR for 140€ instead of 179€"
+msgstr ""
+
+#: apartmany/templates/apartmany/index.html:186
+msgid "6 DAY SKI PASS CHILDREN for 125€ instead of 156€"
+msgstr ""
+
+#: apartmany/templates/apartmany/index.html:203
+msgid "SPORTS"
+msgstr ""
+
+#: apartmany/templates/apartmany/index.html:207
+msgid ""
+"We provide storage rooms for your sporting gear (including heated racks for "
+"your ski boots), 8 bikes you can rent for free and a simple outdoor workout "
+"area."
+msgstr ""
+
+#: apartmany/templates/apartmany/index.html:223
+msgid "LOCATION"
+msgstr ""
+
+#: apartmany/templates/apartmany/index.html:227
+msgid ""
+"You can reach Jasna ski center within 10 minutes either with your own car or "
+"with a shuttle bus that stops at our doorstep. We are 10 minutes from "
+"Litpovsky Mikulas, 15-25 minutes from Aquaparks Tatralandia and Besenova and "
+"40 minutes from High Tatras."
+msgstr ""
+
+#: apartmany/templates/apartmany/index.html:243
+msgid "PARKING"
+msgstr ""
+
+#: apartmany/templates/apartmany/index.html:247
+msgid ""
+"There are numerous car parks directly on our property which all our guests "
+"can use for free. As another advantage, you are also able to drive to the "
+"Jasna ski resort by your own car."
+msgstr ""
+
+#: apartmany/templates/apartmany/index.html:271
+msgid "Apartments and Studios"
+msgstr ""
+
+#: apartmany/templates/apartmany/index.html:279
+msgid ""
+"We offer 14 modern and well equipped studios and apartments situated only a "
+"few minutes from Jasna Chopok, each with its own kitchen and bathroom. Our "
+"apartments are suitable for families as well as for couples. There is an "
+"option to have breakfast in the nearby pension (just 50m from us)."
+msgstr ""
+
+#: apartmany/templates/apartmany/index.html:321
+#: apartmany/templates/apartmany/index.html:368
+msgid ""
+"Explore the facilities and take a 360° tour through each of our apartments"
+msgstr ""
+
+#: apartmany/templates/apartmany/index.html:326
+msgid "Apartment Tour"
+msgstr ""
+
+#: apartmany/templates/apartmany/index.html:335
+#: apartmany/templates/apartmany/studios.html:15
+#: apartmany/templates/base.html:26
+msgid "Studios"
+msgstr ""
+
+#: apartmany/templates/apartmany/index.html:373
+msgid "Studio Tour"
+msgstr ""
+
+#: apartmany/templates/apartmany/index.html:397
+msgid "What to do in Demanovska Valley"
+msgstr ""
+
+#: apartmany/templates/apartmany/index.html:405
+msgid ""
+"Apartmany & Studia Miroslav are located in Demanovska Valley in Low Tatras, "
+"nature's paradise with plenty of possibilities to enjoy your vacation in as "
+"relaxed or as active way as you prefer. Besides  being home to the biggest "
+"ski center in Slovakia - Jasna Chopok - and to Slovkia's longest cave "
+"system, the valley is the perfect starting point for countless hikes, trips "
+"to aquaparks Tatralandia and Besenova, thermal spas, historical sites or "
+"museums."
+msgstr ""
+
+#: apartmany/templates/apartmany/index.html:418
+msgid "HIKING & CYCLING"
+msgstr ""
+
+#: apartmany/templates/apartmany/index.html:420
+msgid ""
+"Tatra mountains offer a large number of trails for hiking and cycling with "
+"different levels of difficulty, from the demanding, which requires a certain "
+"degree of preparation to those that are designed for families with children "
+"or beginners. Apartmany & Studia Miroslav are the perfect hub!"
+msgstr ""
+
+#: apartmany/templates/apartmany/index.html:435
+msgid "SKIING"
+msgstr ""
+
+#: apartmany/templates/apartmany/index.html:437
+msgid ""
+"Located just next to the ski resorts of Jasna Chopok Nizke Tatry and Ziarce, "
+"you'll be able to minimize travelling time and enjoy your skiing on "
+"Slovakia's longest ski slopes even more. We also provide a storage room for "
+"all your equipment including heating racks for your ski boots."
+msgstr ""
+
+#: apartmany/templates/apartmany/index.html:452
+msgid "THERMAL"
+msgstr ""
+
+#: apartmany/templates/apartmany/index.html:454
+msgid ""
+"All within 20km, you can find the aquaparks Tatralandia and Besenova, "
+"thermal swimming pools in Liptovsky Jan and the recreation centre of "
+"Liptovsky Mara dam which together offer a variety of adrenaline watersports "
+"activities and opportunities to relax."
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:23
+msgid "PRICES<br>&<br>FAQS"
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:37
+msgid "Price Information"
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:47
+msgid ""
+"Our prices per person per night are in the range of 18 to 25 Euros. The "
+"price depends on the period (season/off season) and the number of people in "
+"a studio or an apartment. We will be happy to send you the complete "
+"pricelist via email. A single adult in a studio or an apartment has to pay "
+"the equivalent to two adults. Additionally to accomodation costs, a local "
+"tax fee for adults and children older than 12 years of 1 Euro per person and "
+"night has to be charged."
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:55
+msgid "Discounts"
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:58
+msgid "Children up to 12 years:"
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:59
+msgid "Children up to 12 years on a sofa-bed:"
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:60
+msgid "Adult on a sofa-bed:"
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:64
+msgid ""
+"Discounts for children are only valid if there are 2 adults paying the full "
+"price in the same studio. Two children accommodated by themselves in 1 "
+"studio are paying full/adult prices."
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:77
+msgid "Restaurants"
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:86
+msgid ""
+"Enjoy discounts at classic slovakian and international restaurants and cafés "
+"in Liptovský Mikuláš, Ružomberok, Demänovská Dolina and the whole area."
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:97
+msgid "Ski Passes"
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:106
+msgid ""
+"Take advantage of our ski pass discounts and save 31€ (children), 39€ "
+"(juniors, seniors) or 48€ (adults) on a 6 day pass for the Jasná ski center, "
+"respectively."
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:117
+msgid "Activities & Services"
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:126
+msgid ""
+"Go on adventures and save money by benefitting from our discounts for skiing "
+"schools, rafting, bowling, laser tag, tennis, climbing and many more."
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:142
+msgid "Frequently Asked Questions"
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:151
+msgid ""
+"Below, you can find important information regarding check-in and check-out, "
+"reservations, facilities, etc. Click on the headers to collapse the topics "
+"and then click on the questions to see the answers. If your question however "
+"remains unanswered, please do not hesitate to contact us via e-mail or call."
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:160
+msgid "Check-in & Check-out"
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:170
+msgid "When can I check-in and check-out?"
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:173
+msgid ""
+"You can check-in after 2pm on the day of your arrival. The heck-out time is "
+"at 10am the latest."
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:182
+msgid "Do you offer early/late check-in (after 8pm) ?"
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:185
+msgid ""
+"We recommend you to come after 2 pm, however it might be possible that your "
+"room is available earlier. Please contact us beforehand if you need to check-"
+"in earlier than 2pm. On the other hand, if you think you will arrive to our "
+"place later than 8pm, it's not a problem, just please let us know."
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:194
+msgid "Do you offer late check-out ?"
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:197
+msgid ""
+"Unfortuntaly, during the season we do not offer late check-outs. It might be "
+"available off-season, upon request."
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:209
+msgid "Reservations"
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:217
+msgid "How can I make a reservation enquiry?"
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:220
+msgid ""
+"We arrange all reservations through emails. If you have any questions, you "
+"can contact us telephonically or message us on facebook, however reservation "
+"must be done via email. Please send us an email to "
+"<strong>apartmanymiroslav@gmail.com</strong> with number of people and the "
+"time period you are interested in and we will send you a price list and a "
+"list of available apartments/studios suitable for your needs. Alternatively, "
+"you can simply fill out this form."
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:229
+msgid "When is the reservation valid?"
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:232
+#, python-format
+msgid ""
+"Your reservation is confirmed once we received your deposit. The deposit is "
+"usually 50%% of the price."
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:241
+msgid "How and when do I pay?"
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:244
+msgid ""
+"We usually require a deposit to be transfered to our account, prior to your "
+"arrival. We kindly ask you to pay the rest on the day of your arrival. We "
+"only accept cash payments in the local currency (Euro)."
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:256
+msgid "Cancellations"
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:264
+msgid "What happens if need to cancel my reservation?"
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:267
+msgid ""
+"If, for any reason, you need to cancel your vacation at our place and you "
+"already paid the deposit, we will be happy to move your vacation to any "
+"agreed future term."
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:276
+msgid "Can I get my deposit back when I cancel?"
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:279
+msgid ""
+"In case that we are still able to rebook your room to other guests, we will "
+"be happy to return the deposit to you, minus any fees for bank transfers."
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:291
+msgid "Location & Car Parking"
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:299
+msgid "How do I find you if I am coming by car?"
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:302
+msgid ""
+"You can find us very easily. When you get down from the highway, you follow "
+"the road signs to JASNA. Then you just follow the road all the way to "
+"Demänovská Dolina. We are located at the very beginning of the valley, on "
+"the right side of the road, just next to a big hotel called Tri Studničky."
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:311
+msgid "How do I reach you if I am coming from Liptovský Mikuláš Main Station?"
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:314
+msgid ""
+"From the Liptovský Mikuláš station (train and bus station are on the same "
+"location), you can simply take a short bus drive to the stop "
+"<strong>Demänovská Dolina Autocamping</strong>. From the bus stop, follow "
+"the road for around 500m (5 minutes) and you will see us on the right side "
+"of the road, just next to the big hotel called Tri Studničky."
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:323
+msgid "Do you offer car parking?"
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:326
+msgid ""
+"Absolutely. You will have no troubles to fit your car on our spacious "
+"private parking lot. The parking lot is locked down during the night so you "
+"can sleep peacefully!"
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:335
+msgid "How far is the ski-center from the apartments and how can I get there?"
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:338
+msgid ""
+"We have a prime location above the parking P5 Pavcina Lehota where, in busy "
+"periods, visitors of Jasna ski center are asked to park their car and use "
+"the shuttle bus for the rest of their trip. You, as our guest can use your "
+"own car to get all to way to the ski lifts. The ride takes only around 8 "
+"minutes. You can also use the free shuttle bus that stops pretty much on our "
+"doorstep."
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:350
+msgid "Facilities & Amenities"
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:358
+msgid "Can a baby bed be placed in the room?"
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:361
+msgid ""
+"Yes, we have a baby cot, baby bathtub and baby chair available for you, free "
+"of charge. Please let us know prior to your arrival that you will need these."
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:370
+msgid "How are the apartments/studios equipped?"
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:373
+msgid ""
+"You can check the details of each apartment and studio in the section "
+"Apartments, Studios. Generally however, every studio has a fully equiped "
+"kitchen with a stove, microwave, fridge and all necessary utensils. There "
+"are towels and hairdryers in the bathroom and a TV and a radio in the "
+"bedroom."
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:382
+msgid "Are there any toiletries in the bathroom?"
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:385
+msgid "Unfortuntaly, we do not provide toiletries."
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:394
+msgid "Are the rooms heated/air-conditioned?"
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:397
+msgid ""
+"During winter, the apartments are well heated so you can rest comfortably "
+"after skiing, in a warm cozy place. We do not have air-conditioning, however "
+"it is rarely too hot during summer since we are surrounded by trees."
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:406
+msgid "Where can we store our skies and ski boots?"
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:409
+msgid ""
+"We have a dedicated ski room with enough space for all our clients. We even "
+"have ski boot dryers so you can rest assured your boots will be dry and warm "
+"the next morning when you are about to hit the slopes!"
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:418
+msgid "Can we rent bikes?"
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:421
+msgid ""
+"Yes! We have 8 mountain bikes (including small bikes for children) available "
+"for our guests free of charge."
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:430
+msgid "Do we have to pay extra to use the sauna?"
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:433
+msgid ""
+"Use of our sauna and relaxation room is charged with a small fee of 5 euros "
+"per person. But you know what is cool? Cooling down is taken care of the "
+"river flowing right through our property! Did we mentioned that you are able "
+"to use the sauna privately? "
+msgstr ""
+
+#: apartmany/templates/apartmany/studios.html:16
+msgid "Studio Details"
+msgstr ""
+
+#: apartmany/templates/apartmany/studios.html:48
+msgid ""
+"Apartmany & Studia Miroslav accodommodation with wellness & sauna in "
+"Demanovska Dolina, in the close proximity of Jasna Chopok ski center "
+"provides a total of nine studios and five apartments. Our studios are "
+"ranging between 28m² and 36m² and have a fully equipped kitchen. Besides "
+"more detailed information and pictures of each of our studios, you can also "
+"take a virtual 360° tour through them with the button in the top right "
+"corner in every studio description."
+msgstr ""
+
+#: apartmany/templates/apartmany/studios.html:134
+#: apartmany/templates/apartmany/studios.html:249
+#: apartmany/templates/apartmany/studios.html:822
+#: apartmany/templates/apartmany/studios.html:937
+msgid ""
+"This studio is on the first floor (no lift), has its own entrance, fully "
+"equiped kitchen, bedroom with one double bed, one single bed and one "
+"sofabed, bathroom with WC (towels, hairdryer), shower/warm water, radio, TV "
+"set, Wi-Fi."
+msgstr ""
+
+#: apartmany/templates/apartmany/studios.html:364
+#: apartmany/templates/apartmany/studios.html:478
+msgid ""
+"This studio is on the ground floor, has its own entrance, fully equiped "
+"kitchen, bedroom with one double bed and one single bed, bathroom with WC "
+"(towels, hairdryer), shower/warm water, radio, TV set, Wi-Fi."
+msgstr ""
+
+#: apartmany/templates/apartmany/studios.html:592
+msgid ""
+"This studio is on the second floor (with quite steep stairway), has its own "
+"entrance, fully equiped kitchen, bedroom with one double bed, one single bed "
+"and one sofa bed, bathroom with WC (towels, hairdryer), shower/warm water, "
+"radio, TV set, Wi-Fi."
+msgstr ""
+
+#: apartmany/templates/apartmany/studios.html:707
+msgid ""
+"This studio is on the ground floor, has its own entrance, fully equiped "
+"kitchen, bedroom with one double bed, one single bed and one sofabed, "
+"bathroom with WC (towels, hairdryer), shower/warm water, radio, TV set, Wi-"
+"Fi."
+msgstr ""
+
+#: apartmany/templates/apartmany/studios.html:1052
+msgid ""
+"This cozy attic studio is on the third floor (no lift), has its own "
+"entrance, fully equipped kitchen, bedroom with one double bed, one single "
+"bed and one sofabed, bathroom with WC (towels, hairdryer), shower/warm "
+"water, radio, TV set, Wi-Fi."
+msgstr ""
+
+#: apartmany/templates/apartmany/surroundings.html:24
+msgid "SURROUNDINGS"
+msgstr ""
+
+#: apartmany/templates/apartmany/surroundings.html:49
+msgid "Jasna Ski Center"
+msgstr ""
+
+#: apartmany/templates/apartmany/surroundings.html:52
+msgid "Learn About Our Discounts!"
+msgstr ""
+
+#: apartmany/templates/apartmany/surroundings.html:56
+msgid ""
+"The Jasna ski center is an all-year mountain tourism resort, situated in the "
+"heart of Low Tatras, in the close proximity of Apartmany & Studia Miroslav. "
+"For skiing and snowboarding, there are 44.5 km of slopes and 4.5 km of ski "
+"routes available. This winter sports area has become a leading ski "
+"destination in Slovakia and is also gaining recognition within Europe. "
+"Slopes of all difficulty levels provide both challenging and relaxing "
+"experience for everyone The slopes of Chopok are suitable for beginners and "
+"families as well as for advanced skiers. With its many marked freeride zones "
+"and a snow park, the Jasna Nizke Tatry ski resort is also seeked by "
+"freeriders and freestylers."
+msgstr ""
+
+#: apartmany/templates/apartmany/surroundings.html:75
+msgid "Tatralandia"
+msgstr ""
+
+#: apartmany/templates/apartmany/surroundings.html:79
+msgid ""
+"Tatralandia is the largest water park not only in Slovakia, but also in "
+"Bohemia and Poland. It is located only 15 minutes from Apartmany & Studia "
+"Miroslav. Thanks to the source of thermal mineral water, visitors are able "
+"to enjoy them throughout the year. In summer, guests can explore 14 "
+"different pools and 28 tubes and water slides, as well as a variation of "
+"summer events. In winter, visitors can sunbath under the palm trees or have "
+"fun in 6 year-round water slides, relax in 10 pools, enjoy beneficial "
+"effects of thalassotherapy, regenerate your body in Celtic Sauna World and "
+"renew the lost power thanks to the massages and baths in the Wellness Centre "
+"throughout the year."
+msgstr ""
+
+#: apartmany/templates/apartmany/surroundings.html:103
+msgid "Hurricane Factory"
+msgstr ""
+
+#: apartmany/templates/apartmany/surroundings.html:107
+msgid ""
+"Experience flying in the Hurrican Factory, the only wind tunnel in Slovakia "
+"with wind speed up to 270km/h, located only 15 minutes from Apartmany & "
+"Studia Miroslav. The giant glazed chamber has a diameter of 4.3 meters and "
+"an incredible height of 14 meters. You are flying at a safe altitude and "
+"under the constant supervision of experienced instructors. You do not need "
+"any previous experience or special physical fitness. Flying is suitable for "
+"all physically healthy people, starting at 5 years of age. The minute at the "
+"Hurricane Factory is the equivalent of a plane jump from 4,000 meters."
+msgstr ""
+
+#: apartmany/templates/apartmany/surroundings.html:126
+msgid "Liptovský Mikuláš"
+msgstr ""
+
+#: apartmany/templates/apartmany/surroundings.html:130
+msgid ""
+"Liptovský Mikuláš town situated only 10 minutes from Apartmany & Studia "
+"Miroslav, is undoubtedly an attractive tourist destination all-year round. "
+"For its colourfulness and maintained houses, the historical centre of the "
+"town is very worthwhile for visitors. There are 7 museum expositions and 4 "
+"galleries. The historical centre is the pedestrian zone with shops, "
+"restaurants, confectioner’s shops, cafés, and with several outdoor sitting "
+"places in summer. Pleasant environment, the Fountain Metamorphosis, and the "
+"amount of greenery and benches make the pedestrian zone a favourite resting "
+"place, enriched with a number of social events throughout the year."
+msgstr ""
+
+#: apartmany/templates/apartmany/surroundings.html:154
+msgid "Slovenský Raj"
+msgstr ""
+
+#: apartmany/templates/apartmany/surroundings.html:158
+msgid ""
+"Slovak Paradise Natural Park, not too far from Apartmany & Studia Miroslav, "
+"offers about 300 km of hiking trails and several bike trails. Rivers and "
+"streams have formed many gorges, canyons, valleys, caves, and waterfalls in "
+"the so called Slovak Paradise. One of the most visited routes is \"Prielom "
+"Hornádu\". In the northern part of the Slovak Paradise two main tourist "
+"centres of this region are situated: Čingov and Podlesok. They are connected "
+"by a 15 km long marked route, leading through the canyon along the Hornád "
+"river. Other highlights and most visited places in the park are the Dobšiná "
+"Ice Cave and the Suchá Belá Gorge."
+msgstr ""
+
+#: apartmany/templates/apartmany/surroundings.html:177
+msgid "Water Park Bešeňová"
+msgstr ""
+
+#: apartmany/templates/apartmany/surroundings.html:181
+msgid ""
+"The water park of Bešeňová, approximately 20 minutes from Apartmany & Studia "
+"Miroslav, offers 9 year-round pools, 4 thermal pools and 5 summer pools with "
+"clear water. Kids will also enjoy several water slides. The thermal water of "
+"Bešeňová has beneficial effects on the musculoskeletal and breathing "
+"systems. It also helps treat mental problems and urologic diseases. "
+"Additionally, Bešeňová has a variety of Wellness & Spa offers, including "
+"massages, sauna and many more."
+msgstr ""
+
+#: apartmany/templates/apartmany/surroundings.html:205
+msgid "Cave of Liberty and Ice Caves"
+msgstr ""
+
+#: apartmany/templates/apartmany/surroundings.html:209
+msgid ""
+"The national nature monument of the Demänovské Caves on the northern side of "
+"the Low Tatras Mts. is the longest cave system in Slovakia. It is easily "
+"possible to reach the caves within a short walk from Apartmany & Studia "
+"Miroslav. The Demänovská Cave of Liberty belongs among its dominating caves "
+"and it is the most visited cave of Slovakia. It has been captivating the "
+"visitors by its rich flowstone fill of various colours, magical flow of "
+"underground Demänovka as well as the charming pools for many years. The "
+"Demänovská Ice Cave stands out by occurrence of permanent ice fill, bizarre "
+"and mighty shapes of underground spaces, rare cave fauna as well as rich "
+"history."
+msgstr ""
+
+#: apartmany/templates/apartmany/surroundings.html:228
+msgid "Liptovský Mara"
+msgstr ""
+
+#: apartmany/templates/apartmany/surroundings.html:232
+msgid ""
+"Passing through the region of Liptov, from Liptovský Mikuláš to Ružomberok, "
+"one must notice a huge water area of the dam Liptovská Mara. It is the "
+"largest water reservoir in Slovakia in terms of the confined water volume. "
+"The most important summer holiday resort on the shores of the Liptovská Mara "
+"dam is the village Liptovský Trnovec which is also the favourite of water "
+"sport fans. The beach, the renting of sport equipment and excellent "
+"conditions for yachting and wind-surfing are the assets of this sought after "
+"holiday centre."
+msgstr ""
+
+#: apartmany/templates/apartmany/surroundings.html:257
+msgid "Vlkolínec"
+msgstr ""
+
+#: apartmany/templates/apartmany/surroundings.html:261
+msgid ""
+"Vlkolínec, situated in the centre of Slovakia and only about 40 minutes from "
+"Aparmany & Studia Miroslav, is a remarkably intact settlement of 45 "
+"buildings with the traditional features of a central European village. It is "
+"the region’s most complete group of these kinds of traditional log houses, "
+"often found in mountainous areas. Vlkolínec has been listed as a UNESCO "
+"World Heritage site since 1993, and is one of ten Slovak villages that have "
+"been given the status of a folk architecture reservations. This status was "
+"granted because the village is an untouched and complex example of folk "
+"countryside architecture of the region of the Northern Carpathians."
+msgstr ""
+
+#: apartmany/templates/apartmany/surroundings.html:280
+msgid "Bobsleigh & Fun Park"
+msgstr ""
+
+#: apartmany/templates/apartmany/surroundings.html:284
+msgid ""
+"It is not only the first built track in the Liptov region, but also the "
+"first runway of this type in Slovakia. The total length of the track is 1000 "
+"m and it is the steepest track in our territory, with a total elevation of "
+"120 meters. The maximum speed that can be reached is limited to 45 km/h. "
+"During winter, FUN PARK Žiarce currently offers skiing on 3 downhill runs "
+"with a total length of 1,130 m. There are 2 ski lifts in operation every "
+"year, while in the children's ski nursery there is 1 cable lift. You can "
+"reach this area by taking a short walk from Apartmany & Studia Miroslav. "
+msgstr ""
+
+#: apartmany/templates/apartmany/surroundings.html:308
+msgid "Hiking and Biking"
+msgstr ""
+
+#: apartmany/templates/apartmany/surroundings.html:312
+msgid ""
+"Tatras are the most visited mountain chain in Slovakia and is a designated "
+"transboundary UNESCO biosphere reserve. It offers countless beautiful places "
+"to discover by foot or by bike. Apart from 840 km of hiking trails, Low "
+"Tatras also offer around 50 cycling routes - for road bike, cross bike and "
+"mountain bike. Additionally, High Tatras offer another 600 km of mapped "
+"hiking trails and more than 300 km of official cycling trails. Apartmany & "
+"Studia Miroslav are the perfect starting point for any hiking or cycling "
+"trip in the Tatra mountains."
+msgstr ""
+
+#: apartmany/templates/base.html:25
+msgid "Home"
+msgstr ""
+
+#: apartmany/templates/base.html:28
+msgid "Prices/FAQ"
+msgstr ""
+
+#: apartmany/templates/base.html:29
+msgid "Gallery"
+msgstr ""
+
+#: apartmany/templates/base.html:30
+msgid "Guestbook"
+msgstr ""
+
+#: apartmany/templates/base.html:31
+msgid "Surroundings"
+msgstr ""
+
+#: apartmany/templates/base.html:32
+msgid "Contact"
+msgstr ""
+
+#: apartmany/templates/base.html:123
+msgid "Quick Links"
+msgstr ""
+
+#: apartmany/templates/base.html:154
+msgid ""
+"\n"
+"                Miroslav Vysny <br>\n"
+"                Demanovskaà Dolina 11 <br>\n"
+"                031 01 Liptovsky Mikulas <br>\n"
+"                SLOVENSKO\n"
+"                "
+msgstr ""
+
+#: apartmany/views.py:55
+msgid "Excellent"
+msgstr ""
+
+#: apartmany/views.py:58
+msgid "Good"
+msgstr ""
+
+#: apartmany/views.py:61
+msgid "Average"
+msgstr ""
+
+#: apartmany/views.py:64
+msgid "Poor"
+msgstr ""
+
+#: apartmany/views.py:67
+msgid "Terrible"
+msgstr ""

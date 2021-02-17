@@ -1,6 +1,5 @@
 {
   "liveServer.settings.port": 5501,
-  "editor.wordWrap": "wordWrapColumn",
   "editor.wordWrapColumn": 119,
   "editor.rulers": [ 119 ],
 }

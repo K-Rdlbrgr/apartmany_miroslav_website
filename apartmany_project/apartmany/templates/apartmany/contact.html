@@ -54,32 +54,6 @@
 {% endblock %}
 
 {% block content %}
-  <!-- MODAL -->
-  {% if message %}
-  <div class="modal fade" id="surveyModal">
-    <div class="modal-dialog modal-lg" role="document">
-      <div class="modal-content">
-        <div class="modal-body text-center">
-          <div class="row align-items-center">
-            <div class="col-12 col-lg-6 d-none d-lg-block survey-image">
-              <img src="{% static 'apartmany/img/miro.jpg'%}" alt="Miro">
-            </div>
-            <div class="col-12 col-lg-6 survey-text pt-3 pb-3 pt-lg-0 pb-lg-0">
-              <h4><strong>{{ message }}</strong></h4>
-              <hr class="d-none d-lg-block">
-              <div class="survey-image-small mt-3 mb-3 d-block d-lg-none">
-                <img src="{% static 'apartmany/img/miro.jpg'%}" alt="Miro2" class="d-block d-lg-none">
-              </div>
-              <h6 style="text-align: justify">That's it Guys<strong>Azure Restaurant</strong> on Campus for you and three friends. We will contact the winner tomorrow.</h6>
-              <button type="button" class="btn btn-lg mt-3" data-dismiss="modal" aria-label="Close">Got it!</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  {% endif %}
-
 
   <!-- CARD WRAPER -->
 
