@@ -21,109 +21,109 @@ msgstr ""
 
 #: apartmany/forms.py:16 apartmany/templates/apartmany/contact.html:100
 msgid "Name"
-msgstr ""
+msgstr "Meno"
 
 #: apartmany/forms.py:19
 msgid "Title"
-msgstr ""
+msgstr "Názov"
 
 #: apartmany/forms.py:22
 msgid "Rating"
-msgstr ""
+msgstr "Hodnotenie"
 
 #: apartmany/forms.py:25 apartmany/templates/apartmany/contact.html:102
 msgid "Message"
-msgstr ""
+msgstr "Správa"
 
 #: apartmany/forms.py:31
 msgid "Your Name"
-msgstr ""
+msgstr "Vaše meno"
 
 #: apartmany/forms.py:32
 msgid "Title of Comment"
-msgstr ""
+msgstr "Názov"
 
 #: apartmany/forms.py:36
 msgid "Picture"
-msgstr ""
+msgstr "Obrázok"
 
 #: apartmany/templates/apartmany/apartments.html:15
 #: apartmany/templates/apartmany/contact.html:156
 msgid "Apartment"
-msgstr ""
+msgstr "Apartmán"
 
 #: apartmany/templates/apartmany/apartments.html:16
 #: apartmany/templates/apartmany/index.html:288
 #: apartmany/templates/base.html:27
 msgid "Apartments"
-msgstr ""
+msgstr "Apartmány"
 
 #: apartmany/templates/apartmany/apartments.html:17
 msgid "Apartment Details"
-msgstr ""
+msgstr "Opis apartmánu"
 
 #: apartmany/templates/apartmany/apartments.html:18
 #: apartmany/templates/apartmany/studios.html:17
 msgid "Details"
-msgstr ""
+msgstr "Podrobnosti"
 
 #: apartmany/templates/apartmany/apartments.html:19
 #: apartmany/templates/apartmany/studios.html:18
 msgid "Standard"
-msgstr ""
+msgstr "Standard"
 
 #: apartmany/templates/apartmany/apartments.html:20
 #: apartmany/templates/apartmany/studios.html:19
 msgid "Comfort"
-msgstr ""
+msgstr "Comfort"
 
 #: apartmany/templates/apartmany/apartments.html:21
 msgid "Superior"
-msgstr ""
+msgstr "Superior"
 
 #: apartmany/templates/apartmany/apartments.html:22
 #: apartmany/templates/apartmany/index.html:15
 #: apartmany/templates/apartmany/studios.html:20
 msgid "Previous"
-msgstr ""
+msgstr "Predošlá"
 
 #: apartmany/templates/apartmany/apartments.html:23
 #: apartmany/templates/apartmany/index.html:16
 #: apartmany/templates/apartmany/studios.html:21
 msgid "Next"
-msgstr ""
+msgstr "Ďalšia"
 
 #: apartmany/templates/apartmany/apartments.html:24
 #: apartmany/templates/apartmany/studios.html:22
 msgid "Maximum Capacity"
-msgstr ""
+msgstr "Maximálna kapacita"
 
 #: apartmany/templates/apartmany/apartments.html:25
 #: apartmany/templates/apartmany/studios.html:23
 msgid "Singlebed"
-msgstr ""
+msgstr "jednolôžko"
 
 #: apartmany/templates/apartmany/apartments.html:26
 msgid "Singlebeds"
-msgstr ""
+msgstr "jednolôžka"
 
 #: apartmany/templates/apartmany/apartments.html:27
 #: apartmany/templates/apartmany/studios.html:24
 msgid "Doublebed"
-msgstr ""
+msgstr "dvojlôžko"
 
 #: apartmany/templates/apartmany/apartments.html:28
 msgid "Doublebeds"
-msgstr ""
+msgstr "dvojlôžka"
 
 #: apartmany/templates/apartmany/apartments.html:29
 #: apartmany/templates/apartmany/studios.html:25
 msgid "Sofabed"
-msgstr ""
+msgstr "prísteľka"
 
 #: apartmany/templates/apartmany/apartments.html:30
 msgid "Sofabeds"
-msgstr ""
+msgstr "prísteľky"
 
 #: apartmany/templates/apartmany/apartments.html:53
 msgid ""
@@ -134,7 +134,7 @@ msgid ""
 "detailed information and pictures of each of our apartments, you can also "
 "take a virtual 360° tour through them with the button in the top right "
 "corner in every apartment description."
-msgstr ""
+msgstr "Apartmány a štúdiá Miroslav - moderné ubytovanie s wellnessom a saunou v Demänovskej Doline, v tesnej blízkosti lyžiarskeho strediska Jasná Chopok - Vám ponúka 9 štúdií a 5 apartmánov. Naše apartmány majú rozlohu od 35m² do 82m² a každé má plne zariadenú kuchyňu. Okrem bližších informácií a fotiek každého apartmánu sa tu taktiež môžete pozrieť na 360° virtuálnu prehliadku kliknutím tlačidla v pravom hornom rohu."
 
 #: apartmany/templates/apartmany/apartments.html:160
 msgid ""
@@ -142,7 +142,7 @@ msgid ""
 "floor, has its own entrance, fully equipped kitchen, bedroom with one double "
 "bed, one single bed and one sofabed, bathroom with WC (towels, hairdryer), "
 "shower/warm water, radio, 2 LCD TVs (82 + 67 cm), Wi-Fi."
-msgstr ""
+msgstr "Tento apartmán s oddelenou obývacou izbou a spálňou je na prvom poschodí, má vlastný vchod, plne zariadenú kuchyňu, spálňu s jednou manželskou posteľou, jednolôžkom a prístelkou, kúpeľňu s ručníkmi a fénom, rádio, 2 LCD televízory (82 + 67 cm) a Wi-Fi zadarmo."
 
 #: apartmany/templates/apartmany/apartments.html:294
 msgid ""
@@ -155,7 +155,7 @@ msgid ""
 "bathroom with WC and washing machine (towels, hairdryer, shower/ warm water) "
 "and one additional bathroom with only toilet. Wi-Fi is available in the "
 "apartment."
-msgstr ""
+msgstr "Tento apartmán s oddelenou obývacou izbou a spálňou je na prvom poschodí, má vlastný vchod, plne zariadenú kuchyňu, spálňu s jednou manželskou posteľou, jednolôžkom a prístelkou, kúpeľňu s ručníkmi a fénom, rádio, 2 LCD televízory (82 + 67 cm) a Wi-Fi zadarmo."
 
 #: apartmany/templates/apartmany/apartments.html:428
 msgid ""
@@ -163,7 +163,7 @@ msgid ""
 "fully equiped kitchen, living room with a sofabed and bedroom with one "
 "double bed and one single bed. There is a bathroom with WC (towels, "
 "hairdryer), shower/warm water, radio, 2 LCD TVs (101 + 67 cm), Wi-Fi."
-msgstr ""
+msgstr "Pohodlný, nový apartmán sa nachádza na prízemí, má vlastný vchod, plne zariadenú kuchyňu, obývaciu izbu s možnosťou prístelky, spálňu s jednou manželskou posteľou a  jednolôžkom. V apartmáne sa dalej nachádza rádio, 2 LCD televízory (82 + 67 cm) a Wi-Fi zadarmo. V kúpeľni máte k dispozícii ručníky a fén."
 
 #: apartmany/templates/apartmany/apartments.html:562
 msgid ""
@@ -171,7 +171,7 @@ msgid ""
 "entrance, fully equiped kitchen, living room with a sofabed and bedroom with "
 "one double and one single bed. There is a bathroom with WC (towels, "
 "hairdryer), shower/warm water, radio, 2 LCD TVs (101 + 67 cm), Wi-Fi."
-msgstr ""
+msgstr "Pohodlný, nový apartmán sa nachádza na prvom poschodí (bez výťahu), má vlastný vchod, plne zariadenú kuchyňu, obývaciu izbu s možnosťou prístelky, spálňu s jednou manželskou posteľou a  jednolôžkom. V apartmáne sa dalej nachádza rádio, 2 LCD televízory (101 + 67 cm) a Wi-Fi zadarmo. V kúpeľni máte k dispozícii ručníky a fén."
 
 #: apartmany/templates/apartmany/apartments.html:696
 msgid ""
@@ -182,11 +182,11 @@ msgid ""
 "that contains a sofabed. In the attic of this two floor apartment there are "
 "two bedrooms; one with a double and a single bed (LCD TV 82 cm), and other "
 "one with two single beds. There is also free Wi-Fi and radio available."
-msgstr ""
+msgstr "Tento veľký a pohodlný mezonetový apartmán sa nachádza sa na druhom a treťom poschodí (bez výťahu). Má vlastný vchod, priestrannú kupeľ s WC a práckou, rucnikmi a fenom, a dalsiu oddelenú toaletu. plne zariadenú kuchyňu (chladnička, toaster, kávovar), ktorá je prepojená s obývacou izbou (LCD TV 107 cm( s moznostou pristelky. Na druhom poschodí sú umiestnené dve spálne, jedna s manželskou posteľou a jednolôžkom (a LCD TV 82cm) a druhá s dvoma oddelenými posteľami. V priestrannej kúpeľni sú Vám k dispozícii ručníky, fén a práčka. V apartmáne je aj druhá, oddelená toaleta."
 
 #: apartmany/templates/apartmany/contact.html:65
 msgid "CONTACT<br>&<br>RESERVATION"
-msgstr ""
+msgstr "KONTAKT<br>&<br>REZEREVÁCIA"
 
 #: apartmany/templates/apartmany/contact.html:75
 msgid ""
@@ -198,57 +198,57 @@ msgid ""
 "starting each Saturday. Your reservation request does not represent a "
 "binding offer and we will get in contact with you through your provided "
 "email as soon as possible to arrange the booking."
-msgstr ""
+msgstr "V prípade akýchkoľvek otázok alebo ak si chcete zarezervovať apartmán alebo štúdio, prosíme použite nižšie uvedený formulár. Pri rezervačnom formulári prosím uveďte koľko Vás bude, termín príchodu a odchodu a číslo preferovaného štúdia alebo apartmánu. Prosíme Vás aby ste mali na pamäti, že počas vysokej sezóny v lete a v zime, väčšinou príjmame rezervácie len od soboty do soboty a minimálne na jeden celý týždeň. Zaslaním formuláru Vám štúdio alebo apartmán NIE JE formálne zarezerované. Na zariadenie a potvrdenie rezervácie sa s Vami spojíme čo najskôr prostredníctvom emailu.  "
 
 #: apartmany/templates/apartmany/contact.html:90
 msgid "Contact & Questions"
-msgstr ""
+msgstr "Kontakt a otázky"
 
 #: apartmany/templates/apartmany/contact.html:93
 msgid "Reservation Request"
-msgstr ""
+msgstr "Požiadavka o rezerváciu"
 
 #: apartmany/templates/apartmany/contact.html:101
 #: apartmany/templates/apartmany/contact.html:103
 msgid "Email"
-msgstr ""
+msgstr "Email"
 
 #: apartmany/templates/apartmany/contact.html:104
 msgid "Please Select"
-msgstr ""
+msgstr "Prosím vyberte"
 
 #: apartmany/templates/apartmany/contact.html:120
 msgid "Subject"
-msgstr ""
+msgstr "Predmet"
 
 #: apartmany/templates/apartmany/contact.html:129
 msgid "Send"
-msgstr ""
+msgstr "Poslať"
 
 #: apartmany/templates/apartmany/contact.html:153
 msgid "Accomodation Type"
-msgstr ""
+msgstr "Typ ubytovania"
 
 #: apartmany/templates/apartmany/contact.html:157
 #: apartmany/templates/apartmany/studios.html:14
 msgid "Studio"
-msgstr ""
+msgstr "Štúdio"
 
 #: apartmany/templates/apartmany/contact.html:161
 msgid "Accomodation Detail"
-msgstr ""
+msgstr "Číslo"
 
 #: apartmany/templates/apartmany/contact.html:173
 msgid "To"
-msgstr ""
+msgstr "Do"
 
 #: apartmany/templates/apartmany/contact.html:179
 msgid "Number of Guests"
-msgstr ""
+msgstr "Počet hostí"
 
 #: apartmany/templates/apartmany/contact.html:199
 msgid "Send Reservation Request"
-msgstr ""
+msgstr "Poslať požiadavku o rezerváciu"
 
 #: apartmany/templates/apartmany/gallery.html:62
 #: apartmany/templates/apartmany/gallery.html:95
