@@ -265,11 +265,11 @@ msgid ""
 "valley. Our guests also appreciate that we have 5 grills and 2 firepits "
 "available for barbeque, 8 bikes for free rent, storage spaces for sports "
 "equipment, spacious parking lot and a small workout area."
-msgstr ""
+msgstr "Apartmány a Štúdiá Miroslav - moderné ubytovanie so saunou v srdci Demänovskej Doliny, vzdialené len pár minút od lyžiarskeho strediska Jasná Chopok - ponúka niečo pre každého, či už v zime alebo v lete. Sme obklopení zeleňou a lesom a náš rozsiahlny pozemok je ohraničený riekou Demänovkou, posednie pri ktorej, je doslova balzamom na dušu. Naše zariadene je ideálne pre rodiny s deťmi, ktoré sa môžu dosýtosti vyšantiť na veľkej záhrade s trampolínou, hojdacím koňom, domčekom s pieskoviskom a kĺzačkou. Avšak na svoje si prídu aj páry, ktoré hľadajú romantické útočisko v srdci prírody. Súkromný pobyt v saune a relaxačnej miestnosti a následné ochladenie v rieke je skutočne nezabudnuteľným zážitkom. Okrem obkľúčenia prírodou, Vám ponúkame 5 grillov a 2 ohniská vhodné na grilovanie či varenie gulášu, 8 bicyklov na požičanie zdarma, priestorom na uloženie vlastných bicyklov, či lyží, malú vonkajšiu posilňovňu či veľké parkovisko, ktoré je počas noci uzavreté."
 
 #: apartmany/templates/apartmany/guestbook.html:38
 msgid "REVIEWS"
-msgstr ""
+msgstr "RECENZIE"
 
 #: apartmany/templates/apartmany/guestbook.html:48
 msgid ""
