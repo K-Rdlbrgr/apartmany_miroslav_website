@@ -20,109 +20,109 @@ msgstr ""
 
 #: apartmany/forms.py:16 apartmany/templates/apartmany/contact.html:100
 msgid "Name"
-msgstr ""
+msgstr "Name"
 
 #: apartmany/forms.py:19
 msgid "Title"
-msgstr ""
+msgstr "Titel"
 
 #: apartmany/forms.py:22
 msgid "Rating"
-msgstr ""
+msgstr "Bewertung"
 
 #: apartmany/forms.py:25 apartmany/templates/apartmany/contact.html:102
 msgid "Message"
-msgstr ""
+msgstr "Nachricht"
 
 #: apartmany/forms.py:31
 msgid "Your Name"
-msgstr ""
+msgstr "Ihr Name"
 
 #: apartmany/forms.py:32
 msgid "Title of Comment"
-msgstr ""
+msgstr "Überschrift"
 
 #: apartmany/forms.py:36
 msgid "Picture"
-msgstr ""
+msgstr "Bild"
 
 #: apartmany/templates/apartmany/apartments.html:15
 #: apartmany/templates/apartmany/contact.html:156
 msgid "Apartment"
-msgstr ""
+msgstr "Apartment"
 
 #: apartmany/templates/apartmany/apartments.html:16
 #: apartmany/templates/apartmany/index.html:288
 #: apartmany/templates/base.html:27
 msgid "Apartments"
-msgstr ""
+msgstr "Apartments"
 
 #: apartmany/templates/apartmany/apartments.html:17
 msgid "Apartment Details"
-msgstr ""
+msgstr "Apartment Details"
 
 #: apartmany/templates/apartmany/apartments.html:18
 #: apartmany/templates/apartmany/studios.html:17
 msgid "Details"
-msgstr ""
+msgstr "Details"
 
 #: apartmany/templates/apartmany/apartments.html:19
 #: apartmany/templates/apartmany/studios.html:18
 msgid "Standard"
-msgstr ""
+msgstr "Standard"
 
 #: apartmany/templates/apartmany/apartments.html:20
 #: apartmany/templates/apartmany/studios.html:19
 msgid "Comfort"
-msgstr ""
+msgstr "Comfort"
 
 #: apartmany/templates/apartmany/apartments.html:21
 msgid "Superior"
-msgstr ""
+msgstr "Superior"
 
 #: apartmany/templates/apartmany/apartments.html:22
 #: apartmany/templates/apartmany/index.html:15
 #: apartmany/templates/apartmany/studios.html:20
 msgid "Previous"
-msgstr ""
+msgstr "Vorheriges"
 
 #: apartmany/templates/apartmany/apartments.html:23
 #: apartmany/templates/apartmany/index.html:16
 #: apartmany/templates/apartmany/studios.html:21
 msgid "Next"
-msgstr ""
+msgstr "Nächstes"
 
 #: apartmany/templates/apartmany/apartments.html:24
 #: apartmany/templates/apartmany/studios.html:22
 msgid "Maximum Capacity"
-msgstr ""
+msgstr "Maximale Kapazität"
 
 #: apartmany/templates/apartmany/apartments.html:25
 #: apartmany/templates/apartmany/studios.html:23
 msgid "Singlebed"
-msgstr ""
+msgstr "Einzelbett"
 
 #: apartmany/templates/apartmany/apartments.html:26
 msgid "Singlebeds"
-msgstr ""
+msgstr "Einzelbetten"
 
 #: apartmany/templates/apartmany/apartments.html:27
 #: apartmany/templates/apartmany/studios.html:24
 msgid "Doublebed"
-msgstr ""
+msgstr "Doppelbett"
 
 #: apartmany/templates/apartmany/apartments.html:28
 msgid "Doublebeds"
-msgstr ""
+msgstr "Doppelbetten"
 
 #: apartmany/templates/apartmany/apartments.html:29
 #: apartmany/templates/apartmany/studios.html:25
 msgid "Sofabed"
-msgstr ""
+msgstr "Sofabett"
 
 #: apartmany/templates/apartmany/apartments.html:30
 msgid "Sofabeds"
-msgstr ""
+msgstr "Sofabetten"
 
 #: apartmany/templates/apartmany/apartments.html:53
 msgid ""
@@ -133,7 +133,7 @@ msgid ""
 "detailed information and pictures of each of our apartments, you can also "
 "take a virtual 360° tour through them with the button in the top right "
 "corner in every apartment description."
-msgstr ""
+msgstr "Apartmany & Studia Miroslav liegt im wunderschönen Demanovska Tal und ist nicht einmal 10 Minuten vom Skizentrum Jasna Chopok entfernt. Neben unseres Wellness & Sauna Angebots, bieten wir  insgesamt neun Studios und fünf Apartments an. Unsere Appartements sind zwischen 35m² und 82m² groß und verfügen über eine voll ausgestattete Küche. Neben detaillierteren Informationen und Bildern zu jedem unserer Appartements können Sie auch einen virtuellen 360°-Rundgang durch sie mit der Schaltfläche in der oberen rechten Ecke in jeder Appartementbeschreibung machen."
 
 #: apartmany/templates/apartmany/apartments.html:160
 msgid ""
@@ -141,7 +141,7 @@ msgid ""
 "floor, has its own entrance, fully equipped kitchen, bedroom with one double "
 "bed, one single bed and one sofabed, bathroom with WC (towels, hairdryer), "
 "shower/warm water, radio, 2 LCD TVs (82 + 67 cm), Wi-Fi."
-msgstr ""
+msgstr "Dieses Apartment mit separatem Wohn- und Schlafzimmer befindet sich im Erdgeschoss, hat einen eigenen Eingang, eine voll ausgestattete Küche, Schlafzimmer mit einem Doppelbett, einem Einzelbett und einem Schlafsofa, Bad mit WC (Handtücher, Föhn), Dusche/Warmwasser, Radio, 2 LCD-TVs (82 + 67 cm) und Wi-Fi."
 
 #: apartmany/templates/apartmany/apartments.html:294
 msgid ""
@@ -154,7 +154,7 @@ msgid ""
 "bathroom with WC and washing machine (towels, hairdryer, shower/ warm water) "
 "and one additional bathroom with only toilet. Wi-Fi is available in the "
 "apartment."
-msgstr ""
+msgstr "Superior ist unser größtes, neuestes (komplette Renovierung im Jahr 2015) und komfortabelstes Apartment. Es befindet sich im zweiten Stock (kein Aufzug) und hat einen eigenen Eingang, eine voll ausgestattete Küche (großer Kühlschrank, Toaster, Kaffeemaschine), die mit dem Wohnzimmer verbunden ist (LCD-TV 120 cm). Es gibt zwei getrennte Schlafzimmer; eines mit einem Doppelbett, einem Einzelbett und einem Schlafsofa (LCD-TV 70 cm) und das andere mit einem Doppelbett und zwei Einzelbetten. Es gibt ein großes Badezimmer mit WC und Waschmaschine (Handtücher, Haartrockner, Dusche/Warmwasser) und ein zusätzliches Badezimmer nur mit Toilette. Wi-Fi ist verfügbar in der Wohnung."
 
 #: apartmany/templates/apartmany/apartments.html:428
 msgid ""
@@ -162,7 +162,7 @@ msgid ""
 "fully equiped kitchen, living room with a sofabed and bedroom with one "
 "double bed and one single bed. There is a bathroom with WC (towels, "
 "hairdryer), shower/warm water, radio, 2 LCD TVs (101 + 67 cm), Wi-Fi."
-msgstr ""
+msgstr "Komfortable, neue Wohnung im Erdgeschoss, die über einen eigenen Eingang, eine voll ausgestattete Küche, ein Wohnzimmer mit einem Schlafsofa und ein Schlafzimmer mit einem Doppelbett und einem Einzelbett verfügt. Es gibt ein Badezimmer mit WC (Handtücher, Haartrockner), Dusche/Warmwasser, Radio, 2 LCD-TVs (101 + 67 cm) und Wi-Fi."
 
 #: apartmany/templates/apartmany/apartments.html:562
 msgid ""
@@ -170,7 +170,7 @@ msgid ""
 "entrance, fully equiped kitchen, living room with a sofabed and bedroom with "
 "one double and one single bed. There is a bathroom with WC (towels, "
 "hairdryer), shower/warm water, radio, 2 LCD TVs (101 + 67 cm), Wi-Fi."
-msgstr ""
+msgstr "Komfortable, neue Wohnung im ersten Stock (kein Aufzug), die über einen eigenen Eingang, eine voll ausgestattete Küche, ein Wohnzimmer mit einem Schlafsofa und ein Schlafzimmer mit einem Doppelbett und einem Einzelbett verfügt. Es gibt ein Badezimmer mit WC (Handtücher, Haartrockner), Dusche/Warmwasser, Radio, 2 LCD-TVs (101 + 67 cm) und Wi-Fi."
 
 #: apartmany/templates/apartmany/apartments.html:696
 msgid ""
@@ -181,11 +181,11 @@ msgid ""
 "that contains a sofabed. In the attic of this two floor apartment there are "
 "two bedrooms; one with a double and a single bed (LCD TV 82 cm), and other "
 "one with two single beds. There is also free Wi-Fi and radio available."
-msgstr ""
+msgstr "Diese große und komfortable Mezonet-Wohnung befindet sich im zweiten und dritten Stock (kein Aufzug). Es hat einen eigenen Eingang, ein großes Bad mit WC und einer Waschmaschine (Handtücher, Haartrockner), und ein weiteres Badezimmer nur mit WC. Die voll ausgestattete Küche ist mit dem Wohnzimmer verbunden (LCD-TV 107 cm), das ein Schlafsofa enthält. Im Dachgeschoss dieser zweistöckigen Wohnung befinden sich zwei Schlafzimmer; eines mit einem Doppel- und einem Einzelbett (LCD TV 82 cm), und das andere mit zwei Einzelbetten. Desweiteren stehen auch kostenloses Wi-Fi und ein Radio zur Verfügung."
 
 #: apartmany/templates/apartmany/contact.html:65
 msgid "CONTACT<br>&<br>RESERVATION"
-msgstr ""
+msgstr "KONTAKT<br>&<br>RESERVIERUNG"
 
 #: apartmany/templates/apartmany/contact.html:75
 msgid ""
@@ -197,57 +197,57 @@ msgid ""
 "starting each Saturday. Your reservation request does not represent a "
 "binding offer and we will get in contact with you through your provided "
 "email as soon as possible to arrange the booking."
-msgstr ""
+msgstr "Sie können uns jederzeit gerne eine Frage oder eine Reservierungsanfrage schicken, indem Sie die unten aufgeführten Formulare nutzen. Falls Sie ein Apartment oder Studio reservieren möchten, teilen Sie uns bitte Ihr gewünschtes An- und Abreisedatum, Ihr bevorzugtes Appartement oder Studio und die Anzahl der Personen mit. Bitte beachten Sie, dass in der Hochsaison nur Buchungen für eine ganze Woche möglich sind, jeweils ab Samstag. Ihre Reservierungsanfrage stellt kein verbindliches Angebot dar und wir werden uns schnellstmöglich mit Ihnen über die von Ihnen angegebene E-Mail in Verbindung setzen, um die Buchung zu arrangieren."
 
 #: apartmany/templates/apartmany/contact.html:90
 msgid "Contact & Questions"
-msgstr ""
+msgstr "Kontakt & Fragen"
 
 #: apartmany/templates/apartmany/contact.html:93
 msgid "Reservation Request"
-msgstr ""
+msgstr "Reservierungsanfrage"
 
 #: apartmany/templates/apartmany/contact.html:101
 #: apartmany/templates/apartmany/contact.html:103
 msgid "Email"
-msgstr ""
+msgstr "Email"
 
 #: apartmany/templates/apartmany/contact.html:104
 msgid "Please Select"
-msgstr ""
+msgstr "Bitte auswählen"
 
 #: apartmany/templates/apartmany/contact.html:120
 msgid "Subject"
-msgstr ""
+msgstr "Betreff"
 
 #: apartmany/templates/apartmany/contact.html:129
 msgid "Send"
-msgstr ""
+msgstr "Senden"
 
 #: apartmany/templates/apartmany/contact.html:153
 msgid "Accomodation Type"
-msgstr ""
+msgstr "Unterkunftsart"
 
 #: apartmany/templates/apartmany/contact.html:157
 #: apartmany/templates/apartmany/studios.html:14
 msgid "Studio"
-msgstr ""
+msgstr "Studio"
 
 #: apartmany/templates/apartmany/contact.html:161
 msgid "Accomodation Detail"
-msgstr ""
+msgstr "Unterkunft Detail"
 
 #: apartmany/templates/apartmany/contact.html:173
 msgid "To"
-msgstr ""
+msgstr "An"
 
 #: apartmany/templates/apartmany/contact.html:179
 msgid "Number of Guests"
-msgstr ""
+msgstr "Gästeanzahl"
 
 #: apartmany/templates/apartmany/contact.html:199
 msgid "Send Reservation Request"
-msgstr ""
+msgstr "Reservierungsanfrage Senden"
 
 #: apartmany/templates/apartmany/gallery.html:62
 #: apartmany/templates/apartmany/gallery.html:95
