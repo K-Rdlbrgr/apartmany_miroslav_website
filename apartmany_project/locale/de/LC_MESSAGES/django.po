@@ -264,11 +264,11 @@ msgid ""
 "valley. Our guests also appreciate that we have 5 grills and 2 firepits "
 "available for barbeque, 8 bikes for free rent, storage spaces for sports "
 "equipment, spacious parking lot and a small workout area."
-msgstr ""
+msgstr "Apartmany & Studia Miroslav - moderne Unterkunft mit Sauna im Herzen des Demanovska-Tals und nur wenige Minuten vom Skizentrum Jasna Chopok entfernt, bietet sowohl im Sommer als auch im Winter für jeden Urlauber ein Erlebnis. Wir sind umgeben von üppigen grünen Wäldern und der Fluss Demänovka fließt direkt durch unser Grundstück. Unser Haus ist ideal für Familien mit Kindern, die im großen Garten spielen können und sowohl ein großes Trampolin, als auch ein Gartenspielhaus mit Rutsche und Sandkasten nuten können . Jedoch ist unsere Unterkunft dank der vielen malerischen ruhigen Ecken und der Ruhe des Tals auch perfekt für einen romantischen Urlaub zu zweit. Des Weiteren stehen unseren Gästen  5 Grills und 2 Feuerstellen, 8 Fahrräder, Abstellplätze für Sportgeräte, ein großer Parkplatz und ein kleiner Fitnessraum kostenlos zur Verfügung."
 
 #: apartmany/templates/apartmany/guestbook.html:38
 msgid "REVIEWS"
-msgstr ""
+msgstr "REZENSIONEN"
 
 #: apartmany/templates/apartmany/guestbook.html:48
 msgid ""
@@ -281,15 +281,15 @@ msgstr ""
 
 #: apartmany/templates/apartmany/guestbook.html:63
 msgid "Review"
-msgstr ""
+msgstr "Rezension"
 
 #: apartmany/templates/apartmany/guestbook.html:129
 msgid "Poste Review"
-msgstr ""
+msgstr "Veröffentliche Rezension"
 
 #: apartmany/templates/apartmany/guestbook.html:153
 msgid "out of 5"
-msgstr ""
+msgstr "von 5"
 
 #: apartmany/templates/apartmany/index.html:14
 msgid "Save"
