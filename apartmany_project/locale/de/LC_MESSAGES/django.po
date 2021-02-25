@@ -133,7 +133,7 @@ msgid ""
 "detailed information and pictures of each of our apartments, you can also "
 "take a virtual 360° tour through them with the button in the top right "
 "corner in every apartment description."
-msgstr "Apartmany & Studia Miroslav liegt im wunderschönen Demanovska Tal und ist nicht einmal 10 Minuten vom Skizentrum Jasna Chopok entfernt. Neben unseres Wellness & Sauna Angebots, bieten wir  insgesamt neun Studios und fünf Apartments an. Unsere Appartements sind zwischen 35m² und 82m² groß und verfügen über eine voll ausgestattete Küche. Neben detaillierteren Informationen und Bildern zu jedem unserer Appartements können Sie auch einen virtuellen 360°-Rundgang durch sie mit der Schaltfläche in der oberen rechten Ecke in jeder Appartementbeschreibung machen."
+msgstr "Apartmany & Studia Miroslav liegt im wunderschönen Demänovská Tal und ist nicht einmal 10 Minuten vom Skizentrum Jasna Chopok entfernt. Neben unseres Wellness & Sauna Angebots, bieten wir  insgesamt neun Studios und fünf Apartments an. Unsere Appartements sind zwischen 35m² und 82m² groß und verfügen über eine voll ausgestattete Küche. Neben detaillierteren Informationen und Bildern zu jedem unserer Appartements können Sie auch einen virtuellen 360°-Rundgang durch sie mit der Schaltfläche in der oberen rechten Ecke in jeder Appartementbeschreibung machen."
 
 #: apartmany/templates/apartmany/apartments.html:160
 msgid ""
@@ -264,11 +264,11 @@ msgid ""
 "valley. Our guests also appreciate that we have 5 grills and 2 firepits "
 "available for barbeque, 8 bikes for free rent, storage spaces for sports "
 "equipment, spacious parking lot and a small workout area."
-msgstr "Apartmany & Studia Miroslav - moderne Unterkunft mit Sauna im Herzen des Demanovska-Tals und nur wenige Minuten vom Skizentrum Jasna Chopok entfernt, bietet sowohl im Sommer als auch im Winter für jeden Urlauber ein Erlebnis. Wir sind umgeben von üppigen grünen Wäldern und der Fluss Demänovka fließt direkt durch unser Grundstück. Unser Haus ist ideal für Familien mit Kindern, die im großen Garten spielen können und sowohl ein großes Trampolin, als auch ein Gartenspielhaus mit Rutsche und Sandkasten nuten können . Jedoch ist unsere Unterkunft dank der vielen malerischen ruhigen Ecken und der Ruhe des Tals auch perfekt für einen romantischen Urlaub zu zweit. Des Weiteren stehen unseren Gästen  5 Grills und 2 Feuerstellen, 8 Fahrräder, Abstellplätze für Sportgeräte, ein großer Parkplatz und ein kleiner Fitnessraum kostenlos zur Verfügung."
+msgstr "Apartmany & Studia Miroslav - moderne Unterkunft mit Sauna im Herzen des Demänovská-Tals und nur wenige Minuten vom Skizentrum Jasna Chopok entfernt, bietet sowohl im Sommer als auch im Winter für jeden Urlauber ein Erlebnis. Wir sind umgeben von üppigen grünen Wäldern und der Fluss Demänovka fließt direkt durch unser Grundstück. Unser Haus ist ideal für Familien mit Kindern, die im großen Garten spielen können und sowohl ein großes Trampolin, als auch ein Gartenspielhaus mit Rutsche und Sandkasten nuten können . Jedoch ist unsere Unterkunft dank der vielen malerischen ruhigen Ecken und der Ruhe des Tals auch perfekt für einen romantischen Urlaub zu zweit. Des Weiteren stehen unseren Gästen  5 Grills und 2 Feuerstellen, 8 Fahrräder, Abstellplätze für Sportgeräte, ein großer Parkplatz und ein kleiner Fitnessraum kostenlos zur Verfügung."
 
 #: apartmany/templates/apartmany/guestbook.html:38
 msgid "REVIEWS"
-msgstr "REZENSIONEN"
+msgstr "BEWERTUNGEN"
 
 #: apartmany/templates/apartmany/guestbook.html:48
 msgid ""
@@ -277,15 +277,15 @@ msgid ""
 "a comment, please feel free to do so. We really appreciate your opinions and "
 "suggestions and would like to thank all of our guests for taking the time to "
 "write all those reviews. We hope to see you soon again!"
-msgstr ""
+msgstr "Hier finden Sie alle Bewertungen zu Apartmany & Studia Miroslav von unseren früheren Gästen. Wenn Sie selbst ein früherer Gast sind und noch keinen Kommentar hinterlassen haben, können Sie das gerne tun. Wir wissen Ihre Meinungen und Vorschläge sehr zu schätzen und möchten uns bei all unseren Gästen dafür bedanken, dass sie sich die Zeit genommen haben, all diese Bewertungen zu schreiben. Wir hoffen, Sie bald wieder zu sehen!"
 
 #: apartmany/templates/apartmany/guestbook.html:63
 msgid "Review"
-msgstr "Rezension"
+msgstr "Bewertung"
 
 #: apartmany/templates/apartmany/guestbook.html:129
 msgid "Poste Review"
-msgstr "Veröffentliche Rezension"
+msgstr "Veröffentliche Bewertung"
 
 #: apartmany/templates/apartmany/guestbook.html:153
 msgid "out of 5"
@@ -293,43 +293,43 @@ msgstr "von 5"
 
 #: apartmany/templates/apartmany/index.html:14
 msgid "Save"
-msgstr ""
+msgstr "Speichern"
 
 #: apartmany/templates/apartmany/index.html:32
 msgid "Relax in the forrest<br>not the village"
-msgstr ""
+msgstr "Entspannung in der Natur<br>nicht der Stadt"
 
 #: apartmany/templates/apartmany/index.html:34
 msgid ""
 "Modern accomodation with sauna in the heart of the Demanovska Valley, just a "
 "stone's throw away from Jasna Chopok ski center"
-msgstr ""
+msgstr "Moderne Unterkunft mit Sauna im Herzen des Demänovská-Tals, nur einen Steinwurf vom Skizentrum Jasna Chopok entfernt"
 
 #: apartmany/templates/apartmany/index.html:36
 msgid "Reserve Now"
-msgstr ""
+msgstr "Jetzt Reservieren"
 
 #: apartmany/templates/apartmany/index.html:43
 msgid "Jasná<br>Ski Pass"
-msgstr ""
+msgstr "Jasná<br>Ski Pass"
 
 #: apartmany/templates/apartmany/index.html:48
 msgid "discount"
-msgstr ""
+msgstr "rabatt"
 
 #: apartmany/templates/apartmany/index.html:52
 msgid ""
 "We offer special prices on 6 day ski passes for adults, seniors, juniors and "
 "children."
-msgstr ""
+msgstr "Wir bieten Sonderpreise auf 6-Tages-Skipässe für Erwachsene, Senioren, Junioren und Kinder"
 
 #: apartmany/templates/apartmany/index.html:53
 msgid "Learn more"
-msgstr ""
+msgstr "Mehr Infos"
 
 #: apartmany/templates/apartmany/index.html:70
 msgid "Why staying at Miroslav Apartmany & Studia"
-msgstr ""
+msgstr "Warum den nächsten Urlaub bei Miroslav Apartmany & Studia planen"
 
 #: apartmany/templates/apartmany/index.html:78
 msgid ""
@@ -339,75 +339,75 @@ msgid ""
 "there's a well-known ski-centre JASNA Chopok. We are also close to the "
 "biggest Aquapark in Slovakia - Tatralandia. In summer, hiking and mountain "
 "biking is highly sought after in this area."
-msgstr ""
+msgstr "Unsere Unterkunft mit Sauna, umgeben von einem Fluss, Bäumen und einem weitläufigen Garten, befindet sich in der Öffnung eines der schönsten Täler der Slowakei - dem Demänovská Tal in der Niederen Tatra - an dessen Ende sich das bekannte Skizentrum JASNA Chopok befindet. Wir sind auch in der Nähe des größten Aquaparks in der Slowakei - Tatralandia. Im Sommer ist das Wandern und Mountainbiken in diesem Gebiet sehr beliebt."
 
 #: apartmany/templates/apartmany/index.html:97
 msgid "SAUNA"
-msgstr ""
+msgstr "SAUNA"
 
 #: apartmany/templates/apartmany/index.html:101
 msgid ""
 "Since early 2019 we offer our guests a private stay in a modern sauna and a "
 "relaxation room with fireplace. Cooling down is enabled by direct access to "
 "the river Demanovka that flows through our property."
-msgstr ""
+msgstr "Seit Anfang 2019 bieten wir unseren Gästen einen privaten Aufenthalt in einer modernen Sauna und einem Ruheraum mit Kamin. Die Abkühlung wird durch den direkten Zugang zum Fluss Demanovka ermöglicht, der direkt durch unser Grundstück fließt."
 
 #: apartmany/templates/apartmany/index.html:117
 msgid "PLAYGROUND"
-msgstr ""
+msgstr "SPIELPLATZ"
 
 #: apartmany/templates/apartmany/index.html:121
 msgid ""
 "Our accomodation provides a plenty of entertainment for your kids including "
 "a spacious garden, a trampoline, swings and a wooden play house with a slide "
 "and sandbox."
-msgstr ""
+msgstr "Unsere Unterkunft bietet eine Menge Unterhaltung für Ihre Kinder, einschließlich eines großen Gartens, ein Trampolin, Schaukeln und ein Holzspielhaus mit einer Rutsche und einem Sandkasten."
 
 #: apartmany/templates/apartmany/index.html:140
 msgid "OUTDOOR FACILITIES"
-msgstr ""
+msgstr "AUSSENANLAGEN"
 
 #: apartmany/templates/apartmany/index.html:144
 msgid ""
 "Surrounded by the beautiful forrest of Demanovska Valley our guests can "
 "enjoy hanging out at several outdoor sitting areas, 5 grills and 2 firepits "
 "right by the river."
-msgstr ""
+msgstr "Umgeben von den wunderschönen Wäldern des Demänovská-Tals können sich unsere Gäste an mehreren Sitzgelegenheiten im Freien, 5 Grills und 2 Feuerstellen direkt am Fluss erholen."
 
 #: apartmany/templates/apartmany/index.html:176
 msgid "SKI PASSES DEALS"
-msgstr ""
+msgstr "SKI PASS DEALS"
 
 #: apartmany/templates/apartmany/index.html:180
 msgid "Take advantage of special prices for ski passes of Jasna ski center."
-msgstr ""
+msgstr "Profitieren Sie von Sonderpreisen für Skipässe des Skizentrums Jasna."
 
 #: apartmany/templates/apartmany/index.html:184
 msgid "6 DAY SKI PASS ADULTS for 175€ instead of 223€"
-msgstr ""
+msgstr "6 TAGESSKIPASS ERWACHSENE für 175€ statt 223€"
 
 #: apartmany/templates/apartmany/index.html:185
 msgid "6 DAY SKI PASS JUNIOR/SENIOR for 140€ instead of 179€"
-msgstr ""
+msgstr "6 TAGESSKIPASS JUNIOREN/SENIOREN für 140€ statt 179€"
 
 #: apartmany/templates/apartmany/index.html:186
 msgid "6 DAY SKI PASS CHILDREN for 125€ instead of 156€"
-msgstr ""
+msgstr "6 TAGESSKIPASS KINDER für 125€ statt 156€"
 
 #: apartmany/templates/apartmany/index.html:203
 msgid "SPORTS"
-msgstr ""
+msgstr "SPORT"
 
 #: apartmany/templates/apartmany/index.html:207
 msgid ""
 "We provide storage rooms for your sporting gear (including heated racks for "
 "your ski boots), 8 bikes you can rent for free and a simple outdoor workout "
 "area."
-msgstr ""
+msgstr "Wir bieten unseren Gästen Abstellräume für Ihre Sportausrüstung (einschließlich beheizter Ständer für Ihre Skischuhe), 8 Fahrräder und einen einfachen Trainingsbereich im Freien kostenlos zur Verfügung."
 
 #: apartmany/templates/apartmany/index.html:223
 msgid "LOCATION"
-msgstr ""
+msgstr "STANDORT"
 
 #: apartmany/templates/apartmany/index.html:227
 msgid ""
@@ -415,22 +415,22 @@ msgid ""
 "with a shuttle bus that stops at our doorstep. We are 10 minutes from "
 "Litpovsky Mikulas, 15-25 minutes from Aquaparks Tatralandia and Besenova and "
 "40 minutes from High Tatras."
-msgstr ""
+msgstr "Das Skizentrum Jasna erreichen Sie innerhalb von 10 Minuten entweder mit dem eigenen Auto oder mit einem Shuttlebus, der vor unserer Haustür hält. Wir sind 10 Minuten von Litpovsky Mikulas, 15-25 Minuten von den Aquaparks Tatralandia und Besenova und 40 Minuten von der Hohen Tatra entfernt."
 
 #: apartmany/templates/apartmany/index.html:243
 msgid "PARKING"
-msgstr ""
+msgstr "PARKEN"
 
 #: apartmany/templates/apartmany/index.html:247
 msgid ""
 "There are numerous car parks directly on our property which all our guests "
 "can use for free. As another advantage, you are also able to drive to the "
 "Jasna ski resort by your own car."
-msgstr ""
+msgstr "Direkt auf unserem Grundstück befinden sich zahlreiche Parkplätze, die alle unsere Gäste kostenlos nutzen können. Von Vorteil ist auch die Möglichkeit, mit dem eigenen Auto in das Skigebiet Jasna fahren zu dürfen."
 
 #: apartmany/templates/apartmany/index.html:271
 msgid "Apartments and Studios"
-msgstr ""
+msgstr "Apartments und Studios"
 
 #: apartmany/templates/apartmany/index.html:279
 msgid ""
@@ -438,31 +438,31 @@ msgid ""
 "few minutes from Jasna Chopok, each with its own kitchen and bathroom. Our "
 "apartments are suitable for families as well as for couples. There is an "
 "option to have breakfast in the nearby pension (just 50m from us)."
-msgstr ""
+msgstr "Wir bieten 14 moderne und gut ausgestattete Studios und Appartements, die nur wenige Minuten von Jasna Chopok entfernt liegen und jeweils über eine eigene Küche und ein Bad verfügen. Unsere Appartements sind sowohl für Familien als auch für Paare geeignet. Es besteht die Möglichkeit, in einer nahe gelegenen Pension zu frühstücken (nur 50m von uns entfernt)."
 
 #: apartmany/templates/apartmany/index.html:321
 #: apartmany/templates/apartmany/index.html:368
 msgid ""
 "Explore the facilities and take a 360° tour through each of our apartments"
-msgstr ""
+msgstr "Erkunden Sie die Räumlichkeiten und machen Sie einen 360°-Rundgang durch jedes unserer Apartments"
 
 #: apartmany/templates/apartmany/index.html:326
 msgid "Apartment Tour"
-msgstr ""
+msgstr "Apartment Tour"
 
 #: apartmany/templates/apartmany/index.html:335
 #: apartmany/templates/apartmany/studios.html:15
 #: apartmany/templates/base.html:26
 msgid "Studios"
-msgstr ""
+msgstr "Studios"
 
 #: apartmany/templates/apartmany/index.html:373
 msgid "Studio Tour"
-msgstr ""
+msgstr "Studio Tour"
 
 #: apartmany/templates/apartmany/index.html:397
 msgid "What to do in Demanovska Valley"
-msgstr ""
+msgstr "Was man im Demänovská-Tal unternehmen kann"
 
 #: apartmany/templates/apartmany/index.html:405
 msgid ""
@@ -473,11 +473,11 @@ msgid ""
 "system, the valley is the perfect starting point for countless hikes, trips "
 "to aquaparks Tatralandia and Besenova, thermal spas, historical sites or "
 "museums."
-msgstr ""
+msgstr "Apartmany & Studia Miroslav befindet sich im Demänovská Tal in der Niederen Tatra, einem Naturparadies mit zahlreichen Möglichkeiten, Ihren Urlaub so entspannt oder so aktiv zu genießen, wie Sie es wünschen. Neben dem größten Skizentrum der Slowakei - Jasna Chopok - und dem längsten Höhlensystem der Slowakei ist das Tal der perfekte Ausgangspunkt für unzählige Wanderungen, Ausflüge in die Aquaparks Tatralandia und Besenova, Thermalbäder, historische Sehenswürdigkeiten oder Museen."
 
 #: apartmany/templates/apartmany/index.html:418
 msgid "HIKING & CYCLING"
-msgstr ""
+msgstr "WANDERN & RADFAHREN"
 
 #: apartmany/templates/apartmany/index.html:420
 msgid ""
@@ -485,11 +485,11 @@ msgid ""
 "different levels of difficulty, from the demanding, which requires a certain "
 "degree of preparation to those that are designed for families with children "
 "or beginners. Apartmany & Studia Miroslav are the perfect hub!"
-msgstr ""
+msgstr "Das Tatra-Gebirge bietet eine große Anzahl von Wander- und Radwegen mit unterschiedlichen Schwierigkeitsgraden. Diese reichen von anspruchsvoll, die eine gewisse Vorbereitung erfordern, bis hin zu solchen, die für Familien mit Kindern oder Anfänger geeignet sind. Apartmany & Studia Miroslav Ost der perfekte Ausgangspunkt!"
 
 #: apartmany/templates/apartmany/index.html:435
 msgid "SKIING"
-msgstr ""
+msgstr "SKIFAHREN"
 
 #: apartmany/templates/apartmany/index.html:437
 msgid ""
@@ -497,11 +497,11 @@ msgid ""
 "you'll be able to minimize travelling time and enjoy your skiing on "
 "Slovakia's longest ski slopes even more. We also provide a storage room for "
 "all your equipment including heating racks for your ski boots."
-msgstr ""
+msgstr "In unmittelbarer Nähe der Skigebiete Jasna Chopok Nizke Tatry und Ziarce gelegen, können Sie die Fahrzeit minimieren und das Skifahren auf den längsten Skipisten der Slowakei noch mehr genießen. Wir bieten auch einen Abstellraum für Ihre gesamte Ausrüstung, einschließlich Heizständer für Ihre Skischuhe."
 
 #: apartmany/templates/apartmany/index.html:452
 msgid "THERMAL"
-msgstr ""
+msgstr "THERMAL"
 
 #: apartmany/templates/apartmany/index.html:454
 msgid ""
@@ -509,15 +509,15 @@ msgid ""
 "thermal swimming pools in Liptovsky Jan and the recreation centre of "
 "Liptovsky Mara dam which together offer a variety of adrenaline watersports "
 "activities and opportunities to relax."
-msgstr ""
+msgstr "Im Umkreis von 20 km befinden sich die Aquaparks Tatralandia und Besenova, die Thermalschwimmbäder in Liptovsky Jan und das Erholungszentrum der Talsperre Liptovsky Mara, die zusammen eine Vielzahl von Adrenalin-Wassersportaktivitäten und Möglichkeiten zur Entspannung bieten."
 
 #: apartmany/templates/apartmany/prices_and_faqs.html:23
 msgid "PRICES<br>&<br>FAQS"
-msgstr ""
+msgstr "PREISE<br>&<br>HÄUFIG GESTELLTE FRAGEN"
 
 #: apartmany/templates/apartmany/prices_and_faqs.html:37
 msgid "Price Information"
-msgstr ""
+msgstr "Preis Information"
 
 #: apartmany/templates/apartmany/prices_and_faqs.html:47
 msgid ""
@@ -528,65 +528,65 @@ msgid ""
 "the equivalent to two adults. Additionally to accomodation costs, a local "
 "tax fee for adults and children older than 12 years of 1 Euro per person and "
 "night has to be charged."
-msgstr ""
+msgstr "Unsere Preise pro Person und Nacht liegen im Bereich von 18 bis 25 Euro. Der Preis ist abhängig von der Saison (Hauptsaison/Nebensaison) und der Anzahl der Personen in einem Studio oder Appartement. Gerne senden wir Ihnen die komplette Preisliste per E-Mail zu. Ein einzelner Erwachsener in einem Studio oder Appartement zahlt das Gleiche wie zwei Erwachsene. Zusätzlich zu den Übernachtungskosten ist eine Tourismusabgabe für Erwachsene und Kinder ab 12 Jahren von 1 Euro pro Person und Nacht zu entrichten."
 
 #: apartmany/templates/apartmany/prices_and_faqs.html:55
 msgid "Discounts"
-msgstr ""
+msgstr "Rabatte"
 
 #: apartmany/templates/apartmany/prices_and_faqs.html:58
 msgid "Children up to 12 years:"
-msgstr ""
+msgstr "Kindern bis zu 12 Jahre:"
 
 #: apartmany/templates/apartmany/prices_and_faqs.html:59
 msgid "Children up to 12 years on a sofa-bed:"
-msgstr ""
+msgstr "Kinder bis zu 12 Jahre auf einem Sofabett:"
 
 #: apartmany/templates/apartmany/prices_and_faqs.html:60
 msgid "Adult on a sofa-bed:"
-msgstr ""
+msgstr "Erwachsene auf einem Sofabett:"
 
 #: apartmany/templates/apartmany/prices_and_faqs.html:64
 msgid ""
 "Discounts for children are only valid if there are 2 adults paying the full "
 "price in the same studio. Two children accommodated by themselves in 1 "
 "studio are paying full/adult prices."
-msgstr ""
+msgstr "Ermäßigungen für Kinder sind nur gültig, wenn 2 Erwachsene, die den vollen Preis zahlen, im selben Studio untergebracht sind. Zwei Kinder, die alleine in einem Studio untergebracht sind, zahlen den vollen Erwachsenenpreis."
 
 #: apartmany/templates/apartmany/prices_and_faqs.html:77
 msgid "Restaurants"
-msgstr ""
+msgstr "Restaurants"
 
 #: apartmany/templates/apartmany/prices_and_faqs.html:86
 msgid ""
 "Enjoy discounts at classic slovakian and international restaurants and cafés "
 "in Liptovský Mikuláš, Ružomberok, Demänovská Dolina and the whole area."
-msgstr ""
+msgstr "Genießen Sie Ermäßigungen in klassischen slowakischen und internationalen Restaurants und Cafés in Liptovský Mikuláš, Ružomberok, Demänovská Dolina und in der ganzen Umgebung."
 
 #: apartmany/templates/apartmany/prices_and_faqs.html:97
 msgid "Ski Passes"
-msgstr ""
+msgstr "Ski Pässe"
 
 #: apartmany/templates/apartmany/prices_and_faqs.html:106
 msgid ""
 "Take advantage of our ski pass discounts and save 31€ (children), 39€ "
 "(juniors, seniors) or 48€ (adults) on a 6 day pass for the Jasná ski center, "
 "respectively."
-msgstr ""
+msgstr "Nutzen Sie unsere Skipass-Rabatte und sparen Sie 31€ (Kinder), 39€ (Junioren, Senioren) bzw. 48€ (Erwachsene) auf einen 6-Tage-Pass für das Skizentrum Jasná."
 
 #: apartmany/templates/apartmany/prices_and_faqs.html:117
 msgid "Activities & Services"
-msgstr ""
+msgstr "Aktivitäten & Dienstleistungen"
 
 #: apartmany/templates/apartmany/prices_and_faqs.html:126
 msgid ""
 "Go on adventures and save money by benefitting from our discounts for skiing "
 "schools, rafting, bowling, laser tag, tennis, climbing and many more."
-msgstr ""
+msgstr "Gehen Sie auf große Abenteuer und sparen Sie gleichzeitig Geld, indem Sie von unseren Rabatten für Skischulen, Rafting, Bowling, Laser Tag, Tennis, Klettern und vielem mehr profitieren."
 
 #: apartmany/templates/apartmany/prices_and_faqs.html:142
 msgid "Frequently Asked Questions"
-msgstr ""
+msgstr "Häufig Gestellte Fragen"
 
 #: apartmany/templates/apartmany/prices_and_faqs.html:151
 msgid ""
