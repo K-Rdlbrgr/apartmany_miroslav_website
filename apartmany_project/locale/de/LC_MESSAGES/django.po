@@ -293,7 +293,7 @@ msgstr "von 5"
 
 #: apartmany/templates/apartmany/index.html:14
 msgid "Save"
-msgstr "Speichern"
+msgstr "Spare"
 
 #: apartmany/templates/apartmany/index.html:32
 msgid "Relax in the forrest<br>not the village"
@@ -594,25 +594,25 @@ msgid ""
 "reservations, facilities, etc. Click on the headers to collapse the topics "
 "and then click on the questions to see the answers. If your question however "
 "remains unanswered, please do not hesitate to contact us via e-mail or call."
-msgstr ""
+msgstr "Nachfolgend finden Sie wichtige Informationen zum Ein- und Auschecken, zu Reservierungen, Ausstattungen, etc. Klicken Sie auf die Überschriften, um die Themen ein- und auszublenden, und klicken Sie dann auf die Fragen, um die Antworten zu sehen. Sollte Ihre Frage dennoch unbeantwortet bleiben, zögern Sie bitte nicht, uns per E-Mail oder telefonisch zu kontaktieren."
 
 #: apartmany/templates/apartmany/prices_and_faqs.html:160
 msgid "Check-in & Check-out"
-msgstr ""
+msgstr "Check-in & Check-out"
 
 #: apartmany/templates/apartmany/prices_and_faqs.html:170
 msgid "When can I check-in and check-out?"
-msgstr ""
+msgstr "Wann kann ich ein- und auschecken?"
 
 #: apartmany/templates/apartmany/prices_and_faqs.html:173
 msgid ""
 "You can check-in after 2pm on the day of your arrival. The heck-out time is "
 "at 10am the latest."
-msgstr ""
+msgstr "Sie können am Tag Ihrer Anreise ab 14 Uhr einchecken. Die Check-out-Zeit ist spätestens um 10 Uhr."
 
 #: apartmany/templates/apartmany/prices_and_faqs.html:182
 msgid "Do you offer early/late check-in (after 8pm) ?"
-msgstr ""
+msgstr "Bieten Sie einen frühen/späten Check-in (nach 20 Uhr) an?"
 
 #: apartmany/templates/apartmany/prices_and_faqs.html:185
 msgid ""
@@ -620,25 +620,25 @@ msgid ""
 "room is available earlier. Please contact us beforehand if you need to check-"
 "in earlier than 2pm. On the other hand, if you think you will arrive to our "
 "place later than 8pm, it's not a problem, just please let us know."
-msgstr ""
+msgstr "Wir empfehlen Ihnen, nach 14 Uhr anzureisen. Es kann jedoch möglich sein, dass Ihr Zimmer früher verfügbar ist. Bitte kontaktieren Sie uns im Voraus, wenn Sie früher als 14 Uhr einchecken müssen. Falls Sie hingegen erst nach 20 Uhr bei uns ankommen, ist das nach vorheriger Absprache überhaupt kein Problem."
 
 #: apartmany/templates/apartmany/prices_and_faqs.html:194
 msgid "Do you offer late check-out ?"
-msgstr ""
+msgstr "Bieten Sie späten Check-out an?"
 
 #: apartmany/templates/apartmany/prices_and_faqs.html:197
 msgid ""
 "Unfortuntaly, during the season we do not offer late check-outs. It might be "
 "available off-season, upon request."
-msgstr ""
+msgstr "Während der Hauptsaison bieten wir leider keine späten Check-outs an. In der Nebensaison kann es jedoch auf Anfrage möglich sein."
 
 #: apartmany/templates/apartmany/prices_and_faqs.html:209
 msgid "Reservations"
-msgstr ""
+msgstr "Reservierungen"
 
 #: apartmany/templates/apartmany/prices_and_faqs.html:217
 msgid "How can I make a reservation enquiry?"
-msgstr ""
+msgstr "Wie kann ich eine Reservierungsanfrage stellen?"
 
 #: apartmany/templates/apartmany/prices_and_faqs.html:220
 msgid ""
@@ -649,62 +649,62 @@ msgid ""
 "time period you are interested in and we will send you a price list and a "
 "list of available apartments/studios suitable for your needs. Alternatively, "
 "you can simply fill out this form."
-msgstr ""
+msgstr "Wir vereinbaren alle Reservierungen über E-Mails. Wenn Sie Fragen haben, können Sie uns telefonisch kontaktieren oder uns eine Nachricht auf Facebook schicken, aber die Reservierung muss per E-Mail erfolgen. Bitte senden Sie uns eine E-Mail an <strong>apartmanymiroslav@gmail.com</strong> mit der Anzahl der Personen und dem Zeitraum, an dem Sie interessiert sind, und wir werden Ihnen eine Preisübersicht und eine Liste der verfügbaren Wohnungen/Studios, die Ihren Wünsche entsprechen, senden. Alternativ können Sie auch einfach dieses Formular ausfüllen."
 
 #: apartmany/templates/apartmany/prices_and_faqs.html:229
 msgid "When is the reservation valid?"
-msgstr ""
+msgstr "Ab wann ist die Reservierung gültig?"
 
 #: apartmany/templates/apartmany/prices_and_faqs.html:232
 #, python-format
 msgid ""
 "Your reservation is confirmed once we received your deposit. The deposit is "
 "usually 50%% of the price."
-msgstr ""
+msgstr "Ihre Reservierung ist bestätigt, sobald wir Ihre Anzahlung erhalten haben. Die Anzahlung beträgt in der Regel 50%% des Preises."
 
 #: apartmany/templates/apartmany/prices_and_faqs.html:241
 msgid "How and when do I pay?"
-msgstr ""
+msgstr "Wie und wann muss ich bezahlen?"
 
 #: apartmany/templates/apartmany/prices_and_faqs.html:244
 msgid ""
 "We usually require a deposit to be transfered to our account, prior to your "
 "arrival. We kindly ask you to pay the rest on the day of your arrival. We "
 "only accept cash payments in the local currency (Euro)."
-msgstr ""
+msgstr "Wir verlangen in der Regel eine Anzahlung, die vor Ihrer Ankunft auf unser Konto zu überweisen ist. Wir bitten Sie, den Rest am Tag Ihrer Ankunft zu bezahlen. Wir akzeptieren nur Barzahlungen in der Landeswährung (Euro)."
 
 #: apartmany/templates/apartmany/prices_and_faqs.html:256
 msgid "Cancellations"
-msgstr ""
+msgstr "Stornierungen"
 
 #: apartmany/templates/apartmany/prices_and_faqs.html:264
 msgid "What happens if need to cancel my reservation?"
-msgstr ""
+msgstr "Was passiert, wenn ich meine Reservierung stornieren muss?"
 
 #: apartmany/templates/apartmany/prices_and_faqs.html:267
 msgid ""
 "If, for any reason, you need to cancel your vacation at our place and you "
 "already paid the deposit, we will be happy to move your vacation to any "
 "agreed future term."
-msgstr ""
+msgstr "Sollten Sie aus irgendeinem Grund Ihren Urlaub bei uns stornieren müssen und Sie haben bereits die Anzahlung geleistet, werden wir Ihren Urlaub gerne auf einen vereinbarten zukünftigen Termin verschieben."
 
 #: apartmany/templates/apartmany/prices_and_faqs.html:276
 msgid "Can I get my deposit back when I cancel?"
-msgstr ""
+msgstr "Kann ich meine Anzahlung zurückbekommen, wenn ich storniere?"
 
 #: apartmany/templates/apartmany/prices_and_faqs.html:279
 msgid ""
 "In case that we are still able to rebook your room to other guests, we will "
 "be happy to return the deposit to you, minus any fees for bank transfers."
-msgstr ""
+msgstr "Für den Fall, dass wir Ihr Zimmer noch an andere Gäste umbuchen können, erstatten wir Ihnen gerne die Anzahlung abzüglich eventueller Gebühren für Überweisungen zurück."
 
 #: apartmany/templates/apartmany/prices_and_faqs.html:291
 msgid "Location & Car Parking"
-msgstr ""
+msgstr "Standort & Parkplätze"
 
 #: apartmany/templates/apartmany/prices_and_faqs.html:299
 msgid "How do I find you if I am coming by car?"
-msgstr ""
+msgstr "Wie finde ich die Unterkunft, wenn ich mit dem Auto ankomme?"
 
 #: apartmany/templates/apartmany/prices_and_faqs.html:302
 msgid ""
@@ -712,11 +712,11 @@ msgid ""
 "the road signs to JASNA. Then you just follow the road all the way to "
 "Demänovská Dolina. We are located at the very beginning of the valley, on "
 "the right side of the road, just next to a big hotel called Tri Studničky."
-msgstr ""
+msgstr "Sie können uns sehr leicht finden. Wenn Sie von der Autobahn abfahren, folgen Sie den Straßenschildern nach JASNA. Dann folgen Sie einfach der Straße bis nach Demänovská Dolina. Wir befinden uns ganz am Anfang des Tals, auf der rechten Seite der Straße, gleich neben einem großen Hotel namens Tri Studničky."
 
 #: apartmany/templates/apartmany/prices_and_faqs.html:311
 msgid "How do I reach you if I am coming from Liptovský Mikuláš Main Station?"
-msgstr ""
+msgstr "Wie erreiche ich Sie, wenn ich vom Hauptbahnhof Liptovský Mikuláš komme?"
 
 #: apartmany/templates/apartmany/prices_and_faqs.html:314
 msgid ""
@@ -725,22 +725,22 @@ msgid ""
 "<strong>Demänovská Dolina Autocamping</strong>. From the bus stop, follow "
 "the road for around 500m (5 minutes) and you will see us on the right side "
 "of the road, just next to the big hotel called Tri Studničky."
-msgstr ""
+msgstr "Vom Bahnhof Liptovský Mikuláš (Zug- und Busbahnhof befinden sich an der gleichen Stelle) können Sie einfach eine kurze Busfahrt bis zur Haltestelle <strong>Demänovská Dolina Autocamping</strong> machen. Von der Bushaltestelle aus folgen Sie der Straße für ca. 500m (5 Minuten) und Sie sehen uns auf der rechten Straßenseite, gleich neben dem großen Hotel namens Tri Studničky."
 
 #: apartmany/templates/apartmany/prices_and_faqs.html:323
 msgid "Do you offer car parking?"
-msgstr ""
+msgstr "Bieten Sie Parkmöglichkeiten an?"
 
 #: apartmany/templates/apartmany/prices_and_faqs.html:326
 msgid ""
 "Absolutely. You will have no troubles to fit your car on our spacious "
 "private parking lot. The parking lot is locked down during the night so you "
 "can sleep peacefully!"
-msgstr ""
+msgstr "Unbedingt. Sie werden keine Probleme haben, Ihr Auto auf unserem geräumigen Privatparkplatz unterzubringen. Der Parkplatz ist in der Nacht abgesperrt, so dass Sie ruhig schlafen können!"
 
 #: apartmany/templates/apartmany/prices_and_faqs.html:335
 msgid "How far is the ski-center from the apartments and how can I get there?"
-msgstr ""
+msgstr "Wie weit ist das Skizentrum von den Apartments entfernt und wie kann ich dorthin gelangen?"
 
 #: apartmany/templates/apartmany/prices_and_faqs.html:338
 msgid ""
@@ -750,15 +750,15 @@ msgid ""
 "own car to get all to way to the ski lifts. The ride takes only around 8 "
 "minutes. You can also use the free shuttle bus that stops pretty much on our "
 "doorstep."
-msgstr ""
+msgstr "Wir haben eine erstklassige Lage über dem Parkplatz P5 Pavcina Lehota, wo in verkehrsreichen Zeiten die Besucher des Skizentrums Jasna gebeten werden, ihr Auto zu parken und den Shuttle-Bus für den Rest der Reise zu benutzen. Sie als unser Gast können Ihr eigenes Auto benutzen, um bis zu den Skiliften zu gelangen. Die Fahrt dauert nur etwa 8 Minuten. Sie können auch den kostenlosen Shuttlebus nutzen, der quasi vor der Haustür hält."
 
 #: apartmany/templates/apartmany/prices_and_faqs.html:350
 msgid "Facilities & Amenities"
-msgstr ""
+msgstr "Ausstattung & Annehmlichkeiten"
 
 #: apartmany/templates/apartmany/prices_and_faqs.html:358
 msgid "Can a baby bed be placed in the room?"
-msgstr ""
+msgstr "Kann ein Babybett in das Zimmer gestellt werden?"
 
 #: apartmany/templates/apartmany/prices_and_faqs.html:361
 msgid ""
@@ -1083,31 +1083,31 @@ msgstr ""
 
 #: apartmany/templates/base.html:25
 msgid "Home"
-msgstr ""
+msgstr "Home"
 
 #: apartmany/templates/base.html:28
 msgid "Prices/FAQ"
-msgstr ""
+msgstr "Preise/FAQ"
 
 #: apartmany/templates/base.html:29
 msgid "Gallery"
-msgstr ""
+msgstr "Gallerie"
 
 #: apartmany/templates/base.html:30
 msgid "Guestbook"
-msgstr ""
+msgstr "Gästebuch"
 
 #: apartmany/templates/base.html:31
 msgid "Surroundings"
-msgstr ""
+msgstr "Umgebung"
 
 #: apartmany/templates/base.html:32
 msgid "Contact"
-msgstr ""
+msgstr "Kontakt"
 
 #: apartmany/templates/base.html:123
 msgid "Quick Links"
-msgstr ""
+msgstr "Links"
 
 #: apartmany/templates/base.html:154
 msgid ""
@@ -1118,23 +1118,29 @@ msgid ""
 "                SLOVENSKO\n"
 "                "
 msgstr ""
+"\n"
+"                Miroslav Vysny <br>\n"
+"                Demanovskaà Dolina 11 <br>\n"
+"                031 01 Liptovsky Mikulas <br>\n"
+"                SLOWAKEI\n"
+"                "
 
 #: apartmany/views.py:55
 msgid "Excellent"
-msgstr ""
+msgstr "Exzellent"
 
 #: apartmany/views.py:58
 msgid "Good"
-msgstr ""
+msgstr "Gut"
 
 #: apartmany/views.py:61
 msgid "Average"
-msgstr ""
+msgstr "Durchschnittlich"
 
 #: apartmany/views.py:64
 msgid "Poor"
-msgstr ""
+msgstr "Enttäuschend"
 
 #: apartmany/views.py:67
 msgid "Terrible"
-msgstr ""
+msgstr "Fürchterlich"
