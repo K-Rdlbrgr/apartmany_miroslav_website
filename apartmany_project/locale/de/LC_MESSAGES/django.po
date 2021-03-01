@@ -764,11 +764,11 @@ msgstr "Kann ein Babybett in das Zimmer gestellt werden?"
 msgid ""
 "Yes, we have a baby cot, baby bathtub and baby chair available for you, free "
 "of charge. Please let us know prior to your arrival that you will need these."
-msgstr ""
+msgstr "Ja, wir haben ein Babybett, eine Babybadewanne und einen Babystuhl kostenlos für Sie zur Verfügung. Bitte teilen Sie uns vor Ihrer Anreise mit, dass Sie diese benötigen."
 
 #: apartmany/templates/apartmany/prices_and_faqs.html:370
 msgid "How are the apartments/studios equipped?"
-msgstr ""
+msgstr "Wie sind die Apartments/Studios ausgestattet?"
 
 #: apartmany/templates/apartmany/prices_and_faqs.html:373
 msgid ""
@@ -777,51 +777,51 @@ msgid ""
 "kitchen with a stove, microwave, fridge and all necessary utensils. There "
 "are towels and hairdryers in the bathroom and a TV and a radio in the "
 "bedroom."
-msgstr ""
+msgstr "Sie können die Details der einzelnen Apartments und Studios in den Rubriken Apartments und Studios überprüfen. Generell hat aber jedes Studio eine voll ausgestattete Küche mit Herd, Mikrowelle, Kühlschrank und allen notwendigen Utensilien. Es gibt Handtücher und Haartrockner im Badezimmer und einen Fernseher und ein Radio im Schlafzimmer."
 
 #: apartmany/templates/apartmany/prices_and_faqs.html:382
 msgid "Are there any toiletries in the bathroom?"
-msgstr ""
+msgstr "Gibt es Pflegeprodukte im Badezimmer?"
 
 #: apartmany/templates/apartmany/prices_and_faqs.html:385
 msgid "Unfortuntaly, we do not provide toiletries."
-msgstr ""
+msgstr "Leider stellen wir keine kostenlosen Pflegeprodukte zur Verfügung."
 
 #: apartmany/templates/apartmany/prices_and_faqs.html:394
 msgid "Are the rooms heated/air-conditioned?"
-msgstr ""
+msgstr "Sind die Räume beheizt/klimatisiert?"
 
 #: apartmany/templates/apartmany/prices_and_faqs.html:397
 msgid ""
 "During winter, the apartments are well heated so you can rest comfortably "
 "after skiing, in a warm cozy place. We do not have air-conditioning, however "
 "it is rarely too hot during summer since we are surrounded by trees."
-msgstr ""
+msgstr "Im Winter sind die Apartments gut beheizt, so dass Sie sich nach dem Skifahren in einem warmen und gemütlichen Ort ausruhen können. Wir haben keine Klimaanlage, aber im Sommer ist es dank den zahlreichen Bäumen rund um das Haus nur sehr selten zu heiß."
 
 #: apartmany/templates/apartmany/prices_and_faqs.html:406
 msgid "Where can we store our skies and ski boots?"
-msgstr ""
+msgstr "Wo können wir unsere Skier und Skischuhe aufbewahren?"
 
 #: apartmany/templates/apartmany/prices_and_faqs.html:409
 msgid ""
 "We have a dedicated ski room with enough space for all our clients. We even "
 "have ski boot dryers so you can rest assured your boots will be dry and warm "
 "the next morning when you are about to hit the slopes!"
-msgstr ""
+msgstr "Wir haben einen eigenen Skiraum mit ausreichend Platz für alle unsere Gäste. Wir haben sogar Skischuhtrockner, damit Sie sicher sein können, dass Ihre Schuhe am nächsten Morgen trocken und warm sind, wenn Sie auf die Piste gehen!"
 
 #: apartmany/templates/apartmany/prices_and_faqs.html:418
 msgid "Can we rent bikes?"
-msgstr ""
+msgstr "Können wir Fahrräder mieten?"
 
 #: apartmany/templates/apartmany/prices_and_faqs.html:421
 msgid ""
 "Yes! We have 8 mountain bikes (including small bikes for children) available "
 "for our guests free of charge."
-msgstr ""
+msgstr "Ja! Wir haben 8 Mountainbikes (auch kleinere Kinderräder), die unseren Gästen kostenlos zur Verfügung stehen."
 
 #: apartmany/templates/apartmany/prices_and_faqs.html:430
 msgid "Do we have to pay extra to use the sauna?"
-msgstr ""
+msgstr "Müssen wir für die Nutzung der Sauna extra bezahlen?"
 
 #: apartmany/templates/apartmany/prices_and_faqs.html:433
 msgid ""
@@ -829,11 +829,11 @@ msgid ""
 "per person. But you know what is cool? Cooling down is taken care of the "
 "river flowing right through our property! Did we mentioned that you are able "
 "to use the sauna privately? "
-msgstr ""
+msgstr "Die Nutzung unserer Sauna und des Ruheraums wird mit einer kleinen Gebühr von 5 Euro pro Person berechnet. Dafür können Sie  die Sauna privat nutzen und werden von niemandem gestört. Für Abkühlung sorgt außerdem der Fluss, der direkt durch unser Grundstück fließt!"
 
 #: apartmany/templates/apartmany/studios.html:16
 msgid "Studio Details"
-msgstr ""
+msgstr "Studio Details"
 
 #: apartmany/templates/apartmany/studios.html:48
 msgid ""
@@ -844,7 +844,7 @@ msgid ""
 "more detailed information and pictures of each of our studios, you can also "
 "take a virtual 360° tour through them with the button in the top right "
 "corner in every studio description."
-msgstr ""
+msgstr "Apartmany & Studia Miroslav liegt im wunderschönen Demänovská Tal und ist nicht einmal 10 Minuten vom Skizentrum Jasna Chopok entfernt. Neben unseres Wellness & Sauna Angebots, bieten wir  insgesamt neun Studios und fünf Apartments an. Unsere Studios sind zwischen 28m² und 36m² groß und verfügen über eine voll ausgestattete Küche. Neben detaillierteren Informationen und Bildern zu jedem unserer Studios können Sie auch einen virtuellen 360°-Rundgang durch sie mit der Schaltfläche in der oberen rechten Ecke in jeder Studiobeschreibung machen."
 
 #: apartmany/templates/apartmany/studios.html:134
 #: apartmany/templates/apartmany/studios.html:249
@@ -855,7 +855,7 @@ msgid ""
 "equiped kitchen, bedroom with one double bed, one single bed and one "
 "sofabed, bathroom with WC (towels, hairdryer), shower/warm water, radio, TV "
 "set, Wi-Fi."
-msgstr ""
+msgstr "Dieses Studio befindet sich im ersten Stock (kein Aufzug), hat einen eigenen Eingang, eine voll ausgestattete Küche, ein Schlafzimmer mit einem Doppelbett, einem Einzelbett und einem Schlafsofa, ein Badezimmer mit WC (Handtücher, Föhn), Dusche/Warmwasser, Radio, Fernseher und Wi-Fi."
 
 #: apartmany/templates/apartmany/studios.html:364
 #: apartmany/templates/apartmany/studios.html:478
@@ -863,7 +863,7 @@ msgid ""
 "This studio is on the ground floor, has its own entrance, fully equiped "
 "kitchen, bedroom with one double bed and one single bed, bathroom with WC "
 "(towels, hairdryer), shower/warm water, radio, TV set, Wi-Fi."
-msgstr ""
+msgstr "Dieses Studio befindet sich im Erdgeschoss, hat einen eigenen Eingang, eine voll ausgestattete Küche, ein Schlafzimmer mit einem Doppelbett und einem Einzelbett, ein Badezimmer mit WC (Handtücher, Haartrockner), Dusche/Warmwasser, Radio, Fernseher und Wi-Fi."
 
 #: apartmany/templates/apartmany/studios.html:592
 msgid ""
@@ -871,7 +871,7 @@ msgid ""
 "entrance, fully equiped kitchen, bedroom with one double bed, one single bed "
 "and one sofa bed, bathroom with WC (towels, hairdryer), shower/warm water, "
 "radio, TV set, Wi-Fi."
-msgstr ""
+msgstr "Dieses Studio befindet sich im zweiten Stock (mit einer steilen Treppe), hat einen eigenen Eingang, eine voll ausgestattete Küche, ein Schlafzimmer mit einem Doppelbett, einem Einzelbett und einem Schlafsofa, ein Badezimmer mit WC (Handtücher, Föhn), Dusche/Warmwasser, Radio, Fernseher, und Wi-Fi."
 
 #: apartmany/templates/apartmany/studios.html:707
 msgid ""
@@ -879,7 +879,7 @@ msgid ""
 "kitchen, bedroom with one double bed, one single bed and one sofabed, "
 "bathroom with WC (towels, hairdryer), shower/warm water, radio, TV set, Wi-"
 "Fi."
-msgstr ""
+msgstr "Dieses Studio befindet sich im Erdgeschoss, hat einen eigenen Eingang, eine voll ausgestattete Küche, ein Schlafzimmer mit einem Doppelbett, einem Einzelbett und einem Schlafsofa, ein Badezimmer mit WC (Handtücher, Haartrockner), Dusche/Warmwasser, Radio, Fernseher und Wi-Fi."
 
 #: apartmany/templates/apartmany/studios.html:1052
 msgid ""
@@ -887,19 +887,19 @@ msgid ""
 "entrance, fully equipped kitchen, bedroom with one double bed, one single "
 "bed and one sofabed, bathroom with WC (towels, hairdryer), shower/warm "
 "water, radio, TV set, Wi-Fi."
-msgstr ""
+msgstr "Das gemütliche Dachstudio befindet sich im dritten Stock (kein Aufzug), hat einen eigenen Eingang, eine voll ausgestattete Küche, ein Schlafzimmer mit einem Doppelbett, einem Einzelbett und einem Schlafsofa, ein Badezimmer mit WC (Handtücher, Föhn), Dusche/Warmwasser, Radio, TV-Gerät und Wi-Fi."
 
 #: apartmany/templates/apartmany/surroundings.html:24
 msgid "SURROUNDINGS"
-msgstr ""
+msgstr "UMGEBUNG"
 
 #: apartmany/templates/apartmany/surroundings.html:49
 msgid "Jasna Ski Center"
-msgstr ""
+msgstr "Jasna Ski Zentrum"
 
 #: apartmany/templates/apartmany/surroundings.html:52
 msgid "Learn About Our Discounts!"
-msgstr ""
+msgstr "Erfahren Sie mehr über unsere Rabatte!"
 
 #: apartmany/templates/apartmany/surroundings.html:56
 msgid ""
@@ -913,11 +913,11 @@ msgid ""
 "families as well as for advanced skiers. With its many marked freeride zones "
 "and a snow park, the Jasna Nizke Tatry ski resort is also seeked by "
 "freeriders and freestylers."
-msgstr ""
+msgstr "Das Skizentrum Jasna ist ein ganzjähriger alpiner Tourismusort, gelegen im Herzen der Niederen Tatra und in der unmittelbaren Nähe von Apartmany & Studia Miroslav. Zum Skifahren und Snowboarden stehen hier 44,5 km Pisten und 4,5 km Skiloipen zur Verfügung. Dieses Wintersportgebiet hat sich zu einem der führenden Skigebiete in der Slowakei entwickelt und gewinnt auch in Europa immer mehr Aufmerksamkeit. Pisten aller Schwierigkeitsgrade bieten sowohl herausfordernde als auch entspannende Erlebnisse für jeden. Die Pisten von Chopok sind daher sowohl für Anfänger und Familien als auch für fortgeschrittene Skifahrer geeignet. Mit seinen vielen markierten Freeride-Zonen und einem Snowpark ist das Skigebiet Jasna Nizke Tatry auch bei Freeridern und Freestylern sehr beliebt."
 
 #: apartmany/templates/apartmany/surroundings.html:75
 msgid "Tatralandia"
-msgstr ""
+msgstr "Tatralandia"
 
 #: apartmany/templates/apartmany/surroundings.html:79
 msgid ""
