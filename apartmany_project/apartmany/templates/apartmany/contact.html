@@ -100,7 +100,7 @@
                 {% trans 'Name' as name %}
                 {% trans 'Email' as email %}
                 {% trans 'Message' as mes %}
-                {% trans 'Email' as email %}
+                {% trans 'Subject' as subject %}
                 {% trans 'Please Select' as select %}
 
                 <div class="row">
@@ -118,7 +118,7 @@
                         </div>
                         <div class="form-group col-12">
                           <label for="inputSubject">{% trans 'Subject' %}</label>
-                          <input type="text" class="form-control" id="inputSubject" placeholder="Subject" name="Subject" required>
+                          <input type="text" class="form-control" id="inputSubject" placeholder="{{ subject }}" name="Subject" required>
                         </div>
                         <div class="form-group col-12">
                           <label for="inputMessage">{{ mes }}</label>
@@ -126,7 +126,7 @@
                         </div>
                       </div>
                       <div class="text-center">
-                        <button type="submit" class="btn btn-contact" name="Submit-Contact">{% trans 'Send' %} {{ mes }}</button>
+                        <button type="submit" class="btn btn-contact" name="Submit-Contact">{% trans 'Send Message' %}</button>
                       </div>
                     </form>
                   </div>
@@ -220,9 +220,11 @@
                       <img class="no-overlay-picture mb-2 mt-4 mt-lg-0" src="{% static 'apartmany/img/miro.jpg'%}" alt="Miroslav Vysny"><br>
                       <h3 class="card-title pt-2 pb-2"><strong>Miroslav Vysny</strong></h3>
                       <p>
-                        Demanovska Dolina 11<br>
-                        031 01 Liptovsky Mikulas<br>
+                        {% blocktrans %}
+                        Demanovskaà Dolina 11 <br>
+                        031 01 Liptovsky Mikulas <br>
                         SLOVENSKO
+                        {% endblocktrans %}
                       </p>
                       <p class="mb-4 mb-lg-0">
                         <i class="fas fa-phone mr-1"></i>

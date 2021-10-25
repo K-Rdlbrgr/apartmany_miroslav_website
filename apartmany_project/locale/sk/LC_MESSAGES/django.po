@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-17 20:01+0000\n"
+"POT-Creation-Date: 2021-10-25 22:19+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -134,7 +134,13 @@ msgid ""
 "detailed information and pictures of each of our apartments, you can also "
 "take a virtual 360° tour through them with the button in the top right "
 "corner in every apartment description."
-msgstr "Apartmány a štúdiá Miroslav - moderné ubytovanie s wellnessom a saunou v Demänovskej Doline, v tesnej blízkosti lyžiarskeho strediska Jasná Chopok - Vám ponúka 9 štúdií a 5 apartmánov. Naše apartmány majú rozlohu od 35m² do 82m² a každé má plne zariadenú kuchyňu. Okrem bližších informácií a fotiek každého apartmánu sa tu taktiež môžete pozrieť na 360° virtuálnu prehliadku kliknutím tlačidla v pravom hornom rohu."
+msgstr ""
+"Apartmány a štúdiá Miroslav - moderné ubytovanie s wellnessom a saunou v "
+"Demänovskej Doline, v tesnej blízkosti lyžiarskeho strediska Jasná Chopok - "
+"Vám ponúka 9 štúdií a 5 apartmánov. Naše apartmány majú rozlohu od 35m² do "
+"82m² a každé má plne zariadenú kuchyňu. Okrem bližších informácií a fotiek "
+"každého apartmánu sa tu taktiež môžete pozrieť na 360° virtuálnu prehliadku "
+"kliknutím tlačidla v pravom hornom rohu."
 
 #: apartmany/templates/apartmany/apartments.html:160
 msgid ""
@@ -142,7 +148,11 @@ msgid ""
 "floor, has its own entrance, fully equipped kitchen, bedroom with one double "
 "bed, one single bed and one sofabed, bathroom with WC (towels, hairdryer), "
 "shower/warm water, radio, 2 LCD TVs (82 + 67 cm), Wi-Fi."
-msgstr "Tento apartmán s oddelenou obývacou izbou a spálňou je na prvom poschodí, má vlastný vchod, plne zariadenú kuchyňu, spálňu s jednou manželskou posteľou, jednolôžkom a prístelkou, kúpeľňu s ručníkmi a fénom, rádio, 2 LCD televízory (82 + 67 cm) a Wi-Fi zadarmo."
+msgstr ""
+"Tento apartmán s oddelenou obývacou izbou a spálňou je na prvom poschodí, má "
+"vlastný vchod, plne zariadenú kuchyňu, spálňu s jednou manželskou posteľou, "
+"jednolôžkom a prístelkou, kúpeľňu s ručníkmi a fénom, rádio, 2 LCD "
+"televízory (82 + 67 cm) a Wi-Fi zadarmo."
 
 #: apartmany/templates/apartmany/apartments.html:294
 msgid ""
@@ -155,7 +165,11 @@ msgid ""
 "bathroom with WC and washing machine (towels, hairdryer, shower/ warm water) "
 "and one additional bathroom with only toilet. Wi-Fi is available in the "
 "apartment."
-msgstr "Tento apartmán s oddelenou obývacou izbou a spálňou je na prvom poschodí, má vlastný vchod, plne zariadenú kuchyňu, spálňu s jednou manželskou posteľou, jednolôžkom a prístelkou, kúpeľňu s ručníkmi a fénom, rádio, 2 LCD televízory (82 + 67 cm) a Wi-Fi zadarmo."
+msgstr ""
+"Tento apartmán s oddelenou obývacou izbou a spálňou je na prvom poschodí, má "
+"vlastný vchod, plne zariadenú kuchyňu, spálňu s jednou manželskou posteľou, "
+"jednolôžkom a prístelkou, kúpeľňu s ručníkmi a fénom, rádio, 2 LCD "
+"televízory (82 + 67 cm) a Wi-Fi zadarmo."
 
 #: apartmany/templates/apartmany/apartments.html:428
 msgid ""
@@ -163,7 +177,12 @@ msgid ""
 "fully equiped kitchen, living room with a sofabed and bedroom with one "
 "double bed and one single bed. There is a bathroom with WC (towels, "
 "hairdryer), shower/warm water, radio, 2 LCD TVs (101 + 67 cm), Wi-Fi."
-msgstr "Pohodlný, nový apartmán sa nachádza na prízemí, má vlastný vchod, plne zariadenú kuchyňu, obývaciu izbu s možnosťou prístelky, spálňu s jednou manželskou posteľou a  jednolôžkom. V apartmáne sa dalej nachádza rádio, 2 LCD televízory (82 + 67 cm) a Wi-Fi zadarmo. V kúpeľni máte k dispozícii ručníky a fén."
+msgstr ""
+"Pohodlný, nový apartmán sa nachádza na prízemí, má vlastný vchod, plne "
+"zariadenú kuchyňu, obývaciu izbu s možnosťou prístelky, spálňu s jednou "
+"manželskou posteľou a  jednolôžkom. V apartmáne sa dalej nachádza rádio, 2 "
+"LCD televízory (82 + 67 cm) a Wi-Fi zadarmo. V kúpeľni máte k dispozícii "
+"ručníky a fén."
 
 #: apartmany/templates/apartmany/apartments.html:562
 msgid ""
@@ -171,7 +190,12 @@ msgid ""
 "entrance, fully equiped kitchen, living room with a sofabed and bedroom with "
 "one double and one single bed. There is a bathroom with WC (towels, "
 "hairdryer), shower/warm water, radio, 2 LCD TVs (101 + 67 cm), Wi-Fi."
-msgstr "Pohodlný, nový apartmán sa nachádza na prvom poschodí (bez výťahu), má vlastný vchod, plne zariadenú kuchyňu, obývaciu izbu s možnosťou prístelky, spálňu s jednou manželskou posteľou a  jednolôžkom. V apartmáne sa dalej nachádza rádio, 2 LCD televízory (101 + 67 cm) a Wi-Fi zadarmo. V kúpeľni máte k dispozícii ručníky a fén."
+msgstr ""
+"Pohodlný, nový apartmán sa nachádza na prvom poschodí (bez výťahu), má "
+"vlastný vchod, plne zariadenú kuchyňu, obývaciu izbu s možnosťou prístelky, "
+"spálňu s jednou manželskou posteľou a  jednolôžkom. V apartmáne sa dalej "
+"nachádza rádio, 2 LCD televízory (101 + 67 cm) a Wi-Fi zadarmo. V kúpeľni "
+"máte k dispozícii ručníky a fén."
 
 #: apartmany/templates/apartmany/apartments.html:696
 msgid ""
@@ -182,7 +206,15 @@ msgid ""
 "that contains a sofabed. In the attic of this two floor apartment there are "
 "two bedrooms; one with a double and a single bed (LCD TV 82 cm), and other "
 "one with two single beds. There is also free Wi-Fi and radio available."
-msgstr "Tento veľký a pohodlný mezonetový apartmán sa nachádza sa na druhom a treťom poschodí (bez výťahu). Má vlastný vchod, priestrannú kupeľ s WC a práckou, rucnikmi a fenom, a dalsiu oddelenú toaletu. plne zariadenú kuchyňu (chladnička, toaster, kávovar), ktorá je prepojená s obývacou izbou (LCD TV 107 cm( s moznostou pristelky. Na druhom poschodí sú umiestnené dve spálne, jedna s manželskou posteľou a jednolôžkom (a LCD TV 82cm) a druhá s dvoma oddelenými posteľami. V priestrannej kúpeľni sú Vám k dispozícii ručníky, fén a práčka. V apartmáne je aj druhá, oddelená toaleta."
+msgstr ""
+"Tento veľký a pohodlný mezonetový apartmán sa nachádza sa na druhom a treťom "
+"poschodí (bez výťahu). Má vlastný vchod, priestrannú kupeľ s WC a práckou, "
+"rucnikmi a fenom, a dalsiu oddelenú toaletu. plne zariadenú kuchyňu "
+"(chladnička, toaster, kávovar), ktorá je prepojená s obývacou izbou (LCD TV "
+"107 cm( s moznostou pristelky. Na druhom poschodí sú umiestnené dve spálne, "
+"jedna s manželskou posteľou a jednolôžkom (a LCD TV 82cm) a druhá s dvoma "
+"oddelenými posteľami. V priestrannej kúpeľni sú Vám k dispozícii ručníky, "
+"fén a práčka. V apartmáne je aj druhá, oddelená toaleta."
 
 #: apartmany/templates/apartmany/contact.html:65
 msgid "CONTACT<br>&<br>RESERVATION"
@@ -198,7 +230,15 @@ msgid ""
 "starting each Saturday. Your reservation request does not represent a "
 "binding offer and we will get in contact with you through your provided "
 "email as soon as possible to arrange the booking."
-msgstr "V prípade akýchkoľvek otázok alebo ak si chcete zarezervovať apartmán alebo štúdio, prosíme použite nižšie uvedený formulár. Pri rezervačnom formulári prosím uveďte koľko Vás bude, termín príchodu a odchodu a číslo preferovaného štúdia alebo apartmánu. Prosíme Vás aby ste mali na pamäti, že počas vysokej sezóny v lete a v zime, väčšinou príjmame rezervácie len od soboty do soboty a minimálne na jeden celý týždeň. Zaslaním formuláru Vám štúdio alebo apartmán NIE JE formálne zarezerované. Na zariadenie a potvrdenie rezervácie sa s Vami spojíme čo najskôr prostredníctvom emailu.  "
+msgstr ""
+"V prípade akýchkoľvek otázok alebo ak si chcete zarezervovať apartmán alebo "
+"štúdio, prosíme použite nižšie uvedený formulár. Pri rezervačnom formulári "
+"prosím uveďte koľko Vás bude, termín príchodu a odchodu a číslo "
+"preferovaného štúdia alebo apartmánu. Prosíme Vás aby ste mali na pamäti, že "
+"počas vysokej sezóny v lete a v zime, väčšinou príjmame rezervácie len od "
+"soboty do soboty a minimálne na jeden celý týždeň. Zaslaním formuláru Vám "
+"štúdio alebo apartmán NIE JE formálne zarezerované. Na zariadenie a "
+"potvrdenie rezervácie sa s Vami spojíme čo najskôr prostredníctvom emailu.  "
 
 #: apartmany/templates/apartmany/contact.html:90
 msgid "Contact & Questions"
@@ -209,21 +249,23 @@ msgid "Reservation Request"
 msgstr "Požiadavka o rezerváciu"
 
 #: apartmany/templates/apartmany/contact.html:101
-#: apartmany/templates/apartmany/contact.html:103
 msgid "Email"
 msgstr "Email"
+
+#: apartmany/templates/apartmany/contact.html:103
+#: apartmany/templates/apartmany/contact.html:120
+msgid "Subject"
+msgstr "Predmet"
 
 #: apartmany/templates/apartmany/contact.html:104
 msgid "Please Select"
 msgstr "Prosím vyberte"
 
-#: apartmany/templates/apartmany/contact.html:120
-msgid "Subject"
-msgstr "Predmet"
-
 #: apartmany/templates/apartmany/contact.html:129
-msgid "Send"
-msgstr "Poslať"
+#, fuzzy
+#| msgid "Message"
+msgid "Send Message"
+msgstr "Správa"
 
 #: apartmany/templates/apartmany/contact.html:153
 msgid "Accomodation Type"
@@ -250,6 +292,31 @@ msgstr "Počet hostí"
 msgid "Send Reservation Request"
 msgstr "Poslať požiadavku o rezerváciu"
 
+#: apartmany/templates/apartmany/contact.html:223
+msgid ""
+"\n"
+"                        Demanovskaà Dolina 11 <br>\n"
+"                        031 01 Liptovsky Mikulas <br>\n"
+"                        SLOVENSKO\n"
+"                        "
+msgstr ""
+
+#: apartmany/templates/apartmany/gallery.html:27
+msgid "GALLERY"
+msgstr ""
+
+#: apartmany/templates/apartmany/gallery.html:47
+msgid "Winter"
+msgstr ""
+
+#: apartmany/templates/apartmany/gallery.html:50
+msgid "Summer"
+msgstr ""
+
+#: apartmany/templates/apartmany/gallery.html:53
+msgid "Facilities"
+msgstr ""
+
 #: apartmany/templates/apartmany/gallery.html:62
 #: apartmany/templates/apartmany/gallery.html:95
 #: apartmany/templates/apartmany/gallery.html:205
@@ -265,7 +332,21 @@ msgid ""
 "valley. Our guests also appreciate that we have 5 grills and 2 firepits "
 "available for barbeque, 8 bikes for free rent, storage spaces for sports "
 "equipment, spacious parking lot and a small workout area."
-msgstr "Apartmány a Štúdiá Miroslav - moderné ubytovanie so saunou v srdci Demänovskej Doliny, vzdialené len pár minút od lyžiarskeho strediska Jasná Chopok - ponúka niečo pre každého, či už v zime alebo v lete. Sme obklopení zeleňou a lesom a náš rozsiahlny pozemok je ohraničený riekou Demänovkou, posednie pri ktorej, je doslova balzamom na dušu. Naše zariadene je ideálne pre rodiny s deťmi, ktoré sa môžu dosýtosti vyšantiť na veľkej záhrade s trampolínou, hojdacím koňom, domčekom s pieskoviskom a kĺzačkou. Avšak na svoje si prídu aj páry, ktoré hľadajú romantické útočisko v srdci prírody. Súkromný pobyt v saune a relaxačnej miestnosti a následné ochladenie v rieke je skutočne nezabudnuteľným zážitkom. Okrem obkľúčenia prírodou, Vám ponúkame 5 grillov a 2 ohniská vhodné na grilovanie či varenie gulášu, 8 bicyklov na požičanie zdarma, priestorom na uloženie vlastných bicyklov, či lyží, malú vonkajšiu posilňovňu či veľké parkovisko, ktoré je počas noci uzavreté."
+msgstr ""
+"Apartmány a Štúdiá Miroslav - moderné ubytovanie so saunou v srdci "
+"Demänovskej Doliny, vzdialené len pár minút od lyžiarskeho strediska Jasná "
+"Chopok - ponúka niečo pre každého, či už v zime alebo v lete. Sme obklopení "
+"zeleňou a lesom a náš rozsiahlny pozemok je ohraničený riekou Demänovkou, "
+"posednie pri ktorej, je doslova balzamom na dušu. Naše zariadene je ideálne "
+"pre rodiny s deťmi, ktoré sa môžu dosýtosti vyšantiť na veľkej záhrade s "
+"trampolínou, hojdacím koňom, domčekom s pieskoviskom a kĺzačkou. Avšak na "
+"svoje si prídu aj páry, ktoré hľadajú romantické útočisko v srdci prírody. "
+"Súkromný pobyt v saune a relaxačnej miestnosti a následné ochladenie v rieke "
+"je skutočne nezabudnuteľným zážitkom. Okrem obkľúčenia prírodou, Vám "
+"ponúkame 5 grillov a 2 ohniská vhodné na grilovanie či varenie gulášu, 8 "
+"bicyklov na požičanie zdarma, priestorom na uloženie vlastných bicyklov, či "
+"lyží, malú vonkajšiu posilňovňu či veľké parkovisko, ktoré je počas noci "
+"uzavreté."
 
 #: apartmany/templates/apartmany/guestbook.html:38
 msgid "REVIEWS"
@@ -278,7 +359,11 @@ msgid ""
 "a comment, please feel free to do so. We really appreciate your opinions and "
 "suggestions and would like to thank all of our guests for taking the time to "
 "write all those reviews. We hope to see you soon again!"
-msgstr "Tu si môžete prečítať ako sa u nás cítili naši predošlí hostia. Ak ste u nás už boli a ešte ste nám recenziu nenapísali, budeme veľmi radi, ak tak urobíte. Vaše názory si nesmierne vážime a urobíme všetko preto, aby sme naplnili vaše pripomienky."
+msgstr ""
+"Tu si môžete prečítať ako sa u nás cítili naši predošlí hostia. Ak ste u nás "
+"už boli a ešte ste nám recenziu nenapísali, budeme veľmi radi, ak tak "
+"urobíte. Vaše názory si nesmierne vážime a urobíme všetko preto, aby sme "
+"naplnili vaše pripomienky."
 
 #: apartmany/templates/apartmany/guestbook.html:63
 msgid "Review"
@@ -304,7 +389,9 @@ msgstr "Relaxujte v lese, <br>nie na dedine"
 msgid ""
 "Modern accomodation with sauna in the heart of the Demanovska Valley, just a "
 "stone's throw away from Jasna Chopok ski center"
-msgstr "Moderné ubytovanie so saunou v srdci Demänovskej Doliny, na skok od lyžiarskeho strediska Jasná Chopok - Nízke Tatry."
+msgstr ""
+"Moderné ubytovanie so saunou v srdci Demänovskej Doliny, na skok od "
+"lyžiarskeho strediska Jasná Chopok - Nízke Tatry."
 
 #: apartmany/templates/apartmany/index.html:36
 msgid "Reserve Now"
@@ -322,7 +409,9 @@ msgstr "zľava"
 msgid ""
 "We offer special prices on 6 day ski passes for adults, seniors, juniors and "
 "children."
-msgstr "Ponúkame Vám špeciálne zľavy na 6-dňové skipassy pre dospelých, seniorov, juniorov a deti."
+msgstr ""
+"Ponúkame Vám špeciálne zľavy na 6-dňové skipassy pre dospelých, seniorov, "
+"juniorov a deti."
 
 #: apartmany/templates/apartmany/index.html:53
 msgid "Learn more"
@@ -340,7 +429,14 @@ msgid ""
 "there's a well-known ski-centre JASNA Chopok. We are also close to the "
 "biggest Aquapark in Slovakia - Tatralandia. In summer, hiking and mountain "
 "biking is highly sought after in this area."
-msgstr "Naše ubytovanie so saunou, obklopené riekou, stromami a priestranou záhradou sa nachádza na začiatku jednej z najkrajších dolín Slovenska a Nízkych Tatier - v Demänovskej Doline - na konci ktorej sa nachádza lyžiarske stredisko Jasná Chopok. V našej tesnej blízkosti sú aj akvaparky Tatralania a Bešeňová. Zatiaľ čo v zime je naše zariadenie vyhladavané pre svoju blízkosť  ku svahom, v lete je perfektným štartovacím bodom pre množstvo kráasnych prechádzok, vysokohorských túr, či cycklotripov."
+msgstr ""
+"Naše ubytovanie so saunou, obklopené riekou, stromami a priestranou záhradou "
+"sa nachádza na začiatku jednej z najkrajších dolín Slovenska a Nízkych "
+"Tatier - v Demänovskej Doline - na konci ktorej sa nachádza lyžiarske "
+"stredisko Jasná Chopok. V našej tesnej blízkosti sú aj akvaparky Tatralania "
+"a Bešeňová. Zatiaľ čo v zime je naše zariadenie vyhladavané pre svoju "
+"blízkosť  ku svahom, v lete je perfektným štartovacím bodom pre množstvo "
+"kráasnych prechádzok, vysokohorských túr, či cycklotripov."
 
 #: apartmany/templates/apartmany/index.html:97
 msgid "SAUNA"
@@ -537,6 +633,12 @@ msgstr ""
 
 #: apartmany/templates/apartmany/prices_and_faqs.html:58
 msgid "Children up to 12 years:"
+msgstr ""
+
+#: apartmany/templates/apartmany/prices_and_faqs.html:58
+#: apartmany/templates/apartmany/prices_and_faqs.html:59
+#: apartmany/templates/apartmany/prices_and_faqs.html:60
+msgid "off full price (in studios only)"
 msgstr ""
 
 #: apartmany/templates/apartmany/prices_and_faqs.html:59
@@ -1139,3 +1241,6 @@ msgstr ""
 #: apartmany/views.py:67
 msgid "Terrible"
 msgstr ""
+
+#~ msgid "Send"
+#~ msgstr "Poslať"
