@@ -390,9 +390,7 @@
 }
 
 /* SECTION SURROUNDINGS */
-.card-surroundings1,
-.card-surroundings2,
-.card-surroundings3 {
+.card-surroundings {
   position: relative;
   background-position: center;
   background-size: cover;
@@ -400,9 +398,7 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.card-surroundings1 h3,
-.card-surroundings2 h3,
-.card-surroundings3 h3 {
+.card-surroundings h3 {
   border-bottom: 1px solid var(--primary-text-color);
 }
 
@@ -420,10 +416,10 @@
   opacity: 0.75;
 }
 
-.card-surroundings3 .card-no-surroundings-overlay {
+/* .card-surroundings3 .card-no-surroundings-overlay {
   color: #fff;
   z-index: 2;
-}
+} */
 
 /* GOOGLE MAPS */
 
