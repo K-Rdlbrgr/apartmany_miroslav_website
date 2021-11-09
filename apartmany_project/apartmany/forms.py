@@ -28,9 +28,14 @@ class CommentForm(forms.ModelForm):
 
     def __init__(self, *args, **kwargs):
         super(CommentForm, self).__init__(*args, **kwargs)
-        self.fields['name'].widget.attrs['placeholder'] = _('Your Name')
-        self.fields['title'].widget.attrs['placeholder'] = _('Title of Comment')
+        self.fields['name'].widget.attrs['placeholder'] = _('Name')
+        self.fields['name'].label = _('Name')
+        self.fields['title'].widget.attrs['placeholder'] = _('Title')
+        self.fields['title'].label = _('Title')
         self.fields['rating'].widget = HiddenInput()
+        self.fields['rating'].widget.attrs['placeholder'] = _('Rating')
+        self.fields['rating'].label = _('Rating')
+        self.fields['content'].label = _('Message')
         # Pictures
         self.fields['picture'] = forms.ChoiceField(choices=picture_urls,
                                                    label=_('Picture'))

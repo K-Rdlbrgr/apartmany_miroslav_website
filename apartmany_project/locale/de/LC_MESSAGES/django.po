@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-26 23:01+0200\n"
+"POT-Creation-Date: 2021-11-09 22:15+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,15 +18,16 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: apartmany/forms.py:16 apartmany/templates/apartmany/contact.html:100
+#: apartmany/forms.py:16 apartmany/forms.py:31
+#: apartmany/templates/apartmany/contact.html:100
 msgid "Name"
 msgstr "Name"
 
-#: apartmany/forms.py:19
+#: apartmany/forms.py:19 apartmany/forms.py:33 apartmany/forms.py:34
 msgid "Title"
-msgstr "Titel"
+msgstr "Überschrift"
 
-#: apartmany/forms.py:22
+#: apartmany/forms.py:22 apartmany/forms.py:36
 msgid "Rating"
 msgstr "Bewertung"
 
@@ -34,15 +35,7 @@ msgstr "Bewertung"
 msgid "Message"
 msgstr "Nachricht"
 
-#: apartmany/forms.py:31
-msgid "Your Name"
-msgstr "Ihr Name"
-
-#: apartmany/forms.py:32
-msgid "Title of Comment"
-msgstr "Überschrift"
-
-#: apartmany/forms.py:36
+#: apartmany/forms.py:41
 msgid "Picture"
 msgstr "Bild"
 
@@ -288,9 +281,13 @@ msgstr "Studio"
 msgid "Accomodation Detail"
 msgstr "Unterkunft Detail"
 
+#: apartmany/templates/apartmany/contact.html:169
+msgid "Arrival"
+msgstr "Anreise"
+
 #: apartmany/templates/apartmany/contact.html:173
-msgid "To"
-msgstr "An"
+msgid "Departure"
+msgstr "Abreise"
 
 #: apartmany/templates/apartmany/contact.html:179
 msgid "Number of Guests"
@@ -1494,11 +1491,11 @@ msgstr "Umgebung"
 msgid "Contact"
 msgstr "Kontakt"
 
-#: apartmany/templates/base.html:123
+#: apartmany/templates/base.html:120
 msgid "Quick Links"
 msgstr "Links"
 
-#: apartmany/templates/base.html:154
+#: apartmany/templates/base.html:151
 msgid ""
 "\n"
 "                Miroslav Vysny <br>\n"
@@ -1533,6 +1530,15 @@ msgstr "Enttäuschend"
 #: apartmany/views.py:67
 msgid "Terrible"
 msgstr "Fürchterlich"
+
+#~ msgid "Your Name"
+#~ msgstr "Ihr Name"
+
+#~ msgid "Title of Comment"
+#~ msgstr "Überschrift"
+
+#~ msgid "To"
+#~ msgstr "An"
 
 #~ msgid "Send"
 #~ msgstr "Senden"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-26 23:01+0200\n"
+"POT-Creation-Date: 2021-11-09 22:15+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,15 +19,16 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && n "
 ">= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
 
-#: apartmany/forms.py:16 apartmany/templates/apartmany/contact.html:100
+#: apartmany/forms.py:16 apartmany/forms.py:31
+#: apartmany/templates/apartmany/contact.html:100
 msgid "Name"
 msgstr "Meno"
 
-#: apartmany/forms.py:19
+#: apartmany/forms.py:19 apartmany/forms.py:33 apartmany/forms.py:34
 msgid "Title"
 msgstr "Názov"
 
-#: apartmany/forms.py:22
+#: apartmany/forms.py:22 apartmany/forms.py:36
 msgid "Rating"
 msgstr "Hodnotenie"
 
@@ -35,15 +36,7 @@ msgstr "Hodnotenie"
 msgid "Message"
 msgstr "Správa"
 
-#: apartmany/forms.py:31
-msgid "Your Name"
-msgstr "Vaše meno"
-
-#: apartmany/forms.py:32
-msgid "Title of Comment"
-msgstr "Názov"
-
-#: apartmany/forms.py:36
+#: apartmany/forms.py:41
 msgid "Picture"
 msgstr "Obrázok"
 
@@ -280,9 +273,13 @@ msgstr "Štúdio"
 msgid "Accomodation Detail"
 msgstr "Číslo"
 
+#: apartmany/templates/apartmany/contact.html:169
+msgid "Arrival"
+msgstr ""
+
 #: apartmany/templates/apartmany/contact.html:173
-msgid "To"
-msgstr "Do"
+msgid "Departure"
+msgstr ""
 
 #: apartmany/templates/apartmany/contact.html:179
 msgid "Number of Guests"
@@ -1208,11 +1205,11 @@ msgstr ""
 msgid "Contact"
 msgstr ""
 
-#: apartmany/templates/base.html:123
+#: apartmany/templates/base.html:120
 msgid "Quick Links"
 msgstr ""
 
-#: apartmany/templates/base.html:154
+#: apartmany/templates/base.html:151
 msgid ""
 "\n"
 "                Miroslav Vysny <br>\n"
@@ -1241,6 +1238,15 @@ msgstr ""
 #: apartmany/views.py:67
 msgid "Terrible"
 msgstr ""
+
+#~ msgid "Your Name"
+#~ msgstr "Vaše meno"
+
+#~ msgid "Title of Comment"
+#~ msgstr "Názov"
+
+#~ msgid "To"
+#~ msgstr "Do"
 
 #~ msgid "Send"
 #~ msgstr "Poslať"
