@@ -398,9 +398,9 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.card-surroundings h3 {
+/* .card-surroundings h3 {
   border-bottom: 1px solid var(--primary-text-color);
-}
+} */
 
 .card-surroundings-overlay {
   position: relative;
@@ -414,6 +414,11 @@
 
 .card-surroundings-overlay:hover {
   opacity: 0.75;
+}
+
+.card-title-two-liner {
+  height: 100px;
+  border-bottom: 1px solid var(--primary-text-color);
 }
 
 /* .card-surroundings3 .card-no-surroundings-overlay {
@@ -573,7 +578,7 @@ footer.end {
 
 @media (min-width: 992px) {
   .card-surroundings-overlay {
-    height: 460px;
+    min-height: 620px;
   }
 }
 
