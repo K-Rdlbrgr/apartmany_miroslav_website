@@ -245,11 +245,11 @@ msgstr ""
 
 #: apartmany/templates/apartmany/contact.html:90
 msgid "Contact & Questions"
-msgstr "Kontakt & Fragen"
+msgstr "Kontakt & Sonstige Fragen"
 
 #: apartmany/templates/apartmany/contact.html:93
 msgid "Reservation Request"
-msgstr "Reservierungsanfrage"
+msgstr "Anfrage zur Reservierung"
 
 #: apartmany/templates/apartmany/contact.html:101
 msgid "Email"
