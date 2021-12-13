@@ -335,7 +335,7 @@
 
 .why-cards {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  min-height: 450px;
+  /* min-height: 450px; */
   background-size: auto 100%;
   background-position: left;
   background-repeat: no-repeat;
@@ -343,7 +343,7 @@
 
 .why-cards-discount {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  min-height: 75px;
+  /* min-height: 75px; */
   background-size: 100%;
   background-position: right;
   background-repeat: no-repeat;
@@ -546,23 +546,23 @@ footer.end {
 }
 
 /* MEDIA QUERIES */
-@media (min-width: 1080px) {
+/* @media (min-width: 1080px) {
   .why-cards {
     min-height: 450px;
   }
   .why-cards-discounts {
     min-height: 400px;
   }
-}
+} */
 
-@media (min-width: 890px) {
+/* @media (min-width: 890px) {
   .why-cards {
     min-height: 500px;
   }
   .why-cards-discounts {
     min-height: 650px;
   }
-}
+} */
 
 @media (max-width: 1000px) {
   .nav-language .contact {
@@ -576,11 +576,11 @@ footer.end {
   }
 }
 
-@media (min-width: 992px) {
+/* @media (min-width: 992px) {
   .card-surroundings-overlay {
     min-height: 620px;
   }
-}
+} */
 
 @media (max-width: 767px) {
   #footer h5 {
