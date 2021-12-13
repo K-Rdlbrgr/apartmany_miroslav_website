@@ -752,7 +752,7 @@ msgstr ""
 
 #: apartmany/templates/apartmany/prices_and_faqs.html:117
 msgid "Activities & Services"
-msgstr "Aktivitäten & Dienstleistungen"
+msgstr "Aktivitäten"
 
 #: apartmany/templates/apartmany/prices_and_faqs.html:126
 msgid ""

@@ -168,8 +168,11 @@
 }
 
 #prices h5 {
+  text-align: start;
   color: black;
-  width: max-content;
+  max-width: 100%;
+  word-break: break-word;
+  overflow-wrap: break-word;
   text-decoration: underline;
   text-decoration-thickness: double;
   text-decoration-color: var(--primary-text-color);
