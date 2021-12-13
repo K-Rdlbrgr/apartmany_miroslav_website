@@ -288,11 +288,11 @@
 /* NAV ITEMS */
 .gallery a {
   color: var(--primary-text-dark);
-  margin: 0 5px 0 5px;
+  border: 2px solid var(--primary-text-color);
 }
 
 .gallery a:hover {
-  background-color: rgba(6, 44, 5, 0.02);
+  background-color: var(--primary-color-light);
 }
 
 .nav-pills .nav-link.active,
