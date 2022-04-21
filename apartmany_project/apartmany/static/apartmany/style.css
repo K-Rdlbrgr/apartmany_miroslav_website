@@ -628,6 +628,19 @@ footer.end {
 }
 
 /* DISCOUNT */
+.header-wave::after {
+  content: '';
+  border-top-left-radius: 50% 100%;
+  border-top-right-radius: 50% 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+  background-color: white;
+  height: 20%;
+}
+
 .alizarin {
   background: var(--primary-color-dark);
 }

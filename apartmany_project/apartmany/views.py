@@ -139,7 +139,7 @@ def contact(request):
             send_mail(f'Reservation Request: {name}',
                       f'From: {name}\nEmail: {email}\n\n\nAccomodation Type: {type}\nAccomodation Number: {number}\nDate: {start} - {end}\nNumber Of Guests: {guests}\n\n\n{message}',
                       settings.EMAIL_HOST_USER,
-                      ['kevin.riedlberger@novasbe.pt'],
+                      ['riedlberger.kevin@gmail.com'],
                       fail_silently=False)
 
             message = f'Thank you very much for your reservation request {name}! We will contact you as soon as possible.'

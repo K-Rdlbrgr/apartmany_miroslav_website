@@ -20,23 +20,22 @@
     <header class="v-header v-container">
       <div class="fullscreen-video-wrap">
       </div>
-
       <div class="header-overlay"></div>
       <div class="container h-100">
         <div class="row video h-100 d-flex justify-content-lg-between justify-content-center">
-          <div class="col-12 col-lg-8 col-xl-9 header-content d-md-inline-flex align-items-center align-self-center">
+          <div class="col-12  header-content d-md-inline-flex align-items-center align-self-center">
             <div class="header-image">
               <img src="{% static 'apartmany/img/trip.png'%}" alt="Tripadvisor Logo" class="mb-md-0" id="tripadvisor">
             </div>
             <div class="header-text">
                 <h1>{% blocktrans %}Relax in the forrest<br>not the village{% endblocktrans %}</h1>
-                <p class="d-none d-lg-block">
+                <p class="d-none d-lg-block" style="max-width: 75%;">
                   {% blocktrans %}Modern accomodation with sauna in the heart of the Demanovska Valley, just a stone's throw away from Jasna Chopok ski center{% endblocktrans %}
                 </p>
                 <a class="btn btn-header btn-md" href="{% url 'contact' %}" role="button">{% trans 'Reserve Now' %}</a>
               </div>
           </div>
-
+          {% comment %}
           <div class="d-none d-lg-block col-lg-4 col-xl-3 align-self-end p-0 pl-5">
             <div class="dl">
               <div class="brand align-items-center">
@@ -54,10 +53,13 @@
               </div>
             </div>
           </div>
+          {% endcomment %}
         </div>
       </div>
+      <div class="header-wave"></div>
     </header>
   </div>
+  
 
   <!-- SECTION WHY US -->
   <div class="container">
