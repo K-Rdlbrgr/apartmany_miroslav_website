@@ -24,7 +24,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'y9cl#g8gnvwf@natssy3&g^z-00z_&w7ew((28zzvqf%+#s0c&'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['apartmany-miroslav.herokuapp.com/']
 
@@ -41,7 +41,9 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
+    'cloudinary_storage',
     'django.contrib.staticfiles',
+    'cloudinary',
 ]
 
 MIDDLEWARE = [
@@ -136,6 +138,7 @@ LANGUAGES = [
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATIC_URL = '/static/'
+STATICFILES_STORAGE = 'cloudinary_storage.storage.StaticHashedCloudinaryStorage'
 
 # Media Route for the comment pictures
 MEDIA_URL = '/media/'
@@ -151,6 +154,13 @@ EMAIL_HOST_PASSWORD = 'dupMah-nikjyc-9bepno-#27!09'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+
+# CLOUDINARY SETUP
+CLOUDINARY_STORAGE = {
+    'CLOUD_NAME': 'dg9biekoj',
+    'API_KEY': '699458771468273',
+    'API_SECRET': '80Kkpl6Cjh0KD6CeaPA_V1IC3GA'
+}
 
 # Activate Django-Heroku.
 django_heroku.settings(locals())
